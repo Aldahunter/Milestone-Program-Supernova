@@ -24,6 +24,7 @@ def mag_to_flux(eff_mag):
     """Return the flux (erg/cm^2/s/A) for a given effective magnitude."""
     return 10**((m_0 - eff_mag)/2.5)
 
+
 def S_eta(eta, low_z = False, z = 0.0):
     """Return the comoving coordinate depending on the curvature of space."""
     if low_z == True:
@@ -34,6 +35,7 @@ def S_eta(eta, low_z = False, z = 0.0):
         elif K == -1: return np.sinh(eta)
         else: raise ValueError("K must be one of: 1, 0, -1")
 
+
 def flux_to_Lpeak(flux, z, eta, low_z = False):
     """Return peak Luminosity (L_peak).
 
@@ -42,23 +44,68 @@ def flux_to_Lpeak(flux, z, eta, low_z = False):
                 - comoving coord (eta).
 
     Note: If low_x = True the returned value is independent of eta.
-
     """
     return 4 * np.pi * (R_0*S_eta(eta, low_z, z))**2 * (1+z)**2 * flux
 
-def create_test_array(low_z, flux_low_z, Lpeak_low_z):
-    """Create 'sudo' test array to hold all data with column names."""
-    test_arr = np.array([low_z['eff_m'], flux_low_z[:], low_z['z'],
-                        Lpeak_low_z[:]])
-    test_dtype = np.dtype([('Eff_M', np.float64), ('Flux', np.float64),
-                           ('Rshf', np.float64), ('L_peak', np.float64)])
-    test_arr = np.array(list(zip(test_arr[0], test_arr[1], test_arr[2],
-                                 test_arr[3])), dtype = test_dtype)
-    test_names = str(test_arr.dtype.names)
-    test_names = test_names[:9] + ' '*5 + test_names[9:18] + ' '*5 + test_names[18:25] + ' '*2 + test_names[25:34] + ' ' + test_names[34:35]
-    print(test_names)
-    print(test_arr)
-    return test_arr
+
+def strarray_add_column(strarray, column_data, column_header, column_dtype, print_array = False):
+    """Retun inputted structured array with new column appended to end.
+
+    Parameters: - strarray - structured array, the original array to which new
+                             column will be appended;
+                - column_data - list (or array) of values for appended column,
+                                column_data must be same length as height of
+                                strarray;
+                - column_header - string for the header to the new column;
+                - column_dtype - np.dtype, data type for value in column:
+                        + For valid dtypes see np.sctypeDict and np.sctypes;
+                - print_array - Boolean (Default: False), outputs to terminal
+                                the new column headers and new array.
+    """
+    if strarray.dtype.fields is None: #Check main_array is a structured array.
+        raise ValueError("'strarray' must be a structured numpy array")
+
+    descr = [(column_header, column_dtype)] #Create dtype description for new column.
+    rtn_array = np.empty(strarray.shape, dtype=strarray.dtype.descr + descr) #Create empty return array with correct shape and dtype description.
+
+    for column in strarray.dtype.names: #Cycle through each column of input array.
+        rtn_array[column] = strarray[column][:] #Copy column values from input array to empty return array.
+    rtn_array[column_header] = column_data[:] #Copy values for new column into return array.
+
+    if print_array == True: #Output new array with column headers.
+        print(rtn_array.dtype.names, '\n')
+        print(rtn_array, '\n')
+    return rtn_array #Return the array with added column.
+
+
+def strarray_rem_column(strarray, column_header, print_array = False):
+    """Retun inputted structured array with specified column removed.
+
+    Parameters: - strarray - structured array, the original array to which the
+                             column will be removed;
+                - column_header - string, the header of the column to be
+                                  removed;
+                - print_array - Boolean (Default: False), outputs to terminal
+                                the new column headers and new array.
+    """
+    if strarray.dtype.fields is None: #Check main_array is a structured array.
+        raise ValueError("'strarray' must be a structured numpy array")
+
+    rtn_descr = [] #Create empty dtype description for returned array.
+    for column in strarray.dtype.descr: #Cycle through columns of input array.
+        if column_header != column[0]: #Check column header is not the same as the header of the column to be removed.
+            rtn_descr.append(column) #Add column's dtype description to returned array's dtype description.
+
+    rtn_array = np.empty(strarray.shape, dtype=rtn_descr) #Create empty return array with correct shape and dtype description.
+
+    for column in rtn_array.dtype.names: #Cycle through each column of input array.
+        rtn_array[column] = strarray[column][:] #Copy column values from input array to empty return array.
+
+    if print_array == True: #Output new array with column headers.
+        print(rtn_array.dtype.names, '\n')
+        print(rtn_array, '\n')
+    return rtn_array #Return the array with added column.
+
 
 def plot_graph(x_axis, y_axis, **kwargs):
     """Plot the Data to follow what is going on.
@@ -98,6 +145,7 @@ def plot_graph(x_axis, y_axis, **kwargs):
 
     if 'trend_line' in kwargs:
         pyplot.plot(*kwargs['trend_line'])
+
 
 def show_graphs(Graph1, *graphs, **kwargs):
     """Plot (multiple) graphs to follow what is going on.
