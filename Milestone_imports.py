@@ -15,7 +15,7 @@ c = 2.99792458e8 #Speed of light in units: m*s-1.
 dtype = np.dtype([('name', np.str_, 16), ('z', np.float64, 1),
                   ('eff_m', np.float64, 1), ('err', np.float64, 1)])
 data = np.loadtxt("SuperNova Data.txt", dtype=dtype)
-low_z, high_z = data[:42], data[42:] #Split Data into low and high redshift.
+high_z, low_z = data[:42], data[42:] #Split Data into low and high redshift.
 name, z, eff_m, err = 'name', 'z', 'eff_m', 'err' #Reserve variables to easily call data from array.
 
 
@@ -46,6 +46,15 @@ def flux_to_Lpeak(flux, z, eta, low_z = False):
     Note: If low_x = True the returned value is independent of eta.
     """
     return 4 * np.pi * (R_0*S_eta(eta, low_z, z))**2 * (1+z)**2 * flux
+
+
+def Lpeak_to_distLum(Lpeak, flux):
+    """Return distance luminosity (d_L) from peak Luminosity (L_peak) and flux."""
+    return (Lpeak / (4*np.pi*flux))**0.5
+
+def redshift_to_distLum(z):
+    """Return distance luminosity (d_L) for a given redshift (z)."""
+    return (c / H_0) * z * (1.0 + z)
 
 
 def strarray_add_column(strarray, column_data, column_header, column_dtype, print_array = False):
