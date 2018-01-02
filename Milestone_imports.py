@@ -13,16 +13,20 @@ c = 2.99792458e8 #Speed of light in units: m*s-1.
 
 ### Load Data ###
 dtype = np.dtype([('name', np.str_, 16), ('z', np.float64, 1),
-                  ('eff_m', np.float64, 1), ('err', np.float64, 1)])
+                  ('eff_m', np.float64, 1), ('m_err', np.float64, 1)])
 data = np.loadtxt("SuperNova Data.txt", dtype=dtype)
-high_z, low_z = data[:42], data[42:] #Split Data into low and high redshift.
-name, z, eff_m, err = 'name', 'z', 'eff_m', 'err' #Reserve variables to easily call data from array.
+data_hz, data_lz = data[:42], data[42:] #Split Data into low and high redshift.
 
 
-### Define Functions ###
-def mag_to_flux(eff_mag):
+### Mathematical Functions ###
+def mag2flux(eff_m):
     """Return the flux (erg/cm^2/s/A) for a given effective magnitude."""
-    return 10**((m_0 - eff_mag)/2.5)
+    return 10**((m_0 - eff_m)/2.5)
+
+
+def flux2mag(flux):
+    """Return the effective magnitude (eff_m) for a given flux."""
+    return m_0 - 2.5*np.log10(flux)
 
 
 def S_eta(eta, low_z = False, z = 0.0):
@@ -36,27 +40,46 @@ def S_eta(eta, low_z = False, z = 0.0):
         else: raise ValueError("K must be one of: 1, 0, -1")
 
 
-def flux_to_Lpeak(flux, z, eta, low_z = False):
+def flux2Lp(flux, z, eta, low_z = False):
     """Return peak Luminosity (L_peak).
 
     Parameters: - flux,
                 - redshift (z),
                 - comoving coord (eta).
+                - low_z - Boolean (Default: False), if set to True the returned
+                          value is independent of eta.
 
-    Note: If low_x = True the returned value is independent of eta.
     """
     return 4 * np.pi * (R_0*S_eta(eta, low_z, z))**2 * (1+z)**2 * flux
 
 
-def Lpeak_to_distLum(Lpeak, flux):
+def Lp2flux(Lpeak, z, eta, low_z = False):
+    """Return flux.
+
+    Parameters: - Lpeak,
+                - redshift (z),
+                - comoving coord (eta).
+                - low_z - Boolean (Default: False), if set to True the returned
+                          value is independent of eta.
+
+    """
+    return Lpeak / (4 * np.pi * (R_0*S_eta(eta, low_z, z))**2 * (1+z)**2)
+
+
+def Lp2dL(Lpeak, flux):
     """Return distance luminosity (d_L) from peak Luminosity (L_peak) and flux."""
     return (Lpeak / (4*np.pi*flux))**0.5
 
-def redshift_to_distLum(z):
+def z2dL(z):
     """Return distance luminosity (d_L) for a given redshift (z)."""
     return (c / H_0) * z * (1.0 + z)
 
+def calc_chisq(expected_data, observed_data, error_in_data):
+    """Calculate the  chi squared between the observed (collected) data and the expected (model) data."""
+    return np.sum((observed_data - expected_data)**2 / error_in_data**2)
 
+
+### Non-Mathematical Functions ###
 def strarray_add_column(strarray, column_data, column_header, column_dtype, print_array = False):
     """Retun inputted structured array with new column appended to end.
 
@@ -70,6 +93,7 @@ def strarray_add_column(strarray, column_data, column_header, column_dtype, prin
                         + For valid dtypes see np.sctypeDict and np.sctypes;
                 - print_array - Boolean (Default: False), outputs to terminal
                                 the new column headers and new array.
+
     """
     if strarray.dtype.fields is None: #Check main_array is a structured array.
         raise ValueError("'strarray' must be a structured numpy array")
@@ -96,6 +120,7 @@ def strarray_rem_column(strarray, column_header, print_array = False):
                                   removed;
                 - print_array - Boolean (Default: False), outputs to terminal
                                 the new column headers and new array.
+
     """
     if strarray.dtype.fields is None: #Check main_array is a structured array.
         raise ValueError("'strarray' must be a structured numpy array")
@@ -123,37 +148,49 @@ def plot_graph(x_axis, y_axis, **kwargs):
                 - y_axis, list (or array) to plot on vertical axis,
 
                 - kwargs:
-                         + x_label, string to title horizontal axis,
-                         + y_label, string to title vertical axis,
-                         + title_lable, string to title the plot,
-                         + line, Booleen (Default 'False') to add line to plot,
-                         + marker, string to add markers to plot:
-                                      # 'o', circle (Default),
-                                      # '^', triagnle up,
-                                      # 's', square,
-                                      # '*', star,
-                                      # '+', cross,
-                                      # 'x', x,
-                                      # 'None', no markers.
+                         + err - list (or array) to plot on vertical axis (must
+                                 be same size as y_axis),
+                         + x_label - string to title horizontal axis,
+                         + y_label - string to title vertical axis,
+                         + title_lable - string to title the plot,
+                         + line - Booleen (Default 'False') to add line to plot,
+                         + marker - string to add markers to plot:
+                                      # 'o' - circle (Default),
+                                      # '^' - triagnle up,
+                                      # 's' - square,
+                                      # '*' - star,
+                                      # '+' - cross,
+                                      # 'x' - x,
+                                      # 'None' - no markers.
 
-                         + trend_line, tuple (x_axis, y_axis) to overlay black
-                           line on plot:
-                                      # x_axis list (or array) to plot on
-                                        horizontal axis,
-                                      # y_axis, list (or array) to plot on
-                                        vertical axis.
+                         + trend_line - tuple (x_axis, y_axis) to overlay black
+                                        line on plot. For multiple trendlines
+                                        use a list of tuples:
+                                        [(x_axis, y_axis), ...]
+
     """
     if 'x_label' in kwargs: pyplot.xlabel(kwargs['x_label']) #Add x_axis if specified.
     if 'y_label' in kwargs: pyplot.ylabel(kwargs['y_label']) #Add y_axis if specified.
     if 'title_label' in kwargs: pyplot.title(kwargs['title_label']) #Add title if specified.
-
     if 'marker' not in kwargs: kwargs['marker'] = 'o' #Set to default marker if not specified.
-    pyplot.scatter(x_axis, y_axis, marker=kwargs['marker']) #Plot scatter with markers.
+
+    if 'err' in kwargs:
+        pyplot.errorbar(x_axis, y_axis, yerr=kwargs['err'],
+                        marker=kwargs['marker'], linestyle='', capsize=2) #Plot scatter with error bars.
+    else:
+        pyplot.scatter(x_axis, y_axis, marker=kwargs['marker']) #Plot scatter.
     if 'line' in kwargs: #Check if 'line' is specified as parameter.
         if kwargs['line'] == True: pyplot.plot(x_axis, y_axis) #If 'line' is true plot lines between markers.print('Line Plotted')
 
     if 'trend_line' in kwargs:
-        pyplot.plot(*kwargs['trend_line'])
+        trend_dimension = np.array(kwargs['trend_line']).ndim
+        if trend_dimension == 2:
+            pyplot.plot(*kwargs['trend_line'], color = 'black', linestyle = '--')
+        elif trend_dimension == 3:
+            for trend in kwargs['trend_line']:
+                pyplot.plot(*trend, color = 'black', linestyle = '--')
+        else:
+            raise ValueError("trend_line must be given as: (x_array, y_array), or a list of tuples: [(x_array, y_array), ...]")
 
 
 def show_graphs(Graph1, *graphs, **kwargs):
@@ -199,6 +236,7 @@ def show_graphs(Graph1, *graphs, **kwargs):
                 - **kwargs:
                                 # main_title - string to use for the main
                                                window title.
+
     """
     pyplot.figure() #Create window to hold graphs.
 
