@@ -3,6 +3,7 @@ import numpy as np
 import matplotlib.pyplot as pyplot
 import scipy, tkinter
 from textwrap import wrap
+from scipy import optimize
 
 ### Define Constants ###
 K = 0 #Curvature of Universe can be 1(closed), 0(flat), -1(open).
@@ -77,6 +78,69 @@ def z2dL(z):
 def calc_chisq(expected_data, observed_data, error_in_data):
     """Calculate the  chi squared between the observed (collected) data and the expected (model) data."""
     return np.sum((observed_data - expected_data)**2 / error_in_data**2)
+
+
+def varparam_err_chisq(model_func, bestfit_param, func_args, chisq_min, observed_data, error_in_data):
+    """Return the uncertainty of the given varied parameter for chi squared best fit.
+
+    Parameters: - model_func - function, the function used to calculate the
+                               expected 'model' values [parameters must be in
+                               the form: func(bestfit_param, *func_args)],
+                - bestfit_param - float (or int), the best-fit value calculated
+                                  from minimising Chi squared,
+                - func_args - tuple (or list), the other argurements needed for
+                              'model_func' to calculate the model values,
+                - chisq_min - int (or float), the minimised Chi squared value,
+                - observed_data - list (or array), the collected data values
+                                  (must be same size as error_in_data),
+                - error_in_data - list (or array), the uncertainty in the
+                                  collected data (must be same size as
+                                  'collected_data').
+
+    """
+    minimise_func = lambda x : np.abs(calc_chisq(model_func(x, *func_args), observed_data,error_in_data) - (chisq_min + 1.0)) #Define function to input into optimize.minimize to output 'bestfit_param + error'.
+    param_bound = optimize.minimize(minimise_func, bestfit_param,
+                                    method='Nelder-Mead').x[0] #Minimise the given function by varying 'bestfit_param' using Nelder-Mead to obtain the upper uncertainty for 'bestfit_param' (bestfit_param + error).
+    return np.abs(param_bound - bestfit_param) #Return error in 'bestfit_param'.
+
+
+def calc_min_chisq(model_func, var_param, func_args, observed_data, error_in_data, return_stats = False):
+    """Return minimised chi_sq (and stats if 'return_stats' set to True) for data.
+
+    Parameters: - model_func - function, the function used to calculate the
+                               expected 'model' values [parameters must be in
+                               the form: func(bestfit_param, *func_args)],
+                - var_param - float (or int), the best-guess of the parameter
+                              to be varied to minimise Chi Squared,
+                - func_args - tuple (or list), the other argurements needed for
+                              'model_func' to calculate the model values,
+                - observed_data - list (or array), the collected data values
+                                  (must be same size as error_in_data),
+                - error_in_data - list (or array), the uncertainty in the
+                                  collected data (must be same size as
+                                  'collected_data').
+                - return_stats - Boolean (Default: False), if true returns the
+                                 minimised Chi Squared value, as well as the
+                                 bestfit value for the varied parameter, the
+                                 varied parameter's uncertaitny and its
+                                 percentage uncertainty as a tuple in the form:
+                                 (minimised_chisq, bestfit_param, error_param,
+                                 perc_error_param).
+
+    """
+    minimise_func = lambda x : calc_chisq(model_func(x, *func_args), observed_data, error_in_data) #Define function to input into 'optimize.minimize' to output minimised Chi Squared.
+    bestfit_param = optimize.minimize(minimise_func, var_param,
+                                      method='Nelder-Mead').x[0] #Minimize given function to obtain the value for 'var_param' which gives the minimised Chi Squared.
+    chisq_min = minimise_func(bestfit_param) #Calculate the minimised Chi Squared Value.
+
+    if return_stats == False: #Check whether to return parameter stats as well.
+        return chisq_min
+    else:
+        err_param = varparam_err_chisq(model_func, bestfit_param, func_args,
+                                       chisq_min, observed_data, error_in_data) #Calculate the uncertainty in the 'bestfit_param'.
+        pererr_param = (err_param / bestfit_param) * 100.0
+        return (chisq_min, bestfit_param, err_param, pererr_param)
+
 
 
 ### Non-Mathematical Functions ###
@@ -163,9 +227,9 @@ def plot_graph(x_axis, y_axis, **kwargs):
                                       # 'x' - x,
                                       # 'None' - no markers.
 
-                         + trend_line - tuple (x_axis, y_axis) to overlay black
-                                        line on plot. For multiple trendlines
-                                        use a list of tuples:
+                         + trend_line - tuple (x_axis, y_axis) to plot
+                                        line on graph. For multiple
+                                        trendlines use a list of tuples:
                                         [(x_axis, y_axis), ...]
 
     """
@@ -185,10 +249,10 @@ def plot_graph(x_axis, y_axis, **kwargs):
     if 'trend_line' in kwargs:
         trend_dimension = np.array(kwargs['trend_line']).ndim
         if trend_dimension == 2:
-            pyplot.plot(*kwargs['trend_line'], color = 'black', linestyle = '--')
+            pyplot.plot(*kwargs['trend_line'][0], ls='--', c='black')
         elif trend_dimension == 3:
             for trend in kwargs['trend_line']:
-                pyplot.plot(*trend, color = 'black', linestyle = '--')
+                pyplot.plot(*trend, ls='--', c='black')
         else:
             raise ValueError("trend_line must be given as: (x_array, y_array), or a list of tuples: [(x_array, y_array), ...]")
 
@@ -202,6 +266,8 @@ def show_graphs(Graph1, *graphs, **kwargs):
                          + y_axis - list (or array) to plot on vertical axis,
 
                          + gr_kwargs - dictionary of kwargs for plot:
+                                # err - list (or array) to plot on vertical axis (must
+                                        be same size as y_axis),
                                 # 'x_label' - string to title horizontal axis,
                                 # 'y_label' - string to title vertical axis,
                                 # 'title_lable' - string to title the plot,
