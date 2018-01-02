@@ -44,7 +44,9 @@ print('L_peak = %0.5f +/- %0.5f (%0.2g%%) with Chi_sq: %0.2f' %(Lp, Lp_err, Lp_p
 model_z = np.linspace(main_arr['z'].min(), main_arr['z'].max(), 50) #Range of redshift values for line of bestfit.
 f = lambda Lp, err, args: (Lp2mag(Lp, *args), Lp2mag(Lp + err, *args), Lp2mag(Lp - err, *args))
 bf_eff_m, ub_eff_m, lb_eff_m = f(Lp, Lp_err, (model_z, 0.0, True)) #Y-axis values for line of bestfit and upper and lower uncertainties for line of best fit.
-model = [(model_z,bf_eff_m), (model_z,ub_eff_m), (model_z,lb_eff_m)] #Lines of best fit to plot.
+model = [(model_z,bf_eff_m,{'ls':'-','c':'0'}),
+         (model_z,ub_eff_m,{'ls':'--','c':'0'}),
+         (model_z,lb_eff_m,{'ls':'--','c':'0'})] #Lines of best fit to plot.
 
 kwargs = {'err':main_arr['m_err'], 'x_label':r'Redshift, ($z$)',
           'y_label':r'Effective Magnitude, ($m_{eff}$)', 'marker':'x',

@@ -208,8 +208,8 @@ def strarray_rem_column(strarray, column_header, print_array = False):
 def plot_graph(x_axis, y_axis, **kwargs):
     """Plot the Data to follow what is going on.
 
-    Parameters: - x_axis, list (or array) to plot on horizontal axis,
-                - y_axis, list (or array) to plot on vertical axis,
+    Parameters: - x_axis - list (or array) to plot on horizontal axis,
+                - y_axis - list (or array) to plot on vertical axis,
 
                 - kwargs:
                          + err - list (or array) to plot on vertical axis (must
@@ -227,10 +227,18 @@ def plot_graph(x_axis, y_axis, **kwargs):
                                       # 'x' - x,
                                       # 'None' - no markers.
 
-                         + trend_line - tuple (x_axis, y_axis) to plot
-                                        line on graph. For multiple
+                         + trend_line - tuple (x_axis, y_axis, tl_kwargs) to
+                                        plot line on graph. For multiple
                                         trendlines use a list of tuples:
-                                        [(x_axis, y_axis), ...]
+                                        [(x_axis, y_axis, tl_kwargs), ...]:
+                                          # x_axis - list (or array) to plot on
+                                                     horizontal axis,
+                                          # y_axis - list (or array) to plot on
+                                                     vertical axis,
+                                          # tl_kwargs - dictionary (optional),
+                                                        same specifications as
+                                                        kwargs for 'pyplot.plot'
+                                                        funtion.
 
     """
     if 'x_label' in kwargs: pyplot.xlabel(kwargs['x_label']) #Add x_axis if specified.
@@ -247,14 +255,21 @@ def plot_graph(x_axis, y_axis, **kwargs):
         if kwargs['line'] == True: pyplot.plot(x_axis, y_axis) #If 'line' is true plot lines between markers.print('Line Plotted')
 
     if 'trend_line' in kwargs:
+        default_kwargs = {'linestyle':'--', 'color':'black'}
         trend_dimension = np.array(kwargs['trend_line']).ndim
-        if trend_dimension == 2:
-            pyplot.plot(*kwargs['trend_line'][0], ls='--', c='black')
-        elif trend_dimension == 3:
+        if trend_dimension == 1: #Given as: kwargs['trend_line'] = (x_axis, y_axis, kwargs)
+            pyplot.plot(kwargs['trend_line'][0], kwargs['trend_line'][1], **kwargs['trend_line'][2])
+        elif trend_dimension == 2:
+            if type(kwargs['trend_line'][0][2]) != dict: #Given as: kwargs['trend_line'] = (x_axis, y_axis)
+                pyplot.plot(*kwargs['trend_line'], **default_kwargs)
+            else: #Given as: kwargs['trend_line'] = [(x_axis, y_axis, kwargs), (x_axis, y_axis, kwargs), ...]
+                for trend in kwargs['trend_line']:
+                    pyplot.plot(trend[0], trend[1], **trend[2])
+        elif trend_dimension == 3: #Given as: kwargs['trend_line'] = [(x_axis, y_axis), (x_axis, y_axis), ...]
             for trend in kwargs['trend_line']:
-                pyplot.plot(*trend, ls='--', c='black')
+                pyplot.plot(*trend, **default_kwargs)
         else:
-            raise ValueError("trend_line must be given as: (x_array, y_array), or a list of tuples: [(x_array, y_array), ...]")
+            raise ValueError("trend_line MUST be given as: a tuple, (x_array, y_array, kwargs); or a list of tuples,m [(x_array, y_array, kwargs), ...]")
 
 
 def show_graphs(Graph1, *graphs, **kwargs):
@@ -266,8 +281,8 @@ def show_graphs(Graph1, *graphs, **kwargs):
                          + y_axis - list (or array) to plot on vertical axis,
 
                          + gr_kwargs - dictionary of kwargs for plot:
-                                # err - list (or array) to plot on vertical axis (must
-                                        be same size as y_axis),
+                                # err - list (or array) to plot on vertical axis
+                                        (must be same size as y_axis),
                                 # 'x_label' - string to title horizontal axis,
                                 # 'y_label' - string to title vertical axis,
                                 # 'title_lable' - string to title the plot,
@@ -282,12 +297,17 @@ def show_graphs(Graph1, *graphs, **kwargs):
                                       * 'x' - x,
                                       * 'None' - no markers.
 
-                                # 'trend_line' - tuple (x_axis, y_axis) to overlay
-                                               black line on plot:
+                                # 'trend_line' - tuple (x_axis, y_axis, tl_kwargs)
+                                                to plot line on graph:
                                       * x_axis - list (or array) to plot on
                                                  horizontal axis,
                                       * y_axis - list (or array) to plot on
-                                                 vertical axis.
+                                                 vertical axis,
+                                      * tl_kwargs - dictionary (optional),
+                                                    same specifications as
+                                                    kwargs for 'pyplot.plot'
+                                                    funtion.
+
 
                 - *graphs - Graph2, ..., GraphN. Arbitary number of graphs to
                             plot as subplots, must be formated as tuple like
