@@ -13,11 +13,8 @@ lz_arr = strarray_add_column(lz_arr,  flux2Lp(lz_arr['flux'], lz_arr['z'],
                                'Lp', np.float64, print_array = True) #Calculate and append L_peak to main array.
 
 
-## Find best guess for Luminosity Peak ###
+### Find best guess for Luminosity Peak ###
 Lp_range = np.linspace(lz_arr['Lp'].min(), lz_arr['Lp'].max(), 10) #Create a range of Lpeak values between bounds.
-
-
-### Find minimised Chi Squared from range of Luminosity Peaks ###
 Lp_guesses = np.empty((10,2), dtype=np.float64)
 for n, Lp in enumerate(Lp_range): #Cycle through each peak Luminosity.
     exp_eff_m = flux2mag(Lp2flux(Lp, lz_arr['z'], 0.0, low_z = True)) #Calculate the expected effective magnitude for the given Luminsity Peak.
@@ -42,8 +39,9 @@ print('L_peak = %0.5f +/- %0.5f (%0.2g%%) with Chi_sq: %0.2f' %(Lp, Lp_err, Lp_p
 print('\n'+'-'*100+'\n')
 ################################# Find Omega_cc ################################
 print(data_hz)
-Om_cc_Range = np.linspace(-2.0, 2.0, 41) #Test range of Omega_cc guesses to minimize Chi Squared.
-Om_cc_guesses = np.empty((41,2), dtype=np.float64)
+### Find best guess for Omega_cc ###
+Om_cc_Range = np.linspace(-0.5, 1.5, 21) #Test range of Omega_cc guesses to minimize Chi Squared.
+Om_cc_guesses = np.empty((len(Om_cc_Range),2), dtype=np.float64) #Create array to hold guesses and Chi Squared.
 
 for i, iOm_cc in enumerate(Om_cc_Range): #Cycle through each Omega_cc guess.
     ieta = z2eta(data_hz['z'], iOm_cc)
@@ -55,9 +53,18 @@ for i, iOm_cc in enumerate(Om_cc_Range): #Cycle through each Omega_cc guess.
     ichisq = calc_chisq(ieff_m, data_hz['eff_m'], data_hz['m_err'])
     # print(iOm_cc,'\n', ichisq, '\n')
     Om_cc_guesses[i] = iOm_cc, ichisq
-m_cc_guesses = Om_cc_guesses[Om_cc_guesses[:,1].argsort()] #Sort Omega_cc guesses by Chi Squared.
-print(Om_cc_guesses)
+Om_cc_guesses = Om_cc_guesses[Om_cc_guesses[:,1].argsort()] #Sort Omega_cc guesses by Chi Squared.
 
+
+### Calculate minimised Chi Squared and best value and uncertainty for Omega_cc ###
+Om_cc2mag = lambda Om_cc, z, Lp: flux2mag(Lp2flux(Lp, z, z2eta(z, Om_cc)))
+Om_cc2mag_args = (data_hz['z'], Lp)
+
+Om_cc_chisq_stats = calc_min_chisq(Om_cc2mag, Om_cc_guesses[0,0],  #Calculate minimised Chi Squared, and Bestfit, error and percentage error for Luminosity Peak.
+                                   Om_cc2mag_args, data_hz['eff_m'],
+                                   data_hz['m_err'], return_stats = True)
+chisq_min, Om_cc, Om_cc_err, Om_cc_perr = Om_cc_chisq_stats #Assign variables to returned values.
+print('Omega_cc = %0.2f +/- %0.2f (%0.2g%%) with Chi_sq: %0.2f' %(Om_cc, Om_cc_err, Om_cc_perr, chisq_min))
 
 
 

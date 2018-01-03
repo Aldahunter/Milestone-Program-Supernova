@@ -1,7 +1,7 @@
 """Supernova Milestone Program for Physics Problem Solving."""
 import numpy as np
 import matplotlib.pyplot as pyplot
-import scipy, tkinter
+import scipy, tkinter, warnings
 from textwrap import wrap
 from scipy import optimize, integrate
 
@@ -122,8 +122,10 @@ def z2eta(z, Om_cc, R = R_0, Om_M0 = 'flat'):
     zs = np.array(z) #Convert z to array.
     etas = np.empty(zs.shape) #Create array to hold eta values for each z.
     z2invH = lambda z, Om_cc, R, Om_M0: 1.0 / a2H(z2a(z), Om_cc, R, Om_M0) #Setup function to pass through 'integrate.quad'.
-    for n, nz in enumerate(zs): #Cycle through z values.
-        etas[n] = (c/R_0) * integrate.quad(z2invH, 0.0, nz, args=(Om_cc, R, Om_M0))[0] #Calc eta = c/R_0 * (int_{0}^{z} z2invH(z') dz').
+    with warnings.catch_warnings(): #Catch 'IntegrationWarning' (and other warnings).
+        warnings.simplefilter('ignore') #Surpress warnings from printing.
+        for n, nz in enumerate(zs): #Cycle through z values.
+            etas[n] = (c/R_0) * integrate.quad(z2invH, 0.0, nz, args=(Om_cc, R, Om_M0))[0] #Calc eta = c/R_0 * (int_{0}^{z} z2invH(z') dz').
     return etas
 
 
