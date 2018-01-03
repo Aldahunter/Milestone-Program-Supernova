@@ -42,13 +42,21 @@ print('L_peak = %0.5f +/- %0.5f (%0.2g%%) with Chi_sq: %0.2f' %(Lp, Lp_err, Lp_p
 print('\n'+'-'*100+'\n')
 ################################# Find Omega_cc ################################
 print(data_hz)
-Range_Om_cc = np.linspace(-2.0, 2.0, 41) #Test range of Omega_cc guesses to minimize Chi Squared.
+Om_cc_Range = np.linspace(-2.0, 2.0, 41) #Test range of Omega_cc guesses to minimize Chi Squared.
+Om_cc_guesses = np.empty((41,2), dtype=np.float64)
 
-for i, iOm_cc in enumerate(Range_Om_cc): #Cycle through each Omega_cc guess.
+for i, iOm_cc in enumerate(Om_cc_Range): #Cycle through each Omega_cc guess.
     ieta = z2eta(data_hz['z'], iOm_cc)
-    print(iOm_cc,'\n', ieta, '\n')
-
-
+    # print(iOm_cc,'\n', ieta)
+    iflux = Lp2flux(Lp, data_hz['z'], ieta)
+    # print(iOm_cc,'\n', iflux)
+    ieff_m = flux2mag(iflux)
+    # print(iOm_cc,'\n', ieff_m)
+    ichisq = calc_chisq(ieff_m, data_hz['eff_m'], data_hz['m_err'])
+    # print(iOm_cc,'\n', ichisq, '\n')
+    Om_cc_guesses[i] = iOm_cc, ichisq
+m_cc_guesses = Om_cc_guesses[Om_cc_guesses[:,1].argsort()] #Sort Omega_cc guesses by Chi Squared.
+print(Om_cc_guesses)
 
 
 
