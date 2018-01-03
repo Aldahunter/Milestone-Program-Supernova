@@ -39,10 +39,15 @@ print('L_peak = %0.5f +/- %0.5f (%0.2g%%) with Chi_sq: %0.2f' %(Lp, Lp_err, Lp_p
 
 
 
+print('\n'+'-'*100+'\n')
 ################################# Find Omega_cc ################################
-Range_Om_cc = np.linspace(-2.0, 2.0, 40) #Test range of Omega_cc guesses to minimize Chi Squared.
+print(data_hz)
+Range_Om_cc = np.linspace(-2.0, 2.0, 41) #Test range of Omega_cc guesses to minimize Chi Squared.
 
-print(Range_Om_cc)
+for i, iOm_cc in enumerate(Range_Om_cc): #Cycle through each Omega_cc guess.
+    ieta = z2eta(data_hz['z'], iOm_cc)
+    print(iOm_cc,'\n', ieta, '\n')
+
 
 
 

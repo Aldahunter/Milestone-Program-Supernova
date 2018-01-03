@@ -80,6 +80,7 @@ def z2a(z):
     """Return the expansion factor (a) for a given redshift (z)."""
     return 1 / (1 + z)
 
+
 def a2H(a, Om_cc, R = R_0, Om_M0 = 'flat'):
     """Return the Hubble Parameter (H) for a given expansion factor (a).
 
@@ -100,7 +101,8 @@ def a2H(a, Om_cc, R = R_0, Om_M0 = 'flat'):
         Om_M0 = 1.0 - Om_cc #Calculate Omega_M0 for a flat unverse, given Omega_cc.
     return H_0 * ((Om_M0/a**3) + Om_cc - (K*c**2)/R**2)**0.5
 
-def z2eta(z, Om_cc, R = 0.0, Om_M0 = 'flat'):
+
+def z2eta(z, Om_cc, R = R_0, Om_M0 = 'flat'):
     """Return the comoving coordinate (eta) for a given redshift (z).
 
     Parameters: - z - float (or array), redshift(s),
@@ -108,7 +110,8 @@ def z2eta(z, Om_cc, R = 0.0, Om_M0 = 'flat'):
                           Cosmological Constant (phi_cc) to the critical energy
                           denstiy (phi_crit),
                 - R - float (or array) [Default: 0.0], the scale factor. Note:
-                      the current scale factor is R_0,
+                      the current scale factor is R_0. Note: R != 0.0,
+                      otherwise 'ZeroDivisionError' will occur,
                 - Om_M0 - float [Defualt: 'flat'], the ratio of the current
                           energy density of all matter in the universe (phi_M0)
                           to the critical enery density (phi_crit). Note: 'flat'
@@ -116,8 +119,12 @@ def z2eta(z, Om_cc, R = 0.0, Om_M0 = 'flat'):
                           and so is calculated from the given Om_cc.
 
     """
+    zs = np.array(z) #Convert z to array.
+    etas = np.empty(zs.shape) #Create array to hold eta values for each z.
     z2invH = lambda z, Om_cc, R, Om_M0: 1.0 / a2H(z2a(z), Om_cc, R, Om_M0) #Setup function to pass through 'integrate.quad'.
-    return (c/R_0) * integrate.quad(z2invH, 0.0, z, args=(Om_cc, R, Om_M0)) #Calc eta = c/R_0 * (int_{0}^{z} z2invH(z') dz').
+    for n, nz in enumerate(zs): #Cycle through z values.
+        etas[n] = (c/R_0) * integrate.quad(z2invH, 0.0, nz, args=(Om_cc, R, Om_M0))[0] #Calc eta = c/R_0 * (int_{0}^{z} z2invH(z') dz').
+    return etas
 
 
 def calc_chisq(expected_data, observed_data, error_in_data):
