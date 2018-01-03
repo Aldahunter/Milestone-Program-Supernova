@@ -212,64 +212,82 @@ def plot_graph(x_axis, y_axis, **kwargs):
                 - y_axis - list (or array) to plot on vertical axis,
 
                 - kwargs:
-                         + err - list (or array) to plot on vertical axis (must
-                                 be same size as y_axis),
+                         + x_err - list (or array) to plot on horizontal axis
+                                   (must be same size as y_axis),
+                         + y_err - list (or array) to plot on vertical axis
+                                  (must be same size as y_axis),
+                         + err_kwargs - dict, any kwarg specified for the
+                                        'pyplot.errorbar' function,
                          + x_label - string to title horizontal axis,
                          + y_label - string to title vertical axis,
                          + title_lable - string to title the plot,
-                         + line - Booleen (Default 'False') to add line to plot,
                          + marker - string to add markers to plot:
                                       # 'o' - circle (Default),
                                       # '^' - triagnle up,
                                       # 's' - square,
                                       # '*' - star,
                                       # '+' - cross,
-                                      # 'x' - x,
-                                      # 'None' - no markers.
-
-                         + trend_line - tuple (x_axis, y_axis, tl_kwargs) to
-                                        plot line on graph. For multiple
-                                        trendlines use a list of tuples:
-                                        [(x_axis, y_axis, tl_kwargs), ...]:
+                                      # 'x' - times sign,
+                                      # 'None' - no markers,
+                                      # For more see 'matplotlib.markers'.
+                         + plot_line - tuple (x_axis, y_axis, tl_kwargs) to
+                                       plot line on graph. For multiple
+                                       trendlines use a list of tuples,
+                                       [(x_axis, y_axis, tl_kwargs), ...]:
                                           # x_axis - list (or array) to plot on
                                                      horizontal axis,
                                           # y_axis - list (or array) to plot on
                                                      vertical axis,
-                                          # tl_kwargs - dictionary (optional),
+                                          # pl_kwargs - dictionary (optional),
                                                         same specifications as
                                                         kwargs for 'pyplot.plot'
                                                         funtion.
+                         + Any other kwargs available for the 'pyplot.scatter'
+                           function.
 
     """
-    if 'x_label' in kwargs: pyplot.xlabel(kwargs['x_label']) #Add x_axis if specified.
-    if 'y_label' in kwargs: pyplot.ylabel(kwargs['y_label']) #Add y_axis if specified.
-    if 'title_label' in kwargs: pyplot.title(kwargs['title_label']) #Add title if specified.
-    if 'marker' not in kwargs: kwargs['marker'] = 'o' #Set to default marker if not specified.
+    defaults = {'color':'blue', 'marker':'o',
+                'err_kwargs':{'marker':'','linestyle':'','capsize':2.0}}
+    for key in defaults: #Add defualts to kwargs, if not already specified.
+        if key not in kwargs:
+            kwargs[key] = defaults[key]
 
-    if 'err' in kwargs:
-        pyplot.errorbar(x_axis, y_axis, yerr=kwargs['err'],
-                        marker=kwargs['marker'], linestyle='', capsize=2) #Plot scatter with error bars.
-    else:
-        pyplot.scatter(x_axis, y_axis, marker=kwargs['marker']) #Plot scatter.
-    if 'line' in kwargs: #Check if 'line' is specified as parameter.
-        if kwargs['line'] == True: pyplot.plot(x_axis, y_axis) #If 'line' is true plot lines between markers.print('Line Plotted')
+    if 'x_label' in kwargs:
+        pyplot.xlabel(kwargs.pop('x_label', None)) #Add x_axis then remove from kwargs if specified.
+    if 'y_label' in kwargs:
+        pyplot.ylabel(kwargs.pop('y_label', None)) #Add y_axis then remove from kwargs if specified.
+    if 'title_label' in kwargs:
+        pyplot.title(kwargs.pop('title_label', None)) #Add title then remove from kwargs if specified.
+    if any(kwarg in kwargs for kwarg in ['y_err','x_err']):
+        err_defaults = {'marker':'','linestyle':'','capsize':2.0,
+                        'color':kwargs['color']}
+        err_kwargs = kwargs['err_kwargs']
+        for key in err_defaults: #Add err_defualts to err_kwargs, if not already specified.
+            if key not in err_kwargs:
+                err_kwargs[key] = err_defaults[key]
 
-    if 'trend_line' in kwargs:
+        pyplot.errorbar(x_axis, y_axis, xerr=kwargs.pop('x_err', None),
+                        yerr=kwargs.pop('y_err', None), **err_kwargs) #Plot error bars.
+    kwargs.pop('err_kwargs', None) #Remove err_kwargs from kwargs.
+    if 'plot_line' in kwargs:
         default_kwargs = {'linestyle':'--', 'color':'black'}
-        trend_dimension = np.array(kwargs['trend_line']).ndim
-        if trend_dimension == 1: #Given as: kwargs['trend_line'] = (x_axis, y_axis, kwargs)
-            pyplot.plot(kwargs['trend_line'][0], kwargs['trend_line'][1], **kwargs['trend_line'][2])
+        trend_dimension = np.array(kwargs['plot_line']).ndim
+        if trend_dimension == 1: #Given as: kwargs['plot_line'] = (x_axis, y_axis, kwargs)
+            pyplot.plot(kwargs['plot_line'][0], kwargs['plot_line'][1], **kwargs['plot_line'][2])
         elif trend_dimension == 2:
-            if type(kwargs['trend_line'][0][2]) != dict: #Given as: kwargs['trend_line'] = (x_axis, y_axis)
-                pyplot.plot(*kwargs['trend_line'], **default_kwargs)
-            else: #Given as: kwargs['trend_line'] = [(x_axis, y_axis, kwargs), (x_axis, y_axis, kwargs), ...]
-                for trend in kwargs['trend_line']:
-                    pyplot.plot(trend[0], trend[1], **trend[2])
-        elif trend_dimension == 3: #Given as: kwargs['trend_line'] = [(x_axis, y_axis), (x_axis, y_axis), ...]
-            for trend in kwargs['trend_line']:
-                pyplot.plot(*trend, **default_kwargs)
+            if type(kwargs['plot_line'][0][2]) != dict: #Given as: kwargs['plot_line'] = (x_axis, y_axis)
+                pyplot.plot(*kwargs['plot_line'], **default_kwargs)
+            else: #Given as: kwargs['plot_line'] = [(x_axis, y_axis, kwargs), (x_axis, y_axis, kwargs), ...]
+                for line in kwargs['plot_line']:
+                    pyplot.plot(line[0], line[1], **line[2])
+        elif trend_dimension == 3: #Given as: kwargs['plot_line'] = [(x_axis, y_axis), (x_axis, y_axis), ...]
+            for line in kwargs['plot_line']:
+                pyplot.plot(*line, **default_kwargs)
         else:
-            raise ValueError("trend_line MUST be given as: a tuple, (x_array, y_array, kwargs); or a list of tuples,m [(x_array, y_array, kwargs), ...]")
+            raise ValueError("plot_line MUST be given as: a tuple, (x_array, y_array, kwargs); or a list of tuples, [(x_array, y_array, kwargs), ...]")
+        kwargs.pop('plot_line', None) #Remove 'plot_line' from kwargs.
+
+    pyplot.scatter(x_axis, y_axis, **kwargs) #Plot scatter with specified kwargs.
 
 
 def show_graphs(Graph1, *graphs, **kwargs):
@@ -280,48 +298,21 @@ def show_graphs(Graph1, *graphs, **kwargs):
                          + x_axis - list (or array) to plot on horizontal axis,
                          + y_axis - list (or array) to plot on vertical axis,
 
-                         + gr_kwargs - dictionary of kwargs for plot:
-                                # err - list (or array) to plot on vertical axis
-                                        (must be same size as y_axis),
-                                # 'x_label' - string to title horizontal axis,
-                                # 'y_label' - string to title vertical axis,
-                                # 'title_lable' - string to title the plot,
-                                # 'line' - Booleen (Default 'False') to add line
-                                         to plot,
-                                # 'marker' - string to add markers to plot:
-                                      * 'o' - circle (Default),
-                                      * '^' - triagnle up,
-                                      * 's' - square,
-                                      * '*' - star,
-                                      * '+' - cross,
-                                      * 'x' - x,
-                                      * 'None' - no markers.
-
-                                # 'trend_line' - tuple (x_axis, y_axis, tl_kwargs)
-                                                to plot line on graph:
-                                      * x_axis - list (or array) to plot on
-                                                 horizontal axis,
-                                      * y_axis - list (or array) to plot on
-                                                 vertical axis,
-                                      * tl_kwargs - dictionary (optional),
-                                                    same specifications as
-                                                    kwargs for 'pyplot.plot'
-                                                    funtion.
-
-
+                         + gr_kwargs - dictionary of kwargs for plot, for list
+                                       of avaliable keys see the 'kwargs'
+                                       parameter for 'plot_graph'.
                 - *graphs - Graph2, ..., GraphN. Arbitary number of graphs to
                             plot as subplots, must be formated as tuple like
                             the first graph (Graph1):
                         + Graph2 - (subplot, x_axis, y_axis, gr_kwargs):
-                          .    # Parameters follow same conditions as Graph1.
-                          .
+                          .    # Parameters follow same conditions as for
+                          .      Graph1.
                           .
                         + GraphN - (subplot, x_axis, y_axis, gr_kwargs):
-                               # Parameters follow same conditions as Graph1.
-
-                - **kwargs:
-                                # main_title - string to use for the main
-                                               window title.
+                               # Parameters follow same conditions as for
+                                 Graph1.
+                - **kwargs: + main_title - string to use for the main window
+                                           title.
 
     """
     pyplot.figure() #Create window to hold graphs.

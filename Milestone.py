@@ -48,8 +48,8 @@ model = [(model_z,bf_eff_m,{'ls':'-','c':'0'}),
          (model_z,ub_eff_m,{'ls':'--','c':'0'}),
          (model_z,lb_eff_m,{'ls':'--','c':'0'})] #Lines of best fit to plot.
 
-kwargs = {'err':main_arr['m_err'], 'x_label':r'Redshift, ($z$)',
-          'y_label':r'Effective Magnitude, ($m_{eff}$)', 'marker':'x',
-          'line':False, 'trend_line':model}
+kwargs = {'y_err':main_arr['m_err'], 'x_label':r'Redshift, ($z$)',
+          'y_label':r'Effective Magnitude, ($m_{eff}$)', 'marker':'+',
+          'plot_line':model}
 Graph1 = (111, main_arr['z'], main_arr['eff_m'], kwargs)
 show_graphs(Graph1,  main_title = r'Low Redshift SNIa Data')
