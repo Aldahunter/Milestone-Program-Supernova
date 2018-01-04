@@ -199,6 +199,16 @@ def calc_min_chisq(model_func, var_param, func_args, observed_data, error_in_dat
 
 
 ### Non-Mathematical Functions ###
+def show_strarray(strarray):
+    """Prints the structured array's (strarray) headers and contents."""
+    print(str(strarray.dtype.names).replace(',', ' |'), '\n')
+    for row in strarray:
+        str_row = str(row).replace(',', ' |')
+        if strarray[0] == row: print('['+str_row)
+        elif strarray[-1] == row: print(' '+str_row+']\n')
+        else: print(' '+str_row)
+
+
 def strarray_add_column(strarray, column_data, column_header, column_dtype, print_array = False):
     """Retun inputted structured array with new column appended to end.
 
@@ -224,9 +234,7 @@ def strarray_add_column(strarray, column_data, column_header, column_dtype, prin
         rtn_array[column] = strarray[column][:] #Copy column values from input array to empty return array.
     rtn_array[column_header] = column_data[:] #Copy values for new column into return array.
 
-    if print_array == True: #Output new array with column headers.
-        print(rtn_array.dtype.names, '\n')
-        print(rtn_array, '\n')
+    if print_array == True: show_strarray(rtn_array) #Output new array with column headers.
     return rtn_array #Return the array with added column.
 
 
@@ -254,9 +262,7 @@ def strarray_rem_column(strarray, column_header, print_array = False):
     for column in rtn_array.dtype.names: #Cycle through each column of input array.
         rtn_array[column] = strarray[column][:] #Copy column values from input array to empty return array.
 
-    if print_array == True: #Output new array with column headers.
-        print(rtn_array.dtype.names, '\n')
-        print(rtn_array, '\n')
+    if print_array == True: show_strarray(rtn_array)#Output new array with column headers.
     return rtn_array #Return the array with added column.
 
 
@@ -313,17 +319,6 @@ def plot_graph(x_axis, y_axis, **kwargs):
         pyplot.ylabel(kwargs.pop('y_label', None)) #Add y_axis then remove from kwargs if specified.
     if 'title_label' in kwargs:
         pyplot.title(kwargs.pop('title_label', None)) #Add title then remove from kwargs if specified.
-    if any(kwarg in kwargs for kwarg in ['y_err','x_err']):
-        err_defaults = {'marker':'','linestyle':'','capsize':2.0,
-                        'color':kwargs['color']}
-        err_kwargs = kwargs['err_kwargs']
-        for key in err_defaults: #Add err_defualts to err_kwargs, if not already specified.
-            if key not in err_kwargs:
-                err_kwargs[key] = err_defaults[key]
-
-        pyplot.errorbar(x_axis, y_axis, xerr=kwargs.pop('x_err', None),
-                        yerr=kwargs.pop('y_err', None), **err_kwargs) #Plot error bars.
-    kwargs.pop('err_kwargs', None) #Remove err_kwargs from kwargs.
     if 'plot_line' in kwargs:
         default_kwargs = {'linestyle':'--', 'color':'black'}
         trend_dimension = np.array(kwargs['plot_line']).ndim
@@ -340,7 +335,19 @@ def plot_graph(x_axis, y_axis, **kwargs):
                 pyplot.plot(*line, **default_kwargs)
         else:
             raise ValueError("plot_line MUST be given as: a tuple, (x_array, y_array, kwargs); or a list of tuples, [(x_array, y_array, kwargs), ...]")
-        kwargs.pop('plot_line', None) #Remove 'plot_line' from kwargs.
+    kwargs.pop('plot_line', None) #Remove 'plot_line' from kwargs.
+    if any(kwarg in kwargs for kwarg in ['y_err','x_err']):
+        err_defaults = {'marker':'','linestyle':'','capsize':2.0,
+                        'color':kwargs['color']}
+        err_kwargs = kwargs['err_kwargs']
+        for key in err_defaults: #Add err_defualts to err_kwargs, if not already specified.
+            if key not in err_kwargs:
+                err_kwargs[key] = err_defaults[key]
+
+        pyplot.errorbar(x_axis, y_axis, xerr=kwargs.pop('x_err', None),
+                        yerr=kwargs.pop('y_err', None), **err_kwargs) #Plot error bars.
+    kwargs.pop('err_kwargs', None) #Remove err_kwargs from kwargs.
+
 
     pyplot.scatter(x_axis, y_axis, **kwargs) #Plot scatter with specified kwargs.
 
