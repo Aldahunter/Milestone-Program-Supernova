@@ -12,6 +12,11 @@ H_0 = 75 #Current Hubble Flow in units: km*s-1*Mpc-1.
 R_0 = 4.4e26 #Current raidus of observable universe in units: m.
 c = 2.99792458e8 #Speed of light in units: m*s-1.
 
+### Unicode Superscripts and Subscripts ###
+S2 = '\u00b2' #Super 2
+Sm1 = '\u207b\u00b9' #Super -1
+Sm2 = '\u207b\u00b2' #Super -2
+
 ### Load Data ###
 dtype = np.dtype([('name', np.str_, 16), ('z', np.float64, 1),
                   ('eff_m', np.float64, 1), ('m_err', np.float64, 1)])

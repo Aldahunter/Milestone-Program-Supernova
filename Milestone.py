@@ -33,10 +33,10 @@ Lp_chisq_stats = calc_min_chisq(Lp2mag, Lp_guesses[0,0], Lp2mag_args, #Calculate
                                 lz_arr['eff_m'], lz_arr['m_err'],
                                 return_stats = True)
 chisq_min, Lp, Lp_err, Lp_perr = Lp_chisq_stats #Assign variables to returned values.
-print('L_peak = %0.5f +/- %0.5f (%0.2g%%) with Chi_sq: %0.2f' %(Lp, Lp_err, Lp_perr, chisq_min))
 
-
-
+adopted_units = (Lp/1e-5, Lp_err/1e-5, Lp_perr, chisq_min) #Convert from hecto- to centi-erg·pc^2·s^-1·Å^-1·m^-2.
+string = 'L_peak = %0.0f +/- %0.0f (%0.2g%%) cerg·pc'+S2+'·s'+Sm1+'·Å'+Sm1+'·m'+Sm2+' | Chi_sq: %0.2f' #Add unicode superscript to string.
+print(string %adopted_units) #Format and print string.
 
 ################################# Find Omega_cc ################################
 print('\n'+'-'*42+' Find Omega_cc '+'-'*42+'\n')
