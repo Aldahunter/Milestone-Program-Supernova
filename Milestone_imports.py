@@ -164,7 +164,7 @@ def varparam_err_chisq(model_func, bestfit_param, func_args, chisq_min, observed
 
 
 def calc_min_chisq(model_func, var_param, func_args, observed_data, error_in_data, return_stats = False):
-    """Return minimised chi_sq (and stats if 'return_stats' set to True) for data.
+    """Return reduced minimised chi_sq (and stats if 'return_stats' set to True) for data.
 
     Parameters: - model_func - function, the function used to calculate the
                                expected 'model' values [parameters must be in
@@ -191,14 +191,15 @@ def calc_min_chisq(model_func, var_param, func_args, observed_data, error_in_dat
     bestfit_param = optimize.minimize(minimise_func, var_param,
                                       method='Nelder-Mead').x[0] #Minimize given function to obtain the value for 'var_param' which gives the minimised Chi Squared.
     chisq_min = minimise_func(bestfit_param) #Calculate the minimised Chi Squared Value.
+    red_chisq_min = chisq_min / float(observed_data.size)
 
     if return_stats == False: #Check whether to return parameter stats as well.
-        return chisq_min
+        return red_chisq_min
     else:
         err_param = varparam_err_chisq(model_func, bestfit_param, func_args,
                                        chisq_min, observed_data, error_in_data) #Calculate the uncertainty in the 'bestfit_param'.
         pererr_param = (err_param / bestfit_param) * 100.0
-        return (chisq_min, bestfit_param, err_param, pererr_param)
+        return (red_chisq_min, bestfit_param, err_param, pererr_param)
 
 
 

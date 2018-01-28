@@ -35,8 +35,10 @@ Lp_chisq_stats = calc_min_chisq(Lp2mag, Lp_guesses[0,0], Lp2mag_args, #Calculate
 chisq_min, Lp, Lp_err, Lp_perr = Lp_chisq_stats #Assign variables to returned values.
 
 adopted_units = (Lp/1e-5, Lp_err/1e-5, Lp_perr, chisq_min) #Convert from hecto- to centi-erg·pc^2·s^-1·Å^-1·m^-2.
-string = 'L_peak = %0.0f +/- %0.0f (%0.2g%%) cerg·pc'+S2+'·s'+Sm1+'·Å'+Sm1+'·m'+Sm2+' | Chi_sq: %0.2f' #Add unicode superscript to string.
+string = 'L_peak = %0.0f +/- %0.0f (%0.2g%%) cerg·pc' + S2 + '·s' + Sm1 + '·Å'
+string += Sm1 + '·m' + Sm2 + ' | Reduced Chi_sq: %0.2f' #Add unicode superscript to string.
 print(string %adopted_units) #Format and print string.
+print(Lp * 9.521e45)
 
 ################################# Find Omega_cc ################################
 print('\n'+'-'*42+' Find Omega_cc '+'-'*42+'\n')
@@ -63,16 +65,18 @@ Om_cc_chisq_stats = calc_min_chisq(Om_cc2mag, Om_cc_guesses[0,0],  #Calculate mi
                                    hz_arr['m_err'], return_stats = True)
 chisq_min, Om_cc, Om_cc_err, Om_cc_perr = Om_cc_chisq_stats #Assign variables to returned values.
 
-print('Omega_cc = %0.2f +/- %0.2f (%0.2g%%) with Chi_sq: %0.2f' %(Om_cc, Om_cc_err, Om_cc_perr, chisq_min))
+print('Omega_cc = %0.2f +/- %0.2f (%0.2g%%) | Reduced Chi_sq: %0.2f'
+      %(Om_cc, Om_cc_err, Om_cc_perr, chisq_min))
 
 
-
+quit()
 
 ################################## Plot Graphs #################################
 ### Plots for L_peak ###
 model_z = np.linspace(lz_arr['z'].min(), lz_arr['z'].max(), 50) #Range of redshift values for line of bestfit.
 
-f = lambda Lp, err, args: (Lp2mag(Lp, *args), Lp2mag(Lp + err, *args), Lp2mag(Lp - err, *args))
+f = lambda Lp, err, args: (Lp2mag(Lp, *args), Lp2mag(Lp + err, *args),
+                           Lp2mag(Lp - err, *args))
 bf_eff_m, ub_eff_m, lb_eff_m = f(Lp, Lp_err, (model_z, 0.0, True)) #Y-axis values for line of bestfit and upper and lower uncertainties for line of best fit.
 model = [(model_z,bf_eff_m,{'ls':'-','c':'0','zorder':0}),
          (model_z,ub_eff_m,{'ls':'--','c':'0','zorder':0}),
@@ -98,7 +102,9 @@ show_graphs(Graph1, Graph2,  main_title = r'Low Redshift SNIa Data')
 ### Plots for Om_cc ###  #####For just high redshifts change 'data' to 'hz_arr' for everything below here!!!!!!!!!!!!!!!!!!!!!!!!!!
 model_z = np.linspace(data['z'].min(), data['z'].max(), 50) #Range of redshift values for line of bestfit.
 
-f = lambda Lp, err, args: (Om_cc2mag(Om_cc, *args), Om_cc2mag(Om_cc + err, *args), Om_cc2mag(Om_cc - err, *args))
+f = lambda Lp, err, args: (Om_cc2mag(Om_cc, *args),
+                           Om_cc2mag(Om_cc + err, *args),
+                           Om_cc2mag(Om_cc - err, *args))
 bf_eff_m, ub_eff_m, lb_eff_m = f(Om_cc, Om_cc_err, (model_z, Lp)) #Y-axis values for line of bestfit and upper and lower uncertainties for line of best fit.
 model = [(model_z,bf_eff_m,{'ls':'-','c':'0','zorder':0}),
          (model_z,ub_eff_m,{'ls':'--','c':'0','zorder':0}),
