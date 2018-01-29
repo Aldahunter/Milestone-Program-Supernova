@@ -6,16 +6,19 @@ from textwrap import wrap
 from scipy import optimize, integrate
 
 ### Define Constants ###
-K = 0 #Curvature of Universe can be 1(closed), 0(flat), -1(open).
-m_0 = -20.45 #Gives flux in units: erg*cm-2*s-1*A-1.
-H_0 = 75 #Current Hubble Flow in units: km*s-1*Mpc-1.
+K = 0 #Curvature of Universe can be: 1(closed), 0(flat), -1(open).
+m_0 = -20.45 #Gives flux in units: erg·cm⁻²·s⁻¹·Å⁻¹.
+H_0 = 75 / 3.086e19 #Current Hubble Flow in units: s⁻¹
 R_0 = 4.4e26 #Current raidus of observable universe in units: m.
-c = 2.99792458e8 #Speed of light in units: m*s-1.
+c = 2.99792458e8 #Speed of light in units: m*s⁻¹
 
-### Unicode Superscripts and Subscripts ###
-S2 = '\u00b2' #Super 2
-Sm1 = '\u207b\u00b9' #Super -1
-Sm2 = '\u207b\u00b2' #Super -2
+### Unicode Superscripts, Subscripts, Characters and Signs###
+S2 = '\u00b2' #Super 2 - '²'
+Sm1 = '\u207b\u00b9' #Super -1 - '⁻¹'
+Sm2 = '\u207b\u00b2' #Super -2 - '⁻²'
+Omega = '\u03a9' # Capital omega - 'Ω'
+chiSq = '\u03c7\u00b2' #Chi squared - 'χ²'
+pm = '\u00b1'
 
 ### Load Data ###
 dtype = np.dtype([('name', np.str_, 16), ('z', np.float64, 1),
@@ -26,17 +29,17 @@ data_hz, data_lz = data[:42], data[42:] #Split Data into low and high redshift.
 
 ### Mathematical Functions ###
 def mag2flux(eff_m):
-    """Return the flux (erg/cm^2/s/A) for a given effective magnitude."""
+    """Return the flux (erg·cm⁻²·s⁻¹·Å⁻¹) for a given effective magnitude (dimensionless)."""
     return 10**((m_0 - eff_m)/2.5)
 
 
 def flux2mag(flux):
-    """Return the effective magnitude (eff_m) for a given flux."""
+    """Return the effective magnitude (dimensionless) for a given flux (erg·cm⁻²·s⁻¹·Å⁻¹)."""
     return m_0 - 2.5*np.log10(flux)
 
 
 def S_eta(eta, low_z = False, z = 0.0):
-    """Return the comoving coordinate depending on the curvature of space."""
+    """Return the comoving coordinate (η, dimensionless), depending on the curvature of space."""
     if low_z == True:
         if K == 0: return (c*z)/(H_0*R_0)
     else:
@@ -47,29 +50,29 @@ def S_eta(eta, low_z = False, z = 0.0):
 
 
 def flux2Lp(flux, z, eta, low_z = False):
-    """Return peak Luminosity (L_peak).
+    """Return peak Luminosity (erg·s⁻¹·Å⁻¹).
 
-    Parameters: - flux,
-                - redshift (z),
-                - comoving coord (eta).
+    Parameters: - flux (erg·cm⁻²·s⁻¹·Å⁻¹),
+                - redshift (z, dimensionless),
+                - comoving coord (η, dimensionless),
                 - low_z - Boolean (Default: False), if set to True the returned
-                          value is independent of eta.
+                          value is independent of η.
 
     """
-    return 4 * np.pi * (R_0*S_eta(eta, low_z, z))**2 * (1+z)**2 * flux
+    return 4 * np.pi * (R_0*S_eta(eta, low_z, z))**2 * (1+z)**2 * flux * 1e4
 
 
 def Lp2flux(Lpeak, z, eta, low_z = False):
-    """Return flux.
+    """Return flux (erg·cm⁻²·s⁻¹·Å⁻¹).
 
-    Parameters: - Lpeak,
-                - redshift (z),
-                - comoving coord (eta).
+    Parameters: - Lpeak (erg·s⁻¹·Å⁻¹),
+                - redshift (z, dimensionless),
+                - comoving coordinate (η, dimensionless),
                 - low_z - Boolean (Default: False), if set to True the returned
-                          value is independent of eta.
+                          value is independent of η.
 
     """
-    return Lpeak / (4 * np.pi * (R_0*S_eta(eta, low_z, z))**2 * (1+z)**2)
+    return Lpeak / (4 * np.pi * (R_0*S_eta(eta, low_z, z))**2 * (1+z)**2) * 1e-4
 
 
 def Lp2dL(Lpeak, flux):
@@ -82,74 +85,76 @@ def z2dL(z):
 
 
 def z2a(z):
-    """Return the expansion factor (a) for a given redshift (z)."""
+    """Return the expansion factor (a, dimensionless),  for a given redshift (z, dimensionless)."""
     return 1 / (1 + z)
 
 
 def a2H(a, Om_cc, R = R_0, Om_M0 = 'flat'):
-    """Return the Hubble Parameter (H) for a given expansion factor (a).
+    """Return the Hubble Parameter (H, s⁻¹) for a given expansion factor (a, dimensionless).
 
-    Parameters: - a - float (or array), the expansion factor,
+    Parameters: - a - float (or array), the expansion factor (dimensionless),
                 - Om_cc - float, the ratio of energy density of the
                           Cosmological Constant (phi_cc) to the critical energy
-                          denstiy (phi_crit),
+                          denstiy (phi_crit) (dimensionless),
                 - R - float (or array) [Default: R_0], the scale factor. Note:
-                      the current scale factor is R_0,
+                      the current scale factor is R_0 (m),
                 - Om_M0 - float [Defualt: 'flat'], the ratio of the current
                           energy density of all matter in the universe (phi_M0)
-                          to the critical enery density (phi_crit). Note: 'flat'
-                          accounts for a flat universe where 1 = Om_M0 + Om_cc,
-                          and so is calculated from the given Om_cc.
+                          to the critical enery density (phi_crit)
+                          (dimensionless). Note: 'flat' accounts for a flat
+                          universe where 1 = Om_M0 + Om_cc, and so is calculated
+                          from the given Om_cc.
 
     """
     if Om_M0 == 'flat':
-        Om_M0 = 1.0 - Om_cc #Calculate Omega_M0 for a flat unverse, given Omega_cc.
+        Om_M0 = 1.0 - Om_cc #Calculate Ω_M0 for a flat unverse, given Ω_cc.
     return H_0 * ((Om_M0/a**3) + Om_cc - (K*c**2)/R**2)**0.5
 
 
 def z2eta(z, Om_cc, R = R_0, Om_M0 = 'flat'):
-    """Return the comoving coordinate (eta) for a given redshift (z).
+    """Return the comoving coordinate (η, dimensionless) for a given redshift (z, dimensionless).
 
-    Parameters: - z - float (or array), redshift(s),
+    Parameters: - z - float (or array), redshift(s) (dimensionless),
                 - Om_cc - float, the ratio of energy density of the
                           Cosmological Constant (phi_cc) to the critical energy
-                          denstiy (phi_crit),
+                          denstiy (phi_crit) (dimensionless),
                 - R - float (or array) [Default: 0.0], the scale factor. Note:
-                      the current scale factor is R_0. Note: R != 0.0,
+                      the current scale factor is R_0 (m). Note: R != 0.0,
                       otherwise 'ZeroDivisionError' will occur,
                 - Om_M0 - float [Defualt: 'flat'], the ratio of the current
                           energy density of all matter in the universe (phi_M0)
-                          to the critical enery density (phi_crit). Note: 'flat'
-                          accounts for a flat universe where 1 = Om_M0 + Om_cc,
-                          and so is calculated from the given Om_cc.
+                          to the critical enery density (phi_crit)
+                          (dimensionless). Note: 'flat' accounts for a flat
+                          universe where 1 = Om_M0 + Om_cc, and so is calculated
+                          from the given Om_cc.
 
     """
     zs = np.array(z) #Convert z to array.
-    etas = np.empty(zs.shape) #Create array to hold eta values for each z.
+    etas = np.empty(zs.shape) #Create array to hold η values for each z.
     z2invH = lambda z, Om_cc, R, Om_M0: 1.0 / a2H(z2a(z), Om_cc, R, Om_M0) #Setup function to pass through 'integrate.quad'.
     with warnings.catch_warnings(): #Catch 'IntegrationWarning' (and other warnings).
         warnings.simplefilter('ignore') #Surpress warnings from printing.
         for n, nz in enumerate(zs): #Cycle through z values.
-            etas[n] = (c/R_0) * integrate.quad(z2invH, 0.0, nz, args=(Om_cc, R, Om_M0))[0] #Calc eta = c/R_0 * (int_{0}^{z} z2invH(z') dz').
+            etas[n] = (c/R_0) * integrate.quad(z2invH, 0.0, nz, args=(Om_cc, R, Om_M0))[0] #Calc η = c/R_0 * (int_{0}^{z} z2invH(z') dz').
     return etas
 
 
 def calc_chisq(expected_data, observed_data, error_in_data):
-    """Calculate the  chi squared between the observed (collected) data and the expected (model) data."""
+    """Calculate the χ² (dimensionless) between the observed (collected) data and the expected (model) data."""
     return np.sum((observed_data - expected_data)**2 / error_in_data**2)
 
 
 def varparam_err_chisq(model_func, bestfit_param, func_args, chisq_min, observed_data, error_in_data):
-    """Return the uncertainty of the given varied parameter for chi squared best fit.
+    """Return the uncertainty of the given varied parameter for χ² (dimensionless) best fit.
 
     Parameters: - model_func - function, the function used to calculate the
                                expected 'model' values [parameters must be in
                                the form: func(bestfit_param, *func_args)],
                 - bestfit_param - float (or int), the best-fit value calculated
-                                  from minimising Chi squared,
+                                  from minimising χ²,
                 - func_args - tuple (or list), the other argurements needed for
                               'model_func' to calculate the model values,
-                - chisq_min - int (or float), the minimised Chi squared value,
+                - chisq_min - int (or float), the minimised χ² value,
                 - observed_data - list (or array), the collected data values
                                   (must be same size as error_in_data),
                 - error_in_data - list (or array), the uncertainty in the
@@ -164,13 +169,13 @@ def varparam_err_chisq(model_func, bestfit_param, func_args, chisq_min, observed
 
 
 def calc_min_chisq(model_func, var_param, func_args, observed_data, error_in_data, return_stats = False):
-    """Return reduced minimised chi_sq (and stats if 'return_stats' set to True) for data.
+    """Return reduced minimised χ² (dimensionless) (and stats if 'return_stats' set to True) for data.
 
     Parameters: - model_func - function, the function used to calculate the
                                expected 'model' values [parameters must be in
                                the form: func(bestfit_param, *func_args)],
                 - var_param - float (or int), the best-guess of the parameter
-                              to be varied to minimise Chi Squared,
+                              to be varied to minimise χ²,
                 - func_args - tuple (or list), the other argurements needed for
                               'model_func' to calculate the model values,
                 - observed_data - list (or array), the collected data values
@@ -179,25 +184,30 @@ def calc_min_chisq(model_func, var_param, func_args, observed_data, error_in_dat
                                   collected data (must be same size as
                                   'collected_data').
                 - return_stats - Boolean (Default: False), if true returns the
-                                 minimised Chi Squared value, as well as the
-                                 bestfit value for the varied parameter, the
-                                 varied parameter's uncertaitny and its
-                                 percentage uncertainty as a tuple in the form:
-                                 (minimised_chisq, bestfit_param, error_param,
-                                 perc_error_param).
+                                 minimised χ² value, as well as the bestfit
+                                 value for the varied parameter, the varied
+                                 parameter's uncertaitny and its percentage
+                                 uncertainty as a tuple in the form:
+                                  (minimised_chisq, bestfit_param, error_param,
+                                  perc_error_param).
 
     """
-    minimise_func = lambda x : calc_chisq(model_func(x, *func_args), observed_data, error_in_data) #Define function to input into 'optimize.minimize' to output minimised Chi Squared.
-    bestfit_param = optimize.minimize(minimise_func, var_param,
-                                      method='Nelder-Mead').x[0] #Minimize given function to obtain the value for 'var_param' which gives the minimised Chi Squared.
-    chisq_min = minimise_func(bestfit_param) #Calculate the minimised Chi Squared Value.
+    minimise_func = lambda x : calc_chisq(model_func(x, *func_args), observed_data, error_in_data) #Define function to input into 'optimize.minimize' to output minimised χ².
+    with warnings.catch_warnings(): #Catch 'IntegrationWarning' (and other warnings).
+        warnings.simplefilter('ignore') #Surpress warnings from printing.
+
+        bestfit_param = optimize.minimize(minimise_func, var_param,
+                                          method='Nelder-Mead').x[0] #Minimize given function to obtain the value for 'var_param' which gives the minimised χ².
+        chisq_min = minimise_func(bestfit_param) #Calculate the minimised χ² Value.
     red_chisq_min = chisq_min / float(observed_data.size)
 
     if return_stats == False: #Check whether to return parameter stats as well.
         return red_chisq_min
     else:
-        err_param = varparam_err_chisq(model_func, bestfit_param, func_args,
-                                       chisq_min, observed_data, error_in_data) #Calculate the uncertainty in the 'bestfit_param'.
+        with warnings.catch_warnings(): #Catch 'IntegrationWarning' (and other warnings).
+            warnings.simplefilter('ignore') #Surpress warnings from printing.
+            err_param = varparam_err_chisq(model_func, bestfit_param, func_args,
+                                           chisq_min, observed_data, error_in_data) #Calculate the uncertainty in the 'bestfit_param'.
         pererr_param = (err_param / bestfit_param) * 100.0
         return (red_chisq_min, bestfit_param, err_param, pererr_param)
 
@@ -206,7 +216,7 @@ def calc_min_chisq(model_func, var_param, func_args, observed_data, error_in_dat
 
 ### Non-Mathematical Functions ###
 def show_strarray(strarray):
-    """Prints the structured array's (strarray) headers and contents."""
+    """Print the structured array's (strarray) headers and contents."""
     print(str(strarray.dtype.names).replace(',', ' |'), '\n')
     for row in strarray:
         str_row = str(row).replace(',', ' |')
@@ -216,7 +226,7 @@ def show_strarray(strarray):
 
 
 def strarray_add_column(strarray, column_data, column_header, column_dtype, print_array = False):
-    """Retun inputted structured array with new column appended to end.
+    """Return inputted structured array with new column appended to end.
 
     Parameters: - strarray - structured array, the original array to which new
                              column will be appended;
