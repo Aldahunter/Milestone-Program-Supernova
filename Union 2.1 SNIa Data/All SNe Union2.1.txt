@@ -1,337 +1,337 @@
-#SN_name , Redshift, eff_mag, err_mag , dataset
-1993ah , 0.0285 , 16.86 , 0.19 , ----
-1993ag , 0.0500 , 17.79 , 0.05 , ----
-1993o , 0.0529 , 17.60 , 0.05 , ----
-1993b , 0.0701 , 18.43 , 0.04 , ----
-1992bs , 0.0627 , 18.25 , 0.05 , ----
-1992br , 0.0876 , 19.19 , 0.11 , ----
-1992bp , 0.0786 , 18.27 , 0.04 , ----
-1992bo , 0.0172 , 15.75 , 0.13 , ----
-1992bl , 0.0422 , 17.30 , 0.08 , ----
-1992bh , 0.0453 , 17.58 , 0.05 , ----
-1992bg , 0.0365 , 16.71 , 0.09 , ----
-1992bc , 0.0196 , 15.07 , 0.11 , ----
-1992aq , 0.1009 , 19.27 , 0.05 , ----
-1992ag , 0.0273 , 16.26 , 0.09 , ----
-1992ae , 0.0746 , 18.39 , 0.04 , ----
-1992p , 0.0265 , 16.03 , 0.09 , ----
-1990af , 0.0499 , 17.75 , 0.05 , ----
-1990o , 0.0306 , 16.19 , 0.08 , ----
-2001cz , 0.0163 , 15.02 , 0.14 , ----
-2001cn , 0.0154 , 15.26 , 0.14 , ----
-2001ba , 0.0305 , 16.19 , 0.07 , ----
-2000ca , 0.0245 , 15.53 , 0.09 , ----
-2000bh , 0.0240 , 15.92 , 0.10 , ----
-1999gp , 0.0260 , 16.00 , 0.09 , ----
-1993ac , 0.0489 , 17.72 , 0.08 , ----
-1994m , 0.0243 , 16.27 , 0.09 , ----
-1994s , 0.0152 , 14.76 , 0.14 , ----
-1994t , 0.0357 , 17.23 , 0.07 , ----
-1995ac , 0.0488 , 17.03 , 0.05 , ----
-1995ak , 0.0220 , 15.94 , 0.10 , ----
-1996ab , 0.1244 , 19.44 , 0.03 , ----
-1996bl , 0.0360 , 16.62 , 0.07 , ----
-1996bo , 0.0163 , 15.82 , 0.13 , ----
-1996bv , 0.0167 , 15.28 , 0.14 , ----
-1996c , 0.0275 , 16.59 , 0.08 , ----
-2000fa , 0.0218 , 15.86 , 0.10 , ----
-2000dk , 0.0164 , 15.34 , 0.13 , ----
-2000cn , 0.0232 , 16.57 , 0.10 , ----
-2000cf , 0.0365 , 17.05 , 0.06 , ----
-1999gd , 0.0193 , 16.91 , 0.12 , ----
-1999ek , 0.0176 , 15.59 , 0.18 , ----
-1999cc , 0.0315 , 16.77 , 0.07 , ----
-1998eg , 0.0235 , 16.08 , 0.10 , ----
-1998ef , 0.0167 , 14.80 , 0.13 , ----
-1998dx , 0.0537 , 17.58 , 0.05 , ----
-1998co , 0.0170 , 15.65 , 0.14 , ----
-1998ab , 0.0279 , 16.11 , 0.08 , ----
-1998v , 0.0172 , 15.07 , 0.14 , ----
-1997dg , 0.0300 , 16.82 , 0.08 , ----
-1997y , 0.0166 , 15.31 , 0.13 , ----
-1999aa , 0.0150 , 14.69 , 0.15 , ----
-1999ao , 0.0544 , 17.88 , 0.05 , ----
-1999ar , 0.1561 , 19.96 , 0.03 , ----
-1999aw , 0.0393 , 16.77 , 0.06 , ----
-1999bi , 0.1241 , 19.74 , 0.04 , ----
-1999bm , 0.1441 , 20.40 , 0.04 , ----
-1999bn , 0.1299 , 19.56 , 0.03 , ----
-1999bp , 0.0784 , 18.37 , 0.03 , ----
-2001ah , 0.0583 , 17.63 , 0.06 , ----
-2001ay , 0.0309 , 16.71 , 0.08 , ----
-2001az , 0.0406 , 16.90 , 0.06 , ----
-2001bf , 0.0152 , 14.68 , 0.15 , ----
-2001cp , 0.0224 , 15.16 , 0.20 , ----
-2001da , 0.0160 , 15.43 , 0.14 , ----
-2001eh , 0.0362 , 16.57 , 0.06 , ----
-2001g , 0.0173 , 14.91 , 0.14 , ----
+#SN_name , Redshift , eff_mag , err_mag , dataset
+1993ah , 0.0285 , 16.86 , 0.19 , Wischnjewsky
+1993ag , 0.0500 , 17.79 , 0.05 , Antezana
+1993o , 0.0529 , 17.60 , 0.05 , Antezana
+1993b , 0.0701 , 18.43 , 0.04 , Antezana
+1992bs , 0.0627 , 18.25 , 0.05 , Gonzalez
+1992br , 0.0876 , 19.19 , 0.11 , Wischnjewsky
+1992bp , 0.0786 , 18.27 , 0.04 , Antezana
+1992bo , 0.0172 , 15.75 , 0.13 , Antezana
+1992bl , 0.0422 , 17.30 , 0.08 , Antezana
+1992bh , 0.0453 , 17.58 , 0.05 , Antezana
+1992bg , 0.0365 , 16.71 , 0.09 , Antezana
+1992bc , 0.0196 , 15.07 , 0.11 , Antezana
+1992aq , 0.1009 , 19.27 , 0.05 , Antezana
+1992ag , 0.0273 , 16.26 , 0.09 , Wischnjewsky
+1992ae , 0.0746 , 18.39 , 0.04 , Antezana
+1992p , 0.0265 , 16.03 , 0.09 , Antezana
+1990af , 0.0499 , 17.75 , 0.05 , Antezana
+1990o , 0.0306 , 16.19 , 0.08 , Mueller
+2001cz , 0.0163 , 15.02 , 0.14 , Chassagne
+2001cn , 0.0154 , 15.26 , 0.14 , Chassagne
+2001ba , 0.0305 , 16.19 , 0.07 , Chassagne
+2000ca , 0.0245 , 15.53 , 0.09 , Antezana
+2000bh , 0.0240 , 15.92 , 0.10 , Antezana
+1999gp , 0.0260 , 16.00 , 0.09 , Lick Observatory Supernova Search
+1993ac , 0.0489 , 17.72 , 0.08 , Mueller
+1994m , 0.0243 , 16.27 , 0.09 , Wild
+1994s , 0.0152 , 14.76 , 0.14 , Mitchell
+1994t , 0.0357 , 17.23 , 0.07 , Peters, Challis
+1995ac , 0.0488 , 17.03 , 0.05 , Pollas
+1995ak , 0.0220 , 15.94 , 0.10 , Pollas
+1996ab , 0.1244 , 19.44 , 0.03 , Mueller
+1996bl , 0.0360 , 16.62 , 0.07 , Pollas
+1996bo , 0.0163 , 15.82 , 0.13 , BAO Supernova Survey; Armstrong; Okazaki
+1996bv , 0.0167 , 15.28 , 0.14 , BAO Supernova Survey
+1996c , 0.0275 , 16.59 , 0.08 , Mueller
+2000fa , 0.0218 , 15.86 , 0.10 , Lick & Tenagra Observatories Supernova Search
+2000dk , 0.0164 , 15.34 , 0.13 , Lick Observatory Supernova Search
+2000cn , 0.0232 , 16.57 , 0.10 , Lick Observatory Supernova Search
+2000cf , 0.0365 , 17.05 , 0.06 , Sehgal, Puckett
+1999gd , 0.0193 , 16.91 , 0.12 , Lick Observatory Supernova Search
+1999ek , 0.0176 , 15.59 , 0.18 , Lick Observatory Supernova Search
+1999cc , 0.0315 , 16.77 , 0.07 , Schwartz
+1998eg , 0.0235 , 16.08 , 0.10 , Boles
+1998ef , 0.0167 , 14.80 , 0.13 , Lick Observatory Supernova Search
+1998dx , 0.0537 , 17.58 , 0.05 , Lick Observatory Supernova Search
+1998co , 0.0170 , 15.65 , 0.14 , Johnson
+1998ab , 0.0279 , 16.11 , 0.08 , BAO Supernova Survey
+1998v , 0.0172 , 15.07 , 0.14 , Armstrong
+1997dg , 0.0300 , 16.82 , 0.08 , BAO Supernova Survey
+1997y , 0.0166 , 15.31 , 0.13 , BAO Supernova Survey
+1999aa , 0.0150 , 14.69 , 0.15 , Arbour; Beijing Observatory Supernova Survey
+1999ao , 0.0544 , 17.88 , 0.05 , Mount Stromlo Abell Cluster Supernova Search Team
+1999ar , 0.1561 , 19.96 , 0.03 , Nearby Galaxies Supernova Search, Supernova Cosmology Project
+1999aw , 0.0393 , 16.77 , 0.06 , Supernova Cosmology Project
+1999bi , 0.1241 , 19.74 , 0.04 , EROS + Supernova Cosmology Project
+1999bm , 0.1441 , 20.40 , 0.04 , EROS + Supernova Cosmology Project
+1999bn , 0.1299 , 19.56 , 0.03 , EROS + Supernova Cosmology Project
+1999bp , 0.0784 , 18.37 , 0.03 , EROS + Supernova Cosmology Project
+2001ah , 0.0583 , 17.63 , 0.06 , Puckett, Peoples
+2001ay , 0.0309 , 16.71 , 0.08 , Lick & Tenagra Observatories Supernova Search
+2001az , 0.0406 , 16.90 , 0.06 , Puckett, Peoples
+2001bf , 0.0152 , 14.68 , 0.15 , Armstrong
+2001cp , 0.0224 , 15.16 , 0.20 , Lick & Tenagra Observatories Supernova Search
+2001da , 0.0160 , 15.43 , 0.14 , Lick & Tenagra Observatories Supernova Search
+2001eh , 0.0362 , 16.57 , 0.06 , Armstrong
+2001g , 0.0173 , 14.91 , 0.14 , Armstrong
 2001ie , 0.0312 , 16.56 , 0.09 , ----
-2001n , 0.0221 , 16.51 , 0.10 , ----
-2001v , 0.0160 , 14.54 , 0.14 , ----
-2002bf , 0.0249 , 16.51 , 0.11 , ----
-2002ck , 0.0303 , 16.24 , 0.09 , ----
-2002de , 0.0283 , 16.62 , 0.08 , ----
-2002do , 0.0152 , 15.28 , 0.21 , ----
-2002g , 0.0345 , 17.54 , 0.09 , ----
-2002hd , 0.0360 , 16.70 , 0.07 , ----
-2002he , 0.0248 , 16.23 , 0.10 , ----
-2002hu , 0.0292 , 16.59 , 0.08 , ----
-2002hw , 0.0163 , 16.66 , 0.14 , ----
-2002jy , 0.0187 , 15.69 , 0.12 , ----
-2002kf , 0.0195 , 15.62 , 0.12 , ----
-2003ch , 0.0256 , 16.66 , 0.09 , ----
-2003cq , 0.0337 , 17.20 , 0.08 , ----
-2003ic , 0.0546 , 17.64 , 0.05 , ----
-2003it , 0.0240 , 16.32 , 0.10 , ----
-2003iv , 0.0336 , 16.95 , 0.08 , ----
-2003kc , 0.0341 , 17.11 , 0.08 , ----
-2003u , 0.0261 , 16.46 , 0.09 , ----
-2003w , 0.0211 , 15.84 , 0.10 , ----
-2004as , 0.0321 , 16.96 , 0.07 , ----
-2004bg , 0.0221 , 15.46 , 0.10 , ----
-2004l , 0.0334 , 17.34 , 0.08 , ----
-2005eu , 0.0341 , 16.36 , 0.07 , ----
-2005hf , 0.0421 , 17.22 , 0.08 , ----
-2005hj , 0.0576 , 17.71 , 0.04 , ----
-2005ls , 0.0205 , 16.12 , 0.11 , ----
-2005lz , 0.0402 , 17.59 , 0.06 , ----
-2005mc , 0.0260 , 17.23 , 0.09 , ----
-2005ms , 0.0259 , 16.11 , 0.09 , ----
-2006ac , 0.0239 , 16.14 , 0.09 , ----
-2006al , 0.0690 , 18.35 , 0.07 , ----
-2006an , 0.0651 , 18.00 , 0.04 , ----
-2006ar , 0.0229 , 16.44 , 0.10 , ----
-2006az , 0.0315 , 16.44 , 0.07 , ----
-2006bq , 0.0215 , 16.13 , 0.10 , ----
-2006br , 0.0255 , 18.89 , 0.09 , ----
-2006bt , 0.0325 , 16.90 , 0.07 , ----
-2006bu , 0.0843 , 18.15 , 0.08 , ----
-2006bw , 0.0308 , 17.41 , 0.08 , ----
-2006cc , 0.0327 , 17.75 , 0.07 , ----
-2006cf , 0.0423 , 17.05 , 0.06 , ----
-2006cj , 0.0684 , 18.12 , 0.04 , ----
-2006cm , 0.0153 , 17.88 , 0.14 , ----
-2006cp , 0.0233 , 15.97 , 0.09 , ----
-2006cq , 0.0491 , 17.56 , 0.05 , ----
-2006cz , 0.0425 , 16.98 , 0.06 , ----
-2006ej , 0.0192 , 15.74 , 0.12 , ----
-2006en , 0.0308 , 16.74 , 0.08 , ----
-2006et , 0.0212 , 15.92 , 0.11 , ----
-2006gj , 0.0277 , 17.63 , 0.09 , ----
-2006gr , 0.0335 , 16.91 , 0.07 , ----
-2006kf , 0.0208 , 15.80 , 0.12 , ----
-2006le , 0.0173 , 14.73 , 0.16 , ----
-2006mo , 0.0360 , 17.37 , 0.07 , ----
-2006mp , 0.0233 , 15.95 , 0.09 , ----
-2006oa , 0.0589 , 17.85 , 0.04 , ----
-2006ob , 0.0583 , 18.22 , 0.04 , ----
-2006on , 0.0688 , 18.38 , 0.06 , ----
-2006os , 0.0321 , 17.57 , 0.08 , ----
-2006ot , 0.0522 , 17.99 , 0.05 , ----
-2006qo , 0.0308 , 16.78 , 0.07 , ----
-2006s , 0.0329 , 16.81 , 0.07 , ----
-2006sr , 0.0230 , 16.11 , 0.10 , ----
-2006td , 0.0150 , 15.70 , 0.15 , ----
-2006te , 0.0321 , 16.50 , 0.08 , ----
-2007ae , 0.0643 , 17.73 , 0.04 , ----
-2007ai , 0.0320 , 16.85 , 0.10 , ----
-2007au , 0.0209 , 16.58 , 0.11 , ----
-2007bc , 0.0219 , 15.86 , 0.10 , ----
-2007bd , 0.0320 , 16.55 , 0.07 , ----
-2007ca , 0.0151 , 15.89 , 0.15 , ----
-2007ci , 0.0192 , 15.89 , 0.12 , ----
-2007co , 0.0266 , 16.43 , 0.09 , ----
-2007cp , 0.0377 , 17.17 , 0.08 , ----
-2007cq , 0.0247 , 15.79 , 0.09 , ----
-2007f , 0.0242 , 15.86 , 0.09 , ----
-2007o , 0.0366 , 16.75 , 0.06 , ----
-2007qe , 0.0229 , 16.02 , 0.10 , ----
-2007r , 0.0312 , 16.60 , 0.07 , ----
-2007s , 0.0150 , 15.78 , 0.15 , ----
-2008af , 0.0341 , 16.94 , 0.10 , ----
-2008bf , 0.0251 , 15.68 , 0.09 , ----
-2008l , 0.0189 , 15.11 , 0.13 , ----
-2004ef , 0.0298 , 16.88 , 0.07 , ----
-2004gc , 0.0321 , 16.81 , 0.08 , ----
-2004gs , 0.0276 , 17.21 , 0.08 , ----
-2004gu , 0.0470 , 17.42 , 0.05 , ----
-2005a , 0.0183 , 18.25 , 0.12 , ----
-2005ag , 0.0800 , 18.41 , 0.03 , ----
-2005bg , 0.0242 , 15.82 , 0.09 , ----
-2005bo , 0.0150 , 15.67 , 0.15 , ----
-2005eq , 0.0284 , 16.24 , 0.08 , ----
-2005hc , 0.0450 , 17.30 , 0.05 , ----
-2005iq , 0.0329 , 16.78 , 0.07 , ----
-2005ir , 0.0754 , 18.39 , 0.03 , ----
-2005ki , 0.0204 , 15.55 , 0.11 , ----
-2005m , 0.0230 , 15.88 , 0.10 , ----
-2005na , 0.0268 , 15.92 , 0.08 , ----
-2006ax , 0.0179 , 14.98 , 0.12 , ----
-2006eq , 0.0484 , 18.29 , 0.08 , ----
-2006py , 0.0567 , 17.86 , 0.04 , ----
-2005kt , 0.0639 , 18.36 , 0.04 , ----
+2001n , 0.0221 , 16.51 , 0.10 , Chornock
+2001v , 0.0160 , 14.54 , 0.14 , Berlind
+2002bf , 0.0249 , 16.51 , 0.11 , LOTOSS
+2002ck , 0.0303 , 16.24 , 0.09 , LOTOSS
+2002de , 0.0283 , 16.62 , 0.08 , LOTOSS
+2002do , 0.0152 , 15.28 , 0.21 , LOTOSS
+2002g , 0.0345 , 17.54 , 0.09 , LOTOSS
+2002hd , 0.0360 , 16.70 , 0.07 , LOTOSS
+2002he , 0.0248 , 16.23 , 0.10 , LOTOSS
+2002hu , 0.0292 , 16.59 , 0.08 , Boles
+2002hw , 0.0163 , 16.66 , 0.14 , LOTOSS
+2002jy , 0.0187 , 15.69 , 0.12 , Arbour; Vanmunster
+2002kf , 0.0195 , 15.62 , 0.12 , Brady
+2003ch , 0.0256 , 16.66 , 0.09 , LOTOSS
+2003cq , 0.0337 , 17.20 , 0.08 , Arbour
+2003ic , 0.0546 , 17.64 , 0.05 , LOTOSS
+2003it , 0.0240 , 16.32 , 0.10 , Puckett, Cox
+2003iv , 0.0336 , 16.95 , 0.08 , LOTOSS
+2003kc , 0.0341 , 17.11 , 0.08 , Lick Observatory Supernova Survey
+2003u , 0.0261 , 16.46 , 0.09 , Boles
+2003w , 0.0211 , 15.84 , 0.10 , LOTOSS
+2004as , 0.0321 , 16.96 , 0.07 , Lick Observatory Supernova Survey
+2004bg , 0.0221 , 15.46 , 0.10 , Armstrong
+2004l , 0.0334 , 17.34 , 0.08 , Lick Observatory Supernova Survey
+2005eu , 0.0341 , 16.36 , 0.07 , Lick Observatory Supernova Survey
+2005hf , 0.0421 , 17.22 , 0.08 , Quimby et al.
+2005hj , 0.0576 , 17.71 , 0.04 , Quimby et al.
+2005ls , 0.0205 , 16.12 , 0.11 , Armstrong
+2005lz , 0.0402 , 17.59 , 0.06 , Puckett, Gagliano
+2005mc , 0.0260 , 17.23 , 0.09 , THCA Supernova Survey [Bian et al.]
+2005ms , 0.0259 , 16.11 , 0.09 , Puckett, Kroes
+2006ac , 0.0239 , 16.14 , 0.09 , Lick Observatory Supernova Survey
+2006al , 0.0690 , 18.35 , 0.07 , Holmes, Devore
+2006an , 0.0651 , 18.00 , 0.04 , Quimby, Castro
+2006ar , 0.0229 , 16.44 , 0.10 , Boles
+2006az , 0.0315 , 16.44 , 0.07 , Newton, Cox, Puckett
+2006bq , 0.0215 , 16.13 , 0.10 , Puckett, Pelloni
+2006br , 0.0255 , 18.89 , 0.09 , Puckett, Sostero
+2006bt , 0.0325 , 16.90 , 0.07 , Lick Observatory Supernova Survey
+2006bu , 0.0843 , 18.15 , 0.08 , Holmes, Devore, Graves
+2006bw , 0.0308 , 17.41 , 0.08 , Lick Observatory Supernova Survey
+2006cc , 0.0327 , 17.75 , 0.07 , Lick Observatory Supernova Survey
+2006cf , 0.0423 , 17.05 , 0.06 , Lick Observatory Supernova Survey; Puckett, Toth
+2006cj , 0.0684 , 18.12 , 0.04 , Quimby, Mondol, Castro
+2006cm , 0.0153 , 17.88 , 0.14 , Puckett, Langoussis
+2006cp , 0.0233 , 15.97 , 0.09 , Lick Observatory Supernova Survey
+2006cq , 0.0491 , 17.56 , 0.05 , Newton, Briggs, Puckett
+2006cz , 0.0425 , 16.98 , 0.06 , Lick Observatory Supernova Survey
+2006ej , 0.0192 , 15.74 , 0.12 , Lick Observatory Supernova Survey
+2006en , 0.0308 , 16.74 , 0.08 , Puckett, Peoples
+2006et , 0.0212 , 15.92 , 0.11 , Itagaki
+2006gj , 0.0277 , 17.63 , 0.09 , Puckett, Toth
+2006gr , 0.0335 , 16.91 , 0.07 , Lick Observatory Supernova Survey
+2006kf , 0.0208 , 15.80 , 0.12 , Lick Observatory Supernova Survey
+2006le , 0.0173 , 14.73 , 0.16 , Lick Observatory Supernova Survey
+2006mo , 0.0360 , 17.37 , 0.07 , Lick Observatory Supernova Survey
+2006mp , 0.0233 , 15.95 , 0.09 , Puckett, Gagliano
+2006oa , 0.0589 , 17.85 , 0.04 , Sloan Digital Sky Survey II
+2006ob , 0.0583 , 18.22 , 0.04 , Sloan Digital Sky Survey II
+2006on , 0.0688 , 18.38 , 0.06 , Sloan Digital Sky Survey II
+2006os , 0.0321 , 17.57 , 0.08 , Quimby, Castro
+2006ot , 0.0522 , 17.99 , 0.05 , Lick Observatory Supernova Survey (Joubert, Li)
+2006qo , 0.0308 , 16.78 , 0.07 , Joubert, Li (LOSS)
+2006s , 0.0329 , 16.81 , 0.07 , Puckett, Gagliano
+2006sr , 0.0230 , 16.11 , 0.10 , Rich
+2006td , 0.0150 , 15.70 , 0.15 , Kloehr
+2006te , 0.0321 , 16.50 , 0.08 , Trondal, Luckas, Schwartz
+2007ae , 0.0643 , 17.73 , 0.04 , Nissinen, Hentunen
+2007ai , 0.0320 , 16.85 , 0.10 , Li (LOSS)
+2007au , 0.0209 , 16.58 , 0.11 , Lee, Li (LOSS)
+2007bc , 0.0219 , 15.86 , 0.10 , Prasad, Li (LOSS)
+2007bd , 0.0320 , 16.55 , 0.07 , Prasad, Li (LOSS)
+2007ca , 0.0151 , 15.89 , 0.15 , Prasad, Li
+2007ci , 0.0192 , 15.89 , 0.12 , Puckett, Crowley
+2007co , 0.0266 , 16.43 , 0.09 , Nicolas
+2007cp , 0.0377 , 17.17 , 0.08 , Khandrika, Li (LOSS)
+2007cq , 0.0247 , 15.79 , 0.09 , Orff, Newton
+2007f , 0.0242 , 15.86 , 0.09 , Puckett, Gagliano
+2007o , 0.0366 , 16.75 , 0.06 , Lee, Li (LOSS)
+2007qe , 0.0229 , 16.02 , 0.10 , Yuan et al. (ROTSE)
+2007r , 0.0312 , 16.60 , 0.07 , Puckett, Gray
+2007s , 0.0150 , 15.78 , 0.15 , Puckett, Gorelli
+2008af , 0.0341 , 16.94 , 0.10 , Boles
+2008bf , 0.0251 , 15.68 , 0.09 , Parisky, Li, Filippenko (LOSS)
+2008l , 0.0189 , 15.11 , 0.13 , Fujita
+2004ef , 0.0298 , 16.88 , 0.07 , Boles; Armstrong
+2004gc , 0.0321 , 16.81 , 0.08 , del Olmo, Martinez, Pedraz, Alises; Trondal, Schwartz
+2004gs , 0.0276 , 17.21 , 0.08 , Lick Observatory Supernova Survey
+2004gu , 0.0470 , 17.42 , 0.05 , Quimby, Gerardy, Hoeflich, Wheeler
+2005a , 0.0183 , 18.25 , 0.12 , Lick Observatory Supernova Survey
+2005ag , 0.0800 , 18.41 , 0.03 , Lick Observatory Supernova Survey
+2005bg , 0.0242 , 15.82 , 0.09 , Quimby et al.
+2005bo , 0.0150 , 15.67 , 0.15 , Puckett, Langoussis
+2005eq , 0.0284 , 16.24 , 0.08 , Lick Observatory Supernova Survey
+2005hc , 0.0450 , 17.30 , 0.05 , Sloan Digital Sky Survey II
+2005iq , 0.0329 , 16.78 , 0.07 , Lick Observatory Supernova Survey
+2005ir , 0.0754 , 18.39 , 0.03 , SDSS II; Quimby et al.
+2005ki , 0.0204 , 15.55 , 0.11 , Lick Observatory Supernova Survey
+2005m , 0.0230 , 15.88 , 0.10 , Puckett, George
+2005na , 0.0268 , 15.92 , 0.08 , Newton, Ceravolo, Puckett
+2006ax , 0.0179 , 14.98 , 0.12 , Lick Observatory Supernova Survey
+2006eq , 0.0484 , 18.29 , 0.08 , SDSS II collaboration
+2006py , 0.0567 , 17.86 , 0.04 , Sloan Digital Sky Survey II
+2005kt , 0.0639 , 18.36 , 0.04 , SDSS II
 10106 , 0.1463 , 20.94 , 0.04 , ----
-2005ez , 0.1293 , 20.38 , 0.05 , ----
-2005lk , 0.1027 , 19.16 , 0.04 , ----
-2005ll , 0.2425 , 20.97 , 0.05 , ----
-2005lf , 0.2984 , 22.02 , 0.11 , ----
-2005ku , 0.0437 , 17.55 , 0.06 , ----
-2005ml , 0.1130 , 19.11 , 0.03 , ----
-2005jb , 0.2565 , 21.53 , 0.06 , ----
-2005fc , 0.2956 , 21.60 , 0.06 , ----
+2005ez , 0.1293 , 20.38 , 0.05 , Sloan Digital Sky Survey II
+2005lk , 0.1027 , 19.16 , 0.04 , Sloan Digital Sky Survey II
+2005ll , 0.2425 , 20.97 , 0.05 , Sloan Digital Sky Survey II
+2005lf , 0.2984 , 22.02 , 0.11 , Sloan Digital Sky Survey II
+2005ku , 0.0437 , 17.55 , 0.06 , SDSS II
+2005ml , 0.1130 , 19.11 , 0.03 , Sloan Digital Sky Survey II
+2005jb , 0.2565 , 21.53 , 0.06 , Sloan Digital Sky Survey II
+2005fc , 0.2956 , 21.60 , 0.06 , Sloan Digital Sky Survey II
 2005mm , 0.3804 , 22.18 , 0.08 , ----
-2005ln , 0.1457 , 20.30 , 0.03 , ----
-2005mo , 0.2735 , 21.22 , 0.06 , ----
-2005lo , 0.2975 , 21.74 , 0.06 , ----
-2005lq , 0.3790 , 22.17 , 0.08 , ----
+2005ln , 0.1457 , 20.30 , 0.03 , Sloan Digital Sky Survey II
+2005mo , 0.2735 , 21.22 , 0.06 , Sloan Digital Sky Survey II
+2005lo , 0.2975 , 21.74 , 0.06 , Sloan Digital Sky Survey II
+2005lq , 0.3790 , 22.17 , 0.08 , Sloan Digital Sky Survey II
 1166 , 0.3804 , 22.05 , 0.08 , ----
-2005lp , 0.3018 , 22.33 , 0.08 , ----
-2005mq , 0.3483 , 22.01 , 0.07 , ----
-2005ff , 0.0857 , 19.12 , 0.04 , ----
-2005fd , 0.2606 , 21.23 , 0.05 , ----
-2005fe , 0.2155 , 20.90 , 0.04 , ----
-2005fh , 0.1176 , 19.07 , 0.03 , ----
-2005gj , 0.1822 , 20.28 , 0.04 , ----
+2005lp , 0.3018 , 22.33 , 0.08 , Sloan Digital Sky Survey II
+2005mq , 0.3483 , 22.01 , 0.07 , Sloan Digital Sky Survey II
+2005ff , 0.0857 , 19.12 , 0.04 , Sloan Digital Sky Survey II
+2005fd , 0.2606 , 21.23 , 0.05 , Sloan Digital Sky Survey II
+2005fe , 0.2155 , 20.90 , 0.04 , Sloan Digital Sky Survey II
+2005fh , 0.1176 , 19.07 , 0.03 , Sloan Digital Sky Survey II
+2005gj , 0.1822 , 20.28 , 0.04 , Sloan Digital Sky Survey II
 1688 , 0.3575 , 22.17 , 0.08 , ----
-2005fj , 0.1418 , 20.06 , 0.03 , ----
-2005fo , 0.2605 , 21.29 , 0.05 , ----
-2005fl , 0.2328 , 21.00 , 0.09 , ----
-2005fm , 0.1519 , 19.70 , 0.03 , ----
-2005fn , 0.0939 , 18.64 , 0.04 , ----
-2005fr , 0.2866 , 21.60 , 0.05 , ----
-2005fy , 0.1943 , 21.00 , 0.04 , ----
-2005ey , 0.1470 , 19.58 , 0.03 , ----
-2005fp , 0.2116 , 21.78 , 0.05 , ----
-2005ft , 0.1801 , 20.57 , 0.03 , ----
-2005fi , 0.2635 , 21.15 , 0.04 , ----
-2005fu , 0.1921 , 20.65 , 0.03 , ----
-2005fs , 0.3388 , 21.79 , 0.07 , ----
-2005fv , 0.1173 , 19.80 , 0.03 , ----
-2005fw , 0.1424 , 19.82 , 0.03 , ----
-2005fa , 0.1609 , 20.23 , 0.03 , ----
-2005fx , 0.2884 , 21.56 , 0.06 , ----
-2005fz , 0.1228 , 19.97 , 0.05 , ----
-2005go , 0.2636 , 21.35 , 0.04 , ----
-2005gp , 0.1265 , 20.04 , 0.03 , ----
-2005ga , 0.1727 , 20.24 , 0.03 , ----
-2005gc , 0.1638 , 20.25 , 0.03 , ----
-2005gs , 0.2495 , 21.57 , 0.04 , ----
-2005gh , 0.2577 , 21.00 , 0.05 , ----
-2005hn , 0.1067 , 19.58 , 0.04 , ----
-2005gd , 0.1599 , 20.33 , 0.03 , ----
-2005ge , 0.2050 , 21.10 , 0.04 , ----
-2005gr , 0.2444 , 20.78 , 0.04 , ----
-2005gf , 0.2485 , 20.94 , 0.04 , ----
-2005gg , 0.2285 , 20.81 , 0.04 , ----
-2005gb , 0.0859 , 18.75 , 0.03 , ----
-2005ho , 0.0618 , 18.03 , 0.04 , ----
-2005gt , 0.2779 , 21.90 , 0.06 , ----
-2005gw , 0.2754 , 21.52 , 0.05 , ----
+2005fj , 0.1418 , 20.06 , 0.03 , Sloan Digital Sky Survey II
+2005fo , 0.2605 , 21.29 , 0.05 , Sloan Digital Sky Survey II
+2005fl , 0.2328 , 21.00 , 0.09 , Sloan Digital Sky Survey II
+2005fm , 0.1519 , 19.70 , 0.03 , Sloan Digital Sky Survey II
+2005fn , 0.0939 , 18.64 , 0.04 , Sloan Digital Sky Survey II
+2005fr , 0.2866 , 21.60 , 0.05 , Sloan Digital Sky Survey II
+2005fy , 0.1943 , 21.00 , 0.04 , Sloan Digital Sky Survey II
+2005ey , 0.1470 , 19.58 , 0.03 , Sloan Digital Sky Survey II
+2005fp , 0.2116 , 21.78 , 0.05 , Sloan Digital Sky Survey II
+2005ft , 0.1801 , 20.57 , 0.03 , Sloan Digital Sky Survey II
+2005fi , 0.2635 , 21.15 , 0.04 , Sloan Digital Sky Survey II
+2005fu , 0.1921 , 20.65 , 0.03 , Sloan Digital Sky Survey II
+2005fs , 0.3388 , 21.79 , 0.07 , Sloan Digital Sky Survey II
+2005fv , 0.1173 , 19.80 , 0.03 , Sloan Digital Sky Survey II
+2005fw , 0.1424 , 19.82 , 0.03 , Sloan Digital Sky Survey II
+2005fa , 0.1609 , 20.23 , 0.03 , Sloan Digital Sky Survey II
+2005fx , 0.2884 , 21.56 , 0.06 , Sloan Digital Sky Survey II
+2005fz , 0.1228 , 19.97 , 0.05 , Sloan Digital Sky Survey II
+2005go , 0.2636 , 21.35 , 0.04 , Sloan Digital Sky Survey II
+2005gp , 0.1265 , 20.04 , 0.03 , Sloan Digital Sky Survey II
+2005ga , 0.1727 , 20.24 , 0.03 , Sloan Digital Sky Survey II
+2005gc , 0.1638 , 20.25 , 0.03 , Sloan Digital Sky Survey II
+2005gs , 0.2495 , 21.57 , 0.04 , Sloan Digital Sky Survey II
+2005gh , 0.2577 , 21.00 , 0.05 , Sloan Digital Sky Survey II
+2005hn , 0.1067 , 19.58 , 0.04 , Sloan Digital Sky Survey II
+2005gd , 0.1599 , 20.33 , 0.03 , Sloan Digital Sky Survey II
+2005ge , 0.2050 , 21.10 , 0.04 , Sloan Digital Sky Survey II
+2005gr , 0.2444 , 20.78 , 0.04 , Sloan Digital Sky Survey II
+2005gf , 0.2485 , 20.94 , 0.04 , Sloan Digital Sky Survey II
+2005gg , 0.2285 , 20.81 , 0.04 , Sloan Digital Sky Survey II
+2005gb , 0.0859 , 18.75 , 0.03 , Sloan Digital Sky Survey II
+2005ho , 0.0618 , 18.03 , 0.04 , Sloan Digital Sky Survey II
+2005gt , 0.2779 , 21.90 , 0.06 , Sloan Digital Sky Survey II
+2005gw , 0.2754 , 21.52 , 0.05 , Sloan Digital Sky Survey II
 4064 , 0.1552 , 20.35 , 0.03 , ----
-2005gu , 0.3305 , 21.95 , 0.06 , ----
-2005gv , 0.3619 , 22.10 , 0.07 , ----
-2005gy , 0.3306 , 22.10 , 0.07 , ----
-2005gx , 0.1446 , 20.38 , 0.03 , ----
-2005gq , 0.3893 , 22.23 , 0.08 , ----
-2005hp , 0.1739 , 20.30 , 0.05 , ----
-2005hs , 0.3003 , 21.69 , 0.06 , ----
-2005hr , 0.1163 , 19.46 , 0.03 , ----
-2005hu , 0.2186 , 21.17 , 0.03 , ----
-2005hx , 0.1197 , 19.65 , 0.03 , ----
-2005hy , 0.1546 , 19.83 , 0.02 , ----
-2005hw , 0.4083 , 22.47 , 0.09 , ----
-2005hv , 0.1776 , 20.90 , 0.04 , ----
-2005ia , 0.2507 , 21.35 , 0.04 , ----
-2005jz , 0.2517 , 21.41 , 0.04 , ----
+2005gu , 0.3305 , 21.95 , 0.06 , Sloan Digital Sky Survey II
+2005gv , 0.3619 , 22.10 , 0.07 , Sloan Digital Sky Survey II
+2005gy , 0.3306 , 22.10 , 0.07 , Sloan Digital Sky Survey II
+2005gx , 0.1446 , 20.38 , 0.03 , Sloan Digital Sky Survey II
+2005gq , 0.3893 , 22.23 , 0.08 , Sloan Digital Sky Survey II
+2005hp , 0.1739 , 20.30 , 0.05 , Sloan Digital Sky Survey II
+2005hs , 0.3003 , 21.69 , 0.06 , Sloan Digital Sky Survey II
+2005hr , 0.1163 , 19.46 , 0.03 , Sloan Digital Sky Survey II
+2005hu , 0.2186 , 21.17 , 0.03 , Sloan Digital Sky Survey II
+2005hx , 0.1197 , 19.65 , 0.03 , Sloan Digital Sky Survey II
+2005hy , 0.1546 , 19.83 , 0.02 , Sloan Digital Sky Survey II
+2005hw , 0.4083 , 22.47 , 0.09 , Sloan Digital Sky Survey II
+2005hv , 0.1776 , 20.90 , 0.04 , Sloan Digital Sky Survey II
+2005ia , 0.2507 , 21.35 , 0.04 , Sloan Digital Sky Survey II
+2005jz , 0.2517 , 21.41 , 0.04 , Sloan Digital Sky Survey II
 5737 , 0.3916 , 22.33 , 0.08 , ----
-2005hz , 0.1287 , 20.13 , 0.02 , ----
-2005hq , 0.3996 , 22.19 , 0.10 , ----
-2005ic , 0.3095 , 21.57 , 0.05 , ----
-2005is , 0.1706 , 20.44 , 0.03 , ----
-2005ie , 0.2789 , 21.46 , 0.05 , ----
-2005it , 0.3086 , 21.80 , 0.07 , ----
-2005ht , 0.1858 , 20.46 , 0.04 , ----
-2005if , 0.0664 , 18.66 , 0.04 , ----
-2005ka , 0.3164 , 22.12 , 0.08 , ----
-2005ih , 0.2575 , 21.52 , 0.04 , ----
-2005iv , 0.2988 , 21.52 , 0.06 , ----
-2005jy , 0.2704 , 21.69 , 0.04 , ----
-2005ig , 0.2795 , 21.49 , 0.05 , ----
-2005ii , 0.2925 , 21.78 , 0.04 , ----
-2005jk , 0.1889 , 20.95 , 0.03 , ----
-2005ix , 0.2658 , 20.93 , 0.04 , ----
-2005ij , 0.1243 , 19.62 , 0.03 , ----
-2005id , 0.1825 , 20.27 , 0.03 , ----
-2005jd , 0.3129 , 21.58 , 0.05 , ----
-2005ik , 0.3095 , 21.80 , 0.05 , ----
-2005iu , 0.0890 , 18.67 , 0.04 , ----
-2005iy , 0.4025 , 22.50 , 0.09 , ----
-2005iz , 0.2006 , 20.98 , 0.05 , ----
-2005ja , 0.3264 , 21.63 , 0.05 , ----
-2005jc , 0.2116 , 20.83 , 0.03 , ----
-2005jl , 0.1797 , 20.55 , 0.03 , ----
-2005je , 0.0931 , 19.16 , 0.03 , ----
-2005jg , 0.3024 , 22.06 , 0.04 , ----
-2005jh , 0.1086 , 19.52 , 0.03 , ----
-2005ed , 0.0857 , 18.80 , 0.08 , ----
-2005jm , 0.2026 , 20.77 , 0.04 , ----
-2005kn , 0.1967 , 21.27 , 0.04 , ----
-2005ei , 0.1267 , 19.79 , 0.05 , ----
-2005ji , 0.2146 , 20.89 , 0.03 , ----
-2005jn , 0.3204 , 21.53 , 0.04 , ----
-2005jo , 0.2183 , 21.11 , 0.04 , ----
-2005eg , 0.1897 , 20.65 , 0.03 , ----
-2005ex , 0.0929 , 19.06 , 0.05 , ----
-2005jw , 0.3797 , 21.93 , 0.05 , ----
-2005jp , 0.2109 , 21.21 , 0.03 , ----
-2005jj , 0.3666 , 22.25 , 0.09 , ----
-2005jv , 0.4209 , 22.52 , 0.07 , ----
-2005ju , 0.2580 , 21.60 , 0.04 , ----
-2005ko , 0.1836 , 21.11 , 0.04 , ----
-2005mi , 0.2125 , 20.80 , 0.05 , ----
-2005jt , 0.3600 , 22.41 , 0.07 , ----
-2005mh , 0.3940 , 22.22 , 0.06 , ----
-2005kp , 0.1147 , 19.38 , 0.03 , ----
-2005ld , 0.1437 , 19.94 , 0.03 , ----
-2005le , 0.2525 , 21.35 , 0.06 , ----
-2005kq , 0.3873 , 22.23 , 0.08 , ----
-2005lg , 0.3486 , 22.07 , 0.08 , ----
-2005li , 0.2555 , 21.41 , 0.07 , ----
-2005lh , 0.2166 , 21.06 , 0.06 , ----
-1996e , 0.4300 , 22.63 , 0.15 , ----
-1996h , 0.6200 , 23.29 , 0.08 , ----
-1996i , 0.5700 , 23.39 , 0.07 , ----
-1996j , 0.3000 , 21.92 , 0.05 , ----
-1996k , 0.3800 , 22.61 , 0.05 , ----
-1996u , 0.4300 , 22.58 , 0.08 , ----
-1995ao , 0.2400 , 21.64 , 0.15 , ----
-1997ce , 0.4400 , 22.73 , 0.06 , ----
-1997cj , 0.5000 , 23.12 , 0.07 , ----
-1997ck , 0.9700 , 24.69 , 0.14 , ----
-1995k , 0.4790 , 22.69 , 0.07 , ----
-1997ap , 0.8300 , 24.31 , 0.11 , ----
-1997am , 0.4160 , 22.32 , 0.09 , ----
-1997aj , 0.5810 , 23.19 , 0.10 , ----
-1997ai , 0.4500 , 22.87 , 0.08 , ----
-1997af , 0.5790 , 23.52 , 0.10 , ----
-1997ac , 0.3200 , 21.82 , 0.05 , ----
-1997r , 0.6570 , 23.86 , 0.11 , ----
-1997q , 0.4300 , 22.56 , 0.08 , ----
-1997p , 0.4720 , 23.13 , 0.06 , ----
-1997o , 0.3740 , 23.35 , 0.24 , ----
-1997n , 0.1800 , 20.15 , 0.14 , ----
-1997l , 0.5500 , 23.59 , 0.10 , ----
-1997k , 0.5920 , 24.28 , 0.12 , ----
-1997i , 0.1720 , 20.43 , 0.12 , ----
-1997h , 0.5260 , 23.18 , 0.06 , ----
-1997g , 0.7630 , 24.27 , 0.27 , ----
-1997f , 0.5800 , 23.49 , 0.08 , ----
-1996cn , 0.4300 , 23.20 , 0.06 , ----
-1996cm , 0.4500 , 23.22 , 0.09 , ----
-1996ck , 0.6560 , 23.74 , 0.10 , ----
-1996ci , 0.4950 , 22.82 , 0.05 , ----
-1996cg , 0.4900 , 23.06 , 0.05 , ----
-1996cf , 0.5700 , 23.27 , 0.06 , ----
+2005hz , 0.1287 , 20.13 , 0.02 , Sloan Digital Sky Survey II
+2005hq , 0.3996 , 22.19 , 0.10 , Sloan Digital Sky Survey II
+2005ic , 0.3095 , 21.57 , 0.05 , Sloan Digital Sky Survey II
+2005is , 0.1706 , 20.44 , 0.03 , Sloan Digital Sky Survey II
+2005ie , 0.2789 , 21.46 , 0.05 , Sloan Digital Sky Survey II
+2005it , 0.3086 , 21.80 , 0.07 , Sloan Digital Sky Survey II
+2005ht , 0.1858 , 20.46 , 0.04 , Sloan Digital Sky Survey II
+2005if , 0.0664 , 18.66 , 0.04 , Sloan Digital Sky Survey II
+2005ka , 0.3164 , 22.12 , 0.08 , Sloan Digital Sky Survey II
+2005ih , 0.2575 , 21.52 , 0.04 , Sloan Digital Sky Survey II
+2005iv , 0.2988 , 21.52 , 0.06 , Sloan Digital Sky Survey II
+2005jy , 0.2704 , 21.69 , 0.04 , Sloan Digital Sky Survey II
+2005ig , 0.2795 , 21.49 , 0.05 , Sloan Digital Sky Survey II
+2005ii , 0.2925 , 21.78 , 0.04 , Sloan Digital Sky Survey II
+2005jk , 0.1889 , 20.95 , 0.03 , Sloan Digital Sky Survey II
+2005ix , 0.2658 , 20.93 , 0.04 , Sloan Digital Sky Survey II
+2005ij , 0.1243 , 19.62 , 0.03 , Sloan Digital Sky Survey II
+2005id , 0.1825 , 20.27 , 0.03 , Sloan Digital Sky Survey II
+2005jd , 0.3129 , 21.58 , 0.05 , Sloan Digital Sky Survey II
+2005ik , 0.3095 , 21.80 , 0.05 , Sloan Digital Sky Survey II
+2005iu , 0.0890 , 18.67 , 0.04 , Sloan Digital Sky Survey II
+2005iy , 0.4025 , 22.50 , 0.09 , Sloan Digital Sky Survey II
+2005iz , 0.2006 , 20.98 , 0.05 , Sloan Digital Sky Survey II
+2005ja , 0.3264 , 21.63 , 0.05 , Sloan Digital Sky Survey II
+2005jc , 0.2116 , 20.83 , 0.03 , Sloan Digital Sky Survey II
+2005jl , 0.1797 , 20.55 , 0.03 , Sloan Digital Sky Survey II
+2005je , 0.0931 , 19.16 , 0.03 , Sloan Digital Sky Survey II
+2005jg , 0.3024 , 22.06 , 0.04 , Sloan Digital Sky Survey II
+2005jh , 0.1086 , 19.52 , 0.03 , Sloan Digital Sky Survey II
+2005ed , 0.0857 , 18.80 , 0.08 , Barentine, Frieman et al. (SDSS II)
+2005jm , 0.2026 , 20.77 , 0.04 , Sloan Digital Sky Survey II
+2005kn , 0.1967 , 21.27 , 0.04 , SDSS II
+2005ei , 0.1267 , 19.79 , 0.05 , Barentine, Frieman et al. (SDSS II)
+2005ji , 0.2146 , 20.89 , 0.03 , Sloan Digital Sky Survey II
+2005jn , 0.3204 , 21.53 , 0.04 , Sloan Digital Sky Survey II
+2005jo , 0.2183 , 21.11 , 0.04 , Sloan Digital Sky Survey II
+2005eg , 0.1897 , 20.65 , 0.03 , Barentine, Frieman et al. (SDSS II)
+2005ex , 0.0929 , 19.06 , 0.05 , Sloan Digital Sky Survey II
+2005jw , 0.3797 , 21.93 , 0.05 , Sloan Digital Sky Survey II
+2005jp , 0.2109 , 21.21 , 0.03 , Sloan Digital Sky Survey II
+2005jj , 0.3666 , 22.25 , 0.09 , Sloan Digital Sky Survey II
+2005jv , 0.4209 , 22.52 , 0.07 , Sloan Digital Sky Survey II
+2005ju , 0.2580 , 21.60 , 0.04 , Sloan Digital Sky Survey II
+2005ko , 0.1836 , 21.11 , 0.04 , SDSS II
+2005mi , 0.2125 , 20.80 , 0.05 , Sloan Digital Sky Survey II
+2005jt , 0.3600 , 22.41 , 0.07 , Sloan Digital Sky Survey II
+2005mh , 0.3940 , 22.22 , 0.06 , Sloan Digital Sky Survey II
+2005kp , 0.1147 , 19.38 , 0.03 , SDSS II
+2005ld , 0.1437 , 19.94 , 0.03 , Sloan Digital Sky Survey II
+2005le , 0.2525 , 21.35 , 0.06 , Sloan Digital Sky Survey II
+2005kq , 0.3873 , 22.23 , 0.08 , SDSS II
+2005lg , 0.3486 , 22.07 , 0.08 , Sloan Digital Sky Survey II
+2005li , 0.2555 , 21.41 , 0.07 , Sloan Digital Sky Survey II
+2005lh , 0.2166 , 21.06 , 0.06 , Sloan Digital Sky Survey II
+1996e , 0.4300 , 22.63 , 0.15 , High-Z Supernova Search Team
+1996h , 0.6200 , 23.29 , 0.08 , High-Z Supernova Search Team
+1996i , 0.5700 , 23.39 , 0.07 , High-Z Supernova Search Team
+1996j , 0.3000 , 21.92 , 0.05 , High-Z Supernova Search Team
+1996k , 0.3800 , 22.61 , 0.05 , High-Z Supernova Search Team
+1996u , 0.4300 , 22.58 , 0.08 , High-Z Supernova Search Team
+1995ao , 0.2400 , 21.64 , 0.15 , High-Z Supernova Search Team
+1997ce , 0.4400 , 22.73 , 0.06 , High-Z Supernova Search Team
+1997cj , 0.5000 , 23.12 , 0.07 , High-Z Supernova Search Team
+1997ck , 0.9700 , 24.69 , 0.14 , High-Z Supernova Search Team
+1995k , 0.4790 , 22.69 , 0.07 , Schmidt et al.
+1997ap , 0.8300 , 24.31 , 0.11 , Supernova Cosmology Project
+1997am , 0.4160 , 22.32 , 0.09 , Supernova Cosmology Project
+1997aj , 0.5810 , 23.19 , 0.10 , Supernova Cosmology Project
+1997ai , 0.4500 , 22.87 , 0.08 , Supernova Cosmology Project
+1997af , 0.5790 , 23.52 , 0.10 , Supernova Cosmology Project
+1997ac , 0.3200 , 21.82 , 0.05 , Supernova Cosmology Project
+1997r , 0.6570 , 23.86 , 0.11 , Supernova Cosmology Project
+1997q , 0.4300 , 22.56 , 0.08 , Supernova Cosmology Project
+1997p , 0.4720 , 23.13 , 0.06 , Supernova Cosmology Project
+1997o , 0.3740 , 23.35 , 0.24 , Supernova Cosmology Project
+1997n , 0.1800 , 20.15 , 0.14 , Supernova Cosmology Project
+1997l , 0.5500 , 23.59 , 0.10 , Supernova Cosmology Project
+1997k , 0.5920 , 24.28 , 0.12 , Supernova Cosmology Project
+1997i , 0.1720 , 20.43 , 0.12 , Supernova Cosmology Project
+1997h , 0.5260 , 23.18 , 0.06 , Supernova Cosmology Project
+1997g , 0.7630 , 24.27 , 0.27 , Supernova Cosmology Project
+1997f , 0.5800 , 23.49 , 0.08 , Supernova Cosmology Project
+1996cn , 0.4300 , 23.20 , 0.06 , Supernova Cosmology Project
+1996cm , 0.4500 , 23.22 , 0.09 , Supernova Cosmology Project
+1996ck , 0.6560 , 23.74 , 0.10 , Supernova Cosmology Project
+1996ci , 0.4950 , 22.82 , 0.05 , Supernova Cosmology Project
+1996cg , 0.4900 , 23.06 , 0.05 , Supernova Cosmology Project
+1996cf , 0.5700 , 23.27 , 0.06 , Supernova Cosmology Project
 1995ba , 0.3880 , 22.49 , 0.08 , ----
 1995az , 0.4500 , 22.60 , 0.10 , ----
 1995ay , 0.4800 , 23.05 , 0.07 , ----
@@ -343,7 +343,7 @@
 1995aq , 0.4530 , 23.18 , 0.10 , ----
 1994g , 0.4250 , 22.33 , 0.21 , ----
 2002ad , 0.5140 , 22.78 , 0.26 , ----
-2002ab , 0.4230 , 22.62 , 0.07 , ----
+2002ab , 0.4230 , 22.62 , 0.07 , High-Z Supernova Search Team
 2002x , 0.8590 , 24.68 , 0.10 , ----
 2001kd , 0.9360 , 24.82 , 0.17 , ----
 2001jp , 0.5280 , 23.03 , 0.11 , ----
@@ -361,22 +361,22 @@
 2001hs , 0.8330 , 24.22 , 0.11 , ----
 2001fs , 0.8740 , 25.07 , 0.12 , ----
 2001fo , 0.7720 , 23.71 , 0.08 , ----
-1999dr , 0.1780 , 21.58 , 0.12 , ----
-1999du , 0.2600 , 21.31 , 0.04 , ----
-1999dv , 0.1860 , 20.78 , 0.03 , ----
-1999dx , 0.2690 , 21.80 , 0.05 , ----
-1999dy , 0.2150 , 20.94 , 0.03 , ----
-2000fr , 0.5430 , 23.03 , 0.06 , ----
-1998bi , 0.7500 , 23.86 , 0.08 , ----
-1998be , 0.6400 , 23.83 , 0.07 , ----
-1998ba , 0.4300 , 22.87 , 0.05 , ----
-1998ay , 0.6400 , 23.65 , 0.07 , ----
-1998ax , 0.4970 , 23.10 , 0.07 , ----
-1998aw , 0.4400 , 23.19 , 0.05 , ----
-1998as , 0.3550 , 22.66 , 0.06 , ----
-1997ez , 0.7800 , 24.23 , 0.08 , ----
-1997eq , 0.5400 , 23.15 , 0.05 , ----
-1997ek , 0.8600 , 24.47 , 0.09 , ----
+1999dr , 0.1780 , 21.58 , 0.12 , European Supernova Cosmology Consortium
+1999du , 0.2600 , 21.31 , 0.04 , European Supernova Cosmology Consortium
+1999dv , 0.1860 , 20.78 , 0.03 , European Supernova Cosmology Consortium
+1999dx , 0.2690 , 21.80 , 0.05 , European Supernova Cosmology Consortium
+1999dy , 0.2150 , 20.94 , 0.03 , European Supernova Cosmology Consortium
+2000fr , 0.5430 , 23.03 , 0.06 , Supernova Cosmology Project
+1998bi , 0.7500 , 23.86 , 0.08 , Supernova Cosmology Project
+1998be , 0.6400 , 23.83 , 0.07 , Supernova Cosmology Project
+1998ba , 0.4300 , 22.87 , 0.05 , Supernova Cosmology Project
+1998ay , 0.6400 , 23.65 , 0.07 , Supernova Cosmology Project
+1998ax , 0.4970 , 23.10 , 0.07 , Supernova Cosmology Project
+1998aw , 0.4400 , 23.19 , 0.05 , Supernova Cosmology Project
+1998as , 0.3550 , 22.66 , 0.06 , Supernova Cosmology Project
+1997ez , 0.7800 , 24.23 , 0.08 , Supernova Cosmology Project
+1997eq , 0.5400 , 23.15 , 0.05 , Supernova Cosmology Project
+1997ek , 0.8600 , 24.47 , 0.09 , Supernova Cosmology Project
 03D4au , 0.4680 , 23.81 , 0.05 , ----
 04D4bk , 0.8400 , 24.32 , 0.08 , ----
 04D3nr , 0.9600 , 24.56 , 0.11 , ----
@@ -523,12 +523,12 @@ p455 , 0.2840 , 21.68 , 0.06 , ----
 p524 , 0.5080 , 22.93 , 0.07 , ----
 p528 , 0.7810 , 24.04 , 0.10 , ----
 p534 , 0.6130 , 23.33 , 0.07 , ----
-1999fw , 0.2780 , 21.69 , 0.07 , ----
-1999fn , 0.4770 , 22.74 , 0.06 , ----
-1999fm , 0.9500 , 24.22 , 0.10 , ----
-1999fk , 1.0570 , 24.74 , 0.12 , ----
-1999fj , 0.8160 , 24.17 , 0.10 , ----
-1999ff , 0.4550 , 23.20 , 0.06 , ----
+1999fw , 0.2780 , 21.69 , 0.07 , High-Z Supernova Search Team
+1999fn , 0.4770 , 22.74 , 0.06 , High-Z Supernova Search Team
+1999fm , 0.9500 , 24.22 , 0.10 , High-Z Supernova Search Team
+1999fk , 1.0570 , 24.74 , 0.12 , High-Z Supernova Search Team
+1999fj , 0.8160 , 24.17 , 0.10 , High-Z Supernova Search Team
+1999ff , 0.4550 , 23.20 , 0.06 , High-Z Supernova Search Team
 04Eag , 1.0200 , 24.93 , 0.10 , ----
 04Gre , 1.1400 , 24.75 , 0.11 , ----
 04Man , 0.8540 , 24.55 , 0.08 , ----
@@ -545,12 +545,12 @@ p534 , 0.6130 , 23.33 , 0.07 , ----
 05Spo , 0.8390 , 24.15 , 0.10 , ----
 05Str , 1.0100 , 24.93 , 0.12 , ----
 05Zwi , 0.5210 , 23.08 , 0.07 , ----
-2002dc , 0.4750 , 23.21 , 0.14 , ----
-2002dd , 0.9500 , 24.61 , 0.09 , ----
+2002dc , 0.4750 , 23.21 , 0.14 , Magee et al.
+2002dd , 0.9500 , 24.61 , 0.09 , Tsvetanov et al.
 2002fw , 1.3000 , 25.68 , 0.12 , ----
 2002hp , 1.3050 , 25.53 , 0.15 , ----
-2002kc , 0.2160 , 22.43 , 0.20 , ----
-2002kd , 0.7350 , 24.08 , 0.09 , ----
+2002kc , 0.2160 , 22.43 , 0.20 , GOODS Treasury Team, Hubble Higher-z Supernova Team
+2002kd , 0.7350 , 24.08 , 0.09 , GOODS Treasury Team, Hubble Higher-z Supernova Team
 2002ki , 1.1400 , 25.37 , 0.12 , ----
 2003aj , 1.3070 , 26.33 , 0.17 , ----
 2003az , 1.2650 , 25.75 , 0.12 , ----
@@ -559,12 +559,12 @@ p534 , 0.6130 , 23.33 , 0.07 , ----
 2003dy , 1.3400 , 25.73 , 0.13 , ----
 2003eq , 0.8400 , 24.34 , 0.08 , ----
 2003XX , 0.9350 , 24.48 , 0.10 , ----
-2001cw , 0.9530 , 24.71 , 0.15 , ----
-2001gn , 1.1240 , 25.37 , 0.11 , ----
-2001go , 0.5520 , 23.08 , 0.09 , ----
-2001gq , 0.6710 , 23.79 , 0.07 , ----
-2001gy , 0.5110 , 23.05 , 0.06 , ----
-2001hb , 1.0300 , 24.79 , 0.10 , ----
+2001cw , 0.9530 , 24.71 , 0.15 , Supernova Cosmology Project
+2001gn , 1.1240 , 25.37 , 0.11 , Supernova Cosmology Project
+2001go , 0.5520 , 23.08 , 0.09 , Supernova Cosmology Project
+2001gq , 0.6710 , 23.79 , 0.07 , Supernova Cosmology Project
+2001gy , 0.5110 , 23.05 , 0.06 , Supernova Cosmology Project
+2001hb , 1.0300 , 24.79 , 0.10 , Supernova Cosmology Project
 A-004 , 1.1920 , 25.50 , 0.12 , ----
 C-000 , 1.0920 , 25.67 , 0.12 , ----
 C-001 , 0.9740 , 24.61 , 0.09 , ----

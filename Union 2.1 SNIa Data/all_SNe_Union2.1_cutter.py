@@ -19,4 +19,5 @@ for line in data:
 with open('All SNe Union2.1.txt', 'w') as f:
     f.write('#SN_name , Redshift , eff_mag , err_mag , dataset\n')
     for name, rdshft, eff_mag, err_mag, dataset in all_Union_uncut:
-        f.write('{0} , {1} , {2} , {3} , {4}\n'.format(name, rdshft, eff_mag, err_mag, dataset))
+        f.write('{0} , {1} , {2} , {3} , {4}\n'.format(name, rdshft, eff_mag,
+                                                       err_mag, dataset))

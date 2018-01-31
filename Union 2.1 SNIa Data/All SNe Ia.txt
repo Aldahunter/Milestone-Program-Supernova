@@ -673,6 +673,7 @@
 2010G , Ia , 12:25:10.01 , +45:19:43.9 , 19.4 , Zheng et al. (ROTSE)
 2010B , Ia , 13:54:08.82 , +60:40:49.6 , 14.1 , Tsuboi
 2010A , Ia , 02:32:39.46 , +00:37:10.2 , 16.0 , Cox, Newton, Puckett
+2009nx , Ia? , 00:44:11.67 , +23:44:25.4 , 19.0 , Prieto, Drake et al. (CRTS)
 2009nv , Ia , 12:02:55.28 , +15:35:02.4 , 19.1 , Prieto, Drake et al. (CRTS)
 2009nt , Ia , 23:11:03.12 , +20:26:19.6 , 19.6 , Prieto, Drake et al. (CRTS)
 2009ns , Ia , 02:15:37.60 , -03:25:41.0 , 16.9 , Prieto, Drake et al. (CRTS)
@@ -920,6 +921,7 @@
 2008fx , Ia , 02:11:33.98 , +23:52:49.6 , 17.7 , Drake et al. (Catalina)
 2008fw , Ia , 10:28:55.97 , -44:39:55.6 , 14.3 , Monard
 2008fu , Ia , 03:02:28.50 , -24:27:21.5 , 17.4 , Lick Observatory Supernova Survey
+2008ft , Ia? , 03:50:18.54 , +70:05:46.4 ,      , Nissinen, Hentunen
 2008fr , Ia , 01:11:49.14 , +14:38:27.0 , 17.3 , Yuan et al. (ROTSE)
 2008fp , Ia , 07:16:32.60 , -29:19:31.7 , 13.5 , Pignata et al. (CHASE)
 2008fl , Ia , 19:36:44.84 , -37:33:04.5 , 17.1 , Pignata et al. (CHASE)
@@ -1760,6 +1762,7 @@
 2006ae , Ia , 14:48:23.27 , +21:47:51.5 , 20.7 , SubbaRao, SDSS collaboration
 2006ac , Ia , 12:41:44.86 , +35:04:07.1 , 16.0 , Lick Observatory Supernova Survey
 2006X , Ia , 12:22:53.99 , +15:48:33.1 , 17   , Suzuki; Migliardi
+2006U , Ia? , 09:53:45.38 , +23:20:35.1 ,      , Lick Observatory Supernova Survey
 2006S , Ia , 12:45:39.10 , +35:05:12.4 , 17.0 , Puckett, Gagliano
 2006R , Ia , 16:23:20.82 , +37:15:49.8 , 17.5 , Puckett, Langoussis
 2006P , Ia? , 03:19:17.90 , -12:06:18.3 , 17.5 , Lick Observatory Supernova Survey
@@ -2105,6 +2108,7 @@
 2003ly , Ia , 09:37:49.93 , +10:11:38.1 , 20.4 , SDSS
 2003lx , Ia , 16:19:21.66 , +41:05:23.6 , 18.5 , SDSS
 2003ls , Ia , 03:01:00.39 , -10:53:04.5 , 16.5 , Lick Observatory Supernova Survey
+2003lr , Ia? , 03:56:59.00 , +16:29:37.5 ,      , Lick Observatory Supernova Survey
 2003lq , Ia , 00:03:04.02 , -01:54:45.5 , 17.2 , Lick Observatory Supernova Survey
 2003ln , Ia , 23:30:27.15 , -08:35:47.0 , 22.9 , ESSENCE
 2003lm , Ia , 23:24:25.51 , -08:45:51.1 , 22.5 , ESSENCE
@@ -2181,6 +2185,7 @@
 2003gr , Ia , 23:38:12.67 , -20:46:56.0 , 16.3 , LOTOSS
 2003gq , Ia-p , 22:53:20.68 , +32:07:57.6 , 17.6 , Puckett, Langoussis; LOTOSS
 2003gn , Ia , 22:33:51.68 , +20:48:08.5 , 18.4 , LOTOSS
+2003gm , Ia? , 13:52:51.72 , -01:06:39.2 ,      , LOTOSS
 2003gl , Ia , 23:53:53.99 , +07:57:23.7 , 18.3 , LOTOSS
 2003gj , Ia? , 21:07:19.18 , -25:29:23.6 , 17.7 , LOTOSS
 2003gi , Ia , 00:38:32.67 , -24:20:33.5 , 15.6 , Monard
@@ -2203,6 +2208,7 @@
 2003em , Ia , 02:09:20.23 , -23:24:53.0 , 17.2 , Monard
 2003ek , Ia , 17:18:32.50 , +41:40:00.8 , 18.2 , LOTOSS
 2003eh , Ia , 11:08:24.34 , +03:29:47.0 , 17.6 , LOTOSS
+2003ec , Ia? , 15:46:16.67 , +02:24:48.7 ,      , Chen et al.
 2003dw , Ia , 16:45:51.10 , +59:37:38.0 , 16.7 , Rich
 2003du , Ia , 14:34:35.80 , +59:20:03.8 , 15.9 , LOTOSS
 2003dt , Ia , 20:47:17.56 , +00:18:42.8 , 17.5 , LOTOSS
@@ -2217,6 +2223,7 @@
 2003bf , Ia , 08:08:26.35 , +12:19:56.2 , 17.6 , NEAT/Wood-Vasey et al.
 2003ay , Ia , 04:07:26.25 , +28:07:55.4 , 19.1 , NEAT/Wood-Vasey et al.
 2003ax , Ia , 08:08:35.53 , +07:46:42.2 , 18.7 , NEAT/Wood-Vasey et al.
+2003aw , Ia? , 09:05:54.79 , -05:36:08.6 ,      , NEAT/Wood-Vasey et al.
 2003av , Ia , 08:01:32.57 , +02:48:27.9 , 19.6 , NEAT/Wood-Vasey et al.
 2003au , Ia , 16:11:11.56 , +61:15:58.2 , 19.2 , LOTOSS
 2003ar , Ia , 16:02:08.11 , +70:24:55.5 , 17.9 , Boles
@@ -2257,6 +2264,10 @@
 2002km , Ia , 02:16:23.93 , -04:49:29.4 , 24.5 , Supernova Cosmology Project and Subaru high-redshift supernova search group
 2002kk , Ia , 21:58:58.65 , -00:08:23.5 , 19.4 , NEAT/Wood-Vasey et al.
 2002kf , Ia , 06:37:15.31 , +49:51:10.2 , 15.9 , Brady
+2002ke , Ia? , 03:31:58.77 , -27:45:00.7 , 25.7 , GOODS Treasury Team, Hubble Higher-z Supernova Team
+2002kd , Ia? , 03:32:22.34 , -27:44:26.9 , 23.8 , GOODS Treasury Team, Hubble Higher-z Supernova Team
+2002kc , Ia? , 03:32:34.72 , -27:39:58.3 , 21.7 , GOODS Treasury Team, Hubble Higher-z Supernova Team
+2002kb , Ia? , 03:32:42.42 , -27:50:25.4 , 24.2 , GOODS Treasury Team, Hubble Higher-z Supernova Team
 2002ka , Ia , 09:30:41.62 , -14:46:55.3 , 17.5 , Madore
 2002jy , Ia , 01:21:16.27 , +40:29:55.3 , 16.3 , Arbour; Vanmunster
 2002jw , Ia , 02:30:00.52 , -08:36:22.4 , 22.8 , ESSENCE
@@ -2278,6 +2289,7 @@
 2002iy , Ia , 02:30:40.00 , -08:11:40.5 , 21.3 , ESSENCE
 2002iv , Ia , 02:19:16.11 , -07:44:06.7 , 20.9 , ESSENCE
 2002iu , Ia , 00:13:33.10 , -10:13:09.9 , 18.9 , ESSENCE
+2002it , Ia? , 01:44:34.02 , +00:51:27.5 , 21.9 , Sloan Digital Sky Survey
 2002is , Ia , 00:23:15.07 , +00:53:29.6 , 21.4 , Sloan Digital Sky Survey
 2002ir , Ia , 00:08:59.93 , +00:57:55.7 , 21.4 , Sloan Digital Sky Survey
 2002io , Ia , 23:32:42.32 , +00:05:28.2 , 21.4 , Sloan Digital Sky Survey
@@ -2301,6 +2313,7 @@
 2002ha , Ia , 20:47:18.58 , +00:18:45.6 , 17.3 , LOTOSS
 2002gx , Ia , 02:31:44.69 , +40:16:39.5 , 19.0 , NEAT/Wood-Vasey et al.
 2002gv , Ia , 01:52:17.48 , +00:12:17.3 , 20.6 , Sloan Digital Sky Survey
+2002gu , Ia? , 02:31:48.56 , -01:09:19.7 , 20.9 , Sloan Digital Sky Survey
 2002gt , Ia , 02:40:29.78 , -00:22:46.0 , 21.7 , Sloan Digital Sky Survey
 2002gs , Ia , 01:39:56.44 , -00:45:01.2 , 21.4 , Sloan Digital Sky Survey
 2002gr , Ia , 02:27:13.22 , +00:53:57.8 , 21.8 , Sloan Digital Sky Survey
@@ -2388,6 +2401,19 @@
 2002H , Ia , 13:38:27.58 , -10:43:12.9 , 16.7 , LOTOSS
 2002G , Ia , 13:07:55.26 , +34:05:06.5 , 17.7 , LOTOSS
 2002B , Ia , 05:40:46.06 , -71:51:15.1 , 20.5 , SuperMacho Microlensing Survey
+2001ku , Ia? , 13:39:45::: , +63:23.6::: , 19.9 , Madgwick et al.
+2001kt , Ia? , 16:17:13::: , +48:28.5::: , 19.9 , Madgwick et al.
+2001ks , Ia? , 07:56:46::: , +36:59.3::: , 18.7 , Madgwick et al.
+2001kr , Ia? , 09:59:16::: , +00:58.0::: , 19.1 , Madgwick et al.
+2001kq , Ia? , 09:33:34::: , +55:10.4::: , 19.1 , Madgwick et al.
+2001kp , Ia? , 09:51:53::: , +01:06.1::: , 18.2 , Madgwick et al.
+2001ko , Ia? , 14:10:58::: , +64:50.8::: , 20.0 , Madgwick et al.
+2001kn , Ia? , 08:32:10::: , +47:17.5::: , 19.9 , Madgwick et al.
+2001km , Ia? , 09:11:38::: , -00:42.9::: , 18.4 , Madgwick et al.
+2001kl , Ia? , 03:08:51::: , -01:10.4::: , 20.4 , Madgwick et al.
+2001kk , Ia? , 12:47:33::: , +00:06.0::: , 18.8 , Madgwick et al.
+2001kj , Ia? , 09:22:29::: , +57:54.5::: , 18.1 , Madgwick et al.
+2001ki , Ia? , 10:48:58::: , -00:26.8::: , 19.3 , Madgwick et al.
 2001kh , Ia , 02:25:15.56 , -05:23:20.0 , 21.0 , Ellis et al.
 2001kg , Ia , 22:20:52.51 , +00:43:05.8 , 22.7 , Ellis et al.
 2001iq , Ia , 22:25:10.42 , +42:43:04.2 , 17.2 , Armstrong
@@ -2464,6 +2490,7 @@
 2001bs , Ia , 15:43:39.38 , +67:45:31.3 , 18.3 , Lick & Tenagra Observatories Supernova Search
 2001br , Ia , 18:30:25.55 , +34:06:13.0 , 16.6 , Armstrong
 2001bp , Ia , 16:02:09.25 , +36:43:08.0 , 17.5 , Lick & Tenagra Observatories Supernova Search
+2001bh , Ia? , 20:43:29.82 , +80:09:27.3 ,      , Beijing Observatory Supernova Survey
 2001bg , Ia , 08:35:18.86 , +28:28:05.8 , 14   , Boles
 2001bf , Ia , 18:01:33.99 , +26:15:02.3 , 16.5 , Armstrong
 2001be , Ia , 09:52:51.21 , -20:34:00.0 , 21.1 , Cappellaro et al.
@@ -2483,6 +2510,11 @@
 2001C , Ia , 06:59:36.10 , +59:31:01.6 , 14.7 , Puckett, Sehgal
 2001A , Ia , 12:19:23.01 , +05:49:40.5 , 18.9 , Lick & Tenagra Observatories Supernova Search
 2000gb , Ia , 17:32:29::: , +56:04.4::: , 20.4 , Madgwick et al.
+2000ga , Ia? , 02:29:04::: , -08:24.2::: , 20.0 , Madgwick et al.
+2000fz , Ia? , 01:18:36::: , +14:41.0::: , 17.8 , Madgwick et al.
+2000fy , Ia? , 08:03:13::: , +47:36.8::: , 19.5 , Madgwick et al.
+2000fx , Ia? , 10:18:00::: , -00:02.0::: , 18.7 , Madgwick et al.
+2000fw , Ia? , 14:30:14::: , +00:30.6::: , 19.1 , Madgwick et al.
 2000fs , Ia? , 03:08:26.24 , +04:06:39.9 , 18.7 , Martel
 2000fr , Ia , 14:01:57.75 , +04:43:42.4 , 24.5 , Supernova Cosmology Project
 2000fq , Ia? , 09:23:37.68 , +29:52:26.0 , 23.8 , Wittman et al.
@@ -2512,6 +2544,7 @@
 2000dm , Ia , 18:18:58.97 , +16:14:53.4 , 16.1 , Lick Observatory Supernova Search
 2000dl , Ia , 01:42:05.77 , +07:39:58.2 , 18   , Santangelo
 2000dk , Ia , 01:07:23.52 , +32:24:23.2 , 16.0 , Lick Observatory Supernova Search
+2000dh , Ia? , 00:01:03.94 , +04:30:05.4 ,      , George, Puckett
 2000dg , Ia , 00:06:13.81 , +08:53:17.5 , 17.8 , Lick Observatory Supernova Search
 2000df , Ia , 16:14:12.22 , +06:09:00.6 , 17.2 , Schwartz
 2000dd , Ia , 20:35:00.10 , -23:05:55.2 , 17.5 , Lick Observatory Supernova Search
@@ -2530,8 +2563,45 @@
 2000by , Ia , 11:39:54.91 , -04:22:16.4 , 19.3 , EROS + European Supernova Cosmology Consortium
 2000bx , Ia , 13:48:55.53 , -06:18:35.9 , 19.2 , EROS + European Supernova Cosmology Consortium
 2000bt , Ia , 10:16:18.06 , -05:44:47.3 , 19.6 , EROS + European Supernova Cosmology Consortium
+2000bq , Ia? , 11:01:03.24 , -05:50:36.2 , 20.4 , Strolger & Nearby Galaxies Supernova Search
+2000bo , Ia? , 09:49:34.92 , -03:20:38.3 , 18.3 , Strolger & Nearby Galaxies Supernova Search
 2000bn , Ia , 09:35:41.15 , +04:32:13.3 , 18.8 , Strolger & Nearby Galaxies Supernova Search
+2000bm , Ia? , 08:58:56.02 , +05:10:15.7 , 19.2 , Strolger & Nearby Galaxies Supernova Search
+2000bl , Ia? , 08:55:20.44 , -07:23:42.9 , 19.4 , Strolger & Nearby Galaxies Supernova Search
+2000bk , Ia? , 12:33:53.94 , -07:22:42.9 , 17   , Armstrong
+2000bj , Ia? , 10:51:27.24 , -05:08:29.6 , 24.3 , Kirkman, Dell'Antonio, Schommer, et al.
 2000bh , Ia , 12:21:15.14 , -21:59:55.7 , 16.0 , Antezana
+2000bf , Ia? , 15:12:18.37 , -01:39:17.5 , 20.7 , Schaefer, QUEST
+2000be , Ia? , 15:12:03.38 , -00:00:04.1 , 20.1 , Schaefer, QUEST
+2000bd , Ia? , 13:07:20.81 , -01:05:08.1 , 20.5 , Schaefer, QUEST
+2000bc , Ia? , 10:33:06.30 , -01:00:21.2 , 18.9 , Schaefer, QUEST
+2000bb , Ia? , 10:32:38.83 , -02:00:24.2 , 20.2 , Schaefer, QUEST
+2000ba , Ia? , 10:16:02.05 , -01:53:39.9 , 19.9 , Schaefer, QUEST
+2000az , Ia? , 09:18:02.15 , -02:16:58.9 , 19.8 , Schaefer, QUEST
+2000ay , Ia? , 09:05:44.86 , -01:39:52.8 , 19.8 , Schaefer, QUEST
+2000ax , Ia? , 08:44:16.35 , -00:43:02.7 , 20.6 , Schaefer, QUEST
+2000aw , Ia? , 08:01:34.00 , -01:57:14.3 , 19.4 , Schaefer, QUEST
+2000av , Ia? , 07:38:28.85 , -01:44:16.0 , 20.1 , Schaefer, QUEST
+2000at , Ia? , 14:55:31.00 , -01:53:11.2 , 20.6 , Schaefer, QUEST
+2000as , Ia? , 14:36:09.13 , -00:25:36.3 , 20.1 , Schaefer, QUEST
+2000ar , Ia? , 14:12:11.89 , -00:29:05.2 , 20.3 , Schaefer, QUEST
+2000aq , Ia? , 14:10:24.04 , -00:18:06.9 , 20.7 , Schaefer, QUEST
+2000ap , Ia? , 14:09:23.65 , -00:35:01.7 , 20.0 , Schaefer, QUEST
+2000ao , Ia? , 13:57:49.80 , -00:01:04.8 , 20.4 , Schaefer, QUEST
+2000an , Ia? , 13:46:23.94 , -00:06:34.2 , 20.3 , Schaefer, QUEST
+2000am , Ia? , 13:32:00.98 , -02:11:38.1 , 20.1 , Schaefer, QUEST
+2000ak , Ia? , 13:06:28.73 , -00:13:30.0 , 20.7 , Schaefer, QUEST
+2000aj , Ia? , 12:37:01.22 , -01:49:46.7 , 20.3 , Schaefer, QUEST
+2000ai , Ia? , 12:06:15.84 , -01:05:38.7 , 20.0 , Schaefer, QUEST
+2000ah , Ia? , 11:53:27.24 , -00:59:01.5 , 20.9 , Schaefer, QUEST
+2000ag , Ia? , 11:52:04.51 , -00:49:10.9 , 19.8 , Schaefer, QUEST
+2000ae , Ia? , 11:45:11.40 , -01:38:11.2 , 19.5 , Schaefer, QUEST
+2000ad , Ia? , 09:14:00.30 , -02:16:33.7 , 19.9 , Schaefer, QUEST
+2000ac , Ia? , 08:58:22.78 , -01:40:04.9 , 20.6 , Schaefer, QUEST
+2000ab , Ia? , 08:27:05.82 , -00:15:26.9 , 20.2 , Schaefer, QUEST
+2000aa , Ia? , 08:12:51.83 , -00:54:08.6 , 20.0 , Schaefer, QUEST
+2000Z , Ia? , 07:50:01.11 , -00:34:58.1 , 20.3 , Schaefer, QUEST
+2000Y , Ia? , 07:48:13.00 , -01:28:37.7 , 18.8 , Schaefer, QUEST
 2000V , Ia , 12:03:28.64 , -05:47:15.7 , 20.6 , Amadon, Blanc, EROS
 2000T , Ia , 12:36:20.35 , -12:28:23.3 , 21.0 , Amadon, Blanc, EROS
 2000Q , Ia , 16:05:11.85 , +69:39:51.5 , 17.8 , Lick Observatory Supernova Search
@@ -2541,6 +2611,7 @@
 2000B , Ia , 07:05:40.73 , +50:35:10.5 , 16.5 , Antonini
 2000A , Ia , 23:27:58.90 , +08:47:02.1 , 16.5 , Lick Observatory Supernova Search
 1999gx , Ia , 00:34:15.47 , +00:04:26.2 , 23.3 , Balland, Mouchet
+1999gv , Ia? , 16:36:00.28 , +66:13:19.1 , 22.8 , Gal-Yam and Maoz
 1999gt , Ia? , 03:32:10.28 , -28:06:16.0 , 22.1 , Cappellaro, Turatto et al.
 1999gr , Ia , 12:09:11.31 , +29:16:34.7 , 18.5 , Armstrong
 1999gp , Ia , 02:31:39.15 , +39:22:52.3 , 18.0 , Lick Observatory Supernova Search
@@ -2587,9 +2658,21 @@
 1999dr , Ia , 23:00:17.56 , -00:05:12.5 , 22.1 , European Supernova Cosmology Consortium
 1999dq , Ia-p , 02:33:59.68 , +20:58:30.4 , 16.3 , Lick Observatory Supernova Search
 1999do , Ia , 22:53:29.87 , +31:38:42.9 , 18.0 , Lick Observatory Supernova Search
+1999dm , Ia? , 15:22:28.90 , +27:42:58.0 , 18.8 , M. G. Lee, C. Park, J. Lee, S. Lee, C. G. Park
+1999dl , Ia? , 23:04:11.70 , +27:07:07.3 , 19.1 , Puckett, Marcus
 1999dk , Ia , 01:31:26.92 , +14:17:05.7 , 16.7 , Lick Observatory Supernova Search
 1999dg , Ia , 15:11:28.41 , +13:29:05.7 , 16.7 , Lick Observatory Supernova Search
+1999de , Ia? , 00:22:28.20 , +23:23:56.2 , 21.2 , Wise Observatory Optical Transients Search
+1999dd , Ia? , 00:27:31.06 , +21:42:47.0 , 21.1 , Wise Observatory Optical Transients Search
+1999dc , Ia? , 14:44:08.80 , +58:53:31.6 ,      , Wise Observatory Optical Transients Search
+1999db , Ia? , 23:33:03.64 , +05:32:23.5 ,      , Wise Observatory Optical Transients Search
+1999da , Ia? , 17:35:22.96 , +60:48:49.3 , 17.0 , Lick Observatory Supernova Search
+1999cz , Ia? , 13:19:48.53 , -27:24:04.5 , 18   , Williams, Martin, Woodings
+1999cy , Ia? , 11:18:49.47 , +00:37:08.7 , 18.0 , Wischnjewsky
+1999cx , Ia? , 12:07:49.17 , -20:00:22.8 , 18.5 , Wischnjewsky
 1999cw , Ia , 00:20:01.46 , -06:20:03.6 , 14.2 , Lick Observatory Supernova Search
+1999cv , Ia? , 14:34:43.88 , +54:44:26.5 ,      , Wise Observatory Optical Transients Search
+1999cu , Ia? , 13:13:15.42 , +46:20:00.8 ,      , Wise Observatory Optical Transients Search
 1999ct , Ia , 13:13:04.56 , +46:15:52.7 , 20.8 , Wise Observatory Optical Transients Search
 1999cs , Ia , 12:04:25.27 , -20:06:02.0 , 17.5 , Antezana
 1999cp , Ia , 14:06:31.3: , -05:26:49:: , 18.2 , Lick Observatory Supernova Search
@@ -2631,7 +2714,18 @@
 1999aq , Ia , 09:38:10.79 , -05:08:56.2 , 18.8 , Nearby Galaxies Supernova Search, Supernova Cosmology Project
 1999ao , Ia , 06:27:26.37 , -35:50:24.2 , 18.2 , Mount Stromlo Abell Cluster Supernova Search Team
 1999am , Ia , 08:24:10.88 , +12:06:58.6 , 17.8 , Supernova Cosmology Project
+1999al , Ia? , 11:10:25.68 , -07:26:37.0 , 19.4 , EROS
+1999ak , Ia? , 11:06:52.05 , -11:39:13.3 , 18.7 , EROS
+1999aj , Ia? , 11:22:39.34 , -11:43:53.9 , 20.9 , EROS
+1999ai , Ia? , 13:14:10.57 , -05:35:43.7 , 18.1 , EROS
+1999ah , Ia? , 12:09:37.20 , -06:18:34.3 , 20.8 , EROS
+1999ag , Ia? , 12:15:22.81 , -05:18:12.4 , 20.7 , EROS
+1999af , Ia? , 13:44:50.95 , -06:40:12.6 , 20.6 , EROS
+1999ae , Ia? , 11:51:24.48 , -04:39:09.4 , 21.2 , EROS
+1999ad , Ia? , 11:33:18.46 , -05:45:29.8 , 20.2 , EROS
+1999ac , Ia? , 16:07:15.01 , +07:58:20.4 , 15.2 , Lick Observatory Supernova Search
 1999aa , Ia , 08:27:42.03 , +21:29:14.8 , 15.5 , Arbour; Beijing Observatory Supernova Survey
+1999Y , Ia? , 03:36:55.81 , -39:33:04.9 , 19.0 , Mount Stromlo Abell Cluster Supernova Search
 1999X , Ia , 08:54:32.23 , +36:30:41.1 , 16.1 , Schwartz
 1999U , Ia , 09:26:42.96 , -05:37:57.8 , 23.1 , High-Z Supernova Search Team
 1999T , Ia , 09:27:01.77 , -05:40:22.0 , 24.1 , High-Z Supernova Search Team
@@ -2642,34 +2736,70 @@
 1999M , Ia , 10:05:46.60 , -07:27:31.3 , 23.4 , High-Z Supernova Search Team
 1999L , Ia , 09:28:31.96 , -00:19:35.9 , 23.2 , High-Z Supernova Search Team
 1999J , Ia , 05:35:32.27 , -69:29:52.1 , 16.9 , MACHO
+1999I , Ia? , 10:49:58.09 , -06:14:36.8 , 21.5 , EROS
+1999H , Ia? , 10:07:03.06 , -05:55:26.6 , 20.6 , EROS
 1999G , Ia , 11:15:39.13 , -05:29:24.8 , 21.4 , EROS
 1999F , Ia , 11:27:15.05 , -06:10:33.4 , 19.8 , EROS
 1999C , Ia , 10:08:51.21 , +71:10:42.9 , 19.6 , Wise Observatory Optical Transients Search
+1998fe , Ia? , 15:59:12.84 , +20:45:39.0 , 18.0 , Lick Observatory Supernova Search
 1998fd , Ia , 01:19:18.06 , +15:55:24.1 , 21.3 , Wise Observatory Optical Transients Search
 1998fc , Ia , 02:59:12.61 , +03:29:39.0 , 20.5 , Wise Observatory Optical Transients Search
+1998fb , Ia? , 03:30:45.86 , -52:32:12.2 , 18.4 , Mount Stromlo Abell Cluster Supernova Search Team
+1998ey , Ia? , 21:30:00.56 , +26:43:24.2 , 17.0 , Arbour
+1998ex , Ia? , 07:41:42.28 , +64:44:02.3 , 18.5 , Mueller
+1998ev , Ia? , 01:04:12.68 , +25:00:59.1 ,      , Wise Observatory Optical Transients Search
+1998eu , Ia? , 00:59:58.66 , +14:18:00.4 , 19.7 , Wise Observatory Optical Transients Search
 1998es , Ia , 01:37:17.50 , +05:52:50.3 , 14.6 , Lick Observatory Supernova Search
+1998er , Ia? , 05:50:16.87 , -71:14:13.5 , 18.6 , MACHO
 1998eq , Ia , 23:20:27.47 , +15:55:43.7 , 24.8 , Supernova Cosmology Project
 1998ep , Ia , 23:19:57.67 , +16:03:19.5 , 20.1 , Supernova Cosmology Project
 1998eo , Ia , 04:56:15.47 , -03:46:38.7 , 23.6 , Supernova Cosmology Project
+1998en , Ia? , 07:04:00.05 , +50:40:30.0 , 18.4 , Lick Observatory Supernova Search
 1998em , Ia , 19:15:12.69 , -54:06:49.7 , 16.5 , Antezana
+1998el , Ia? , 03:21:01.21 , -41:33:06.6 , 20.5 , Mount Stromlo Abell Cluster Supernova Search
+1998ek , Ia? , 06:36:30.59 , -37:58:40.2 , 18   , Antezana
+1998ej , Ia? , 23:41:00.95 , -38:56:37.2 , 19   , Antezana
+1998ei , Ia? , 23:32:03.75 , -39:33:18.4 , 18.5 , Antezana
+1998eh , Ia? , 20:48:57.82 , -69:05:05.7 , 18   , Wischnjewsky
 1998eg , Ia , 22:39:30.26 , +08:36:21.3 , 16.0 , Boles
 1998ef , Ia , 01:03:26.87 , +32:14:12.4 , 15.2 , Lick Observatory Supernova Search
+1998ed , Ia? , 23:00:14.64 , -13:13:58.2 , 18   , Mueller
+1998ec , Ia? , 06:53:06.11 , +50:02:22.1 , 16.9 , BAO Supernova Survey
 1998eb , Ia , 05:42:12.02 , +69:22:26.3 , 17.8 , Lick Observatory Supernova Search
 1998ea , Ia , 04:33:46.59 , -61:35:20.4 , 19.5 , Mount Stromlo Abell Cluster Supernova Search
 1998dz , Ia , 03:20:58.18 , -41:05:22.8 , 18.5 , Mount Stromlo Abell Cluster Supernova Search
+1998dy , Ia? , 04:29:54.24 , -61:12:43.1 , 19.0 , Mount Stromlo Abell Cluster Supernova Search
 1998dx , Ia , 18:11:11.89 , +49:51:40.7 , 18.3 , Lick Observatory Supernova Search
 1998dw , Ia , 01:09:11.56 , -15:29:46.7 , 18.8 , Mount Stromlo Abell Cluster Supernova Search
+1998dv , Ia? , 04:29:46.79 , -61:30:25.4 , 20.2 , Mount Stromlo Abell Cluster Supernova Search
+1998du , Ia? , 00:45:11.73 , -63:48:21.6 , 20.5 , Mount Stromlo Abell Cluster Supernova Search
 1998ds , Ia , 03:17:19.21 , -53:10:58.0 , 18.5 , Antezana
 1998dr , Ia , 00:09:30.68 , -48:50:39.1 , 18.0 , Antezana
+1998dq , Ia? , 19:11:23.78 , -50:38:25.5 , 14.3 , White
+1998dp , Ia? , 21:58:28.12 , -19:58:05.9 , 20.3 , Mount Stromlo Abell Cluster Supernova Search Team
+1998do , Ia? , 01:14:30.92 , +00:28:13.0 , 19.0 , Mount Stromlo Abell Cluster Supernova Search Team
+1998dn , Ia? , 01:01:27.08 , -07:36:36.7 , 15.8 , Beijing Astronomical Observatory Supernova Survey
 1998dm , Ia , 01:26:13.97 , -06:06:14.0 , 16.8 , Lick Observatory Supernova Search
 1998dk , Ia , 00:14:32.16 , -00:44:10.9 , 17.6 , Lick Observatory Supernova Search
+1998dj , Ia? , 02:01:06.92 , -06:49:04.8 , 16.1 , Lick Observatory Supernova Search
+1998di , Ia? , 19:24:38.19 , +59:41:46.7 ,      , Schwartz
 1998dh , Ia , 23:14:40.31 , +04:32:14.1 , 16.8 , Lick Observatory Supernova Search
 1998dg , Ia , 13:10:23.85 , -16:56:08.1 , 17.5 , Wischnjewsky
+1998df , Ia? , 21:32:30.57 , -65:03:32.8 , 18.5 , Antezana
 1998de , Ia , 00:48:06.88 , +27:37:28.5 , 18.4 , Lick Observatory Supernova Search
+1998dd , Ia? , 13:47:33.95 , -33:02:31.4 , 17   , Antezana
+1998dc , Ia? , 22:20:16.10 , -44:33:56.1 , 19.5 , EROS
+1998db , Ia? , 22:55:54.64 , -39:26:29.8 , 19.4 , EROS
+1998da , Ia? , 00:27:13.76 , -39:25:25.6 , 20.5 , EROS
+1998cz , Ia? , 12:03:06.50 , -12:37:41.5 , 18.5 , EROS
+1998cy , Ia? , 14:02:42.82 , -05:45:05.7 , 19.5 , EROS
 1998cx , Ia , 16:54:55.31 , -72:35:24.0 , 17.8 , Wassilieff
 1998cw , Ia , 22:56:19.67 , -35:09:59.9 , 17.5 , Antezana
+1998cu , Ia? , 23:59:12.95 , +46:52:31.8 , 18.4 , Lick Observatory Supernova Search
 1998cs , Ia , 16:30:39.22 , +41:12:54.4 , 17.5 , Puckett
+1998cr , Ia? , 16:23:17.25 , +37:12:47.5 , 17.5 , Puckett, Langoussis
 1998cq , Ia , 00:45:06.11 , -63:49:50.4 , 19.3 , Mount Stromlo Abell Cluster Supernova Search Team
+1998cp , Ia? , 12:31:52.3: , +52:23:39:: , 18.0 , Schwartz
 1998co , Ia , 21:47:36.45 , -13:10:42.3 , 16   , Johnson
 1998cn , Ia , 11:35:54.4: , +70:32:10.2 , 15.8 , Schwartz
 1998cm , Ia , 13:44:12.97 , +03:00:40.3 , 18.6 , Mount Stromlo Abell Cluster Supernova Search Team
@@ -2677,11 +2807,26 @@
 1998ck , Ia , 09:41:06.00 , -29:06:17.7 , 17   , Wischnjewsky
 1998ci , Ia , 12:41:01.12 , -06:39:48.2 , 18   , EROS
 1998cg , Ia , 12:18:18.13 , +20:44:26.0 , 18.5 , Gal-Yam, Maoz
+1998cf , Ia? , 11:03:11.21 , +27:58:21.0 , 15   , Emsellem; Clayton, Gordon
 1998cd , Ia , 10:45:04.16 , +39:25:12.5 , 17.5 , Mueller
+1998cb , Ia? , 10:40:16.07 , -06:15:17.2 , 20.0 , EROS
+1998bz , Ia? , 12:11:05.84 , -05:35:33.8 , 19.1 , EROS
+1998by , Ia? , 11:25:07.20 , -05:23:15.2 , 19.5 , EROS
+1998bx , Ia? , 11:12:28.05 , -05:58:09.9 , 19.6 , EROS
 1998bu , Ia , 10:46:46.03 , +11:50:07.1 , 13   , Villi
+1998bt , Ia? , 13:25:41.93 , -26:46:55.7 , 19.7 , Mount Stromlo Abell Cluster Supernova Search Team
+1998bs , Ia? , 13:26:31.51 , -31:09:08.9 , 20.6 , Mount Stromlo Abell Cluster Supernova Search Team
+1998br , Ia? , 15:10:24.94 , +05:55:30.0 , 20.5 , Mount Stromlo Abell Cluster Supernova Search Team
+1998bq , Ia? , 15:10:20.53 , +05:51:16.5 , 19.2 , Mount Stromlo Abell Cluster Supernova Search Team
 1998bp , Ia , 17:54:50.71 , +18:19:49.3 , 14.8 , Armstrong
+1998bn , Ia? , 12:29:18.88 , -23:09:49.2 , 17.4 , Lick Observatory Supernova Search
+1998bl , Ia? , 13:49:36.04 , +01:57:46.6 , 23.2 , Supernova Cosmology Project
 1998bk , Ia , 13:48:48.25 , +02:58:41.2 , 22.5 , Supernova Cosmology Project
+1998bj , Ia? , 13:47:49.63 , +01:59:47.8 , 23.4 , Supernova Cosmology Project
 1998bi , Ia , 13:47:44.72 , +02:20:57.2 , 23.7 , Supernova Cosmology Project
+1998bh , Ia? , 13:47:36.55 , +02:18:22.5 , 23.1 , Supernova Cosmology Project
+1998bg , Ia? , 13:47:11.74 , +02:07:22.4 , 20.9 , Supernova Cosmology Project
+1998bf , Ia? , 13:46:31.80 , +02:08:37.7 , 24.3 , Supernova Cosmology Project
 1998be , Ia , 13:46:20.89 , +02:02:40.4 , 23.8 , Supernova Cosmology Project
 1998bd , Ia , 13:45:29.05 , +01:57:32.5 , 21.2 , Supernova Cosmology Project
 1998bc , Ia , 13:45:10.14 , +02:23:52.4 , 22.1 , Supernova Cosmology Project
@@ -2691,8 +2836,11 @@
 1998ay , Ia , 10:57:21.51 , -03:14:49.9 , 22.9 , Supernova Cosmology Project
 1998ax , Ia , 10:57:16.38 , -03:33:59.2 , 22.3 , Supernova Cosmology Project
 1998aw , Ia , 10:56:15.02 , -04:15:21.5 , 25.0 , Supernova Cosmology Project
+1998av , Ia? , 10:56:07.98 , -04:11:20.6 , 23.3 , Supernova Cosmology Project
+1998au , Ia? , 10:55:46.11 , -04:19:51.0 , 23.5 , Supernova Cosmology Project
 1998as , Ia , 10:53:56.22 , -03:39:10.0 , 22.0 , Supernova Cosmology Project
 1998aq , Ia , 11:56:26.00 , +55:07:38.8 , 14.9 , Armstrong
+1998ap , Ia? , 20:00:35.58 , -52:42:36.8 , 17   , Antezana
 1998an , Ia , 07:08:17.04 , +46:06:55.3 , 15.3 , Arbour
 1998al , Ia , 13:43:05.37 , -00:25:43.0 , 23.4 , High-Z Supernova Search Team
 1998ak , Ia? , 13:44:16.22 , -00:10:49.3 , 23.7 , High-Z Supernova Search Team
@@ -2700,16 +2848,32 @@
 1998ai , Ia , 13:42:27.59 , -00:06:47.2 , 22.7 , High-Z Supernova Search Team
 1998ah , Ia , 09:28:15.74 , -05:21:57.9 , 22.6 , High-Z Supernova Search Team
 1998ag , Ia , 13:43:36.42 , +00:08:02.2 , 23.5 , High-Z Supernova Search Team
+1998ae , Ia? , 09:30:47.53 , -04:38:51.0 , 23.9 , High-Z Supernova Search Team
 1998ac , Ia , 09:31:20.00 , -05:16:24.3 , 23.7 , High-Z Supernova Search Team
 1998ab , Ia , 12:48:47.24 , +41:55:28.3 , 16.1 , BAO Supernova Survey
 1998aa , Ia , 12:25:32.65 , +07:38:59.0 , 18   , Antezana
 1998Z , Ia , 05:24:58.78 , -31:21:38.1 , 19.6 , Mount Stromlo Abell Cluster Supernova Search Team
+1998X , Ia? , N/A , N/A , 17   , Woodings, Martin, Williams
 1998V , Ia , 18:22:37.40 , +15:42:08.4 , 16   , Armstrong
+1998U , Ia? , 11:36:32.20 , -12:07:26.7 , 20   , EROS
+1998Q , Ia? , 13:32:46.38 , -31:37:23.5 , 20.9 , Mount Stromlo Abell Cluster Supernova Search Team
+1998P , Ia? , 13:37:17.63 , -35:27:32.6 , 20.9 , Mount Stromlo Abell Cluster Supernova Search Team
+1998O , Ia? , 13:39:34.98 , -35:46:32.5 , 20.9 , Mount Stromlo Abell Cluster Supernova Search Team
+1998N , Ia? , 11:33:29.39 , +03:51:2.25 , 23.1 , High-Z Supernova Search Team
 1998M , Ia , 11:33:44.37 , +04:05:13.4 , 23.3 , High-Z Supernova Search Team
+1998K , Ia? , 04:13:42.86 , -05:50:45.2 , 23.8 , High-Z Supernova Search Team
 1998J , Ia , 09:31:10.48 , -04:45:36.5 , 22.5 , High-Z Supernova Search Team
 1998I , Ia , 08:04:51.56 , +05:15:47.7 , 23.6 , High-Z Supernova Search Team
+1998H , Ia? , 08:04:51.47 , +05:36:39.3 , 23   , High-Z Supernova Search Team
+1998F , Ia? , 04:16:50.13 , -05:44:59.6 , 24.5 , High-Z Supernova Search Team
 1998D , Ia , 14:02:59.28 , +34:44:54.3 , 15.6 , Qiu, Qiao, Li, Hu
 1998B , Ia , 07:46:02.1: , +18:43:02:: , 18.5 , Mueller
+1997fg , Ia? , 12:36:57.98 , +62:13:15.0 , 26.8 , Gilliland, Phillips
+1997ff , Ia? , 12:36:44.00 , +62:12:44.7 , 26.8 , Gilliland, Phillips
+1997fe , Ia? , 04:33:07.64 , -61:26:19.3 , 19.5 , Mount Stromlo Abell Cluster Supernova Search Team
+1997fd , Ia? , 03:41:15.65 , -53:29:30.8 , 21.2 , Mount Stromlo Abell Cluster Supernova Search Team
+1997fc , Ia? , 04:59:58.81 , -38:55:04.3 , 20.5 , Mount Stromlo Abell Cluster Supernova Search Team
+1997fb , Ia? , 05:01:14.60 , -38:38:12.7 , 18.6 , Mount Stromlo Abell Cluster Supernova Search Team
 1997fa , Ia , 08:22:03.72 , +03:24:24.9 , 22.5 , Supernova Cosmology Project
 1997ez , Ia , 08:21:38.13 , +03:25:10.5 , 23.4 , Supernova Cosmology Project
 1997ey , Ia , 04:56:58.19 , -02:37:36.7 , 22.9 , Supernova Cosmology Project
@@ -2727,35 +2891,76 @@
 1997ek , Ia , 04:56:11.63 , -03:41:26.0 , 23.8 , Supernova Cosmology Project
 1997ej , Ia , 04:17:53.49 , -56:36:58.2 , 16.5 , Wischnjewsky
 1997eh , Ia , 05:49:04.59 , -24:29:01.6 , 18.5 , Antezana
+1997eg , Ia? , 13:11:36.73 , +22:55:29.4 , 15.6 , Aoki
 1997ee , Ia , 03:07:24.82 , -03:10:26.7 , 20.5 , EROS
+1997ec , Ia? , 03:49:07.82 , -01:44:26.7 , 21   , EROS
+1997eb , Ia? , 02:53:00.15 , -03:36:38.1 , 21   , EROS
 1997ea , Ia , 07:48:37.70 , +52:13:22.8 , 19   , University of Texas Observatory Supernova Search Team
+1997dz , Ia? , 01:56:03.69 , -13:43:06.4 , 22.3 , High-Z Supernova Search Team
+1997dy , Ia? , 04:16:35.32 , +05:47:03.1 , 23.9 , High-Z Supernova Search Team
 1997dx , Ia , 01:38:21.10 , -12:43:22.8 , 22.5 , High-Z Supernova Search Team
+1997dw , Ia? , 04:14:49.05 , +05:54:51.9 , 21.2 , High-Z Supernova Search Team
+1997dv , Ia? , 04:15:00.01 , +05:32:06.1 , 23.0 , High-Z Supernova Search Team
 1997dt , Ia , 23:00:02.93 , +15:58:50.9 , 15.3 , BAO Supernova Search
+1997dr , Ia? , 03:18:49.21 , -44:28:13.4 , 18.7 , Mount Stromlo Abell Cluster Supernova Search Team
 1997dp , Ia , 02:34:06.48 , +32:56:13.4 , 17.8 , Christen
 1997do , Ia , 07:26:42.50 , +47:05:36.0 , 15.8 , BAO Supernova Survey
+1997dm , Ia? , 00:30:12.83 , -41:06:08.9 , 20.3 , EROS
+1997dl , Ia? , 23:43:38.48 , -41:19:20.0 , 19.5 , EROS
+1997dk , Ia? , 23:43:38.69 , -41:19:25.4 , 18.7 , EROS
+1997dj , Ia? , 01:14:40.97 , -40:35:51.1 , 22   , EROS
+1997dh , Ia? , 23:45:17.17 , -44:56:45.1 , 19   , EROS
 1997dg , Ia , 23:40:14.21 , +26:12:11.8 , 16.7 , BAO Supernova Survey
+1997df , Ia? , 04:09:13.8: , -30:42:23.3 , 19   , Mount Stromlo Abell Cluster Supernova Search Team
 1997de , Ia , 19:18:20.82 , -60:29:42.0 , 18.2 , Wassilieff, Downs
+1997cz , Ia? , 13:37:09.39 , -33:47:31.9 , 20.5 , Mount Stromlo Abell Cluser Supernova Search Team
 1997cw , Ia? , 00:25:17.27 , +12:53:06.2 , 16.5 , BAO Supernova Search
+1997cv , Ia? , 13:35:20.77 , -34:12:11.6 , 19.7 , Mount Stromlo Abell Cluster Supernova Search
 1997cu , Ia , 03:29:03.0: , -52:41:41:: , 18.2 , Mount Stromlo Abell Cluster Supernova Search
+1997ct , Ia? , 14:07:26.88 , +70:26:05.9 , 17   , Mueller
+1997cp , Ia? , 21:44:36.50 , -57:25:30.4 , 20.3 , Mount Stromlo Abell Cluster Supernova Search Team
 1997cn , Ia? , 14:09:57.76 , +17:32:32.3 , 15.8 , BAO Supernova Search
+1997cm , Ia? , 12:53:37.03 , -28:48:48.5 , 20.6 , Mount Stromlo Abell Cluster Supernova SearchTeam
+1997ck , Ia? , 16:53:00.27 , +35:03:46.4 , 24   , High-Z Supernova Search Team
 1997cj , Ia , 12:37:04.27 , +62:26:24.9 , 22.8 , High-Z Supernova Search Team
+1997ci , Ia? , 12:37:13.41 , +62:05:20.5 , 23.5 , High-Z Supernova Search Team
+1997ch , Ia? , 12:37:28.92 , +62:06:42.8 , 23.5 , High-Z Supernova Search Team
+1997cg , Ia? , 17:06:46.96 , +43:49:14.1 , 23.5 , High-Z Supernova Search Team
+1997cf , Ia? , 17:06:43.08 , +43:54:14.0 , 23.7 , High-Z Supernova Search Team
 1997ce , Ia , 17:07:48.26 , +44:01:26.2 , 23.3 , High-Z Supernova Search Team
 1997cd , Ia , 17:06:17.07 , +44:04:34.0 , 22.9 , High-Z Supernova Search Team
+1997cc , Ia? , 14:16:33.59 , +52:23:37.7 , 23.5 , High-Z Supernova Search Team
 1997ca , Ia , 14:16:40.24 , +52:31:59.2 , 22.6 , High-Z Supernova Search Team
 1997bz , Ia , 11:22:25.46 , +01:11:21.5 , 17.5 , Mount Stromlo Abell Cluster Supernova Search Team
 1997by , Ia , 13:27:27.54 , -27:19:21.7 , 16.2 , Mount Stromlo Abell Cluster Supernova Search Team
 1997bx , Ia , 12:25:11.80 , +00:04:54.4 , 23   , High-Z Supernova Search Team
 1997bw , Ia , 11:30:42.02 , -00:37:56.6 , 24   , High-Z Supernova Search Team
+1997bv , Ia? , 09:33:48.79 , +00:04:59.4 , 24   , High-Z Supernova Search Team
+1997bu , Ia? , 10:06:09.99 , -07:16:30.1 , 23   , High-Z Supernova Search Team
 1997br , Ia? , 13:20:42.40 , -22:02:12.3 , 14.5 , BAO Supernova Survey
 1997bq , Ia , 10:17:05.33 , +73:23:02.1 , 16.1 , Laurie; Zissell
 1997bp , Ia , 12:46:53.75 , -11:38:33.2 , 13.8 , Evans
 1997bl , Ia , 12:40:21.0: , -11:44:39:: , 21.5 , EROS
 1997bj , Ia , 10:42:26.65 , +00:01:35.4 , 21.8 , High-Z Supernova Search Team
+1997bi , Ia? , 10:11:28.88 , -13:12:55.4 , 23.3 , High-Z Supernova Search Team
 1997bh , Ia , 13:44:35.97 , -00:19:49.3 , 22.3 , High-Z Supernova Search Team
+1997bf , Ia? , 13:41:48.35 , +00:06:12.0 , 20.4 , High-Z Supernova Search Team
+1997be , Ia? , 12:40:40.78 , -00:23:21.8 , 23.1 , High-Z Supernova Search Team
 1997bd , Ia , 12:40:28.75 , -00:05:41.8 , 23.1 , High-Z Supernova Search Team
 1997bb , Ia , 12:29:00.72 , +00:09:11.3 , 22.1 , High-Z Supernova Search Team
+1997ba , Ia? , 12:27:38.34 , +00:13:31.0 , 22.5 , High-Z Supernova Search Team
+1997ay , Ia? , 11:26:10.34 , -00:36:26.9 , 23   , High-Z Supernova Search Team
+1997ax , Ia? , 11:18:02.05 , +00:02:10.5 , 21.8 , High-Z Supernova Search Team
+1997aw , Ia? , 10:23:28.21 , +04:07:11.1 , 22.7 , High-Z Supernova Search Team
+1997av , Ia? , 10:23:11.24 , +04:13:44.5 , 21.4 , High-Z Supernova Search Team
+1997au , Ia? , 11:50:04.24 , +10:45:22.4 , 23   , High-Z Supernova Search Team
+1997at , Ia? , 10:43:37.63 , -00:49:06.5 , 21.6 , High-Z Supernova Search Team
 1997as , Ia , 08:24:09.46 , -00:48:08.2 , 22.1 , High-Z Supernova Search Team
+1997ar , Ia? , 13:47:31.98 , +02:26:16.0 , 23.0 , Supernova Cosmology Project
+1997aq , Ia? , 13:47:09.90 , +02:27:37.2 , 24.3 , Supernova Cosmology Project
 1997ap , Ia , 13:47:09.90 , +02:23:57.5 , 24.2 , Supernova Cosmology Project
+1997ao , Ia? , 13:47:05.42 , +02:08:59.5 , 24.3 , Supernova Cosmology Project
+1997an , Ia? , 10:57:43.97 , -03:47:18.2 , 24.3 , Supernova Cosmology Project
 1997am , Ia , 10:57:31.52 , -03:13:48.3 , 22.9 , Supernova Cosmology Project
 1997al , Ia , 10:57:30.31 , -03:14:49.7 , 24.0 , Supernova Cosmology Project
 1997ak , Ia? , 10:56:53.15 , -04:13:50.9 , 24.4 , Supernova Cosmology Project
@@ -2764,8 +2969,12 @@
 1997ah , Ia? , 10:00:02.92 , -00:23:30.7 , 23.6 , Supernova Cosmology Project
 1997ag , Ia , 09:58:53.35 , -00:20:29.0 , 23.2 , Supernova Cosmology Project
 1997af , Ia , 08:23:52.67 , +04:08:44.0 , 22.3 , Supernova Cosmology Project
+1997ae , Ia? , 08:23:58.68 , +03:47:53.9 , 23.9 , Supernova Cosmology Project
+1997ad , Ia? , 08:22:32.64 , +04:09:57.7 , 22.8 , Supernova Cosmology Project
 1997ac , Ia , 08:24:05.21 , +04:11:22.6 , 23.1 , Supernova Cosmology Project
 1997Y , Ia , 12:45:31.4: , +54:44:17.0 , 14.8 , BAO Supernova Survey
+1997V , Ia? , 03:11:43.82 , -12:02:11.0 , 21.0 , Mount Stromlo Abell Cluster Supernova Search Team
+1997U , Ia? , 03:10:46.25 , -12:16:04.5 , 21.5 , Mount Stromlo Abell Cluster Supernova Search Team
 1997T , Ia , 11:55:47.46 , +80:12:42.6 , 17.5 , Mueller
 1997S , Ia , 10:57:51.59 , -03:45:46.9 , 23.6 , Supernova Cosmology Project
 1997R , Ia , 10:57:19.23 , -03:54:51.7 , 24.4 , Supernova Cosmology Project
@@ -2773,7 +2982,9 @@
 1997P , Ia , 10:55:55.93 , -03:56:48.2 , 23.0 , Supernova Cosmology Project
 1997O , Ia , 08:24:02.51 , +04:07:33.1 , 23.7 , Supernova Cosmology Project
 1997N , Ia , 08:23:50.03 , +03:28:52.8 , 21.2 , Supernova Cosmology Project
+1997M , Ia? , 08:22:57.39 , +03:52:25.6 , 23.2 , Supernova Cosmology Project
 1997L , Ia , 08:21:57.14 , +03:53:35.7 , 23.1 , Supernova Cosmology Project
+1997K , Ia? , 07:54:55.09 , +04:19:01.3 , 23.6 , Supernova Cosmology Project
 1997J , Ia? , 07:41:17.83 , +09:33:11.4 , 23.4 , Supernova Cosmology Project
 1997I , Ia , 04:59:37.31 , -03:09:01.6 , 20.9 , Supernova Cosmology Project
 1997H , Ia , 04:59:36.57 , -03:09:34.6 , 22.8 , Supernova Cosmology Project
@@ -2781,6 +2992,7 @@
 1997F , Ia , 04:55:14.27 , -05:51:44.8 , 23.9 , Supernova Cosmology Project
 1997E , Ia , 06:47:38.10 , +74:29:51.0 , 15.7 , Kushida
 1997A , Ia , 04:31:33.39 , -61:07:10.4 , 18.5 , Maza et al.
+1996co , Ia? , 10:18:57.48 , +62:15:12.1 , 18   , Mueller
 1996cn , Ia , 13:48:27.22 , +02:27:46.6 , 22.6 , Supernova Cosmology Project
 1996cm , Ia , 15:30:11.25 , +05:55:27.0 , 22.7 , Supernova Cosmology Project
 1996cl , Ia? , 10:56:59.13 , -03:37:36.4 , 24.0 , Supernova Cosmology Project
@@ -2789,13 +3001,19 @@
 1996ch , Ia , 11:59:37.73 , -09:54:34.2 , 24.1 , Supernova Cosmology Project
 1996cg , Ia , 08:24:13.33 , +03:24:58.5 , 22.5 , Supernova Cosmology Project
 1996cf , Ia , 10:48:50.96 , +00:03:30.4 , 22.7 , Supernova Cosmology Project
+1996ce , Ia? , 13:16:15.47 , +30:15:52.6 , 18.0 , Pollas
 1996ca , Ia , 22:30:59.26 , -13:59:50.9 , 16.5 , Aoki
+1996bz , Ia? , 02:31:24.13 , +39:43:51.3 , 19.3 , Pollas
 1996by , Ia , 05:58:24.96 , +68:27:12.1 , 16.5 , BAO Supernova Survey
 1996bx , Ia , 03:59:16.45 , -53:22:26.3 , 19.2 , Mount Stromlo Abell Cluster Supernova Search Team
 1996bv , Ia , 06:16:13.00 , +57:03:08.9 , 16.6 , BAO Supernova Survey
 1996bt , Ia , N/A , N/A , 16.5 , Berlind
+1996bs , Ia? , 02:44:46.30 , +39:29:26.5 , 19.0 , Pollas
+1996br , Ia? , 02:34:53.53 , +41:07:13.7 , 18.5 , Pollas
+1996bq , Ia? , 02:38:40.03 , +41:39:17.8 , 18.7 , Pollas
 1996bo , Ia , 01:48:22.80 , +11:31:15.8 , 16.5 , BAO Supernova Survey; Armstrong; Okazaki
 1996bn , Ia? , N/A , N/A , 18   , Mueller
+1996bm , Ia? , 00:44:40.85 , -63:44:44.6 , 20.5 , Mount Stromlo Abell Cluster Supernova Search Team
 1996bl , Ia , 00:36:17.97 , +11:23:40.5 , 17.4 , Pollas
 1996bk , Ia , 13:46:57.98 , +60:58:12.9 , 14.5 , Mazza, Pesci
 1996bj , Ia , 02:11:49.53 , +01:24:51.0 , 22.6 , High-Z Supernova Search Team
@@ -2806,23 +3024,33 @@
 1996bc , Ia , 03:12:06.58 , +00:38:17.1 , 22.5 , High-Z Supernova Search Team
 1996bb , Ia? , 02:57:06.06 , -02:42:17.4 , 23.6 , High-Z Supernova Search Team
 1996ba , Ia , 01:08:39.87 , -00:56:38.9 , 23.5 , High-Z Supernova Search Team
+1996az , Ia? , 00:15:10.84 , +01:06:34.6 , 24.0 , High-Z Supernova Search Team
 1996ay , Ia , 00:09:57.41 , +00:53:37.9 , 23.9 , High-Z Supernova Search Team
+1996ax , Ia? , 21:53:52.93 , -00:02:36.4 , 23.3 , High-Z Supernova Search Team
 1996aw , Ia , 21:53:47.10 , +00:02:47.3 , 21.7 , High-Z Supernova Search Team
 1996av , Ia , 01:53:54.22 , +00:15:30.6 , 22.4 , High-Z Supernova Search Team
 1996au , Ia , 03:12:47.79 , +00:45:11.9 , 22.5 , High-Z Supernova Search Team
 1996ar , Ia , 01:31:52.40 , -02:13:03.0 , 18.5 , Pollas
+1996ap , Ia? , 21:45:53.49 , -57:08:27.3 , 19.5 , Mount Stromlo Abell Cluster Supernova Search Team
+1996ao , Ia? , 03:28:03.60 , -52:53:53.6 , 19   , Mount Stromlo Abell Cluster Supernova Search Team
 1996am , Ia , 21:46:07.48 , -44:00:12.7 , 19.0 , Mount Stromlo Abell Cluster Supernova Search Team
 1996aj , Ia , 13:29:06.82 , -29:14:02.0 , 18.5 , Mount Stromlo Abell Cluster Supernova Search Team
 1996ai , Ia , 13:10:58.13 , +37:03:35.4 , 14.5 , Bottari
 1996ah , Ia , 14:20:39.02 , +80:07:21.0 , 18   , Mueller
+1996ag , Ia? , 21:46:50.47 , -43:41:50.4 , 20.5 , Mount Stromlo Abell Cluser Supernova Search Team
+1996af , Ia? , 22:28:31.13 , -68:58:33.0 , 19.5 , Mount Stromlo Abell Cluser Supernova Search Team
+1996ad , Ia? , 15:59:05.91 , +19:48:08.1 , 18.5 , Evans
 1996ac , Ia , 12:24:11.24 , +01:24:14.7 , 16.5 , McNaught
 1996ab , Ia , 15:21:08.35 , +27:55:36.8 , 18.5 , Mueller
 1996aa , Ia , N/A , N/A , 17   , Johnson
 1996Z , Ia , 09:36:44.82 , -21:08:51.7 , 16   , Johnson
+1996Y , Ia? , 11:21:32.57 , +02:53:14.0 , 18.5 , Mueller
 1996X , Ia , 13:18:01.13 , -26:50:45.3 , 13   , Evans; Takamizawa
+1996V , Ia? , 11:21:31.23 , +02:48:40.4 , 16.5 , Mueller
 1996U , Ia , 11:50:33.51 , +10:26:45.4 , 22.2 , High-Z Supernova Search Team
 1996T , Ia , 10:05:27.66 , -07:27:23.9 , 21   , High-Z Supernova Search Team
 1996R , Ia , 11:16:10.36 , -00:11:39.3 , 20.6 , High-Z Supernova Search Team
+1996Q , Ia? , 08:46:09.18 , +00:06:53.9 , 21.8 , High-Z Supernova Search Team
 1996P , Ia , 13:52:52.61 , +02:48:30.2 , 17   , Mueller
 1996O , Ia , N/A , N/A , 18   , Evans
 1996K , Ia , 08:24:43.49 , -00:21:06.2 , 23   , High-Z Supernova Search Team
@@ -2831,6 +3059,8 @@
 1996H , Ia , 12:28:52.78 , -00:05:41.0 , 22.8 , High-Z Supernova Search Team
 1996E , Ia , 10:10:20.28 , -12:33:09.2 , 22.2 , High-Z Supernova Search Team
 1996C , Ia , 13:50:48.60 , +49:19:07.1 , 18   , Mueller
+1996B , Ia? , N/A , N/A , 17.5 , Gabrijelcic
+1995be , Ia? , 15:58:14.30 , +19:46:06.5 , 19   , McNaught
 1995bd , Ia , 04:45:21.24 , +11:04:02.5 , 18.8 , Pollas
 1995ap , Ia , 03:12:28.13 , +00:41:43.4 , 21.5 , High-Z Supernova Search Team
 1995ao , Ia , 02:57:30.70 , -01:41:19.8 , 21.5 , High-Z Supernova Search Team
@@ -2838,12 +3068,15 @@
 1995al , Ia , 09:50:55.97 , +33:33:09.4 , 13.0 , Pesci, Mazza
 1995ak , Ia , 02:45:48.83 , +03:13:50.1 , 16.4 , Pollas
 1995aj , Ia , 02:28:36.64 , +41:56:01.9 , 20.0 , Pollas
+1995af , Ia? , 23:24:53.45 , +41:24:11.5 , 18.0 , Pollas
 1995ae , Ia , 23:16:55.65 , -02:04:36.4 , 18.5 , Pollas
 1995ac , Ia , 22:45:34.14 , -08:45:04.7 , 18.5 , Pollas
 1995U , Ia , 20:54:40.62 , -51:22:26.8 , 18   , McNaught
 1995T , Ia , 22:27:12.41 , -09:29:44.4 , 18.0 , Pollas
+1995S , Ia? , 12:27:53.30 , -30:05:55.4 , 17.5 , McNaught
 1995R , Ia , 13:53:32.60 , -01:11:30.2 , 18   , McNaught
 1995P , Ia , 14:07:14.33 , -02:43:32.7 , 18   , McNaught
+1995O , Ia? , 16:35:56.12 , +66:11:44.0 , 22   , Le Borgne, Sanahuja, Maddox
 1995M , Ia , 09:38:41.78 , -12:20:07.9 , 18.5 , McNaught
 1995L , Ia , 13:27:18.34 , +32:01:52.7 , 20.0 , Pollas
 1995K , Ia , 10:50:47.00 , -09:15:07.4 , 22.5 , Schmidt et al.
@@ -2855,10 +3088,12 @@
 1994am , Ia , 02:40:02.06 , -01:37:14.9 , 21.7 , Supernova Cosmology Project
 1994al , Ia , 03:06:22.45 , +17:18:33.7 , 22.6 , Supernova Cosmology Project
 1994ah , Ia , 02:56:37.75 , -33:54:43.6 , 18   , McNaught
+1994ag , Ia? , 03:53:30.54 , -39:00:27.7 , 17.5 , McNaught
 1994ae , Ia , 10:47:01.95 , +17:16:31.0 , 15.4 , Van Dyk, Treffers, Richmond, Filippenko, Paik
 1994ab , Ia , 21:16:56.75 , -28:19:51.4 , 17   , McNaught
 1994aa , Ia , 03:24:49.40 , -03:02:33.6 , 17   , McNaught
 1994X , Ia , 00:17:52.16 , -24:37:10.9 , 18.5 , McNaught
+1994V , Ia? , 14:54:40.40 , -17:24:42.6 , 17   , McNaught
 1994U , Ia , 13:04:56.13 , -07:56:51.5 , 14   , Barker
 1994T , Ia , 13:18:59.84 , -02:09:01.6 , 16.0 , Peters, Challis
 1994S , Ia , 12:31:21.86 , +29:08:04.2 , 14.5 , Mitchell
@@ -2873,6 +3108,8 @@
 1994D , Ia , 12:34:02.45 , +07:42:04.7 , 15.2 , Treffers, Filippenko, Van Dyk, Richmond
 1994C , Ia , 07:56:40.27 , +44:52:19.3 , 18   , Mueller
 1994B , Ia , 08:20:40.92 , +15:43:48.4 , 19.0 , Pollas
+1993al , Ia? , 12:22:12.62 , -01:08:24.5 , 22.6 , Supernova Cosmology Project
+1993ak , Ia? , 13:43:10.96 , +30:20:12.5 , 16.5 , Meusinger
 1993aj , Ia , 12:04:21.15 , -00:43:13.9 , 17   , Pollas
 1993ai , Ia , N/A , N/A , 18   , Mueller
 1993ah , Ia , 23:51:50.27 , -27:57:47.0 , 17   , Wischnjewsky
@@ -2884,6 +3121,8 @@
 1993aa , Ia , 23:03:22.08 , -06:20:56.2 , 18   , Pollas
 1993Z , Ia , 09:10:19.60 , +07:01:40.3 , 13.9 , Treffers, Filippenko, Leibundgut, Paik, Lee, Richmond
 1993Y , Ia , 03:31:24.41 , +39:45:02.6 , 17   , Mueller
+1993V , Ia? , 15:31:01.77 , +50:17:47.8 ,      , Pollas
+1993U , Ia? , 15:25:14.95 , +50:34:38.7 ,      , Pollas
 1993T , Ia , 23:10:54.09 , -44:58:48.6 , 18   , Antezana
 1993Q , Ia , 20:35:46.94 , -42:47:33.4 , 19   , McNaught
 1993O , Ia , 13:31:07.87 , -33:12:50.5 , 17.5 , Antezana
@@ -2891,12 +3130,18 @@
 1993L , Ia , 22:57:52.87 , -35:51:27.0 , 14   , Evans
 1993I , Ia , 12:34:42.70 , +09:00:07.9 , 18.0 , Pollas
 1993H , Ia , 13:52:50.34 , -30:42:23.3 , 16.5 , Wischnjewsky
+1993F , Ia? , 07:57:21.64 , +20:04:59.4 , 18   , Pollas
 1993D , Ia , 11:28:58.80 , -22:29:06.3 , 18   , McNaught
 1993C , Ia , 09:40:23.82 , +14:56:11.5 , 18   , Pollas
+1993B , Ia? , 10:34:51.38 , -34:26:30.0 , 18   , Antezana
+1993A , Ia? , N/A , N/A , 18.5 , Wischnjewsky
+1992bu , Ia? , 11:28:31.5: , +58:33:39:: , 16.6 , Van Buren, Jarrett, Terebey, Beichman, Shure, Kamins
 1992bs , Ia , 03:29:27.2: , -37:16:18.9 , 18   , Gonzalez
 1992br , Ia , 01:45:44.83 , -56:05:57.9 , 18.5 , Wischnjewsky
+1992bq , Ia? , 10:16:57.1: , -34:45:08:: , 17   , Antezana
 1992bp , Ia , 03:36:37.95 , -18:21:13.7 , 18   , Antezana
 1992bo , Ia , 01:21:58.44 , -34:12:43.5 , 17   , Antezana
+1992bn , Ia? , 01:28:58.22 , +09:08:54.5 , 19   , Pollas
 1992bl , Ia , 23:15:13.25 , -44:44:34.5 , 17   , Antezana
 1992bk , Ia , 03:43:01.90 , -53:37:56.8 , 18   , Wischnjewsky
 1992bi , Ia , 16:10:12.80 , +39:47:12.6 , 22   , Pennypacker, Perlmutter, et al.
@@ -2906,33 +3151,56 @@
 1992bb , Ia , 21:18:14.86 , -07:35:03.5 , 17.5 , McNaught
 1992av , Ia , 17:43:04.88 , +67:49:07.1 , 20   , Pollas
 1992au , Ia , 00:10:40.27 , -49:56:43.3 , 17   , Antezana
+1992at , Ia? , 21:27:09.20 , -36:59:58.4 , 18   , McNaught
+1992as , Ia? , N/A , N/A , 18.5 , Gonzalez
+1992ar , Ia? , N/A , N/A , 19   , Antezana
+1992aq , Ia? , 23:04:34.76 , -37:20:42.1 , 19   , Antezana
 1992ap , Ia , N/A , N/A , 18   , Birkle
+1992ao , Ia? , 23:26:52.99 , -81:53:44.9 , 17   , McNaught
 1992al , Ia , 20:45:56.49 , -51:23:40.0 , 16   , McNaught
+1992ak , Ia? , 07:27:47.42 , +20:23:31.8 , 16.0 , Moraru
 1992ai , Ia , 01:29:08.04 , -32:16:30.0 , 17.5 , Antezana
 1992ah , Ia , N/A , N/A , 17   , Mueller
 1992ag , Ia , 13:24:10.12 , -23:52:39.3 , 16.5 , Wischnjewsky
+1992af , Ia? , N/A , N/A , 17.5 , Antezana
 1992ae , Ia , 21:28:17.66 , -61:33:00.0 , 18   , Antezana
 1992ac , Ia , N/A , N/A , 17   , Gomez, Lopez, Rey, Catchpole
+1992aa , Ia? , 17:45:47.31 , +60:53:39.0 , 18   , Mueller
+1992Y , Ia? , N/A , N/A , 19   , Mueller
+1992X , Ia? , N/A , N/A ,      , Mueller
+1992W , Ia? , N/A , N/A ,      , Mueller
 1992V , Ia , 12:34:45.94 , +14:33:34.9 , 18.0 , Pollas
+1992S , Ia? , 14:17:42.45 , +31:02:59.9 , 18.5 , Mueller
+1992Q , Ia? , 12:11:01.62 , -01:52:50.7 , 18.5 , Mueller
 1992P , Ia , 12:42:48.95 , +10:21:37.5 , 16.2 , Antezana
 1992O , Ia , 19:23:42.29 , -62:49:30.1 , 17.8 , Antezana
 1992M , Ia , N/A , N/A , 18   , Mueller
+1992L , Ia? , 07:35:36.32 , -47:16:51.0 , 20   , McNaught
 1992K , Ia-p , 13:10:04.20 , -46:26:30.3 , 16.2 , Antezana
 1992J , Ia , 10:09:00.30 , -26:38:24.4 , 18.4 , Wischnjewsky
 1992G , Ia , 10:36:18.51 , +37:19:13.9 , 14   , Sasaki
+1992F , Ia? , 11:25:23.90 , +56:36:03.0 , 19   , Pollas, Albinese
 1992E , Ia , 06:35:17.12 , -59:56:02.8 , 20   , McNaught, Drinkwater
 1992B , Ia , 11:16:09.95 , +55:29:30.6 , 16.5 , Pollas
 1992A , Ia , 03:36:27.43 , -34:57:31.5 , 12.8 , Liller, Brown
+1991bl , Ia? , 18:12:17.53 , +68:59:08.4 , 17.5 , Pollas
+1991bk , Ia? , 12:10:42.15 , +13:19:45.7 , 18.5 , Pollas
 1991bj , Ia , 03:41:30.48 , -04:39:49.6 , 18.8 , Pollas
 1991bi , Ia , 13:23:43.98 , +31:33:51.1 , 18.5 , Pollas
 1991bh , Ia , N/A , N/A , 18   , Mueller
 1991bg , Ia-p , 12:25:03.71 , +12:52:15.8 , 14   , Kushida
+1991bf , Ia? , 23:52:15.37 , -29:26:29.1 , 17.5 , McNaught
+1991be , Ia? , 21:33:14.38 , -42:12:45.7 , 18.5 , McNaught
 1991bd , Ia , 04:02:49.66 , +01:58:26.4 , 17   , McNaught
 1991bc , Ia , 03:20:45.66 , -01:02:47.1 , 16   , McNaught
 1991bb , Ia , N/A , N/A , 18   , Mueller
 1991ay , Ia , 00:47:18.98 , +40:32:27.8 , 18.5 , Pollas
+1991aw , Ia? , 17:42:13.53 , +67:29:12.0 , 20   , Pollas
 1991at , Ia , N/A , N/A , 18   , Mueller
 1991as , Ia , N/A , N/A , 18   , Mueller
+1991aq , Ia? , 01:52:39.7: , -81:38:03.4 , 18   , McNaught, McKenzie
+1991ap , Ia? , 00:18:23.57 , +32:01:11.1 ,      , Pollas
+1991an , Ia? , 17:39:09.57 , +67:42:28.9 , 20.3 , Pollas
 1991am , Ia , 16:41:50.72 , +37:44:11.0 , 19   , Pollas
 1991ak , Ia , 13:56:48.61 , +37:47:31.6 , 15.5 , Wild
 1991aj , Ia , 16:29:44.89 , +41:46:42.9 , 18.0 , Pollas
@@ -2940,62 +3208,598 @@
 1991ag , Ia , 20:00:08.60 , -55:22:03.2 , 15   , Antezana
 1991af , Ia , N/A , N/A , 18.5 , Mueller
 1991ad , Ia , N/A , N/A , 18.5 , Mueller
+1991ac , Ia? , 13:01:19.24 , +29:11:00.0 , 18.5 , Pollas
 1991ab , Ia , 13:59:21.68 , +19:41:06.6 , 19.5 , Pollas
 1991aa , Ia , 12:45:09.84 , -06:19:02.1 , 16   , McNaught
+1991Z , Ia? , 10:54:40.50 , -04:12:28.8 , 20   , McNaught
+1991Y , Ia? , N/A , N/A , 19   , Mueller
 1991X , Ia , 13:01:00.73 , -14:30:38.1 , 13.7 , Evans
+1991W , Ia? , N/A , N/A ,      , Mueller
+1991V , Ia? , N/A , N/A , 18.5 , Mueller
 1991U , Ia , 13:23:22.20 , -26:06:28.7 , 16   , Antezana
 1991T , Ia-p , 12:34:10.21 , +02:39:56.6 , 13   , Knight; Evans; Villi, Cortini; Johnson
 1991S , Ia? , 10:29:27.79 , +22:00:46.4 , 17.5 , Antezana
+1991Q , Ia? , 13:02:07.63 , +27:38:56.1 , 18   , Pollas
 1991O , Ia , 14:24:40.0: , +65:45:36.7 , 18   , Mueller
 1991M , Ia , 15:58:34.83 , +17:27:28.7 , 15   , Pennypacker, Perlmutter, et al.
+1991I , Ia? , 05:26:25.62 , -52:13:33.0 , 18.5 , McNaught
 1991B , Ia , N/A , N/A , 16   , Perlmutter, Pennypacker, et al.
+1990al , Ia? , 19:09:56.64 , +42:31:41.7 , 16.5 , Mueller
+1990ak , Ia? , 13:24:54.92 , -32:25:25.9 , 18   , McNaught
 1990af , Ia , 21:34:58.12 , -62:44:07.4 , 17   , Antezana
 1990ac , Ia , 03:53:09.26 , -29:44:37.9 , 18   , McNaught, McKenzie
 1990ab , Ia , 21:54:04.00 , -40:04:16.1 , 18   , McNaught
+1990Z , Ia? , N/A , N/A , 19   , Mueller
+1990Y , Ia? , 03:37:22.64 , -33:02:40.1 , 18   , Wischnjewsky
+1990W , Ia? , 16:52:47.25 , -59:12:55.1 , 15   , Evans
+1990V , Ia? , N/A , N/A , 18   , Mueller
+1990T , Ia? , 19:59:02.28 , -56:15:30.0 , 16.5 , Antezana
+1990S , Ia? , 12:05:33.1: , -30:09:40:: , 15.5 , Antezana
+1990R , Ia? , N/A , N/A , 17.5 , Mueller
+1990Q , Ia? , 15:21:33.25 , -07:22:26.6 , 18   , Pollas
+1990P , Ia? , 16:15:06.40 , -15:35:50.1 , 19   , McNaught
+1990O , Ia? , 17:15:35.92 , +16:19:25.8 , 17   , Mueller
 1990N , Ia , 12:42:56.74 , +13:15:24.0 , 15.5 , Thouvenot
 1990M , Ia , 14:11:29.3: , -05:02:36:: , 13.5 , Evans
+1990L , Ia? , N/A , N/A , 19   , Mueller
+1990K , Ia? , 00:34:14.06 , -27:47:46.7 , 14   , Evans
+1990J , Ia? , N/A , N/A , 18   , Mueller
+1990I , Ia? , 12:44:50.29 , -40:43:36.8 , 16   , Pizarro, Miranda, Pasquini, Leibundgut
 1990G , Ia , N/A , N/A , 15   , Mueller
+1990F , Ia? , 13:39:02.77 , +32:09:21.1 , 18.7 , Pollas
+1990D , Ia? , N/A , N/A , 18.5 , Pollas
+1990C , Ia? , N/A , N/A ,      , Pollas
+1990A , Ia? , 01:22:40.02 , +05:23:20.8 , 19   , Pollas
+1989af , Ia? , 11:25:31.46 , +38:03:43.6 , 16.5 , Mueller
+1989ae , Ia? , N/A , N/A , 19.0 , Pollas
+1989ad , Ia? , 13:25:38.96 , +32:34:51.7 , 20.4 , Pollas
+1989ac , Ia? , N/A , N/A , 17.5 , Mueller
+1989ab , Ia? , N/A , N/A , 18   , Mueller
+1989aa , Ia? , 01:19:12.42 , +13:16:10.6 , 19.5 , Pollas
+1989Z , Ia? , N/A , N/A , 12   , Shaw
+1989Y , Ia? , 21:18:06.41 , -46:18:34.1 , 16.4 , McNaught
+1989X , Ia? , 07:28:15.4: , +63:54:22.9 , 17.5 , Lovas
+1989W , Ia? , N/A , N/A , 18   , Pollas
 1989V , Ia? , 01:31:58.11 , +12:11:53.8 , 18.5 , Pollas
+1989T , Ia? , 01:47:02.81 , +01:59:28.5 , 20   , Pollas
 1989S , Ia , 02:27:46.7: , +28:12:04:: , 19   , Mueller
 1989Q , Ia , 01:45:34.57 , +22:05:16.8 , 19.5 , Pollas
 1989P , Ia , 18:22:01.8: , +66:36:12.4 , 16.5 , Mueller, Mendenhall
 1989M , Ia , N/A , N/A , 12.2 , Kimeridze
+1989J , Ia? , N/A , N/A , 18.5 , Pollas
+1989I , Ia? , N/A , N/A , 19   , Pollas
+1989H , Ia? , N/A , N/A , 20   , Pollas
 1989D , Ia , N/A , N/A , 16   , Wild
 1989B , Ia , N/A , N/A , 13   , Evans; Manzini
 1989A , Ia , N/A , N/A , 15.3 , Perlmutter, Pennypacker
+1988ai , Ia? , 00:06:21.74 , -41:28:59.9 , 16   , Evans
+1988ah , Ia? , 08:08:28.30 , +11:10:34.7 , 16.5 , Mueller
+1988ag , Ia? , 09:56:45.85 , +06:56:22.5 , 18   , Mueller
+1988af , Ia? , 08:17:24.36 , +45:38:24.9 , 17.5 , Mueller
+1988ae , Ia? , 20:44:09.0: , +12:24:53:: , 16.5 , Mueller
+1988ad , Ia? , 01:25:23.78 , -01:22:50.7 , 19.5 , Pollas
+1988ab , Ia? , N/A , N/A , 15.6 , Richmond
+1988aa , Ia? , N/A , N/A , 19.6 , Comte
 1988Y , Ia , 02:44:54.91 , -08:24:28.5 , 16.0 , Wild
+1988X , Ia? , 09:23:29.87 , +25:46:10.8 ,      , Pollas
+1988W , Ia? , 09:42:37.70 , +26:44:05.7 , 20.8 , Pollas
 1988V , Ia , N/A , N/A , 16.5 , Candeo
+1988U , Ia? , N/A , N/A , 22   , Noergaard-Nielsen, Joergensen, Hansen
+1988T , Ia? , N/A , N/A , 21   , Hansen
 1988R , Ia , N/A , N/A , 15.5 , Lovas
 1988N , Ia? , 13:13:09.88 , +57:20:39.7 , 18   , Maury, Phinney, Reid
 1988K , Ia , N/A , N/A , 18   , Mueller, Maury
 1988J , Ia , N/A , N/A , 17   , Kimeridze
+1988G , Ia? , 13:30:42.9: , +31:55:00:: , 17.5 , Mueller, Phinney
 1988F , Ia , N/A , N/A , 16   , Mueller
 1988D , Ia , 07:51:51.1: , +02:48:45:: , 15.5 , Maury, Mueller
 1988C , Ia , N/A , N/A , 17   , Pollas
 1988B , Ia , N/A , N/A , 15.5 , Wild
+1987T , Ia? , 21:45:33.33 , +32:06:22.8 , 17.5 , Mueller
+1987S , Ia? , 21:49:45.05 , +12:12:54.4 , 18   , Mueller
+1987R , Ia? , N/A , N/A , 18.5 , Mueller
+1987Q , Ia? , N/A , N/A , 16   , Mueller
+1987P , Ia? , N/A , N/A , 18.5 , Pollas
 1987O , Ia , N/A , N/A , 17   , Pollas
 1987N , Ia , 23:19:03.42 , -08:28:37.7 , 13.8 , Evans
+1987H , Ia? , N/A , N/A ,      , Koishikawa
+1987G , Ia? , N/A , N/A ,      , 
+1987E , Ia? , N/A , N/A ,      , Rosa
 1987D , Ia , 12:19:41.11 , +02:04:26.8 , 14.0 , Metlova
+1987B , Ia? , 15:07:02.99 , +01:30:13.3 , 15   , Evans
+1986P , Ia? , N/A , N/A , 17   , Mueller
 1986O , Ia , N/A , N/A , 14   , Pennypacker et al.
 1986N , Ia , 04:48:36.24 , -06:19:21.5 , 15   , Pennypacker et al.
+1986J , Ia? , 02:22:31.3: , +42:19:57:: , 14   , van Gorkom, Rupen, Knapp, Gunn
+1986H , Ia? , N/A , N/A ,      , Pollas
 1986G , Ia , 13:25:36.51 , -43:01:54.2 , 12.5 , Evans
+1986F , Ia? , 13:39:55.91 , -31:38:25.1 ,      , Evans
+1986D , Ia? , 09:55:50.64 , +69:40:45.8 ,      , Lebofsky, Rieke, Kailey
+1985T , Ia? , 19:03:28.54 , -65:36:12.4 , 18   , McNaught
+1985N , Ia? , N/A , N/A ,      , Gautschy, Singer
+1985M , Ia? , N/A , N/A ,      , Leibundgut, Albert
+1985K , Ia? , N/A , N/A , 17.7 , Arganbright
+1985J , Ia? , N/A , N/A ,      , Lovas
+1985H , Ia? , N/A , N/A ,      , Nemec
+1985D , Ia? , N/A , N/A , 18.2 , Spanhauer, Cameron
+1984V , Ia? , N/A , N/A , 15.0 , Gonzalez
+1984U , Ia? , N/A , N/A , 18.0 , Gonzalez
+1984T , Ia? , N/A , N/A , 18.0 , Gonzalez
+1984S , Ia? , 10:40:17.19 , -27:46:28.3 , 15.0 , Wischnjewsky
+1984R , Ia? , 11:26:07.36 , +43:35:06.2 , 13   , Ikeya
+1984Q , Ia? , 11:32:20.39 , +53:54:25.4 , 16.8 , Wild
+1984P , Ia? , N/A , N/A , 18   , Pollas
+1984M , Ia? , 01:28:21.52 , +02:31:00.7 , 14.0 , Lovas
+1984K , Ia? , N/A , N/A , 16.0 , Wischnjewsky
+1984H , Ia? , N/A , N/A , 18.5 , Wischnjewsky
+1984G , Ia? , N/A , N/A , 18.5 , Gonzalez
+1984F , Ia? , N/A , N/A , 16.0 , Metlova
+1984D , Ia? , N/A , N/A , 16.7 , Tsvetkov
+1984C , Ia? , N/A , N/A , 17.5 , Kowal
+1984B , Ia? , N/A , N/A , 16.7 , Metlova
+1983ab , Ia? , N/A , N/A , 17.1 , Antipin
+1983aa , Ia? , N/A , N/A , 19.6 , 
+1983Z , Ia? , N/A , N/A , 15.5 , Gonzalez
+1983Y , Ia? , N/A , N/A , 18   , Wischnjewsky
+1983X , Ia? , N/A , N/A , 18   , Gonzalez
+1983W , Ia? , N/A , N/A , 16.5 , Schildknecht
+1983Q , Ia? , N/A , N/A , 18.0 , Gonzalez
+1983O , Ia? , 12:16:13.30 , +47:52:45.5 , 14.5 , Wild
 1983N , Ia , 13:36:51.24 , -29:54:02.7 , 12.5 , Evans
+1983M , Ia? , 22:56:48.05 , -36:45:41.6 , 16.0 , Wischnjewsky
+1983L , Ia? , N/A , N/A , 17.1 , Pizarro, Schild
+1983K , Ia? , 12:49:12.25 , -08:37:42.2 , 17   , Wischnjewsky
+1983J , Ia? , N/A , N/A , 16.0 , Metlova
+1983I , Ia? , N/A , N/A , 13.5 , Kielkopf et al., Tsvetkov
+1983H , Ia? , N/A , N/A ,      , Doroshenko, Tsvetkov
 1983G , Ia , 12:52:20.95 , -01:12:12.3 , 13   , Okazaki; Evans; Tsvetkov
+1983F , Ia? , N/A , N/A ,      , Gonzalez
+1983E , Ia? , 09:53:42.84 , +01:34:34.4 , 14.0 , Metlov
+1983D , Ia? , N/A , N/A , 17.5 , Gonzalez
+1983C , Ia? , N/A , N/A , 19   , Maza
+1983B , Ia? , N/A , N/A , 17   , Turatto
+1983A , Ia? , 12:52:37.69 , -39:01:58.0 , 17.5 , Wischnjewsky
+1982aa , Ia? , 16:05:12.79 , +20:32:38.3 ,      , Heeschen, Yin
+1982Z , Ia? , 07:35:38.07 , -47:16:47.5 , 19   , McNaught
+1982Y , Ia? , N/A , N/A , 17.0 , Lovas
+1982X , Ia? , N/A , N/A , 16.5 , Lovas
+1982V , Ia? , 02:40:18.89 , +32:15:59.5 , 15.2 , Wild
+1982U , Ia? , N/A , N/A , 16   , Wischnjewsky
+1982T , Ia? , N/A , N/A , 17   , Gonzalez
+1982S , Ia? , N/A , N/A , 18.5 , Gonzalez
+1982Q , Ia? , N/A , N/A , 19.0 , Gonzalez
+1982P , Ia? , N/A , N/A , 18.0 , Wischnjewsky
+1982O , Ia? , N/A , N/A , 15.0 , Lovas
+1982N , Ia? , N/A , N/A , 17.0 , Wischnjewsky
+1982M , Ia? , N/A , N/A , 19.5 , Gonzalez
+1982K , Ia? , N/A , N/A , 18.5 , Wischnjewsky
+1982J , Ia? , N/A , N/A , 16.5 , Wischnjewsky
+1982I , Ia? , N/A , N/A , 18.5 , Wischnjewsky
+1982H , Ia? , N/A , N/A , 18   , Gonzalez
+1982G , Ia? , N/A , N/A , 18   , Wischnjewsky
+1982F , Ia? , N/A , N/A , 16   , Wild
+1982E , Ia? , N/A , N/A , 14   , Wischnjewsky
+1982D , Ia? , N/A , N/A , 18   , Arp, Sulentic
+1982C , Ia? , N/A , N/A , 17.5 , Lovas
 1982B , Ia , N/A , N/A , 14.0 , Wild
+1982A , Ia? , N/A , N/A , 16.5 , Wischnjewsky
+1981J , Ia? , N/A , N/A , 15   , Sanduleak
+1981I , Ia? , N/A , N/A , 15   , Wischnjewsky
+1981H , Ia? , N/A , N/A , 18.5 , Gonzalez
+1981F , Ia? , N/A , N/A , 15   , Wischnjewsky
+1981D , Ia? , N/A , N/A , 12.7 , Evans
+1981C , Ia? , N/A , N/A , 14.5 , Maza
 1981B , Ia , N/A , N/A , 12.3 , Tsvetkov
+1981A , Ia? , N/A , N/A , 13.5 , Evans
+1980Q , Ia? , 15:01:21.38 , +01:45:35.6 , 19   , McNaught
+1980P , Ia? , N/A , N/A , 15   , Faber
+1980O , Ia? , N/A , N/A , 13   , Schuster
 1980N , Ia , N/A , N/A , 12.5 , Wischnjewsky
+1980M , Ia? , N/A , N/A , 17   , Wischnjewsky
+1980L , Ia? , N/A , N/A , 13.5 , Inasaridze
+1980J , Ia? , N/A , N/A , 16.5 , Gonzalez, Maza
+1980I , Ia? , N/A , N/A , 14.0 , Rosker
+1980H , Ia? , N/A , N/A , 19.5 , Maza
+1980G , Ia? , N/A , N/A , 18.0 , Maza, Torres
+1980F , Ia? , N/A , N/A , 17.0 , Maza, Gonzalez
+1980E , Ia? , N/A , N/A , 16.0 , Lovas
+1980D , Ia? , N/A , N/A , 15.5 , Wild
+1980C , Ia? , N/A , N/A , 17.5 , Lovas
+1980B , Ia? , N/A , N/A , 16.0 , Lovas
+1980A , Ia? , N/A , N/A , 15.5 , Lovas
+1979G , Ia? , 02:58:18.37 , -04:49:10.3 , 16.5 , Francic
+1979F , Ia? , N/A , N/A , 18   , Maza
+1979E , Ia? , N/A , N/A , 16   , Maza
+1979D , Ia? , N/A , N/A , 18.5 , Maza
+1979B , Ia? , N/A , N/A , 13.5 , Rosino
+1979A , Ia? , N/A , N/A , 15.0 , Kimeridze
+1978L , Ia? , 20:46:34.31 , -53:19:10.3 , 18   , McNaught
+1978K , Ia? , 03:17:39.0: , -66:33:04:: , 16.0 , Ryder et al.
+1978J , Ia? , 22:26:13.02 , -67:10:23.3 , 17.5 , McNaught
+1978I , Ia? , N/A , N/A , 21.4 , Hawkins
+1978H , Ia? , 11:39:23.67 , +56:16:00.9 , 16.5 , Wild
+1978F , Ia? , N/A , N/A , 18.0 , Lovas
+1978E , Ia? , N/A , N/A , 15.2 , Wild
+1978D , Ia? , N/A , N/A , 20.0 , Lee, Zealey
+1978C , Ia? , N/A , N/A , 18.5 , Schweizer, Phillips
+1978B , Ia? , N/A , N/A , 14.0 , Young, Ritchie
+1978A , Ia? , N/A , N/A , 17.0 , Gilmore
+1977I , Ia? , 01:08:06.39 , -27:38:03.9 , 18   , McNaught
+1977H , Ia? , N/A , N/A , 19.0 , Karachentsev, Kopylov
+1977G , Ia? , N/A , N/A , 15.5 , 
+1977F , Ia? , N/A , N/A , 15.8 , Rosino
+1977E , Ia? , N/A , N/A , 15.0 , Lovas
+1977D , Ia? , N/A , N/A , 16.5 , Shao
+1977C , Ia? , N/A , N/A , 16   , Young, Ritchie
+1977B , Ia? , N/A , N/A , 14.0 , Lovas
+1977A , Ia? , N/A , N/A , 16.2 , Kulikovskij
+1976Q , Ia? , 21:20:55.00 , -67:13:24.2 , 18.5 , McNaught
+1976P , Ia? , 08:08:01.91 , -65:46:04.9 , 20   , McNaught
+1976O , Ia? , 20:23:24.87 , -50:32:29.5 , 16   , McNaught
+1976N , Ia? , N/A , N/A , 15.0 , 
+1976M , Ia? , N/A , N/A , 17.0 , 
+1976L , Ia? , 03:39:41.36 , -44:00:38:: , 17   , Arp, Madore
+1976K , Ia? , N/A , N/A , 17   , Klemola
+1976J , Ia? , N/A , N/A , 15.1 , Rosino
+1976I , Ia? , N/A , N/A , 17.5 , Lovas
+1976H , Ia? , N/A , N/A , 15.0 , Lovas
+1976G , Ia? , N/A , N/A , 15.0 , Lovas, Wild
+1976F , Ia? , N/A , N/A , 16.5 , Kurochkin
+1976E , Ia? , N/A , N/A , 16.5 , Dunlap
+1976D , Ia? , N/A , N/A , 14.5 , Wade
+1976C , Ia? , N/A , N/A , 14.5 , Paparo
+1976B , Ia? , N/A , N/A , 14.7 , Lovas
+1976A , Ia? , N/A , N/A , 16.5 , Lovas
+1975V , Ia? , 20:18:13.27 , -69:03:39.0 , 19   , McNaught
+1975U , Ia? , 00:29:13.18 , -60:04:29.3 , 18   , McNaught
+1975T , Ia? , N/A , N/A , 15.7 , Wild
+1975S , Ia? , N/A , N/A , 14.6 , Dunlap
+1975R , Ia? , N/A , N/A , 15.0 , Lovas
+1975Q , Ia? , N/A , N/A , 15.5 , Kowal
+1975P , Ia? , N/A , N/A , 15.0 , Kowal
+1975O , Ia? , N/A , N/A , 15.2 , Kowal
+1975M , Ia? , N/A , N/A , 18.2 , Kowal
+1975L , Ia? , N/A , N/A , 18.0 , Kowal
+1975K , Ia? , N/A , N/A , 17.8 , Kowal
+1975J , Ia? , N/A , N/A , 15.5 , Huchra
+1975I , Ia? , N/A , N/A , 18   , Kowal
+1975H , Ia? , N/A , N/A , 18.5 , Marcario
+1975G , Ia? , N/A , N/A , 14.8 , Lovas
+1975F , Ia? , N/A , N/A , 15   , Dunlap
+1975E , Ia? , N/A , N/A , 16.7 , Dunlap
+1975D , Ia? , N/A , N/A , 17.0 , Kowal
+1975C , Ia? , N/A , N/A , 18   , Kowal
+1975B , Ia? , N/A , N/A , 15.5 , Lovas
+1975A , Ia? , N/A , N/A , 14.6 , Dunlap
+1974L , Ia? , N/A , N/A ,      , Kowal
+1974K , Ia? , N/A , N/A , 17.5 , Kowal
+1974I , Ia? , N/A , N/A , 18.0 , Ambartsumyan
+1974H , Ia? , N/A , N/A , 17.5 , Kowal
+1974F , Ia? , N/A , N/A , 18.0 , Kowal
+1974E , Ia? , N/A , N/A , 14.0 , Lovas
+1974D , Ia? , N/A , N/A , 15.5 , Lovas
+1974C , Ia? , N/A , N/A , 16.5 , van der Kruit, Arp
+1974B , Ia? , N/A , N/A , 14.5 , Kowal
+1974A , Ia? , N/A , N/A , 20.0 , Arp
+1973V , Ia? , N/A , N/A , 17.0 , Kowal
+1973U , Ia? , N/A , N/A , 16.5 , Kowal
+1973T , Ia? , N/A , N/A , 18.0 , Kowal
+1973S , Ia? , N/A , N/A , 18.5 , Kowal
+1973Q , Ia? , N/A , N/A , 18.5 , Kowal
+1973P , Ia? , N/A , N/A , 18.0 , Kowal
+1973O , Ia? , N/A , N/A , 19.0 , Kormendy
+1973M , Ia? , N/A , N/A , 19.0 , Kowal
+1973L , Ia? , N/A , N/A , 18.5 , Kowal
+1973K , Ia? , N/A , N/A , 19.1 , Zwicky
+1973J , Ia? , N/A , N/A , 16   , Wild
+1973I , Ia? , N/A , N/A , 20.5 , Zwicky
+1973H , Ia? , N/A , N/A , 18.5 , Zwicky
+1973G , Ia? , N/A , N/A ,      , Kowal
+1973F , Ia? , 13:03:52.00 , +28:11:11.8 , 16.2 , Kohoutek
+1973E , Ia? , N/A , N/A , 16.2 , Zwicky
+1973D , Ia? , N/A , N/A , 17.0 , Kowal
+1973C , Ia? , N/A , N/A , 17.0 , Kowal, Shakhbazyan
+1973B , Ia? , N/A , N/A , 15.0 , Kowal
+1973A , Ia? , N/A , N/A , 18.0 , Kowal
+1972T , Ia? , N/A , N/A , 14.0 , 
+1972S , Ia? , N/A , N/A , 16.3 , Erastova
+1972R , Ia? , N/A , N/A , 16.0 , Wild
+1972Q , Ia? , N/A , N/A , 15.8 , Rosino
+1972P , Ia? , N/A , N/A , 18.0 , Kowal
+1972O , Ia? , N/A , N/A , 18.5 , Kowal
+1972N , Ia? , N/A , N/A , 17.0 , Kowal
+1972M , Ia? , N/A , N/A , 18.0 , Kowal
+1972L , Ia? , N/A , N/A , 15.0 , Huchra
+1972K , Ia? , N/A , N/A , 16.0 , Huchra
+1972I , Ia? , N/A , N/A , 17.5 , Kowal
+1972H , Ia? , N/A , N/A , 14.9 , Goranskij
+1972G , Ia? , N/A , N/A , 18.0 , Kowal
+1972F , Ia? , N/A , N/A , 16   , Lovas
+1972D , Ia? , N/A , N/A , 18.5 , Kowal
+1972C , Ia? , N/A , N/A , 16.0 , Kowal
+1972B , Ia? , N/A , N/A , 18.5 , Kowal
+1972A , Ia? , N/A , N/A , 17.0 , Kowal
+1971V , Ia? , N/A , N/A , 17.0 , Rosino
+1971T , Ia? , N/A , N/A , 16.0 , Kowal
+1971S , Ia? , N/A , N/A , 15.5 , Pigatto
+1971R , Ia? , N/A , N/A , 13   , Fairall
+1971Q , Ia? , N/A , N/A , 18.5 , Kormendy
+1971P , Ia? , N/A , N/A , 16.8 , Rosino
+1971O , Ia? , N/A , N/A , 16.8 , Kormendy
+1971N , Ia? , N/A , N/A , 17.0 , Kirshner
+1971M , Ia? , N/A , N/A , 19.0 , Kirshner
+1971K , Ia? , N/A , N/A , 16.1 , Kulikovskij
+1971J , Ia? , N/A , N/A , 18   , Kowal
+1971I , Ia? , N/A , N/A , 11.5 , Jolly, Clark
+1971H , Ia? , N/A , N/A , 18   , Kowal
 1971G , Ia , N/A , N/A , 13.6 , Rosino
+1971F , Ia? , N/A , N/A , 17.3 , Zwicky
+1971E , Ia? , N/A , N/A , 17.5 , Kowal
+1971D , Ia? , N/A , N/A , 15.5 , Jolly, Dunlap
+1971C , Ia? , N/A , N/A , 15.3 , Jolly
+1971B , Ia? , N/A , N/A , 17.5 , Kowal
+1971A , Ia? , N/A , N/A , 16.5 , Kowal
+1970P , Ia? , N/A , N/A , 17.2 , Mnatskanian
+1970O , Ia? , N/A , N/A , 13.7 , Romano
+1970N , Ia? , N/A , N/A , 18.8 , van Agt
+1970M , Ia? , N/A , N/A , 16.5 , Lovas
+1970L , Ia? , N/A , N/A , 13.0 , Wild
+1970K , Ia? , N/A , N/A , 18.5 , Kowal
+1970I , Ia? , N/A , N/A , 18.0 , Kowal
+1970H , Ia? , N/A , N/A , 17   , Priser
+1970F , Ia? , N/A , N/A , 19.0 , Kowal
+1970E , Ia? , N/A , N/A , 18.5 , Kowal
+1970D , Ia? , N/A , N/A , 17   , Kowal
+1970C , Ia? , N/A , N/A , 16   , Wild
+1970B , Ia? , N/A , N/A , 15   , Kowal
+1969Q , Ia? , N/A , N/A , 13.0 , 
+1969P , Ia? , N/A , N/A , 13.9 , Rosino
+1969O , Ia? , N/A , N/A , 18.2 , van den Bergh
+1969N , Ia? , N/A , N/A , 16.0 , Kowal
+1969M , Ia? , N/A , N/A , 17.5 , Kowal
+1969K , Ia? , N/A , N/A , 17.5 , Kowal
+1969J , Ia? , N/A , N/A , 17.0 , Kowal
+1969I , Ia? , N/A , N/A , 17.0 , Kowal
+1969H , Ia? , N/A , N/A , 15.0 , Fairall
+1969G , Ia? , N/A , N/A , 18.0 , Kowal
+1969F , Ia? , N/A , N/A , 16.0 , Zwicky
+1969E , Ia? , N/A , N/A , 16.0 , Chavira
+1969D , Ia? , N/A , N/A , 17.5 , Kowal
+1969C , Ia? , N/A , N/A , 13.8 , Rosino, Jankovich
+1969B , Ia? , N/A , N/A , 16   , Wild, Balazs
+1969A , Ia? , N/A , N/A , 17   , Chavira
+1968aa , Ia? , N/A , N/A , 15   , Mnatskanian
+1968Z , Ia? , N/A , N/A , 17.9 , Priser
+1968Y , Ia? , N/A , N/A , 18.5 , Kowal
+1968X , Ia? , N/A , N/A , 16.0 , Wild
+1968W , Ia? , N/A , N/A , 16.6 , Iskudarian
+1968V , Ia? , N/A , N/A , 15.7 , Shachbazian
+1968U , Ia? , N/A , N/A , 14.5 , Dunlap
+1968T , Ia? , N/A , N/A , 18.0 , Zwicky
+1968S , Ia? , N/A , N/A , 16.5 , Jankovich
+1968R , Ia? , N/A , N/A , 15.5 , Kowal
+1968Q , Ia? , N/A , N/A , 18.5 , Kowal
+1968P , Ia? , N/A , N/A , 16.8 , Zwicky
+1968O , Ia? , N/A , N/A , 15.8 , Kowal
+1968N , Ia? , N/A , N/A , 19.0 , Kowal
+1968L , Ia? , 13:37:00.51 , -29:51:59.0 , 11.9 , Bennett
+1968K , Ia? , N/A , N/A , 17.5 , Kowal
+1968J , Ia? , N/A , N/A , 16.6 , Jankovich
 1968I , Ia , N/A , N/A , 13.5 , Lovas
+1968H , Ia? , N/A , N/A , 16.6 , Zwicky
+1968G , Ia? , N/A , N/A , 17.4 , Zwicky
+1968F , Ia? , N/A , N/A , 16.2 , Herzog
 1968E , Ia , N/A , N/A , 14.3 , Chavira
+1968C , Ia? , N/A , N/A , 17.8 , Zwicky
+1968B , Ia? , N/A , N/A , 17.4 , Zwicky
+1968A , Ia? , N/A , N/A , 15.5 , Lovas
+1967K , Ia? , N/A , N/A , 15.0 , Kowal
+1967J , Ia? , N/A , N/A , 17.5 , Zwicky
+1967I , Ia? , N/A , N/A , 18.5 , Zwicky
+1967H , Ia? , N/A , N/A , 14.6 , Zwicky
+1967G , Ia? , N/A , N/A , 19   , Kowal
+1967F , Ia? , N/A , N/A ,      , Rudnicki
+1967E , Ia? , N/A , N/A , 18.0 , Rudnicki
+1967D , Ia? , N/A , N/A , 19.5 , Rudnicki
+1967C , Ia? , N/A , N/A , 13.0 , Chuadze
+1967B , Ia? , N/A , N/A , 14.5 , Chavira
+1967A , Ia? , N/A , N/A , 17.0 , Kowal
+1966O , Ia? , N/A , N/A ,      , Anderson, Luyten
+1966N , Ia? , N/A , N/A , 15.0 , Rosino
+1966M , Ia? , N/A , N/A , 18.5 , Kowal
+1966L , Ia? , N/A , N/A , 17.6 , Rudnicki
+1966K , Ia? , N/A , N/A , 17.8 , Rudnicki
 1966J , Ia , N/A , N/A , 13.0 , Wild
+1966I , Ia? , N/A , N/A , 16.0 , Kowal
+1966H , Ia? , N/A , N/A , 19.0 , Kowal
+1966F , Ia? , N/A , N/A , 17.5 , Rudnicki
+1966E , Ia? , N/A , N/A , 14.8 , Wild
+1966D , Ia? , N/A , N/A , 19.5 , Rudnicki
+1966C , Ia? , N/A , N/A , 16.8 , Rudnicki
+1966B , Ia? , N/A , N/A , 15.0 , Yakimov
+1966A , Ia? , N/A , N/A , 15.5 , Rosino
+1965P , Ia? , N/A , N/A , 15.7 , Gates
+1965O , Ia? , N/A , N/A ,      , Lovas
+1965N , Ia? , 09:59:41.71 , +35:23:43.7 , 15.8 , Rudnicki
+1965M , Ia? , N/A , N/A , 16.0 , Wild
+1965L , Ia? , N/A , N/A , 16.0 , Wild
+1965K , Ia? , N/A , N/A , 16.0 , Hoffmeister
+1965J , Ia? , 03:21:04.58 , -37:06:14.7 , 18.0 , Reaves
+1965I , Ia? , N/A , N/A , 13.5 , Rosino
+1965H , Ia? , N/A , N/A , 14.0 , Chavira
+1965G , Ia? , N/A , N/A , 14.0 , Haro, Hoffmeister
+1965F , Ia? , 16:10:37.97 , +19:03:28.0 , 18.0 , Zwicky
+1965E , Ia? , 09:50:07.07 , +34:24:54.6 , 16.4 , Zwicky
+1965D , Ia? , 10:39:26.31 , -27:54:16.7 , 14.0 , Zwicky
+1965C , Ia? , 11:43:22.45 , +18:32:34.4 , 18.0 , Zwicky
+1965B , Ia? , N/A , N/A , 16.0 , Chavira
+1965A , Ia? , N/A , N/A , 16.0 , Chavira
+1964O , Ia? , N/A , N/A , 15.0 , 
+1964N , Ia? , N/A , N/A , 16.0 , Kowal
+1964M , Ia? , 10:27:13.10 , +20:29:26.7 , 18.0 , Zwicky
+1964K , Ia? , 23:14:48.02 , +07:42:59.2 , 18.0 , Kowal
+1964J , Ia? , N/A , N/A , 17.0 , Chavira
+1964I , Ia? , 16:23:07.04 , +41:14:11.8 , 18.0 , Kowal
+1964G , Ia? , 16:23:38.19 , +39:12:23.6 , 16.0 , Kowal
 1964E , Ia , N/A , N/A , 12.9 , Lovas
+1964D , Ia? , N/A , N/A , 16.5 , Haro
+1964C , Ia? , 16:06:06.86 , +17:27:34.7 , 17.3 , Zwicky
+1964B , Ia? , N/A , N/A , 16.7 , Kowal
+1964A , Ia? , N/A , N/A , 17.0 , Wild
+1963X , Ia? , N/A , N/A , 16   , Hoffmeister
+1963W , Ia? , 02:31:00.89 , +43:58:38.1 , 17.0 , Kowal
+1963V , Ia? , 02:34:31.33 , -06:04:42.8 , 16.0 , Kowal
+1963U , Ia? , 09:53:18.11 , +36:05:20.0 , 15.0 , Kowal
+1963T , Ia? , 01:24:24.49 , +34:02:39.4 , 17.5 , Kowal
+1963S , Ia? , 01:23:38.06 , +01:33:43.8 , 15.0 , Chavira
+1963R , Ia? , 02:36:15.70 , +35:57:11.3 , 16.8 , Kowal
+1963Q , Ia? , 16:06:40.35 , +17:11:32.6 , 17.0 , Reaves
+1963P , Ia? , 02:46:02.10 , -07:34:50.5 , 14.0 , Wild
+1963O , Ia? , 15:15:16.03 , +55:30:52.9 , 16.0 , Wild
+1963N , Ia? , 01:26:19.36 , +34:42:05.0 , 17.7 , Gates
+1963M , Ia? , 12:57:57.70 , +28:03:34.3 , 15.9 , Reaves
+1963L , Ia? , 02:47:53.55 , +37:31:52.7 , 15.0 , Reaves
+1963K , Ia? , 11:23:39.70 , +53:50:12.7 , 15.0 , Bertaud
+1963J , Ia? , 11:50:38.30 , +55:21:01.3 , 13.7 , Zwicky, Wild
 1963I , Ia , 12:12:45.61 , +10:51:30.8 , 14.3 , Zaytseva
+1963H , Ia? , 15:22:21.30 , +05:23:33.7 , 18.5 , Zwicky
+1963G , Ia? , 12:17:48.94 , +26:01:32.4 , 15.8 , Kurochkin
+1963F , Ia? , 15:22:25.85 , +27:49:28.3 , 17.6 , Zwicky
+1963E , Ia? , 01:26:25.24 , -01:38:29.8 , 16.5 , Mendez
+1963D , Ia? , N/A , N/A , 15.8 , Rosino
+1963C , Ia? , 12:57:47.73 , +27:53:05.7 , 15.7 , Zwicky
+1963B , Ia? , 15:11:31.42 , +05:14:38.7 , 17.0 , Zwicky
+1963A , Ia? , 15:27:00.00 , +26:27:01.5 , 18.1 , Zwicky
+1962R , Ia? , N/A , N/A , 15.9 , 
+1962Q , Ia? , N/A , N/A , 16.9 , Shachbazian, Iskudarian
+1962P , Ia? , N/A , N/A , 14.5 , Rosino
+1962O , Ia? , N/A , N/A , 19.8 , Zwicky
+1962N , Ia? , 15:21:11.33 , +26:19:56.3 , 17.0 , Zwicky
+1962M , Ia? , N/A , N/A , 11.7 , Sersic
+1962K , Ia? , 02:46:30.59 , -00:14:40.2 , 18.2 , Rudnicki
 1962J , Ia , N/A , N/A , 13.6 , Wild
+1962I , Ia? , 13:02:52.37 , +27:31:10.2 , 17.2 , Berger
+1962H , Ia? , N/A , N/A , 13.0 , Chavira
+1962G , Ia? , 15:28:06.58 , +29:00:36.1 , 19.0 , Zwicky
+1962F , Ia? , 08:17:28.53 , +21:40:27.0 , 16.5 , Berger
+1962E , Ia? , 11:15:05.52 , +25:53:31.6 , 17.5 , Rudnicki
+1962D , Ia? , 10:33:12.55 , -27:55:11.5 , 16.0 , Zwicky
+1962C , Ia? , 16:05:04.98 , +17:34:54.4 , 18.0 , Zwicky
+1962B , Ia? , 15:22:45.29 , +29:46:08.1 , 17.0 , Zwicky
+1962A , Ia? , 13:06:35.55 , +27:52:29.7 , 15.6 , Zwicky
+1961X , Ia? , N/A , N/A ,      , Designation given to SN 1961T in PASP 75,236
+1961W , Ia? , N/A , N/A ,      , Designation omitted
+1961U , Ia? , N/A , N/A , 13.7 , Wild
+1961T , Ia? , 09:38:59.16 , +33:27:09.5 , 17.5 , Gates
+1961S , Ia? , 10:21:01.95 , +21:42:53.8 , 18.3 , Kearns
+1961R , Ia? , 01:10:01.46 , +32:54:55.2 , 17.0 , Humason
+1961Q , Ia? , 01:26:41.39 , +02:01:32.2 , 17.2 , Humason
+1961P , Ia? , N/A , N/A , 14.3 , Wild
+1961O , Ia? , 02:26:43.70 , +43:36:53.3 , 17.0 , Humason
+1961N , Ia? , 23:38:38.84 , +27:00:34.2 , 16.8 , Humason
+1961M , Ia? , 01:10:00.71 , +32:22:42.0 , 17.0 , Kearns
+1961L , Ia? , 10:22:19.01 , +21:35:03.9 , 17.5 , Wild
+1961K , Ia? , 12:03:19.80 , +16:30:32.3 , 16.3 , Humason
+1961J , Ia? , 16:11:47.56 , +29:34:21.2 , 16.0 , Kearns
+1961H , Ia? , N/A , N/A , 11.2 , Romano
+1961G , Ia? , 10:22:20.69 , +21:13:22.2 , 18.2 , Humason
+1961E , Ia? , 15:17:35.09 , +05:03:13.9 , 17.0 , Gomes
+1961D , Ia? , 12:50:56.40 , +27:50:19.0 , 16.5 , Kearns
+1961C , Ia? , 02:15:25.14 , +41:06:49.7 , 18.2 , Humason
+1961B , Ia? , 08:25:46.11 , +19:27:14.6 , 18.5 , Humason
+1961A , Ia? , 02:44:04.47 , +00:46:56.6 , 19.0 , Humason
 1960R , Ia , 12:25:24.84 , +18:09:19.4 , 12.0 , Gates, Rosino
+1960Q , Ia? , 01:35:54.96 , -05:29:54.0 , 17.5 , Humason
+1960P , Ia? , 01:06:10.04 , +31:24:23.8 , 17.5 , Gomes
+1960O , Ia? , 23:36:25.55 , +27:56:20.8 , 18.5 , Humason
+1960M , Ia? , 08:19:47.44 , +22:02:28.7 , 15.7 , Gomes
+1960L , Ia? , 22:00:41.62 , +17:43:20.1 , 16.0 , Humason
+1960K , Ia? , 22:39:44.72 , +34:22:41.6 , 19.0 , Humason
+1960J , Ia? , 12:25:03.55 , +28:33:45.2 , 18.5 , Humason
+1960I , Ia? , 12:26:57.42 , +48:16:28.6 , 18.5 , Humason
 1960H , Ia-p , 12:06:07.52 , +47:30:38.2 , 14.5 , Wild, Humason
+1960G , Ia? , 11:31:03.57 , +18:23:15.8 , 17.5 , Humason
 1960F , Ia , 12:31:42.05 , +03:56:47.8 , 11.6 , Humason
+1960E , Ia? , 12:17:37.05 , +47:53:13.6 , 16.5 , Humason
+1960D , Ia? , 08:20:17.82 , +20:52:04.4 , 16.4 , Humason
+1960C , Ia? , 12:07:09.27 , +16:59:55.5 , 17.0 , Humason
+1960B , Ia? , 12:34:44.01 , +09:00:09.6 , 16.0 , Kearns
+1960A , Ia? , 02:35:26.46 , +02:06:42.1 , 16.0 , Humason
+1959G , Ia? , N/A , N/A , 14.5 , Hoffmeister
+1959F , Ia? , 02:49:42.80 , -00:31:04.0 , 18.5 , Humason
+1959E , Ia? , 12:22:58.90 , +15:49:01.1 , 17.5 , Humason
 1959C , Ia , 13:11:23.81 , +03:24:37.7 , 13.6 , Humason
+1959B , Ia? , 13:01:27.55 , +27:52:22.8 , 18.5 , Humason
+1959A , Ia? , N/A , N/A , 16.0 , Gates
+1958F , Ia? , N/A , N/A , 16.0 , 
+1958E , Ia? , N/A , N/A , 17.5 , 
+1958D , Ia? , N/A , N/A , 19.5 , Zwicky
+1958C , Ia? , N/A , N/A , 19.6 , Zwicky
+1958B , Ia? , 02:37:06.01 , +01:19:28.7 , 18.0 , Humason
+1958A , Ia? , 16:00:50.19 , +19:42:37.0 , 19.0 , Zwicky
+1957D , Ia? , N/A , N/A , 15.0 , Gates
+1957C , Ia? , N/A , N/A , 16.5 , Gates
 1957B , Ia , N/A , N/A , 12.5 , Romano, Gates
 1957A , Ia-p , N/A , N/A , 14.0 , Schurer
+1956K , Ia? , N/A , N/A , 19.6 , Zwicky
+1956J , Ia? , N/A , N/A , 19.8 , Zwicky
+1956I , Ia? , N/A , N/A , 20.2 , Zwicky
+1956H , Ia? , N/A , N/A , 19.3 , Zwicky
+1956G , Ia? , N/A , N/A , 19.3 , Zwicky
+1956F , Ia? , N/A , N/A , 19.6 , Zwicky
+1956E , Ia? , N/A , N/A , 19.5 , Zwicky
+1956D , Ia? , N/A , N/A , 19.2 , Zwicky
+1956C , Ia? , N/A , N/A ,      , Zwicky
+1956B , Ia? , N/A , N/A , 18.6 , Zwicky
 1956A , Ia , N/A , N/A , 12.3 , Gates
+1955S , Ia? , 15:36:40.61 , +43:32:38.0 , 17.5 , Mueller
+1955R , Ia? , 12:34:42.49 , +49:19:54.8 , 21   , Mueller
+1955Q , Ia? , 10:56:08.77 , +24:09:24.9 , 17   , Pollas
+1955P , Ia? , N/A , N/A , 18.5 , Zwicky
+1955O , Ia? , N/A , N/A , 19.3 , Zwicky
+1955N , Ia? , N/A , N/A , 19.8 , Zwicky
+1955M , Ia? , N/A , N/A , 14.5 , Zwicky
+1955L , Ia? , N/A , N/A , 16.5 , Lovas
+1955K , Ia? , N/A , N/A , 18.4 , Zwicky
+1955J , Ia? , N/A , N/A , 17.9 , Zwicky
+1955I , Ia? , N/A , N/A , 19.3 , Zwicky
+1955H , Ia? , N/A , N/A , 18.8 , Zwicky
+1955G , Ia? , N/A , N/A , 19.4 , Zwicky
+1955F , Ia? , N/A , N/A , 19.5 , Zwicky
+1955E , Ia? , N/A , N/A , 16.3 , Zwicky
+1955D , Ia? , N/A , N/A , 15.5 , Haro
+1955C , Ia? , N/A , N/A , 16.0 , Sandage
+1955B , Ia? , N/A , N/A , 15.8 , Zwicky
+1955A , Ia? , N/A , N/A , 16.0 , Zwicky
+1954ad , Ia? , 08:32:46.37 , +00:13:33.7 , 17.5 , Mueller
+1954ac , Ia? , 00:43:50.78 , +32:50:32.9 , 18   , Mueller
+1954ab , Ia? , N/A , N/A , 17.5 , Zwicky
+1954aa , Ia? , N/A , N/A , 19.9 , Zwicky
+1954Z , Ia? , N/A , N/A , 16.0 , Zwicky
+1954Y , Ia? , N/A , N/A , 19.4 , Zwicky
+1954X , Ia? , N/A , N/A , 18.5 , Zwicky
+1954W , Ia? , N/A , N/A , 19.4 , Zwicky
+1954V , Ia? , N/A , N/A , 20.0 , Zwicky
+1954U , Ia? , N/A , N/A , 17.8 , Zwicky
+1954T , Ia? , N/A , N/A , 19.0 , Zwicky
+1954S , Ia? , N/A , N/A , 17.4 , Zwicky
+1954R , Ia? , N/A , N/A , 15.9 , Zwicky
+1954Q , Ia? , N/A , N/A , 18.5 , Zwicky
+1954P , Ia? , N/A , N/A , 19.5 , Zwicky
+1954O , Ia? , N/A , N/A , 17.6 , Zwicky
+1954N , Ia? , N/A , N/A , 18.0 , Zwicky
+1954M , Ia? , N/A , N/A , 17.5 , Zwicky
+1954L , Ia? , N/A , N/A , 19.3 , Zwicky
+1954K , Ia? , N/A , N/A , 15.0 , Zwicky
+1954J , Ia? , 07:36:55.36 , +65:37:52.1 ,      , Zwicky
+1954I , Ia? , N/A , N/A , 17.3 , Zwicky
+1954H , Ia? , N/A , N/A , 17.4 , Zwicky
+1954G , Ia? , N/A , N/A , 16.6 , Zwicky
+1954F , Ia? , N/A , N/A , 18.8 , Zwicky
+1954E , Ia? , N/A , N/A , 18.5 , Zwicky
+1954D , Ia? , 00:32:11.15 , +31:40:37.1 , 17.4 , Kowal
+1954C , Ia? , N/A , N/A , 14.9 , Wild
 1954B , Ia , N/A , N/A , 12.3 , Wild
+1953L , Ia? , 05:15:46.52 , +71:27:41.6 , 15   , Mueller
+1953K , Ia? , N/A , N/A , 16   , Fesen
+1953J , Ia? , 00:44:55.66 , +16:56:10.8 , 17.5 , Mueller

@@ -9,7 +9,7 @@ with open("All SNe 1953-2015.txt", 'r') as f:
 SNe_Ia = []
 for line in data:
     if len(line) > 5:
-        if line[130:132] == 'Ia':
+        if line[130:132] in ['Ia', '  ']:
             name, SNtype = line[0:6].strip(), line[130:134].strip()
             coords, mag, discoverer = line[87:110], line[64:68], line[144:-1]
             if coords == ' '*23:
@@ -17,6 +17,8 @@ for line in data:
             else:
                 ra = coords[:11].replace(' ', ':')
                 decl = coords[12:].replace(' ', ':')
+            if SNtype == '':
+                SNtype = 'Ia?'
             SNe_Ia.append([name, SNtype, ra, decl, mag, discoverer])
 
 with open('All SNe Ia.txt', 'w') as f:
