@@ -65,7 +65,7 @@
 2001da , 0.0160 , 15.43 , 0.14 , Lick & Tenagra Observatories Supernova Search
 2001eh , 0.0362 , 16.57 , 0.06 , Armstrong
 2001g , 0.0173 , 14.91 , 0.14 , Armstrong
-2001ie , 0.0312 , 16.56 , 0.09 , ----
+2001ie , 0.0312 , 16.56 , 0.09 , Bincoletto
 2001n , 0.0221 , 16.51 , 0.10 , Chornock
 2001v , 0.0160 , 14.54 , 0.14 , Berlind
 2002bf , 0.0249 , 16.51 , 0.11 , LOTOSS
@@ -332,35 +332,35 @@
 1996ci , 0.4950 , 22.82 , 0.05 , Supernova Cosmology Project
 1996cg , 0.4900 , 23.06 , 0.05 , Supernova Cosmology Project
 1996cf , 0.5700 , 23.27 , 0.06 , Supernova Cosmology Project
-1995ba , 0.3880 , 22.49 , 0.08 , ----
-1995az , 0.4500 , 22.60 , 0.10 , ----
-1995ay , 0.4800 , 23.05 , 0.07 , ----
-1995ax , 0.6150 , 23.16 , 0.08 , ----
-1995aw , 0.4000 , 22.20 , 0.08 , ----
-1995at , 0.6550 , 23.17 , 0.08 , ----
-1995as , 0.4980 , 23.66 , 0.08 , ----
-1995ar , 0.4650 , 23.41 , 0.08 , ----
-1995aq , 0.4530 , 23.18 , 0.10 , ----
-1994g , 0.4250 , 22.33 , 0.21 , ----
-2002ad , 0.5140 , 22.78 , 0.26 , ----
+1995ba , 0.3880 , 22.49 , 0.08 , Supernova Cosmology Project
+1995az , 0.4500 , 22.60 , 0.10 , Supernova Cosmology Project
+1995ay , 0.4800 , 23.05 , 0.07 , Supernova Cosmology Project
+1995ax , 0.6150 , 23.16 , 0.08 , Supernova Cosmology Project
+1995aw , 0.4000 , 22.20 , 0.08 , Supernova Cosmology Project
+1995at , 0.6550 , 23.17 , 0.08 , Supernova Cosmology Project
+1995as , 0.4980 , 23.66 , 0.08 , Supernova Cosmology Project
+1995ar , 0.4650 , 23.41 , 0.08 , Supernova Cosmology Project
+1995aq , 0.4530 , 23.18 , 0.10 , Supernova Cosmology Project
+1994g , 0.4250 , 22.33 , 0.21 , Perlmutter, Pennypacker, et al.
+2002ad , 0.5140 , 22.78 , 0.26 , High-Z Supernova Search Team
 2002ab , 0.4230 , 22.62 , 0.07 , High-Z Supernova Search Team
-2002x , 0.8590 , 24.68 , 0.10 , ----
-2001kd , 0.9360 , 24.82 , 0.17 , ----
-2001jp , 0.5280 , 23.03 , 0.11 , ----
-2001jm , 0.9780 , 24.44 , 0.11 , ----
-2001jh , 0.8850 , 24.17 , 0.10 , ----
-2001jf , 0.8150 , 24.83 , 0.25 , ----
-2001jb , 0.6980 , 24.39 , 0.14 , ----
-2001iy , 0.5680 , 23.00 , 0.08 , ----
-2001ix , 0.7110 , 23.81 , 0.11 , ----
-2001iw , 0.3396 , 22.03 , 0.10 , ----
-2001iv , 0.3965 , 22.39 , 0.07 , ----
-2001hy , 0.8120 , 24.86 , 0.11 , ----
-2001hx , 0.7990 , 24.69 , 0.08 , ----
-2001hu , 0.8820 , 24.71 , 0.16 , ----
-2001hs , 0.8330 , 24.22 , 0.11 , ----
-2001fs , 0.8740 , 25.07 , 0.12 , ----
-2001fo , 0.7720 , 23.71 , 0.08 , ----
+2002x , 0.8590 , 24.68 , 0.10 , High-Z Supernova Search Team
+2001kd , 0.9360 , 24.82 , 0.17 , High-Z Supernova Search
+2001jp , 0.5280 , 23.03 , 0.11 , High-Z Supernova Search Team
+2001jm , 0.9780 , 24.44 , 0.11 , High-Z Supernova Search Team
+2001jh , 0.8850 , 24.17 , 0.10 , High-Z Supernova Search Team
+2001jf , 0.8150 , 24.83 , 0.25 , High-Z Supernova Search Team
+2001jb , 0.6980 , 24.39 , 0.14 , High-Z Supernova Search Team
+2001iy , 0.5680 , 23.00 , 0.08 , High-Z Supernova Search Team
+2001ix , 0.7110 , 23.81 , 0.11 , High-Z Supernova Search Team
+2001iw , 0.3396 , 22.03 , 0.10 , High-Z Supernova Search Team
+2001iv , 0.3965 , 22.39 , 0.07 , High-Z Supernova Search Team
+2001hy , 0.8120 , 24.86 , 0.11 , High-Z Supernova Search Team
+2001hx , 0.7990 , 24.69 , 0.08 , High-Z Supernova Search Team
+2001hu , 0.8820 , 24.71 , 0.16 , High-Z Supernova Search Team
+2001hs , 0.8330 , 24.22 , 0.11 , High-Z Supernova Search Team
+2001fs , 0.8740 , 25.07 , 0.12 , High-Z Supernova Search Team
+2001fo , 0.7720 , 23.71 , 0.08 , High-Z Supernova Search Team
 1999dr , 0.1780 , 21.58 , 0.12 , European Supernova Cosmology Consortium
 1999du , 0.2600 , 21.31 , 0.04 , European Supernova Cosmology Consortium
 1999dv , 0.1860 , 20.78 , 0.03 , European Supernova Cosmology Consortium
@@ -547,17 +547,17 @@ p534 , 0.6130 , 23.33 , 0.07 , ----
 05Zwi , 0.5210 , 23.08 , 0.07 , ----
 2002dc , 0.4750 , 23.21 , 0.14 , Magee et al.
 2002dd , 0.9500 , 24.61 , 0.09 , Tsvetanov et al.
-2002fw , 1.3000 , 25.68 , 0.12 , ----
-2002hp , 1.3050 , 25.53 , 0.15 , ----
+2002fw , 1.3000 , 25.68 , 0.12 , GOODS, Hubble Higher-z Supernova Team
+2002hp , 1.3050 , 25.53 , 0.15 , Riess et al.
 2002kc , 0.2160 , 22.43 , 0.20 , GOODS Treasury Team, Hubble Higher-z Supernova Team
 2002kd , 0.7350 , 24.08 , 0.09 , GOODS Treasury Team, Hubble Higher-z Supernova Team
-2002ki , 1.1400 , 25.37 , 0.12 , ----
-2003aj , 1.3070 , 26.33 , 0.17 , ----
-2003az , 1.2650 , 25.75 , 0.12 , ----
-2003bd , 0.6700 , 24.26 , 0.17 , ----
-2003be , 0.6400 , 24.27 , 0.21 , ----
-2003dy , 1.3400 , 25.73 , 0.13 , ----
-2003eq , 0.8400 , 24.34 , 0.08 , ----
+2002ki , 1.1400 , 25.37 , 0.12 , GOODS Treasury Team, Hubble Higher-z Supernova Team
+2003aj , 1.3070 , 26.33 , 0.17 , GOODS Treasury Team, Hubble Higher-z Supernova Team
+2003az , 1.2650 , 25.75 , 0.12 , GOODS Treasury Team, Hubble Higher-z Supernova Team
+2003bd , 0.6700 , 24.26 , 0.17 , GOODS Treasury Team, Hubble Higher-z Supernova Team
+2003be , 0.6400 , 24.27 , 0.21 , GOODS Treasury Team, Hubble Higher-z Supernova Team
+2003dy , 1.3400 , 25.73 , 0.13 , GOODS Treasury Team, Hubble Higher-z Supernova Team
+2003eq , 0.8400 , 24.34 , 0.08 , GOODS Treasury Team, Hubble Higher-z Supernova Team
 2003XX , 0.9350 , 24.48 , 0.10 , ----
 2001cw , 0.9530 , 24.71 , 0.15 , Supernova Cosmology Project
 2001gn , 1.1240 , 25.37 , 0.11 , Supernova Cosmology Project

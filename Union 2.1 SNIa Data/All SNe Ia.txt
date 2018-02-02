@@ -95,6 +95,7 @@
 2014H , Ia , 03:37:01.48 , +32:05:01.7 , 16.8 , Li, Mo, Wang, Zhang (THU-NAOC Transient Survey)
 2014E , Ia , 12:03:31.24 , +02:02:35.7 , 16.4 , Howerton, Drake et al. (Catalina Real-time Transient Survey)
 2014D , Ia , 12:10:36.76 , +18:49:35.4 , 17.0 , Howerton, Drake et al. (Catalina Real-time Transient Survey)
+2013hy , Ia? , 02:42:32.82 , -01:21:30.1 , 22.9 , Sullivan et al. (Dark Energy Survey)
 2013hw , Ia , 10:32:55.43 , -01:55:13.6 , 17.1 , Shurpakov (MASTER)
 2013hs , Ia , 01:58:53.69 , +05:35:25.4 , 15.8 , Howerton, Drake et al. (Catalina Real-time Transient Survey)
 2013hr , Ia , 14:59:00.85 , +49:48:47.6 , 16.2 , Balanutsa (MASTER)
@@ -301,6 +302,7 @@
 2012ei , Ia , 14:24:05.71 , +33:02:56.5 , 14.7 , Hirose
 2012ef , Ia , 23:50:19.25 , +16:37:56.2 , 18.1 , Podvorotniy (MASTER)
 2012ee , Ia , 20:45:15.28 , -05:37:22.1 , 16.4 , Howerton, Drake et al. (Catalina Sky Survey)
+2012eb , Ia? , 23:41:38.05 , -46:11:03:: , 18.6 , Saxton et al. (Swift satellite)
 2012ea , Ia , 17:45:10.40 , +18:08:26.8 , 16.8 , Cenko et al. (LOSS)
 2012dz , Ia , 18:18:56.20 , +23:39:37.0 , 16.5 , Martinelli, Mancini
 2012dw , Ia , 21:22:35.28 , -33:33:54.6 , 17.5 , McNaught, Drake et al. (Siding Spring Survey)
@@ -439,6 +441,7 @@
 2011fw , Ia , 03:20:54.24 , +37:52:05.3 , 17.2 , Ciabattari, Mazzoni
 2011fs , Ia , 22:17:19.52 , +35:34:50.0 , 16.8 , Jin, Gao
 2011fp , Ia , 00:15:25.61 , +17:19:11.9 , 17.9 , Itagaki
+2011fn , Ia? , 06:48:34.96 , -64:15:54.5 , 17.9 , Parker
 2011fm , Ia , 19:06:50.17 , -61:41:57.7 , 16.4 , Parker
 2011fk , Ia , 00:54:42.06 , +36:45:51.4 , 16.6 , Ciabattari, Mazzoni
 2011fg , Ia-p , 23:23:20.59 , +16:47:41.3 , 16.6 , Zheng et al. (ROTSE)
@@ -528,9 +531,13 @@
 2010ly , Ia , 03:05:03.56 , -19:40:38.8 , 17.9 , Drake et al. (Catalina Sky Survey)
 2010lw , Ia , 13:11:21.62 , -01:21:41.6 , 20.3 , Amanullah et al.
 2010lv , Ia , 13:19:42.89 , -33:15:18.5 , 17.3 , Pignata et al. (CHASE)
+2010lu , Ia? , 09:06:00.70 , +29:20:32.5 , 16.8 , Drake et al. (Catalina Sky Survey)
 2010lt , Ia-p , 06:06:09.18 , +83:50:28.8 , 17.0 , Lane, K. A. Gray, P. Gray
+2010lr , Ia? , 00:02:35.50 , -30:43:52.4 , 18.0 , Drake et al. (Siding Spring Survey)
 2010lq , Ia , 08:32:40.98 , -24:02:45.6 , 15.6 , Leonini, Guerrini
 2010lp , Ia , 02:54:03.50 , +02:57:43.4 , 16.7 , Cox, Newton, Puckett
+2010lo , Ia? , 12:31:23.67 , +29:07:34.0 , 17.3 , Zizak, Novoselnik (La Sagra Sky Survey)
+2010ln , Ia? , 03:20:53.62 , +38:15:11.9 , 17.1 , Crowley, Newton, Puckett
 2010lm , Ia , 10:03:57.35 , -27:38:30.3 , 18.1 , Pignata et al. (CHASE)
 2010ll , Ia , 04:50:29.81 , -10:44:17.0 , 18.1 , Drake et al. (CRTS)
 2010lk , Ia , 09:15:14.35 , +01:22:16.4 , 17.4 , Drake et al. (CRTS)
@@ -541,11 +548,17 @@
 2010ld , Ia , 09:04:03.07 , +09:05:27.9 , 18.6 , Drake et al. (CRTS)
 2010lc , Ia , 01:55:01.38 , +11:39:25.2 , 18.6 , Drake et al. (CRTS)
 2010kz , Ia , 02:45:37.19 , -11:12:39.4 , 17.2 , Drake et al. (CRTS)
+2010kx , Ia? , 23:23:46.37 , -29:23:10.0 , 17.5 , Itagaki
+2010kw , Ia? , 06:56:19.88 , -54:03:47.1 , 17.0 , Pignata et al. (CHASE)
 2010kt , Ia , 05:00:39.19 , -38:40:46.1 , 16.8 , Pignata et al. (CHASE)
+2010ks , Ia? , 10:23:42.44 , +33:46:49.0 , 17.0 , Howerton, Drake et al. (CRTS)
 2010kr , Ia , 10:47:38.17 , +38:55:24.9 , 18.1 , Cenko et al. (LOSS)
 2010kq , Ia , 02:18:10.92 , +37:05:42.4 , 18.3 , Howerton, Drake et al. (CRTS)
+2010kp , Ia? , 04:03:38.86 , +70:45:15.7 , 17.9 , Itagaki
 2010ko , Ia , 05:32:49.44 , -14:05:45.9 , 16.8 , Leonini
 2010kn , Ia , 11:50:17.04 , +43:57:47.0 , 18.5 , Zheng et al. (ROTSE)
+2010km , Ia? , 02:55:12.81 , +24:38:13.1 , 18.8 , Howerton, Drake et al. (Catalina Sky Survey)
+2010kl , Ia? , 11:27:17.48 , +03:45:33.3 , 18.9 , Howerton, Drake et al. (Catalina Sky Survey)
 2010kk , Ia , 03:53:23.23 , +09:54:33.3 , 20.2 , Moskvitin, Drake et al. (Mt. Lemmon Survey)
 2010kj , Ia , 02:48:37.15 , +07:24:10.8 , 18.5 , Moskvitin, Drake et al. (Mt. Lemmon Survey)
 2010ki , Ia , 23:16:09.60 , -02:14:05.6 , 16.9 , Itagaki
@@ -557,45 +570,70 @@
 2010jx , Ia , 01:19:42.22 , +30:24:49.2 , 19.2 , Drake et al. (Catalina Sky Survey)
 2010jv , Ia , 07:27:26.48 , +33:48:41.8 , 16.3 , Cenko et al. (LOSS)
 2010ju , Ia , 05:41:55.99 , +18:29:51.0 , 16.8 , Cenko et al. (LOSS)
+2010jt , Ia? , 23:43:41.24 , -41:18:46.9 , 19.0 , Howerton, Drake et al. (CRTS)
 2010jq , Ia , 10:36:36.40 , -27:28:44.5 , 17.2 , Pignata et al. (CHASE)
 2010jo , Ia , 00:57:35.58 , -01:23:33.4 , 17.5 , Koishikawa
 2010jn , Ia , 09:37:30.24 , +23:09:33.3 , 19.2 , Howell et al.; Boles; Newton, Puckett
 2010jm , Ia , 03:46:03.55 , +12:42:15.5 , 17.4 , La Sagra Sky Survey
+2010jh , Ia? , 22:35:16.47 , -21:41:54.1 , 16.7 , Drake et al. (CRTS)
+2010jg , Ia? , 22:04:27.42 , -07:58:41.2 , 17.9 , Drake et al. (CRTS)
 2010jf , Ia-p , 03:40:43.47 , +01:03:34.0 , 17.7 , Vida, Novoselnik (La Sagra Sky Survey)
+2010je , Ia? , 17:18:36.61 , +41:40:56.7 , 17.1 , Newton, Puckett
 2010jd , Ia , 03:37:22.20 , -33:02:39.7 , 17.4 , Zheng et al. (ROTSE)
 2010jb , Ia , 01:04:07.68 , -51:08:05.4 , 15.6 , Parker
 2010ja , Ia , 08:02:28.39 , +09:23:40.9 , 17.9 , Pignata et al. (CHASE)
+2010iz , Ia? , 06:49:50.94 , +28:22:22.1 , 17.2 , Li et al. (LOSS)
+2010iy , Ia? , 18:36:36.91 , -47:03:15.7 , 17.7 , Pignata et al. (CHASE)
 2010ix , Ia , 01:00:02.49 , +41:42:57.6 , 18.0 , Vida, Novoselnik (La Sagra Sky Survey)
+2010iw , Ia? , 08:45:15.01 , +27:49:21.8 , 16.4 , Howerton et al. (Catalina Sky Survey)
 2010iv , Ia , 04:03:52.23 , -43:25:38.5 , 17.4 , Pignata et al. (CHASE)
 2010iu , Ia , 00:40:02.48 , -56:09:29.9 , 17.2 , Pignata et al. (CHASE)
 2010it , Ia , 03:41:57.50 , -04:42:21.1 , 17.0 , Cenko et al. (LOSS)
+2010iq , Ia? , 21:54:23.25 , +15:09:20.6 , 18.5 , Cenko et al. (LOSS)
 2010ip , Ia , 03:29:48.50 , +06:32:55.3 , 18.1 , Drake et al. (CRTS)
+2010in , Ia? , 01:16:14.62 , -30:32:45.4 , 18.5 , Drake et al. (CRTS)
+2010im , Ia? , 20:11:31.59 , -45:41:57.8 , 16.3 , Drake et al. (CRTS)
+2010ik , Ia? , 00:12:07.47 , +41:45:24.9 , 18.7 , Grennan
 2010ij , Ia , 22:20:20.19 , +17:03:22.2 , 15.9 , Vida, Novoselnik (La Sagra Sky Survey)
 2010ii , Ia , 22:38:13.18 , +35:29:30.0 , 18.0 , Cenko et al. (LOSS)
 2010ih , Ia , 07:02:43.63 , -28:37:25.2 , 13.3 , Pignata et al. (CHASE)
+2010ib , Ia? , 01:25:47.54 , -01:22:29.7 , 19.2 , Cenko et al. (LOSS)
 2010ia , Ia , 03:56:56.20 , +08:30:45.1 , 17.3 , Drake et al. (CRTS)
 2010hz , Ia , 01:53:41.97 , +29:56:04.6 , 19.1 , Cenko et al. (LOSS)
 2010hx , Ia , 10:28:51.06 , -35:36:22.3 , 15.3 , Monard
 2010hu , Ia , 23:22:13.33 , -05:19:07.5 , 18.7 , Drake et al. (CRTS)
 2010hs , Ia , 02:25:39.14 , +24:45:53.6 , 18.6 , Cenko et al. (LOSS)
+2010hr , Ia? , 06:07:59.00 , +39:15:54.4 , 16.8 , Duszanowicz
 2010ho , Ia , 23:19:10.24 , +09:11:54.4 , 16.6 , Leonini, Guerrini
+2010hn , Ia? , 21:43:19.14 , -15:03:19.6 , 17.5 , Vida et al. (La Sagra Sky Survey)
+2010hl , Ia? , 17:16:33.34 , +57:52:08.3 , 17.5 , Boles
 2010hk , Ia , 03:37:52.61 , +04:56:52.2 , 17.6 , Newton, Puckett
 2010hj , Ia , 21:49:09.84 , -59:02:23.2 , 17.1 , Drake et al. (Siding Spring Survey)
+2010hi , Ia? , 18:13:00.76 , +68:21:53.4 , 18.0 , Arbour
 2010hh , Ia , 17:59:18.38 , +45:52:32.0 , 18.3 , Cenko et al. (LOSS)
 2010hg , Ia , 09:46:13.7: , -30:27:13.3 , 15.0 , Monard
 2010he , Ia , 02:49:10.80 , -14:27:00.1 , 17.6 , Itagaki
+2010hb , Ia? , 03:07:01.66 , +46:37:20.2 , 17.5 , Boles
+2010ha , Ia? , 02:00:24.84 , +24:34:43.3 , 18.9 , Boles
+2010gz , Ia? , 01:32:51.07 , -12:11:21.5 , 16.0 , Tsuboi
 2010gy , Ia , 02:27:12.04 , -04:32:04.9 , 20.8 , Chornock et al. (PanSTARRS)
 2010gv , Ia , 17:58:22.56 , +50:47:34.0 , 16.4 , Itagaki
+2010gu , Ia? , 22:19:23.16 , -36:58:24.5 , 18.0 , Drake et al. (CRTS)
+2010gt , Ia? , 20:51:22.38 , -52:32:48.1 , 18.0 , Monard
 2010gp , Ia , 16:52:57.39 , +02:23:16.4 , 17.5 , Pignata et al. (CHASE)
+2010go , Ia? , 12:50:00.16 , -07:54:59.9 , 16.9 , McNaught, Drake et al. (CRTS)
 2010gn , Ia , 17:17:49.9: , +40:52:52.0 , 16.6 , Vinko et al.
 2010gm , Ia , 17:33:20.87 , +44:06:16.4 , 17.9 , Boles
 2010gl , Ia , 16:31:38.62 , +59:37:26.2 , 18.8 , Li, Cenko et al. (LOSS)
 2010gj , Ia-p , 21:50:54.34 , -17:46:09.4 , 17.0 , Novoselnik et al. (La Sagra Sky Survey)
+2010gi , Ia? , 17:21:46.1: , +75:50:44.3 , 15.3 , Tsuboi
+2010ge , Ia? , 15:43:43.91 , -09:28:34.0 , 17.7 , Drake et al. (CRTS)
 2010gc , Ia , 13:23:06.30 , -13:00:18.1 , 16.8 , Pignata et al. (CHASE)
 2010gb , Ia , 15:38:39.79 , +41:00:19.9 , 16.5 , Boles
 2010ga , Ia , 00:34:43.83 , +09:54:36.1 , 17.3 , Vales
 2010fz , Ia , 09:42:04.77 , +00:19:51.0 , 15.8 , Monard
 2010fy , Ia , 05:24:52.46 , -46:46:37.1 , 17.7 , Monard
+2010fv , Ia? , 15:13:06.52 , +41:16:05.5 , 20.1 , Cenko et al. (LOSS)
 2010fu , Ia , 12:21:46.46 , +46:39:13.3 , 22.6 , Chornock et al. (PanSTARRS)
 2010ft , Ia , 16:01:15.41 , +54:17:53.5 , 21.8 , Chornock et al. (PanSTARRS)
 2010fs , Ia , 14:14:03.34 , +53:21:43.8 , 22.3 , Chornock et al. (PanSTARRS)
@@ -621,28 +659,70 @@
 2010ex , Ia , 23:00:10.90 , +26:05:57.2 , 16.1 , Ciabattari, Donati, Mazzoni
 2010ew , Ia , 18:37:11.88 , +30:37:49.6 , 16.6 , Peoples, Newton, Puckett
 2010ev , Ia , 10:25:28.99 , -39:49:51.2 , 14.3 , Pignata et al. (CHASE)
+2010eu , Ia? , 21:31:36.16 , +12:28:51.1 , 18.7 , Vida et al. (La Sagra Sky Survey)
+2010et , Ia? , 17:16:54.08 , +31:33:50.6 , 18.8 , Drake et al. (CRTS)
+2010es , Ia? , 16:33:17.92 , +11:45:04.9 , 18.8 , Drake et al. (CRTS)
+2010er , Ia? , 15:50:11.14 , +12:16:42.5 , 17.8 , Drake et al. (CRTS)
+2010eq , Ia? , 15:34:47.41 , +02:05:49.7 , 17.6 , Drake et al. (CRTS)
+2010ep , Ia? , 16:01:08.91 , +34:50:41.6 , 18.1 , Drake et al. (CRTS)
+2010eo , Ia? , 13:50:45.79 , +19:26:18.2 , 17.6 , Drake et al. (CRTS)
+2010en , Ia? , 15:50:16.02 , +04:43:34.0 , 19.0 , Drake et al. (CRTS)
 2010el , Ia-p , 04:19:58.83 , -54:56:38.5 , 16.8 , Monard
 2010eg , Ia , 22:15:42.56 , -09:20:17.3 , 18.5 , Drake et al. (CRTS)
 2010ef , Ia , 16:28:52.10 , +26:22:29.0 , 19.1 , Drake et al. (CRTS)
 2010ed , Ia , 17:09:24.13 , +22:12:48.1 , 18.7 , Cenko et al. (LOSS)
 2010ec , Ia , 01:41:55.93 , -13:05:01.6 , 17.1 , Pignata et al. (CHASE)
 2010eb , Ia? , 01:21:37.78 , +05:17:39.9 , 14.7 , Monard
+2010ea , Ia? , 12:45:29.52 , +53:51:49.2 , 17.6 , Shumkov, Balanutsa, Gorbovskoy
+2010dz , Ia? , 13:50:44.39 , +17:03:58.5 , 18.1 , Newton, Puckett
 2010dy , Ia , 16:10:11.03 , +00:45:07.5 , 17.9 , Leonini, Guerrini
 2010dw , Ia , 15:22:40.31 , -05:55:15.9 , 17.3 , Skvarc
+2010dv , Ia? , 11:49:03.43 , -37:30:59.7 , 17.5 , Monard
 2010dt , Ia , 16:43:14.68 , +32:40:30.4 , 18.6 , Novoselnik et al. (La Sagra Sky Survey)
+2010ds , Ia? , 19:15:51.46 , -56:12:30.9 , 16.4 , Pignata et al. (CHASE)
 2010dq , Ia , 00:15:29.70 , +17:19:41.0 , 17.3 , Itagaki
 2010dp , Ia , 09:32:03.70 , -05:53:38.1 , 16.7 , Drake et al. (CRTS)
+2010dn , Ia? , 10:18:19.89 , +41:26:28.8 ,      , Itagaki
 2010dm , Ia , 12:11:33.31 , +47:16:29.1 , 18.2 , Zheng et al. (ROTSE)
 2010dl , Ia , 21:35:00.97 , -00:30:47.8 , 16.4 , Drake et al. (CRTS)
+2010dk , Ia? , 14:28:56.16 , +20:19:04.0 , 19.3 , Drake et al. (CRTS)
+2010dj , Ia? , 11:57:34.72 , +24:42:27.7 , 18.5 , Drake et al. (CRTS)
+2010di , Ia? , 08:52:47.28 , +53:14:06.1 , 18.7 , Drake et al. (CRTS)
+2010dh , Ia? , 10:56:37.19 , +20:14:41.9 , 18.0 , Drake et al. (CRTS)
+2010dg , Ia? , 10:34:04.31 , +38:32:30.4 , 19.2 , Drake et al. (CRTS)
+2010df , Ia? , 12:58:39.67 , -03:26:43.1 , 18.9 , Drake et al. (CRTS)
+2010de , Ia? , 16:12:29.20 , -00:44:41.1 , 17.4 , Drake et al. (CRTS)
 2010dd , Ia , 16:52:47.60 , +51:03:45.7 , 17.2 , Ciabattari,  Rossi, Petroni
+2010db , Ia? , 18:26:09.27 , +30:14:12.6 ,      , Balanutsa, Gorbovskoy
+2010da , Ia? , 00:55:04.86 , -37:41:43.7 ,      , Monard
+2010cz , Ia? , 22:40:56.89 , -07:03:06.4 , 17.8 , Drake et al.
 2010cy , Ia , 14:43:42.85 , +03:58:16.2 , 17.0 , Drake et al.
+2010cw , Ia? , 09:33:56.84 , +38:48:35.7 , 17.8 , Drake et al.
+2010cv , Ia? , 09:36:19.28 , +29:21:01.3 , 18.8 , Drake et al.
+2010cu , Ia? , 13:20:35.36 , +34:08:22.2 , 17.7 , Kankare et al.
 2010cs , Ia , 14:47:55.78 , +19:03:17.7 , 19.6 , Cenko et al. (LOSS)
+2010cr , Ia? , 13:29:25.04 , +11:47:46.4 , 17.0 , Itagaki; "Palomar Transient Factory"
+2010cq , Ia? , 21:01:44.10 , -14:38:30.5 , 16.4 , Drake et al. (Siding Spring Survey)
 2010cp , Ia , 13:00:25.82 , -15:17:19.9 , 17.5 , Itagaki
+2010cm , Ia? , 01:30:03.91 , -42:41:10.6 , 16.3 , Parker
+2010cj , Ia? , 08:47:57.98 , +51:08:41.2 , 17.9 , Drake et al. (CRTS)
+2010ci , Ia? , 07:52:58.89 , +05:29:29.9 , 17.7 , Drake et al. (CRTS)
+2010ch , Ia? , 15:05:24.04 , +02:58:34.9 , 18.2 , Drake et al. (CRTS)
+2010cg , Ia? , 15:30:37.56 , +00:52:41.9 , 17.5 , Drake et al. (CRTS)
+2010cf , Ia? , 15:23:21.84 , +02:19:01.0 , 18.2 , Drake et al. (CRTS)
 2010ce , Ia , 09:35:30.01 , +01:28:31.8 , 17.7 , Drake et al. (CRTS)
+2010cd , Ia? , 11:58:01.18 , -06:29:30.6 , 18.6 , Drake et al. (CRTS)
+2010cc , Ia? , 12:14:43.72 , +43:36:51.8 , 19.3 , Drake et al. (CRTS)
+2010cb , Ia? , 12:24:47.84 , +32:06:54.9 , 18.4 , Drake et al. (CRTS)
+2010ca , Ia? , 08:38:31.11 , +14:00:39.1 , 19.1 , Drake et al. (CRTS)
+2010bz , Ia? , 13:18:30.11 , +44:20:22.9 , 18.5 , Drake et al. (CRTS)
+2010by , Ia? , 15:14:39.61 , +28:25:21.4 , 18.4 , Drake et al. (CRTS)
+2010bx , Ia? , 09:27:42.21 , +44:34:36.5 , 19.0 , Drake et al. (CRTS)
 2010bw , Ia , 11:37:56.59 , +10:53:38.0 , 19.4 , Drake et al. (CRTS)
 2010bv , Ia , 22:14:01.89 , -26:55:44.6 , 15.4 , Parker
 2010bu , Ia , 15:42:58.38 , +02:16:52.6 , 16.9 , Drake et al. (CRTS)
 2010bp , Ia , 14:12:07.89 , -49:23:43.3 , 15.2 , Monard
+2010bo , Ia? , 15:56:22.57 , -31:32:09.8 , 15.8 , Pignata et al. (CHASE)
 2010bn , Ia , 11:44:55.72 , -05:04:44.2 , 17.2 , Drake et al. (CRTS)
 2010bl , Ia , 12:40:34.92 , -20:33:40.8 , 16.5 , Newton, Puckett
 2010bg , Ia , 10:57:41.25 , +57:36:47.9 , 20.4 , Valenti et al. (PanSTARRs)
@@ -662,17 +742,25 @@
 2010ag , Ia , 17:03:53.63 , +31:30:06.2 , 16.5 , Cox, Puckett
 2010af , Ia , 11:39:19.3: , +89:06:05.7 , 17.2 , Boles
 2010ae , Ia-p , 07:15:54.65 , -57:20:36.9 , 15.9 , Pignata et al. (CHASE)
+2010aa , Ia? , 01:48:43.21 , -48:39:00.7 , 16.4 , Monard
+2010Z , Ia? , 09:16:21.30 , +17:43:40.6 , 16.7 , Lick Observatory Supernova Survey; Leonini
 2010Y , Ia , 10:51:03.95 , +65:46:47:: , 15.9 , Cortini
+2010W , Ia? , 11:56:48.07 , -38:11:11.3 , 16.7 , Monard
 2010V , Ia , 14:28:38.46 , +30:38:09.5 , 14.3 , Balanutsa
+2010U , Ia? , 12:15:41.07 , +36:20:02.6 , 16.0 , Itagaki
+2010T , Ia? , 13:14:47.88 , -15:58:24.8 , 18.2 , Pignata et al. (CHASE)
 2010R , Ia , 12:17:10.49 , +25:39:58.7 , 18.3 , Graham, Drake et al. (CRTS)
+2010P , Ia? , 11:28:31.38 , +58:33:49.3 , 18.3 , Mattila, Kankare
 2010N , Ia , 13:09:05.24 , +17:04:22.3 , 16.7 , Drake et al. (CRTS)
 2010L , Ia , 02:23:28.78 , +05:35:30.6 , 18.5 , Prieto, Drake et al. (CRTS)
 2010J , Ia , 11:15:26.75 , +08:06:43.7 , 19.7 , Prieto, Drake et al. (CRTS)
 2010I , Ia , 10:12:13.27 , -01:49:00.1 , 18.1 , Prieto, Drake et al. (CRTS)
 2010H , Ia , 08:06:24.36 , +01:02:09.1 , 15.3 , Lick Observatory Supernova Survey
 2010G , Ia , 12:25:10.01 , +45:19:43.9 , 19.4 , Zheng et al. (ROTSE)
+2010C , Ia? , 10:51:29.87 , +09:16:33.1 , 18.8 , Lick Observatory Supernova Survey
 2010B , Ia , 13:54:08.82 , +60:40:49.6 , 14.1 , Tsuboi
 2010A , Ia , 02:32:39.46 , +00:37:10.2 , 16.0 , Cox, Newton, Puckett
+2009nz , Ia? , 02:26:19.9: , -18:57:09:: , 21.6 , SWIFT; Cobb et al.
 2009nx , Ia? , 00:44:11.67 , +23:44:25.4 , 19.0 , Prieto, Drake et al. (CRTS)
 2009nv , Ia , 12:02:55.28 , +15:35:02.4 , 19.1 , Prieto, Drake et al. (CRTS)
 2009nt , Ia , 23:11:03.12 , +20:26:19.6 , 19.6 , Prieto, Drake et al. (CRTS)
@@ -714,6 +802,7 @@
 2009lg , Ia , 23:38:49.93 , +28:15:54.2 , 18.0 , Drake et al. (CRTS)
 2009lf , Ia , 02:01:39.61 , +15:19:58.1 , 18.5 , Drake et al. (CRTS)
 2009le , Ia , 02:09:17.14 , -23:24:44.8 , 16.6 , Pignata et al. (CHASE)
+2009lc , Ia? , 21:36:50.46 , -46:57:33.7 , 17.7 , Monard
 2009la , Ia , 04:22:45.74 , -40:36:48.1 , 15.7 , Parker
 2009kz , Ia , 02:22:40.07 , -04:01:38.3 , 21.0 , Pan-STARRS1 survey
 2009ky , Ia , 03:34:28.80 , -27:54:30.3 , 20.8 , Pan-STARRS1 survey
@@ -728,6 +817,14 @@
 2009ko , Ia , 08:01:58.38 , +15:03:34.7 , 16.6 , Lick Observatory Supernova Survey
 2009km , Ia , 03:02:59.01 , -14:49:01.9 , 16.5 , Drake et al. (CRTS)
 2009kk , Ia , 03:49:44.27 , -03:15:51.9 , 15.5 , Drake et al. (CRTS)
+2009kj , Ia? , 14:13:25.21 , +52:51:31.0 , 21.0 , Pan-STARRS
+2009ki , Ia? , 16:14:08.64 , +55:41:41.9 , 21.0 , Pan-STARRS
+2009kh , Ia? , 16:13:20.25 , +53:58:42.2 , 21.7 , Pan-STARRS
+2009kg , Ia? , 16:17:56.05 , +54:58:01.3 , 21.9 , Pan-STARRS
+2009ke , Ia? , 16:07:24.69 , +54:00:17.9 , 21.3 , Pan-STARRS
+2009kd , Ia? , 12:25:08.49 , +46:59:44.2 , 22.0 , Pan-STARRS
+2009kc , Ia? , 12:23:20.35 , +46:18:14.4 , 21.9 , Pan-STARRS
+2009kb , Ia? , 16:12:08.54 , +55:07:41.3 , 21.2 , Pan-STARRS
 2009jz , Ia-p , 05:40:05.30 , -55:32:03.9 , 17.0 , Parker
 2009jt , Ia , 03:41:10.67 , -09:35:46.9 , 18.6 , Drake et al. (CRTS)
 2009jr , Ia , 20:26:26.03 , +02:54:33.0 , 16.0 , Arbour
@@ -738,16 +835,21 @@
 2009jl , Ia , 22:23:22.92 , -01:32:26.5 , 22.3 , Sand et al.
 2009jj , Ia , 22:27:07.85 , +17:14:36.6 , 19.2 , Sand et al.
 2009ji , Ia , 15:54:52.48 , +32:05:05.6 , 17.9 , Drake et al. (CRTS)
+2009jg , Ia? , 17:40:34.33 , +18:42:49.2 , 15.8 , Drake et al. (CRTS)
 2009jc , Ia , 01:02:43.63 , -19:27:45.4 , 18.2 , Catelan, Drake et al. (CRTS)
 2009jb , Ia , 17:23:41.93 , +30:29:50.2 , 17.4 , Catelan, Drake et al. (CRTS)
+2009ja , Ia? , 23:02:41.05 , -09:59:54.0 , 18.6 , Catelan, Drake et al. (CRTS)
 2009iy , Ia , 13:30:10.60 , +80:30:27.1 , 17.9 , Hentunen, Nissinen
 2009ix , Ia , 03:17:53.02 , +40:57:31.9 , 18.1 , Lick Observatory Supernova Survey
 2009iw , Ia , 05:55:25.64 , -76:55:15.9 , 15.0 , Parker
 2009iv , Ia , 02:58:14.19 , +05:58:19.3 , 17.6 , Chatzopoulos et al. (ROTSE)
 2009it , Ia , 19:57:48.68 , -31:48:35.4 , 16.3 , Pignata et al. (CHASE)
 2009is , Ia , 02:57:07.15 , +18:01:09.2 , 16.4 , Matelan, Drake et al. (CRTS)
+2009ip , Ia? , 22:23:08.26 , -28:56:52.4 , 17.9 , Maza, Pignata et al. (CHASE)
+2009io , Ia? , 21:02:15.08 , +15:08:29.8 , 18.9 , Boles
 2009in , Ia , 23:22:35.32 , -13:05:43.6 , 16.5 , Pignata et al. (CHASE)
 2009im , Ia , 03:33:22.07 , -04:59:56.4 , 15.6 , Itagaki
+2009il , Ia? , 06:33:52.66 , -63:00:39.8 , 17.7 , Maza, Pignata, et al. (CHASE)
 2009ik , Ia , 12:43:51.21 , -00:34:54.4 , 15.3 , Monard
 2009ih , Ia-p , 15:55:31.05 , +41:56:54.0 , 17.3 , Boles
 2009ig , Ia , 02:38:11.61 , -01:18:45.1 , 17.5 , Lick Observatory Supernova Survey
@@ -765,14 +867,21 @@
 2009hl , Ia , 17:31:10.14 , +36:25:40.1 , 18.0 , Drake et al. (CRTS)
 2009hk , Ia , 20:38:37.42 , -25:06:56.0 , 17.0 , Yuan et al. (ROTSE)
 2009hi , Ia , 23:23:56.26 , +16:46:29.8 , 18.0 , Itagaki; LOSS
+2009hg , Ia? , 12:54:42.61 , -39:51:16.3 , 16.9 , Monard
 2009he , Ia , 16:22:12.33 , +57:16:22.5 , 17.5 , Puckett, Moore
 2009hc , Ia , 22:50:26.33 , +10:54:41.7 , 23.0 , Sand et al.
 2009hb , Ia , 15:22:29.65 , +28:04:48.4 , 20.7 , Sand et al.
 2009gy , Ia , 22:11:51.33 , -12:20:32.2 , 19.2 , Sand et al.
 2009gw , Ia , 15:22:13.62 , +27:58:01.3 , 20.7 , Sand et al.
 2009gu , Ia , 15:54:50.94 , -68:43:00.2 , 16.3 , Pignata et al. (CHASE)
+2009gt , Ia? , 10:04:06.78 , +31:12:29.3 , 16.1 , Drake et al. (CRTS)
 2009gs , Ia , 21:18:49.42 , -05:57:10.8 , 16.6 , Drake et al. (CRTS)
+2009gr , Ia? , 17:25:38.28 , +19:07:05.8 , 18.8 , Drake et al. (CRTS)
 2009gq , Ia , 22:14:52.81 , +17:30:47.2 , 18.3 , Drake et al. (CRTS)
+2009gp , Ia? , 14:19:33.93 , +02:44:45.5 , 19.0 , Drake et al. (CRTS)
+2009go , Ia? , 16:38:54.17 , +21:49:06.0 , 18.3 , Drake et al. (CRTS)
+2009gn , Ia? , 16:05:23.53 , -16:08:34.2 , 18.0 , Drake et al. (CRTS)
+2009gm , Ia? , 14:27:58.10 , +11:24:33.9 , 18.2 , Drake et al. (CRTS)
 2009gi , Ia? , 19:10:19.11 , +19:33:34.6 , 18.1 , Lick Observatory Supernova Survey
 2009gg , Ia , 21:01:29.91 , -52:01:00.2 , 15.8 , Tan
 2009gf , Ia , 14:15:37.12 , +14:16:48.7 , 16.1 , Itagaki
@@ -783,6 +892,12 @@
 2009fv , Ia , 16:29:44.22 , +40:48:41.8 , 16.3 , Puckett, Kroes, Newton
 2009fu , Ia , 02:12:09.00 , +44:33:55.0 , 15.7 , Itagaki
 2009ft , Ia , 14:24:06.03 , +07:46:10.3 , 17.9 , Drake et al. (CRTS)
+2009fr , Ia? , 01:32:15.05 , -33:29:49.6 , 16.1 , Pignata et al. (CHASE)
+2009fq , Ia? , 11:49:10.41 , +34:24:52.5 , 19.1 , Drake et al. (CRTS)
+2009fp , Ia? , 10:45:22.18 , +10:57:17.0 , 18.5 , Drake et al. (CRTS)
+2009fo , Ia? , 15:06:34.82 , +21:51:15.1 , 18.4 , Drake et al. (CRTS)
+2009fn , Ia? , 14:00:14.92 , +20:17:29.9 , 19.4 , Drake et al. (CRTS)
+2009fm , Ia? , 12:24:51.16 , +24:35:02.9 , 19.3 , Drake et al. (CRTS)
 2009fl , Ia-p , 16:25:10.10 , +40:53:20.8 , 17.7 , Lick Observatory Supernova Survey
 2009fk , Ia , 22:44:23.90 , -00:09:42.0 , 18.5 , Lick Observatory Supernova Survey
 2009fj , Ia , 12:06:22.97 , -44:27:34.3 , 13.8 , Pignata et al. (CHASE)
@@ -808,6 +923,11 @@
 2009eh , Ia , 15:20:38.08 , +07:39:32.5 , 21.2 , Sand et al.
 2009eg , Ia , 14:54:15.47 , +18:57:52.8 , 17.6 , Sand et al.
 2009ee , Ia , 11:21:25.30 , +34:20:23.3 , 17.5 , Lick Observatory Supernova Survey
+2009ed , Ia? , 09:23:41.42 , +50:24:11.2 , 17.9 , Drake et al. (CRTS)
+2009ec , Ia? , 11:06:28.89 , +24:05:15.4 , 18.3 , Drake et al. (CRTS)
+2009eb , Ia? , 09:54:40.35 , +19:11:12.7 , 17.7 , Drake et al. (CRTS)
+2009ea , Ia? , 14:47:02.39 , +09:57:37.4 , 18.1 , Drake et al. (CRTS)
+2009dz , Ia? , 12:35:35.77 , +01:52:12.6 , 18.1 , Drake et al. (CRTS)
 2009dy , Ia , 15:01:04.03 , +43:13:13.9 , 18.4 , Drake et al. (CRTS)
 2009dx , Ia , 16:49:25.67 , +05:52:48.1 , 18.8 , Drake et al. (CRTS)
 2009du , Ia , 13:39:46.36 , -21:27:19.1 , 19.4 , Drake et al. (CRTS)
@@ -844,13 +964,20 @@
 2009bv , Ia , 13:07:20.47 , +35:47:03.8 , 18.1 , Vales
 2009bt , Ia , 03:08:57.08 , +70:33:35.1 , 17.0 , Cortini, Hentunen, Nissinen, Jacques, Pimentel
 2009bs , Ia-p , 13:26:56.20 , +52:45:17.5 , 17.7 , Lick Observatory Supernova Survey
+2009br , Ia? , 15:23:56.14 , -08:19:18.3 , 18.0 , Drake et al. (CRTS)
+2009bq , Ia? , 09:17:21.03 , -05:08:39.3 , 17.4 , Drake et al. (CRTS)
 2009bp , Ia , 14:07:49.75 , +36:38:37.1 , 17.6 , Drake et al. (CRTS)
+2009bo , Ia? , 12:27:51.75 , +26:25:58.6 , 18.9 , Drake et al. (CRTS)
+2009bn , Ia? , 14:12:40.74 , +13:09:46.1 , 18.9 , Drake et al. (CRTS)
+2009bm , Ia? , 08:36:41.68 , +09:14:05.3 , 18.1 , Drake et al. (CRTS)
 2009bi , Ia , 14:29:39.61 , +39:09:32.8 , 20.0 , "Palomar TF" collaboration
 2009bg , Ia , 13:27:10.50 , +31:30:32.5 , 19.2 , "Palomar TF" collaboration
 2009bf , Ia , 12:06:51.66 , +26:57:36.6 , 17.8 , "Palomar TF" collaboration
 2009be , Ia , 11:41:54.05 , +10:25:46.0 , 20.1 , "Palomar TF" collaboration
 2009bd , Ia , 09:14:34.16 , +51:10:29.6 , 20.0 , "Palomar TF" collaboration
 2009bc , Ia , 08:00:47.28 , +46:56:53.8 , 20.2 , "Palomar TF" collaboration
+2009ba , Ia? , 09:59:01.92 , +17:49:00.1 , 18.4 , Puckett, Moore
+2009az , Ia? , 10:55:56.22 , +36:51:43.0 , 19.3 , Lick Observatory Supernova Survey
 2009ax , Ia , 06:15:35.80 , +48:18:50.0 , 19.9 , Sand et al.
 2009aw , Ia , 06:31:47.08 , +24:55:08.9 , 19.5 , Sand et al.
 2009av , Ia , 14:23:55.82 , +35:11:05.2 , 18.6 , "Palomar Transient Factory" collaboration
@@ -858,18 +985,25 @@
 2009aq , Ia , 03:09:19.79 , +16:05:05.3 , 16.8 , Mahabal, Drake et al. (CRTS)
 2009an , Ia , 12:22:47.47 , +65:51:04.2 , 15.4 , Cortini, Antonellini
 2009al , Ia , 10:51:22.07 , +08:34:42.7 , 16.8 , Drake et al. (CRTS)
+2009ak , Ia? , 10:25:03.36 , +17:58:21.3 , 19.4 , Drake et al. (CRTS)
 2009ai , Ia , 15:11:35.92 , +05:23:47.5 , 17.6 , Puckett, Peoples, Newton
 2009ag , Ia , 07:11:40.81 , -26:41:06.3 , 15.9 , Puckett, Gagliano, Newton
 2009ae , Ia , 16:39:28.87 , +21:18:55.6 , 16.5 , Puckett, Peoples, Newton
 2009ad , Ia , 05:03:33.38 , +06:39:35.7 , 16.7 , Newton, Puckett
+2009ac , Ia? , 02:08:30.11 , +12:44:18.5 , 17.4 , Drake et al. (CRTS)
 2009ab , Ia , 04:16:36.39 , +02:45:51.0 , 18.6 , Lick Observatory Supernova Survey
 2009aa , Ia , 11:23:42.28 , -22:16:14.5 , 17.6 , Lick Observatory Supernova Survey
 2009Y , Ia , 14:42:23.85 , -17:14:48.4 , 16   , Martin; LOSS
+2009X , Ia? , 10:54:26.44 , +59:02:13.1 , 17.1 , Griffith et al. (LOSS)
 2009V , Ia , 10:12:48.72 , +43:10:59.5 , 18.8 , Griffith et al. (LOSS)
 2009U , Ia-p , 11:43:18.72 , -12:52:46.1 , 15.8 , Pignata et al. (CHASE)
 2009T , Ia , 13:51:21.72 , +14:08:37.6 , 16.7 , Drake et al. (CRTS)
+2009S , Ia? , 09:32:30.11 , +17:41:19.8 , 17.7 , Drake et al. (CRTS)
+2009R , Ia? , 11:51:10.62 , +24:40:22.5 , 19.2 , Drake et al. (CRTS)
 2009Q , Ia , 15:40:12.85 , +70:44:18.1 , 17.2 , Nissinen, Hentunen
 2009P , Ia , 11:20:38.78 , -03:32:46.3 , 16.2 , Newton, Puckett
+2009O , Ia? , 03:29:02.35 , -52:37:00.8 , 17.1 , Monard
+2009M , Ia? , 02:39:36.48 , +10:50:27.9 , 17.6 , Arbour
 2009L , Ia , 12:58:48.10 , +27:40:25.6 , 16.8 , Yuan et al. (ROTSE)
 2009J , Ia-p , 05:55:21.13 , -76:55:20.8 , 17.6 , Pignata et al. (CHASE)
 2009I , Ia , 02:45:10.40 , -04:42:49.4 , 16.5 , Pignata et al. (CHASE)
@@ -877,6 +1011,7 @@
 2009D , Ia , 03:54:22.83 , -19:10:54.2 , 16.5 , Lick Observatory Supernova Survey
 2008ix , Ia , 00:37:04.77 , -06:09:39.2 , 19.0 , Drake et al. (CRTS)
 2008iw , Ia , 23:06:20.03 , +09:40:37.6 , 19.3 , Drake et al. (CRTS)
+2008iv , Ia? , 09:39:49.91 , +07:03:47.8 , 18.7 , Drake et al. (CRTS)
 2008it , Ia , 00:20:31.48 , +28:55:31.1 , 20.9 , Sand et al.
 2008is , Ia , 07:35:14.03 , +39:16:52.1 , 20.4 , Sand et al.
 2008ir , Ia , 08:16:12.44 , -07:21:32.3 , 18.7 , Sand et al.
@@ -886,6 +1021,7 @@
 2008ih , Ia , 02:57:26.41 , +12:58:07.6 , 18.6 , Sand et al.
 2008ig , Ia , 12:58:05.70 , -43:20:03.6 , 15.8 , Dimai
 2008id , Ia , 02:27:46.80 , -04:34:47.1 , 21.2 , Rodney et al.
+2008ib , Ia? , 12:52:37.94 , -39:01:32.6 , 15.8 , Dimai
 2008ia , Ia , 08:50:35.15 , -61:16:40.6 , 15.1 , Pignata et al. (CHASE)
 2008hz , Ia , 00:43:18.62 , +42:10:14.2 , 18.2 , Itagaki
 2008hy , Ia , 03:45:08.45 , +76:39:55.5 , 14.3 , Puckett, Langoussis
@@ -896,6 +1032,7 @@
 2008hq , Ia , 07:41:31.41 , +51:41:17.4 , 19.3 , Lick Observatory Supernova Survey
 2008hp , Ia , 09:43:26.22 , +25:10:21.9 , 16.4 , Drake et al.
 2008hm , Ia , 03:27:10.90 , +46:56:39.6 , 17.5 , Lick Observatory Supernova Survey
+2008hl , Ia? , 23:00:40.35 , +08:27:55.5 , 18.8 , Lick Observatory Supernova Survey
 2008hk , Ia , 09:12:43.63 , +09:55:47.9 , 16.7 , Drake et al.
 2008hj , Ia , 00:04:01.91 , -11:10:07.5 , 17.2 , Puckett, Briggs, Newton
 2008hi , Ia , 00:26:43.16 , -03:35:55.3 , 15.2 , Ichimura
@@ -907,6 +1044,7 @@
 2008ha , Ia? , 23:34:52.69 , +18:13:35.4 , 18.8 , Puckett, Moore, Newton
 2008gy , Ia , 03:10:00.96 , +19:13:23.1 , 17.7 , Balanutsa
 2008gw , Ia , 04:39:26.21 , +09:08:31.6 , 18.3 , Drake et al. (CRTS)
+2008gv , Ia? , 01:52:31.71 , +33:27:52.0 , 19.7 , Drake et al. (CRTS)
 2008gt , Ia , 22:44:43.69 , -03:08:51.1 , 18.4 , Drake et al. (CRTS)
 2008gs , Ia , 01:27:05.78 , +03:13:05.7 , 17.6 , Drake et al. (CRTS)
 2008gp , Ia , 03:23:00.73 , +01:21:42.8 , 18.4 , Lick Observatory Supernova Survey
@@ -920,10 +1058,12 @@
 2008fy , Ia , 02:24:08.86 , +26:40:10.3 , 19.2 , Drake et al. (Catalina)
 2008fx , Ia , 02:11:33.98 , +23:52:49.6 , 17.7 , Drake et al. (Catalina)
 2008fw , Ia , 10:28:55.97 , -44:39:55.6 , 14.3 , Monard
+2008fv , Ia? , 10:16:57.28 , +73:24:36.4 , 16.5 , Itagaki
 2008fu , Ia , 03:02:28.50 , -24:27:21.5 , 17.4 , Lick Observatory Supernova Survey
 2008ft , Ia? , 03:50:18.54 , +70:05:46.4 ,      , Nissinen, Hentunen
 2008fr , Ia , 01:11:49.14 , +14:38:27.0 , 17.3 , Yuan et al. (ROTSE)
 2008fp , Ia , 07:16:32.60 , -29:19:31.7 , 13.5 , Pignata et al. (CHASE)
+2008fm , Ia? , 23:49:03.51 , +26:47:39.3 , 17.5 , Yuan et al. (ROTSE)
 2008fl , Ia , 19:36:44.84 , -37:33:04.5 , 17.1 , Pignata et al. (CHASE)
 2008fk , Ia , 02:34:05.06 , +01:23:42.5 , 18.5 , Lick Observatory Supernova Survey
 2008fj , Ia , 17:12:49.86 , +42:48:51.8 , 18.9 , Lick Observatory Supernova Survey
@@ -939,24 +1079,32 @@
 2008eo , Ia , 00:41:52.04 , +32:59:25.2 , 16.0 , Boles
 2008ek , Ia , 16:05:33.17 , +17:35:33.2 , 18.9 , Lick Observatory Supernova Survey
 2008ei , Ia , 22:17:33.25 , +33:15:21.3 , 17.6 , Ciabattari, Mazzoni
+2008eh , Ia? , 09:45:48.16 , -31:10:44.9 , 15.1 , Monard
 2008eg , Ia , 01:51:36.27 , +19:06:16.9 , 16.2 , Lick Observatory Supernova Survey
+2008ef , Ia? , 10:24:17.17 , -32:29:12.6 , 18.0 , Monard
 2008ee , Ia , 00:56:32.96 , -01:46:16.0 , 15.5 , Lick Observatory Supernova Survey
 2008ec , Ia , 23:03:16.56 , +08:52:19.8 , 17.6 , Lick Observatory Supernova Survey
 2008dx , Ia , 13:00:14.31 , +27:57:16.4 , 17.4 , Chamarro et al. (ROTSE)
 2008dt , Ia , 16:56:30.56 , +27:58:33.2 , 17.2 , Lick Observatory Supernova Survey
 2008ds , Ia-p , 00:29:50.83 , +31:23:33.9 , 15.5 , Lick Observatory Supernova Survey
 2008dr , Ia , 22:10:51.67 , +02:06:29.6 , 16.8 , Lick Observatory Supernova Survey
+2008dp , Ia? , 11:49:48.86 , -38:47:02.1 , 17.3 , Monard
 2008dm , Ia , 11:43:23.16 , +46:04:58.8 , 20.6 , Sand et al.
 2008dl , Ia , 15:19:30.37 , +48:53:56.8 , 22.2 , Sand et al.
 2008dk , Ia , 14:56:13.33 , +18:51:14.1 , 19.6 , Sand et al.
 2008dh , Ia , 00:35:11.32 , +23:15:15.1 , 16.6 , Drake et al.
+2008dg , Ia? , 12:58:50.55 , +24:22:57.4 , 18.5 , Drake et al.
+2008df , Ia? , 16:06:25.06 , +10:05:21.4 , 19.2 , Drake et al.
+2008dd , Ia? , 17:04:03.60 , +21:35:42.0 , 17.7 , Drake et al.
 2008db , Ia , 00:14:39.36 , -07:19:23.5 , 14.5 , Pignata et al. (CHASE)
 2008cz , Ia , 11:23:10.90 , +34:12:51.0 , 18.1 , Drake et al. (Catalina Sky Survey)
 2008cv , Ia , 21:04:55.31 , -21:43:49.5 , 17.0 , Lick Observatory Supernova Survey
 2008ct , Ia? , 22:02:24.48 , +18:19:21.4 , 19.1 , Lick Observatory Supernova Survey
+2008cs , Ia? , 17:16:35.85 , -10:20:43.0 , 17.0 , Kankare, Mattila et al.
 2008cr , Ia , 11:43:34.44 , +46:22:03.6 , 22.5 , Sand et al.
 2008cq , Ia , 14:21:09.61 , -29:15:04.9 , 14.4 , Monard
 2008cp , Ia , 09:42:22.89 , -03:45:10.1 , 17.7 , Pignata et al.
+2008co , Ia? , 09:55:08.97 , -33:08:05.7 , 17.1 , Monard
 2008cm , Ia , 07:16:38.75 , -62:18:52.9 , 16.4 , Monard
 2008cl , Ia , 16:11:04.35 , +52:27:08.0 , 17.7 , Lick Observatory Supernova Survey
 2008ck , Ia , 15:22:42.30 , +30:22:08.0 , 19.3 , Mahabal et al.
@@ -978,6 +1126,8 @@
 2008bd , Ia , 10:18:23.32 , -13:06:11.2 , 16.7 , Pignata et al.
 2008bc , Ia , 09:38:31.23 , -63:58:25.6 , 15.4 , Pignata et al.
 2008ba , Ia , 16:05:49.17 , +19:27:17.2 , 18.6 , Drake et al.
+2008av , Ia? , 14:57:26.27 , +23:23:48.3 , 19.1 , Drake et al.
+2008au , Ia? , 11:30:33.95 , +13:09:05.3 , 18.7 , Drake et al.
 2008at , Ia , 10:27:12.35 , +71:24:56.4 , 16.5 , Newton, Puckett
 2008as , Ia , 10:21:47.89 , -19:29:42.0 , 16.9 , Li, Filippenko (LOSS)
 2008ar , Ia , 12:24:37.92 , +10:50:17.4 , 16.9 , Yuan et al. (ROTSE)
@@ -1047,6 +1197,7 @@
 2007tb , Ia , 01:14:41.25 , +00:46:51.8 ,      , ESSENCE
 2007ta , Ia , 01:13:15.80 , -00:01:31.4 ,      , ESSENCE
 2007sw , Ia , 12:13:36.88 , +46:29:36.1 , 16.0 , Quimby et al.
+2007sv , Ia? , 10:52:40.05 , +67:59:14.2 , 17.4 , Duszanowicz
 2007su , Ia , 22:19:08.88 , +13:10:40.3 , 17.1 , Yuan et al.
 2007st , Ia , 01:48:42.47 , -48:38:57.8 , 15.0 , Monard
 2007ss , Ia , 12:41:06.07 , +50:23:28.7 , 16.6 , Ichimura
@@ -1177,6 +1328,7 @@
 2007mv , Ia , 00:35:37.37 , +00:22:12.1 , 22.3 , Sloan Digital Sky Survey II
 2007mu , Ia , 00:12:18.56 , -00:04:38.3 , 22.0 , Sloan Digital Sky Survey II
 2007mt , Ia? , 01:45:56.59 , -00:13:03.5 , 23.1 , Sloan Digital Sky Survey II
+2007mq , Ia? , 19:34:57.90 , +87:16:33.6 , 19.6 , Sehgal, Cox, Puckett
 2007mp , Ia , 21:16:35.63 , -00:46:11.6 , 21.5 , Sloan Digital Sky Survey II
 2007mo , Ia , 22:11:33.85 , +00:45:53.2 , 21.7 , Sloan Digital Sky Survey II
 2007mn , Ia , 02:05:03.96 , +00:10:28.4 , 21.9 , Sloan Digital Sky Survey II
@@ -1229,6 +1381,7 @@
 2007kg , Ia , 23:58:37.43 , +60:59:06.7 , 17.1 , Mikuz
 2007kf , Ia , 17:31:31.76 , +69:18:40.1 , 17.0 , Kloehr
 2007kd , Ia , 09:25:58.01 , +34:37:59.3 , 16.6 , Villi
+2007kc , Ia? , 13:21:34.92 , +42:16:50.0 , 15.8 , Villi
 2007kb , Ia , 20:52:24.71 , +00:16:39.6 , 21.4 , Sloan Digital Sky Survey II
 2007ka , Ia , 01:21:22.70 , -00:00:53.3 , 21.1 , Sloan Digital Sky Survey II
 2007jz , Ia , 01:23:56.01 , +01:15:18.0 , 21.7 , Sloan Digital Sky Survey II
@@ -1250,9 +1403,11 @@
 2007jg , Ia , 03:29:50.82 , +00:03:24.6 , 18.4 , Sloan Digital Sky Survey II
 2007je , Ia , 02:11:47.31 , -00:54:44.8 , 21.2 , Sloan Digital Sky Survey II
 2007jd , Ia , 02:59:53.37 , +01:09:38.6 , 22.5 , Sloan Digital Sky Survey II
+2007jc , Ia? , 23:23:48.62 , -01:08:10.1 , 20.2 , Sloan Digital Sky Survey II
 2007jb , Ia , 00:26:33.79 , +00:02:31.1 , 21.1 , Sloan Digital Sky Survey II
 2007iy , Ia , 20:41:05.96 , -00:25:19.6 , 22.9 , Sloan Digital Sky Survey II
 2007ix , Ia , 00:51:30.88 , -00:56:50.6 , 20.6 , Sloan Digital Sky Survey II
+2007iw , Ia? , 13:59:58.70 , -37:52:30.4 , 17.1 , Monard
 2007is , Ia , 16:47:14.59 , +40:14:36.9 , 16.6 , Thrasher, Winslow, Li (LOSS)
 2007ir , Ia , 02:33:41.90 , +37:40:08.2 , 17.4 , Thrasher, Winslow, Li (LOSS)
 2007ip , Ia , 01:35:08.82 , +36:01:04.8 , 19.7 , "Nearby Supernova Factory" collaboration
@@ -1263,6 +1418,7 @@
 2007ij , Ia , 23:57:21.96 , +00:06:21.1 , 20.6 , Sloan Digital Sky Survey II
 2007ii , Ia? , 00:33:34.05 , +00:59:05.7 , 21.0 , Sloan Digital Sky Survey II
 2007ih , Ia , 21:33:10.77 , -00:57:36.5 , 20.8 , Sloan Digital Sky Survey II
+2007ig , Ia? , 01:32:19.81 , -07:51:35.8 , 18.6 , Naito
 2007if , Ia , 01:10:51.37 , +15:27:39.9 , 19.5 , Yuan, Quimby, et al. (ROTSE)
 2007ie , Ia? , 22:17:36.69 , +00:36:48.0 , 20.1 , Sloan Digital Sky Survey II
 2007id , Ia , 21:46:00.49 , -01:13:03.9 , 20.2 , Sloan Digital Sky Survey II
@@ -1287,9 +1443,11 @@
 2007gv , Ia , 01:39:05.65 , +06:14:42.0 , 20.0 , "Nearby Supernova Factory" collaboration
 2007gu , Ia , 22:53:42.55 , +12:05:54.4 , 19.5 , "Nearby Supernova Factory" collaboration
 2007gt , Ia , 00:16:26.16 , -00:21:09.2 , 18.5 , "Nearby Supernova Factory" collaboration
+2007gq , Ia? , 12:35:11.22 , -00:13:21.6 , 16.6 , Monard
 2007gp , Ia , 21:57:35.59 , +08:00:47.3 , 20.5 , "Nearby Supernova Factory" collaboration
 2007gn , Ia , 03:16:31.37 , +15:27:40.7 , 18.3 , "Nearby Supernova Factory" collaboration
 2007gk , Ia , 16:45:18.22 , +67:55:50.0 , 18.9 , Sehgal, Newton, Orff
+2007gj , Ia? , 02:19:33.85 , -37:48:44.2 , 16.2 , Monard
 2007gi , Ia , 12:01:23.42 , +61:53:33.8 , 16.3 , Itagaki
 2007gf , Ia , 23:17:48.71 , +22:59:07.1 , 19.9 , "Nearby Supernova Factory" collaboration
 2007ge , Ia , 23:57:31.42 , +47:27:02.4 , 17.9 , Li (LOSS)
@@ -1301,6 +1459,7 @@
 2007ft , Ia , 12:47:03.7: , -41:35:22:: , 16.0 , Klotz
 2007fs , Ia , 22:01:40.44 , -21:30:29.6 , 15.4 , Winslow, Li (LOSS)
 2007fr , Ia , 21:37:08.74 , +00:26:13.8 , 18.9 , Chu, Li (LOSS)
+2007fq , Ia? , 20:34:55.80 , -23:06:15.8 , 17.3 , Chu, Li (LOSS)
 2007fi , Ia , 15:44:16.87 , +34:43:13.7 , 19.7 , "Nearby Supernova Factory" collaboration
 2007fh , Ia , 22:16:41.64 , +21:18:58.9 , 19.2 , "Nearby Supernova Factory" collaboration
 2007fd , Ia , 14:16:19.03 , +36:13:01.3 , 19.5 , "Nearby Supernova Factory" collaboration
@@ -1344,7 +1503,10 @@
 2007cy , Ia , 09:11:30.08 , +08:27:28.2 , 19.0 , "Nearby Supernova Factory" collaboration
 2007cx , Ia , 10:19:09.49 , +36:50:54.8 , 18.2 , "Nearby Supernova Factory" collaboration
 2007cw , Ia , 14:38:07.48 , -08:35:55.7 , 19.1 , "Nearby Supernova Factory" collaboration
+2007cv , Ia? , 10:37:45.4: , -27:04:57:: , 15.3 , Klotz
+2007cu , Ia? , 16:06:00.65 , +55:25:27.5 , 18.9 , Joubert, Li (LOSS)
 2007cs , Ia , 23:49:39.00 , +29:55:52.1 , 15.9 , Winslow, Li (LOSS)
+2007cr , Ia? , 16:21:56.5: , -60:40:24:: , 15.0 , Klotz
 2007cq , Ia , 22:14:40.43 , +05:04:48.9 , 15.8 , Orff, Newton
 2007cp , Ia , 12:42:12.72 , -17:24:07.7 , 17.7 , Khandrika, Li (LOSS)
 2007co , Ia , 18:23:03.60 , +29:53:49.5 , 16.6 , Nicolas
@@ -1353,13 +1515,17 @@
 2007ci , Ia , 11:45:45.85 , +19:46:13.9 , 17.5 , Puckett, Crowley
 2007cg , Ia , 13:25:33.58 , -24:39:08.1 , 17.7 , Thrasher, Li (LOSS)
 2007cf , Ia , 15:23:07.66 , +08:31:45.5 , 17.9 , Puckett, McDonald
+2007cd , Ia? , 13:29:26.48 , +11:00:44.8 , 17.5 , Itagaki
 2007cc , Ia , 14:08:41.98 , -21:35:48.4 , 15.9 , Thrasher, Li
 2007cb , Ia , 13:58:17.20 , -23:22:20.7 , 16.8 , Thrasher, Li
 2007ca , Ia , 13:31:05.81 , -15:06:06.6 , 16.5 , Prasad, Li
 2007bz , Ia , 12:56:53.77 , +22:22:22.1 , 16.7 , "Nearby Supernova Factory" collaboration
+2007bn , Ia? , 22:55:52.81 , -63:41:31.6 , 17.0 , Martin
 2007bm , Ia , 11:25:02.30 , -09:47:53.8 , 16.0 , Martin
+2007bl , Ia? , 22:48:05.44 , -47:13:54.3 , 16.5 , Martin
 2007bk , Ia , 15:28:45.58 , +58:52:12.8 , 16.5 , Mikuz
 2007bj , Ia , 16:22:10.59 , -01:30:51.4 , 15.1 , Newton, Gorelli, Puckett
+2007bh , Ia? , 15:09:26.37 , -10:41:33.2 , 18.6 , Chen et al.
 2007bd , Ia , 08:31:33.28 , -01:11:58.0 , 18.4 , Prasad, Li (LOSS)
 2007bc , Ia , 11:19:14.57 , +20:48:32.5 , 16.1 , Prasad, Li (LOSS)
 2007ba , Ia , 15:16:42.63 , +07:23:47.8 , 18.2 , Winslow, Li (LOSS)
@@ -1459,6 +1625,7 @@
 2006qu , Ia , 21:37:01.47 , -17:40:09.9 , 18.9 , "Nearby Supernova Factory" collaboration
 2006qs , Ia , 00:33:27.32 , +11:53:14.8 , 19.8 , "Nearby Supernova Factory" collaboration
 2006qo , Ia? , 08:00:08.37 , +56:22:07.7 , 18.9 , Joubert, Li (LOSS)
+2006qm , Ia? , 02:42:24.07 , -00:47:47.5 , 22.6 , Sloan Digital Sky Survey II
 2006ql , Ia , 01:50:09.11 , +00:25:13.7 , 22.8 , Sloan Digital Sky Survey II
 2006qj , Ia , 20:11:05.61 , -00:19:11.8 , 21.4 , Sloan Digital Sky Survey II
 2006qi , Ia , 01:50:19.56 , +00:53:05.6 , 22.2 , Sloan Digital Sky Survey II
@@ -1494,6 +1661,7 @@
 2006pb , Ia , 00:46:43.55 , -01:01:58.5 , 21.9 , Sloan Digital Sky Survey II
 2006pa , Ia? , 02:32:23.95 , -00:42:48.9 , 22.0 , Sloan Digital Sky Survey II
 2006oy , Ia , 20:53:58.30 , -00:21:36.2 , 22.4 , Sloan Digital Sky Survey II
+2006ox , Ia? , 19:18:24.21 , -60:30:09.9 , 15.3 , Monard
 2006ow , Ia , 07:35:37.44 , +66:24:50.0 , 17.7 , Boles
 2006ou , Ia , 11:37:13.10 , +15:26:07.3 , 16.0 , Puckett, Peoples
 2006ot , Ia , 02:15:04.84 , -20:45:58.2 , 17.4 , Lick Observatory Supernova Survey (Joubert, Li)
@@ -1694,6 +1862,7 @@
 2006fi , Ia , 22:19:50.26 , +00:01:27.8 , 22.1 , SDSS II collaboration
 2006fh , Ia , 01:49:34.91 , -00:38:59.6 , 20.4 , SDSS II collaboration
 2006ff , Ia , 00:26:35.64 , -00:18:07.5 , 20.7 , SDSS II collaboration
+2006fe , Ia? , 20:52:09.16 , -00:30:40.0 , 21.0 , SDSS II collaboration
 2006fd , Ia , 20:37:53.25 , +01:13:16.1 , 19.4 , SDSS II collaboration
 2006fc , Ia , 21:34:46.61 , +01:10:33.3 , 20.4 , SDSS II collaboration
 2006fb , Ia , 23:35:51.51 , -00:10:37.6 , 21.1 , SDSS II collaboration
@@ -1712,6 +1881,7 @@
 2006ej , Ia , 00:38:59.77 , -09:00:56.6 , 16.4 , Lick Observatory Supernova Survey
 2006ef , Ia , 02:04:19.51 , -08:43:42.2 , 15.6 , Lick Observatory Supernova Survey
 2006eb , Ia , 01:13:41.10 , -00:06:06.4 , 17.5 , Quimby
+2006dz , Ia? , 13:30:00.37 , +13:24:43.1 , 20.0 , Contreras, Folatelli (Carnegie Supernova Project)
 2006dy , Ia , 14:22:11.45 , +13:55:14.2 , 16.6 , Itagaki
 2006dw , Ia , 16:17:43.29 , +34:57:55.1 , 15.8 , Lick Observatory Supernova Survey
 2006dv , Ia , 23:15:53.06 , +05:07:50.2 , 17.7 , Puckett, Peoples
@@ -1744,13 +1914,16 @@
 2006bn , Ia , 20:00:15.75 , -38:34:18.3 , 18.4 , Monard
 2006bm , Ia , 11:18:21.41 , +28:12:43.5 , 18.1 , Puckett, Sostero
 2006bk , Ia , 15:04:33.61 , +35:57:51.1 , 16.9 , Boles
+2006bi , Ia? , 13:59:11.52 , +27:52:17.5 , 18.1 , Holmes, Devore, Miller
 2006bh , Ia , 22:40:16.10 , -66:29:06.3 , 14.8 , Monard
+2006bg , Ia? , 11:35:25.17 , +54:57:37.4 , 18.4 , Holmes, Hoette
 2006bd , Ia , 11:38:28.46 , +20:31:34.4 , 18.2 , Puckett, Cox
 2006bb , Ia , 08:33:31.09 , +41:31:04.1 , 17.4 , Puckett, Gagliano
 2006az , Ia , 12:12:14.68 , +56:10:45.8 , 17.1 , Newton, Cox, Puckett
 2006ay , Ia , 15:59:12.76 , +20:44:27.9 , 19.0 , Lick Observatory Supernova Survey
 2006ax , Ia , 11:24:03.46 , -12:17:29.2 , 17.1 , Lick Observatory Supernova Survey
 2006aw , Ia , 05:04:18.18 , -63:34:57.3 , 14.9 , Monard
+2006av , Ia? , 02:57:46.48 , -36:42:26.2 , 18.3 , Monard
 2006as , Ia , 13:51:24.88 , -11:15:26.8 , 19.9 , "Nearby Supernova Factory" collaboration
 2006ar , Ia , 10:37:30.75 , +65:00:58.1 , 18.2 , Boles
 2006ap , Ia , 17:30:41.19 , +06:16:33.1 , 17.2 , Boles
@@ -1761,16 +1934,19 @@
 2006af , Ia , 10:33:57.18 , +20:20:25.7 , 19.5 , SubbaRao, SDSS collaboration
 2006ae , Ia , 14:48:23.27 , +21:47:51.5 , 20.7 , SubbaRao, SDSS collaboration
 2006ac , Ia , 12:41:44.86 , +35:04:07.1 , 16.0 , Lick Observatory Supernova Survey
+2006Z , Ia? , 13:44:58.07 , +26:18:25.7 , 20.4 , SubbaRao, SDSS
 2006X , Ia , 12:22:53.99 , +15:48:33.1 , 17   , Suzuki; Migliardi
 2006U , Ia? , 09:53:45.38 , +23:20:35.1 ,      , Lick Observatory Supernova Survey
 2006S , Ia , 12:45:39.10 , +35:05:12.4 , 17.0 , Puckett, Gagliano
 2006R , Ia , 16:23:20.82 , +37:15:49.8 , 17.5 , Puckett, Langoussis
 2006P , Ia? , 03:19:17.90 , -12:06:18.3 , 17.5 , Lick Observatory Supernova Survey
 2006N , Ia , 06:08:31.24 , +64:43:25.1 , 15.0 , Armstrong
+2006I , Ia? , 10:59:30.03 , +75:11:34.0 , 18.1 , Puckett, Crowley
 2006H , Ia-p , 03:26:01.49 , +40:41:42.5 , 17.0 , Puckett, Sostero
 2006E , Ia , 13:53:28.65 , +05:12:22.8 , 14.3 , Puckett, Reddy; LOSS; Migliardi
 2006D , Ia , 12:52:33.94 , -09:46:30.8 , 15.6 , Colesanti, Jacques, Pimentel, Napoleao
 2006B , Ia , 23:21:09.78 , +33:24:01.2 , 16.7 , Puckett, Sostero
+2006A , Ia? , 23:47:03.78 , +29:28:55.7 , 18.1 , Boles
 2005na , Ia , 07:01:36.62 , +14:07:59.7 , 16.1 , Newton, Ceravolo, Puckett
 2005mz , Ia , 03:19:49.88 , +41:30:18.6 , 18.2 , Newton, Peoples, Puckett
 2005mv , Ia , 20:45:16.8: , -03:49:35.7 , 19.6 , "Nearby Supernova Factory" collaboration
@@ -1786,6 +1962,7 @@
 2005mh , Ia? , 02:44:56.68 , +00:12:12.9 , 23.1 , Sloan Digital Sky Survey II
 2005mc , Ia , 08:27:06.36 , +21:38:45.6 , 17   , THCA Supernova Survey [Bian et al.]
 2005lz , Ia , 02:10:49.76 , +34:58:58.2 , 17.8 , Puckett, Gagliano
+2005lv , Ia? , 04:08:56.47 , +27:11:50.8 , 18.7 , Puckett, Gagliano
 2005lu , Ia , 02:36:03.71 , -17:15:50.0 , 17.1 , Lick Observatory Supernova Survey
 2005lt , Ia , 11:42:26.21 , +20:07:05.0 , 15.7 , Lick Observatory Supernova Survey
 2005ls , Ia , 02:54:15.97 , +42:43:29.8 , 15.8 , Armstrong
@@ -1883,7 +2060,10 @@
 2005hi , Ia , 02:41:00.24 , +16:42:38.2 , 18.9 , "Nearby Supernova Factory" collaboration
 2005hh , Ia , 04:13:05.51 , -25:04:00.5 , 19.3 , "Nearby Supernova Factory" collaboration
 2005hf , Ia , 01:27:05.97 , +19:07:00.5 , 16.7 , Quimby et al.
+2005he , Ia? , 22:39:45.44 , +34:22:43.0 , 18.6 , Lick Observatory Supernova Survey
 2005hc , Ia , 01:56:47.94 , -00:12:49.2 , 18.5 , Sloan Digital Sky Survey II
+2005hb , Ia? , 06:45:31.64 , +25:49:58.0 , 19.5 , Lick Observatory Supernova Survey
+2005ha , Ia? , 06:21:49.04 , +00:21:55.6 , 18.3 , Lick Observatory Supernova Survey
 2005gy , Ia , 01:26:06.80 , +00:40:36.8 , 22.9 , Sloan Digital Sky Survey II
 2005gx , Ia , 23:59:32.26 , +00:44:13.8 , 22.6 , Sloan Digital Sky Survey II
 2005gw , Ia , 23:37:59.60 , +00:38:31.6 , 21.6 , Sloan Digital Sky Survey II
@@ -1946,25 +2126,47 @@
 2005ef , Ia , 00:58:22.87 , +00:40:44.4 , 19.6 , Barentine, Frieman et al. (SDSS II)
 2005ed , Ia , 00:02:49.37 , +00:45:04.3 , 19.0 , Barentine, Frieman et al. (SDSS II)
 2005ec , Ia , 04:54:19.17 , +01:38:27.6 , 16.8 , Lick Observatory Supernova Survey
+2005eb , Ia? , 00:54:50.94 , +29:14:46.8 , 18.4 , Lick Observatory Supernova Survey
+2005ea , Ia? , 11:06:47.89 , +57:41:07.5 , 17.0 , Lane, Gray
+2005dy , Ia? , 04:28:38.72 , +70:20:49.0 , 19.0 , Sehgal, Newton, Puckett
 2005dv , Ia , 13:41:04.45 , +67:40:20.3 , 15.0 , Dainese, Dimai
+2005dt , Ia? , 23:23:38.32 , -19:00:24.5 , 18.5 , Lick Observatory Supernova Survey
+2005dr , Ia? , 05:02:17.18 , +07:38:21.4 , 18.5 , Lick Observatory Supernova Survey
+2005dq , Ia? , 22:44:46.45 , +33:27:37.6 , 17.9 , Armstrong
+2005dp , Ia? , 14:27:36.62 , +41:15:15.0 , 16.0 , Itagaki
 2005do , Ia , 03:02:00.42 , +41:34:34.2 , 17.4 , Lick Observatory Supernova Survey
+2005dn , Ia? , 20:11:11.73 , -48:16:35.5 , 15.0 , Colesanti, Jacques, Pimentel, Napoleao
 2005dm , Ia-p , 02:18:39.25 , -06:54:10.8 , 17.6 , Lick Observatory Supernova Survey
+2005dk , Ia? , 19:40:23.71 , -55:12:05.1 , 17.8 , Luckas, Trondal, Schwartz
+2005dj , Ia? , 06:49:58.41 , +61:37:08.5 , 16.6 , Boles
 2005di , Ia , 22:25:32.84 , -24:14:20.1 , 18.6 , Lick Observatory Supernova Survey
 2005dh , Ia , 15:54:03.32 , +23:08:09.9 , 17.1 , Lick Observatory Supernova Survey
 2005df , Ia , 04:17:37.85 , -62:46:09.5 , 13.8 , Evans
 2005de , Ia , 18:02:23.36 , +26:03:07.7 , 18.1 , Lick Observatory Supernova Survey; Puckett, Tigner
 2005dc , Ia , 21:42:22.66 , -44:47:21.2 , 15.7 , Luckas, Trondal, Schwartz
+2005cy , Ia? , 18:26:49.11 , +51:08:30.4 , 17.9 , Sehgal, Newton, Puckett
+2005cx , Ia? , 01:58:54.79 , +36:40:34.8 , 15.5 , Dimai
 2005cr , Ia , 12:22:17.21 , +12:23:49.3 , 16.5 , Quimby, MOndol, Castro
 2005cq , Ia , 09:52:00.48 , -20:43:26.5 , 21.9 , Riello, Valenti, Turatto, Benetti et al.
+2005co , Ia? , 23:30:53.58 , -02:56:18.4 , 17.3 , Lick Observatory Supernova Survey
 2005cn , Ia , 13:18:00.46 , -26:48:33.1 , 14.6 , Colesanti, Jacques, Pimentel, Napoleao
+2005cm , Ia? , 21:55:17.72 , -65:30:48.3 , 16.9 , Monard
 2005ck , Ia , 13:02:18.72 , +28:20:45.5 , 18.7 , Quimby et al.; Lick Observatory Supernova Survey
+2005cj , Ia? , 01:54:43.94 , -62:06:32.0 , 17.9 , Monard
 2005ch , Ia , 14:22:06.77 , +01:59:35.7 , 15.8 , Rykoff, ROTSE Collaboration
 2005cg , Ia , 21:10:50.42 , +00:12:07.4 , 18.2 , Rykoff, ROTSE Collaboration
 2005cf , Ia , 15:21:32.21 , -07:24:47.5 , 16.4 , Lick Observatory Supernova Survey
+2005cd , Ia? , 10:50:57.60 , -02:08:48.2 , 17.4 , Chen, Hu, Taiwan Supernova Survey
+2005cc , Ia? , 13:57:04.85 , +41:50:41.8 , 17.7 , Puckett, Langoussis
 2005ca , Ia , 13:32:38.59 , +11:48:33.2 , 20.9 , SubbaRao, SDSS
+2005bz , Ia? , 18:13:01.73 , +29:41:51.5 , 19.1 , Lick Observatory Supernova Survey
+2005bx , Ia? , 13:50:24.95 , +68:33:19.4 , 17.8 , Rich
+2005bw , Ia? , 13:33:29.73 , +33:02:27.8 , 17.0 , Puckett, Gagliano
 2005bv , Ia , 14:24:07.44 , +26:17:50.3 , 16.5 , Lipunov et al.
 2005bu , Ia , 07:22:18.21 , +22:02:39.2 , 17.4 , Lick Observatory Supernova Survey
+2005bt , Ia? , 13:07:13.07 , +58:08:08.4 , 18.0 , Trondal, Holvorcem, Schwartz
 2005bs , Ia , 20:10:14.11 , -56:38:43.6 , 17.4 , Monard
+2005bp , Ia? , 17:09:43.22 , +36:25:08.1 , 18.8 , Puckett, Pelloni
 2005bo , Ia , 12:49:41.03 , -11:05:47.3 , 15.3 , Puckett, Langoussis
 2005bm , Ia , 15:20:45.10 , +36:48:42.5 , 19.5 , SubbaRao, SDSS Collaboration
 2005bl , Ia , 12:04:12.26 , +20:24:24.8 , 18.8 , Lick Observatory Supernova Survey; Puckett, Langoussis
@@ -1972,20 +2174,29 @@
 2005be , Ia , 14:59:32.72 , +16:40:11.6 , 16.1 , Puckett, Orff
 2005bd , Ia , 06:12:03.50 , +51:52:03.3 , 17.7 , Boles
 2005bc , Ia , 14:37:15.05 , +38:27:23.1 , 16.6 , Lick Observatory Supernova Survey; Puckett, Cox
+2005ax , Ia? , 05:02:38.11 , +86:13:22.2 , 14.5 , Puckett, George
 2005as , Ia , 10:48:03.52 , -20:50:56.5 , 17.1 , Lick Observatory Supernova Survey
 2005ao , Ia , 17:44:49.64 , +61:54:28.1 , 16.7 , Puckett, Crowley
 2005am , Ia , 09:16:12.47 , -16:18:16.0 , 17.5 , Martin
 2005al , Ia , 13:50:00.33 , -30:34:34.2 , 15.1 , Jacques, Pimentel, Napoleao, Colesanti
+2005ak , Ia? , 14:40:32.06 , +03:30:37.1 , 15.7 , Puckett, Kerns
 2005ai , Ia , 07:10:32.76 , +75:21:29.1 , 15.9 , Puckett, Orff
 2005ah , Ia? , 06:00:45.77 , -58:35:20.8 , 17.3 , Monard
 2005ag , Ia , 14:56:43.65 , +09:19:42.5 , 18.2 , Lick Observatory Supernova Survey
+2005ac , Ia? , 13:39:55.82 , +00:52:15.0 , 18.0 , Lick Observatory Supernova Survey
+2005aa , Ia? , 09:08:04.21 , +27:14:59.4 , 18.8 , Lick Observatory Supernova Survey
 2005X , Ia , 12:24:00.75 , +07:46:38.9 , 17.5 , Lick Observatory Supernova Survey
 2005W , Ia , 01:50:45.75 , +21:45:35.6 , 15.2 , Hirose
 2005S , Ia , 14:08:28.84 , +07:03:27.2 , 19.1 , Lick Observatory Supernova Survey
+2005P , Ia? , 14:06:34.01 , -05:27:42.6 , 18.1 , Lick Observatory Supernova Survey
 2005M , Ia , 09:37:32.36 , +23:12:02.7 , 18.8 , Puckett, George
+2005L , Ia? , 15:53:25.92 , +39:23:08.1 , 18.2 , Boles
 2005G , Ia , 13:44:32.79 , +04:46:44.3 , 16.5 , Lick Observatory Supernova Survey
 2005F , Ia , 09:04:53.68 , +13:33:56.3 , 17.7 , Lick Observatory Supernova Survey
+2005B , Ia? , 17:54:48.72 , +71:32:34.5 , 18.0 , Lane, Gray; Boles
 2005A , Ia , 02:30:43.25 , -02:56:19.8 , 17.1 , Lick Observatory Supernova Survey
+2004iq , Ia? , 17:16:35.90 , -10:20:37.8 , 18.3 , Kankare, Mattila et al.
+2004ip , Ia? , 18:32:41.26 , -34:11:26.7 , 18.7 , Mattila et al.
 2004io , Ia , 21:23:37.39 , -00:28:00.6 , 19.7 , Frieman, SDSS Collaboration
 2004in , Ia , 01:30:26.06 , +00:41:32.3 , 20.3 , Frieman, SDSS Collaboration
 2004im , Ia , 23:43:07.78 , -00:07:55.5 , 19.8 , Frieman, SDSS Collaboration
@@ -2025,6 +2236,7 @@
 2004gu , Ia , 12:46:24.72 , +11:56:56.1 , 17.5 , Quimby, Gerardy, Hoeflich, Wheeler
 2004gs , Ia , 08:38:23.18 , +17:37:39.8 , 17.1 , Lick Observatory Supernova Survey
 2004go , Ia , 02:55:41.76 , -14:14:14.5 , 16.5 , Lick Observatory Supernova Survey
+2004gn , Ia? , 12:34:12.10 , +02:39:34.4 , 16.6 , Lick Observatory Supernova Survey
 2004gm , Ia , 12:59:40.53 , -14:58:02.4 , 15.9 , Lick Observatory Supernova Survey
 2004gl , Ia , 08:50:04.89 , +49:14:43.8 , 18.4 , Boles
 2004gi , Ia , 10:39:23.34 , -27:54:40.0 , 14.9 , Lick Observatory Supernova Survey
@@ -2058,12 +2270,23 @@
 2004ee , Ia , 02:06:14.62 , -37:20:05.4 , 17.2 , Chen et al.
 2004ea , Ia , 04:16:13.20 , -16:45:20.5 , 18.2 , Lick Observatory Supernova Survey
 2004dz , Ia , 02:57:36.66 , -10:10:52.8 , 18.6 , Lick Observatory Supernova Survey
+2004dv , Ia? , 01:58:52.76 , -08:10:11.5 , 18.5 , Lick Observatory Supernova Survey
 2004dt , Ia , 02:02:12.77 , -00:05:51.5 , 16.1 , Lick Observatory Supernova Survey
+2004ds , Ia? , 02:03:56.51 , -23:18:50.6 , 16.8 , Lick Observatory Supernova Survey
+2004dq , Ia? , 15:44:46.84 , +22:50:22.9 , 18.5 , Boles
+2004dp , Ia? , 21:33:52.27 , +41:51:01.4 , 18.2 , Puckett, Peoples
 2004do , Ia , 18:55:33.72 , -53:43:22.8 , 16.3 , Monard
 2004dl , Ia , 14:11:11.50 , -12:02:36.9 , 21.2 , Riello et al.
+2004di , Ia? , 15:55:41.02 , +47:51:49.1 , 17.0 , Armstrong; Arbour
+2004df , Ia? , 15:08:20.65 , +21:52:35.3 , 18.4 , Boles
+2004de , Ia? , 09:54:27.48 , -25:41:34.7 , 14.5 , Monard
 2004db , Ia , 22:47:55.88 , -22:19:40.5 , 17.8 , Lick Observatory Supernova Survey
 2004da , Ia-p , 20:22:21.24 , +06:25:50.3 , 15.2 , Boles
+2004cy , Ia? , 21:34:25.67 , -33:23:13.7 , 15.6 , Chen et al.
+2004cw , Ia? , 19:30:57.45 , -53:32:28.7 , 16.6 , Jacques
 2004cv , Ia , 16:06:14.45 , +18:24:54.0 , 16.8 , Armstrong
+2004cu , Ia? , 14:18:29.82 , +12:53:03.0 , 18.8 , Lick Observatory Supernova Survey
+2004ct , Ia? , 15:43:45.75 , +28:24:59.5 , 17.5 , Boles
 2004cs , Ia? , 17:50:14.38 , +14:16:59.5 , 18.0 , Lick Observatory Supernova Survey
 2004cq , Ia , 15:31:19.76 , +40:16:52.1 , 17.5 , SDSS
 2004cp , Ia , 15:40:24.76 , +32:51:57.2 , 19.6 , SDSS
@@ -2077,17 +2300,27 @@
 2004cb , Ia , 13:43:48.52 , -29:44:59.2 , 15.8 , Monard
 2004ca , Ia , 21:43:32.84 , +43:41:33.0 , 18.2 , Lick Observatory Supernova Survey
 2004bz , Ia , 22:15:01.05 , +15:24:16.6 , 18.3 , Lick Observatory Supernova Survey
+2004bx , Ia? , 13:59:51.06 , +62:30:27.9 , 26.3 , Magee et al.
 2004bw , Ia , 15:03:46.75 , -03:18:16.4 , 17.8 , Lick Observatory Supernova Survey
 2004bv , Ia , 20:25:06.34 , -24:48:53.7 , 15.6 , Kushida
+2004bt , Ia? , 14:19:53.88 , +51:53:49.6 , 18.2 , Boles
+2004bs , Ia? , 10:39:39.30 , +25:19:19.9 , 17.0 , Armstrong
 2004br , Ia-p , 12:31:07.80 , +00:36:47.6 , 16.3 , Lick Observatory Supernova Survey
 2004bq , Ia , 20:43:58.28 , -20:40:25.7 , 17.3 , Lick Observatory Supernova Survey
 2004bp , Ia , 11:09:53.25 , +37:00:06.4 , 18.0 , Armstrong
 2004bo , Ia , 13:26:06.39 , -19:46:32.6 , 17.0 , Lick Observatory Supernova Survey
 2004bl , Ia , 12:15:12.08 , -03:26:18.3 , 16.0 , Lick Observatory Supernova Survey
+2004bk , Ia? , 13:37:28.72 , +04:06:11.3 , 16.0 , Lick Observatory Supernova Survey
+2004bj , Ia? , 13:16:18.03 , +07:02:52.7 , 18.3 , Lick Observatory Supernova Survey
+2004bi , Ia? , 10:47:37.45 , +26:18:12.0 , 18.7 , Lick Observatory Supernova Survey
+2004bh , Ia? , 09:40:56.47 , +27:46:46.6 , 16.9 , Armstrong
 2004bg , Ia , 11:21:01.53 , +21:20:23.4 , 15.5 , Armstrong
 2004bd , Ia , 11:39:42.18 , +31:54:31.8 , 14.3 , Armstrong
 2004bc , Ia , 10:59:31.41 , +75:11:28.9 , 16.5 , Manzini
+2004bb , Ia? , 13:57:10.47 , -11:03:19.5 , 21.7 , Norman, "Deep Lens Survey"
+2004ba , Ia? , 13:56:56.54 , -11:25:39.9 , 22.9 , Norman, "Deep Lens Survey"
 2004az , Ia , 11:52:48.22 , +29:20:51.7 , 17.8 , Lick Observatory Supernova Survey
+2004ax , Ia? , 15:24:46.76 , +68:43:56.3 , 17.7 , Lick Observatory Supernova Survey
 2004av , Ia , 11:40:57.84 , -22:28:53.6 , 15.8 , Lick Observatory Supernova Survey
 2004at , Ia , 10:58:45.18 , +59:29:12.0 , 17.7 , Lick Observatory Supernova Survey
 2004as , Ia , 11:25:39.18 , +22:49:49.4 , 17.3 , Lick Observatory Supernova Survey
@@ -2095,18 +2328,31 @@
 2004ap , Ia , 10:05:43.81 , +10:16:17.1 , 16.5 , Lick Observatory Supernova Survey
 2004aj , Ia , 14:20:37.58 , -12:24:14.4 , 22.3 , Riello et al.
 2004ah , Ia , 10:45:47.41 , -00:06:58.1 , 23.3 , Riello et al.
+2004ad , Ia? , 02:02:26.39 , +32:04:22.2 , 17.0 , Armstrong
 2004ac , Ia , 18:47:43.67 , -63:08:54.6 , 16.9 , Monard
 2004ab , Ia , 13:16:58.18 , -16:37:52.7 , 14.7 , Monard
+2004aa , Ia? , 04:34:02.90 , -67:54:11.7 , 20.2 , OGLE III
 2004Y , Ia , 11:43:28.26 , +21:40:30.3 , 18.5 , Lick Observatory Supernova Survey
 2004W , Ia-p , 12:43:36.52 , +11:31:50.8 , 18.8 , Lick Observatory Supernova Survey
 2004S , Ia , 06:45:43.50 , -31:13:52.5 , 16   , Martin
+2004R , Ia? , 03:32:41.30 , -27:46:13.6 , 27.2 , Strolger, Riess
 2004P , Ia , 13:34:57.76 , +34:02:33.7 , 16.3 , Lick Observatory Supernova Survey
+2004O , Ia? , 04:43:44.82 , -70:28:33.8 , 20.0 , OGLE-III/NOOS
+2004N , Ia? , 05:35:20.37 , -69:27:18.3 , 18.0 , OGLE-III/NOOS
+2004M , Ia? , 00:35:59.26 , -74:48:02.0 , 19.5 , OGLE-III/NOOS
 2004L , Ia , 10:27:04.11 , +16:01:07.3 , 16.9 , Lick Observatory Supernova Survey
+2004K , Ia? , 14:23:39.85 , -19:26:50.0 , 17.2 , Lick Observatory Supernova Survey
+2004J , Ia? , 05:46:32.18 , -17:46:53.0 , 17.7 , Lick Observatory Supernova Survey
 2004H , Ia , 11:33:59.77 , +49:03:46.5 , 17.6 , Lick Observatory Supernova Survey
+2004F , Ia? , 03:17:53.80 , -07:17:43.0 , 17.8 , Lick Observatory Supernova Survey
 2004E , Ia , 13:16:51.40 , +31:35:11.8 , 16.1 , Lick Observatory Supernova Survey
 2004B , Ia , 04:42:04.71 , -07:12:08.2 , 17.8 , Itagaki
+2003lz , Ia? , 07:16:25.24 , -29:37:04.5 , 17.1 , Y. Chen et al.
 2003ly , Ia , 09:37:49.93 , +10:11:38.1 , 20.4 , SDSS
 2003lx , Ia , 16:19:21.66 , +41:05:23.6 , 18.5 , SDSS
+2003lv , Ia? , 12:37:28.97 , +62:11:27.8 , 23.2 , Riess
+2003lu , Ia? , 03:32:36.12 , -27:55:01.4 , 26.1 , Strolger, Riess
+2003lt , Ia? , 03:32:42.81 , -27:55:53.1 , 26.0 , Strolger, Riess
 2003ls , Ia , 03:01:00.39 , -10:53:04.5 , 16.5 , Lick Observatory Supernova Survey
 2003lr , Ia? , 03:56:59.00 , +16:29:37.5 ,      , Lick Observatory Supernova Survey
 2003lq , Ia , 00:03:04.02 , -01:54:45.5 , 17.2 , Lick Observatory Supernova Survey
@@ -2180,6 +2426,10 @@
 2003hj , Ia , 15:24:20.51 , +29:57:11.9 , 17.5 , Boles
 2003hh , Ia , 00:00:07.08 , +:8:16:42.3 , 18.7 , LOTOSS
 2003he , Ia , 23:58:57.05 , -02:14:53.1 , 18.7 , LOTOSS
+2003hb , Ia? , 22:16:56.31 , -17:57:37.7 , 21.8 , CFHT Legacy Survey Supernova Project
+2003ha , Ia? , 22:14:45.80 , -17:44:22.9 , 22.9 , CFHT Legacy Survey Supernova Project
+2003gz , Ia? , 14:22:39.87 , +52:47:49.5 , 23.6 , CFHT Legacy Survey Supernova Project
+2003gy , Ia? , 14:21:27.76 , +53:06:10.3 , 24.0 , CFHT Legacy Survey Supernova Project
 2003gt , Ia , 20:32:59.12 , +09:52:19.3 , 16.4 , LOTOSS
 2003gs , Ia-p , 02:27:38.36 , -01:09:35.4 , 14.0 , Evans
 2003gr , Ia , 23:38:12.67 , -20:46:56.0 , 16.3 , LOTOSS
@@ -2191,9 +2441,24 @@
 2003gi , Ia , 00:38:32.67 , -24:20:33.5 , 15.6 , Monard
 2003gh , Ia , 07:45:17.93 , -71:24:37.3 , 15.7 , Monard
 2003ge , Ia , 16:20:08.75 , +37:47:53.7 , 17.8 , Puckett, Langoussis
+2003gc , Ia? , 10:54:22.26 , -06:15:48.9 , 18.0 , NEAT/Wood-Vasey et al.
+2003gb , Ia? , 14:20:11.80 , +52:57:58.8 , 24.0 , CFHT Legacy Survey
+2003ga , Ia? , 14:22:33.24 , +52:22:53.0 , 23.4 , CFHT Legacy Survey
+2003fz , Ia? , 14:20:22.13 , +52:17:04.0 , 23.7 , CFHT Legacy Survey
+2003fy , Ia? , 14:20:09.21 , +53:02:34.4 , 23.8 , CFHT Legacy Survey
+2003fx , Ia? , 14:19:42.74 , +52:15:21.5 , 23.6 , CFHT Legacy Survey
+2003fw , Ia? , 14:19:32.92 , +53:07:20.9 , 23.5 , CFHT Legacy Survey
+2003fv , Ia? , 14:18:04.63 , +53:03:25.2 , 23.6 , CFHT Legacy Survey
+2003fu , Ia? , 14:22:06.69 , +52:18:31.3 , 23.6 , CFHT Legacy Survey
+2003ft , Ia? , 14:20:39.51 , +52:54:06.6 , 24.0 , CFHT Legacy Survey
+2003fs , Ia? , 14:18:40.84 , +52:52:02.8 , 23.3 , CFHT Legacy Survey
+2003fr , Ia? , 14:21:08.68 , +52:42:23.3 , 23.3 , CFHT Legacy Survey
+2003fq , Ia? , 14:19:46.84 , +52:30:27.7 , 22.2 , CFHT Legacy Survey
 2003fp , Ia , 14:20:53.61 , +52:36:20.7 , 22.9 , CFHT Legacy Survey
 2003fo , Ia , 14:17:58.43 , +53:28:57.5 , 23.2 , CFHT Legacy Survey
 2003fn , Ia , 14:16:33.44 , +52:20:32.1 , 21.5 , CFHT Legacy Survey
+2003fm , Ia? , 14:21:07.10 , +52:43:27.5 , 24.0 , CFHT Legacy Survey
+2003fl , Ia? , 14:19:55.64 , +53:00:51.9 , 23.8 , CFHT Legacy Survey
 2003fk , Ia , 14:19:55.84 , +53:05:50.9 , 22.4 , CFHT Legacy Survey
 2003fj , Ia , 14:19:45.19 , +52:32:25.7 , 22.2 , CFHT Legacy Survey
 2003fi , Ia , 14:18:39.96 , +52:36:44.1 , 23.2 , CFHT Legacy Survey
@@ -2204,23 +2469,78 @@
 2003fa , Ia , 17:44:07.72 , +40:52:51.6 , 18.6 , LOTOSS
 2003ez , Ia , 12:43:11.87 , -02:30:04.1 , 17.5 , LOTOSS
 2003ey , Ia , 14:20:03.28 , -08:28:40.0 , 19.2 , NEAT/Wood-Vasey et al.
+2003ex , Ia? , 13:27:32.31 , +05:31:14.4 , 19.1 , NEAT/Wood-Vasey et al.
+2003ew , Ia? , 12:36:27.78 , +62:11:25.1 , 24.1 , GOODS Treasury Team, Hubble Higher-z Supernova Team
+2003eu , Ia? , 12:36:05.90 , +62:11:01.6 , 24.7 , GOODS Treasury Team, Hubble Higher-z Supernova Team
+2003et , Ia? , 12:35:55.87 , +62:13:32.8 , 25.3 , GOODS Treasury Team, Hubble Higher-z Supernova Team
+2003es , Ia? , 12:36:55.39 , +62:13:11.9 , 23.8 , GOODS Treasury Team, Hubble Higher-z Supernova Team
+2003er , Ia? , 12:36:32.27 , +62:07:35.2 , 23.2 , GOODS Treasury Team, Hubble Higher-z Supernova Team
+2003eq , Ia? , 12:37:48.34 , +62:13:35.3 , 23.2 , GOODS Treasury Team, Hubble Higher-z Supernova Team
 2003ep , Ia , 21:21:07.34 , +23:05:05.8 , 15.7 , LOTOSS
+2003eo , Ia? , 11:03:09.19 , -05:46:09.4 , 20.2 , NEAT/Wood-Vasey et al.
+2003en , Ia? , 12:36:33.12 , +62:13:48.1 , 25.5 , GOODS Treasury Team, Hubble Higher-z Supernova Team
 2003em , Ia , 02:09:20.23 , -23:24:53.0 , 17.2 , Monard
 2003ek , Ia , 17:18:32.50 , +41:40:00.8 , 18.2 , LOTOSS
 2003eh , Ia , 11:08:24.34 , +03:29:47.0 , 17.6 , LOTOSS
 2003ec , Ia? , 15:46:16.67 , +02:24:48.7 ,      , Chen et al.
+2003eb , Ia? , 12:37:15.18 , +62:13:34.6 , 22.8 , GOODS Treasury Team, Hubble Higher-z Supernova Team
+2003ea , Ia? , 12:37:12.04 , +62:12:38.3 , 25.4 , GOODS Treasury Team, Hubble Higher-z Supernova Team
+2003dz , Ia? , 12:36:39.91 , +62:07:52.7 , 25.1 , GOODS Treasury Team, Hubble Higher-z Supernova Team
+2003dy , Ia? , 12:37:09.16 , +62:11:29.0 , 24.5 , GOODS Treasury Team, Hubble Higher-z Supernova Team
+2003dx , Ia? , 12:36:31.75 , +62:08:48.7 , 25.2 , GOODS Treasury Team, Hubble Higher-z Supernova Team
 2003dw , Ia , 16:45:51.10 , +59:37:38.0 , 16.7 , Rich
 2003du , Ia , 14:34:35.80 , +59:20:03.8 , 15.9 , LOTOSS
 2003dt , Ia , 20:47:17.56 , +00:18:42.8 , 17.5 , LOTOSS
+2003dp , Ia? , 13:13:24.23 , +27:56:09.3 , 20.0 , NEAT/Wood-Vasey et al.
+2003do , Ia? , 13:03:29.37 , +27:19:11.1 , 19.9 , NEAT/Wood-Vasey et al.
+2003dn , Ia? , 11:20:08.03 , +25:36:48.7 , 20.0 , NEAT/Wood-Vasey et al.
+2003dm , Ia? , 11:31:38.15 , +25:34:14.3 , 19.2 , NEAT/Wood-Vasey et al.
+2003dl , Ia? , 14:56:36.25 , +30:14:21.5 , 19.2 , LOTOSS
+2003dk , Ia? , 13:15:31.65 , -07:20:55.8 , 19.2 , NEAT/Wood-Vasey et al.
+2003dj , Ia? , 13:16:22.04 , +19:25:53.4 , 20.0 , NEAT/Wood-Vasey et al.
+2003di , Ia? , 12:00:24.08 , +11:58:26.5 , 17.8 , NEAT/Wood-Vasey et al.
+2003dh , Ia? , 10:44:50.01 , +21:31:17.8 , 16.2 , Ricker/HETE Science Team
+2003df , Ia? , 12:07:31.36 , +26:57:36.2 , 20.3 , NEAT/Wood-Vasey et al.
+2003de , Ia? , 10:10:41.25 , +35:44:52.9 , 17.2 , NEAT/Wood-Vasey et al.
+2003dd , Ia? , 13:56:55.04 , +03:55:58.2 , 20.1 , NEAT/Wood-Vasey et al.
+2003dc , Ia? , 13:54:21.70 , +05:46:09.3 , 19.3 , NEAT/Wood-Vasey et al.
+2003cz , Ia? , 12:05:53.57 , +33:27:13.0 , 20.2 , NEAT/Wood-Vasey et al.
+2003cy , Ia? , 10:46:04.27 , +27:20:57.2 , 19.0 , NEAT/Wood-Vasey et al.
+2003cx , Ia? , 13:57:06.46 , -17:02:22.6 , 19.1 , NEAT/Wood-Vasey et al.
+2003cw , Ia? , 11:24:03.88 , +23:20:44.8 , 20.1 , NEAT/Wood-Vasey et al.
+2003cu , Ia? , 10:53:02.66 , -00:41:03.9 , 19.9 , NEAT/Wood-Vasey et al.
+2003ct , Ia? , 11:22:56.20 , -02:56:59.9 , 19.0 , NEAT/Wood-Vasey et al.
+2003cs , Ia? , 11:20:37.52 , -04:54:32.7 , 17.9 , NEAT/Wood-Vasey et al.
 2003cq , Ia , 11:56:14.17 , +60:31:19.1 , 17.0 , Arbour
 2003cp , Ia? , 08:09:11.13 , +57:41:14.0 , 16.2 , Armstrong
+2003co , Ia? , 10:49:39.91 , +29:21:44.6 , 18.6 , NEAT/Wood-Vasey et al.
+2003cm , Ia? , 16:50:55.02 , +59:43:18.1 , 19.4 , LOTOSS
+2003cl , Ia? , 12:38:50.11 , -02:49:58.8 , 19.5 , NEAT/Wood-Vasey et al.
+2003ck , Ia? , 13:06:21.72 , +03:04:21.0 , 19.3 , NEAT/Wood-Vasey et al.
+2003cj , Ia? , 12:15:51.90 , +08:59:15.7 , 20.2 , NEAT/Wood-Vasey et al.
 2003ch , Ia , 07:17:57.92 , +09:41:34.9 , 17.4 , LOTOSS
 2003cg , Ia , 10:14:15.97 , +03:28:02.5 , 14.4 , Itagaki; Arbour
+2003cf , Ia? , 10:37:43.07 , +07:04:54.1 , 19.5 , NEAT/Wood-Vasey et al.
+2003ce , Ia? , 10:12:10.43 , -30:13:58.1 , 19.5 , NEAT/Wood-Vasey et al.
+2003cd , Ia? , 10:12:02.33 , +11:16:39.1 , 19.5 , NEAT/Wood-Vasey et al.
+2003cc , Ia? , 10:57:29.60 , +23:35:34.7 , 20.3 , NEAT/Wood-Vasey et al.
+2003ca , Ia? , 09:23:58.91 , +30:02:39.5 , 23.2 , Deep Lens Survey Transient Team
+2003bz , Ia? , 09:22:34.77 , +30:04:42.5 , 23.8 , Deep Lens Survey Transient Team
+2003by , Ia? , 09:22:30.01 , +29:07:19.1 , 22.1 , Deep Lens Survey Transient Team
+2003bx , Ia? , 05:25:04.00 , -49:36:12.1 , 20.8 , Deep Lens Survey Transient Team
 2003bt , Ia , 10:55:22.48 , -07:39:12.3 , 16.7 , LOTOSS
 2003bs , Ia , 10:29:44.12 , +25:37:11.6 , 17.7 , NEAT/Wood-Vasey et al.
+2003bq , Ia? , 06:42:50.12 , +41:25:19.9 , 18.7 , Boles
+2003bo , Ia? , 09:47:43.41 , +36:18:21.8 , 19.6 , NEAT/Wood-Vasey et al.
 2003bi , Ia , 10:44:05.97 , +12:31:34.7 , 19.6 , NEAT/Wood-Vasey et al.
 2003bh , Ia , 10:00:06.27 , +28:16:52.0 , 19.9 , NEAT/Wood-Vasey et al.
 2003bf , Ia , 08:08:26.35 , +12:19:56.2 , 17.6 , NEAT/Wood-Vasey et al.
+2003be , Ia? , 12:36:25.97 , +62:06:55.6 , 23.1 , GOODS Treasury Team, Hubble Higher-z Supernova Team
+2003bd , Ia? , 12:37:25.06 , +62:13:17.5 , 23.2 , GOODS Treasury Team, Hubble Higher-z Supernova Team
+2003bc , Ia? , 12:36:38.06 , +62:09:53.3 , 24.0 , GOODS Treasury Team, Hubble Higher-z Supernova Team
+2003bb , Ia? , 12:36:24.47 , +62:08:35.3 , 25.6 , GOODS Treasury Team, Hubble Higher-z Supernova Team
+2003ba , Ia? , 12:36:15.88 , +62:12:37.7 , 23.7 , GOODS Treasury Team, Hubble Higher-z Supernova Team
+2003az , Ia? , 12:37:19.67 , +62:18:37.5 , 24.4 , GOODS Treasury Team, Hubble Higher-z Supernova Team
 2003ay , Ia , 04:07:26.25 , +28:07:55.4 , 19.1 , NEAT/Wood-Vasey et al.
 2003ax , Ia , 08:08:35.53 , +07:46:42.2 , 18.7 , NEAT/Wood-Vasey et al.
 2003aw , Ia? , 09:05:54.79 , -05:36:08.6 ,      , NEAT/Wood-Vasey et al.
@@ -2229,6 +2549,9 @@
 2003ar , Ia , 16:02:08.11 , +70:24:55.5 , 17.9 , Boles
 2003ap , Ia , 09:50:52.83 , -21:51:10.1 , 16.7 , NEAT/Wood-Vasey et al.
 2003an , Ia , 13:27:53.55 , +28:30:29.2 , 16.9 , LOTOSS
+2003al , Ia? , 03:32:05.39 , -27:44:29.2 , 24.5 , GOODS Treasury Team, Hubble Higher-z Supernova Team
+2003ak , Ia? , 03:32:46.90 , -27:54:49.3 , 25.8 , GOODS Treasury Team, Hubble Higher-z Supernova Team
+2003aj , Ia? , 03:32:44.33 , -27:55:06.4 , 25.7 , GOODS Treasury Team, Hubble Higher-z Supernova Team
 2003ai , Ia , 13:00:58.68 , +39:51:24.5 , 17.0 , LOTOSS
 2003ah , Ia , 04:43:08.54 , +00:46:00.4 , 17.3 , LOTOSS
 2003ag , Ia , 11:26:01.82 , +01:59:02.8 , 16.5 , LOTOSS
@@ -2244,10 +2567,13 @@
 2003R , Ia , 02:05:11.27 , -04:42:30.0 , 22   , Poznanski et al.
 2003Q , Ia , 02:05:47.55 , -04:52:48.0 , 20   , Poznanski et al.
 2003P , Ia , 08:01:15.63 , +55:44:34.8 , 18.0 , Boles
+2003N , Ia? , 12:37:09.06 , +62:11:00.7 , 25.9 , GOODS Treasury Team, Hubble Higher-z Supernova Team
 2003M , Ia-p , 12:13:21.00 , +21:38:48.4 , 17.3 , LOTOSS
 2003K , Ia , 15:32:01.91 , +68:14:35.9 , 15.4 , Puckett, Langoussis
 2003F , Ia , 05:11:32.99 , +17:03:28.4 , 16.7 , Puckett, Toth; LOTOSS
 2003D , Ia-p , 09:38:53.52 , -04:51:05.1 , 17.5 , Puckett, Langoussis
+2002lv , Ia? , 03:33:33.75 , -09:18:53.0 , 25.2 , Schrabback, Wuttke, Knuth, Miralles
+2002lu , Ia? , 03:33:31.44 , -09:16:52.3 , 24.0 , Schrabback, Wuttke, Knuth, Miralles
 2002ls , Ia , 22:37:40.89 , -00:38:00.8 , 22.6 , European Supernova Cosmology Consortium
 2002lr , Ia? , 22:33:12.59 , +01:05:56.7 , 20.8 , European Supernova Cosmology Consortium
 2002lq , Ia , 16:40:28.83 , +41:14:09.1 , 21.9 , European Supernova Cosmology Consortium
@@ -2258,11 +2584,32 @@
 2002lj , Ia , 16:19:19.65 , +53:09:54.2 , 19.7 , European Supernova Cosmology Consortium
 2002li , Ia , 15:59:03.08 , +54:18:16.0 , 20.6 , European Supernova Cosmology Consortium
 2002lh , Ia , 14:44:20.38 , +31:15:44.4 , 21   , Gal-Yam, Maoz, Guhathakurta
+2002lg , Ia? , 03:32:35.76 , -27:47:58.8 , 23.4 , GOODS Treasury Team, Hubble Higher-z Supernova Team
+2002lf , Ia? , 13:50:50.13 , +09:42:02.0 , 19.9 , NEAT/Wood-Vasey et al.
+2002le , Ia? , 13:11:47.96 , -00:19:53.7 , 19.5 , NEAT/Wood-Vasey et al.
+2002ld , Ia? , 02:20:00.03 , -04:44:20.2 , 24.3 , Supernova Cosmology Project and Subaru high-redshift supernova search group
+2002lc , Ia? , 02:18:51.59 , -04:47:24.8 , 25.1 , Supernova Cosmology Project and Subaru high-redshift supernova search group
+2002lb , Ia? , 02:18:09.01 , -04:54:17.9 , 25.1 , Supernova Cosmology Project and Subaru high-redshift supernova search group
+2002la , Ia? , 02:17:45.97 , -04:36:46.2 , 25.2 , Supernova Cosmology Project and Subaru high-redshift supernova search group
+2002kz , Ia? , 02:16:56.37 , -05:00:57.4 , 24.9 , Supernova Cosmology Project and Subaru high-redshift supernova search group
+2002ky , Ia? , 02:18:53.20 , -04:32:59.2 , 23.7 , Supernova Cosmology Project and Subaru high-redshift supernova search group
+2002kx , Ia? , 02:18:40.73 , -05:03:44.3 , 25.3 , Supernova Cosmology Project and Subaru high-redshift supernova search group
+2002kw , Ia? , 02:18:35.15 , -04:26:38.9 , 25.1 , Supernova Cosmology Project and Subaru high-redshift supernova search group
+2002kv , Ia? , 02:17:43.30 , -04:30:56.7 , 24.6 , Supernova Cosmology Project and Subaru high-redshift supernova search group
+2002ku , Ia? , 02:17:42.54 , -05:06:34.0 , 24.8 , Supernova Cosmology Project and Subaru high-redshift supernova search group
+2002kt , Ia? , 02:17:38.08 , -05:08:46.8 , 24.5 , Supernova Cosmology Project and Subaru high-redshift supernova search group
+2002ks , Ia? , 02:17:34.53 , -05:00:15.4 , 25.2 , Supernova Cosmology Project and Subaru high-redshift supernova search group
 2002kr , Ia , 02:17:34.51 , -04:53:46.6 , 24.5 , Supernova Cosmology Project and Subaru high-redshift supernova search group
+2002kq , Ia? , 02:17:12.24 , -04:55:08.7 , 24.4 , Supernova Cosmology Project and Subaru high-redshift supernova search group
+2002kp , Ia? , 02:17:08.63 , -05:02:06.4 , 23.8 , Supernova Cosmology Project and Subaru high-redshift supernova search group
 2002ko , Ia , 02:17:00.05 , -04:58:19.6 , 23.4 , Supernova Cosmology Project and Subaru high-redshift supernova search group
 2002kn , Ia , 02:16:45.71 , -05:09:51.2 , 25.0 , Supernova Cosmology Project and Subaru high-redshift supernova search group
 2002km , Ia , 02:16:23.93 , -04:49:29.4 , 24.5 , Supernova Cosmology Project and Subaru high-redshift supernova search group
+2002kl , Ia? , 12:37:49.30 , +62:14:06.1 , 24.8 , GOODS Treasury Team, Hubble Higher-z Supernova Team
 2002kk , Ia , 21:58:58.65 , -00:08:23.5 , 19.4 , NEAT/Wood-Vasey et al.
+2002kj , Ia? , 00:35:24.73 , +03:59:11.4 , 18.5 , NEAT/Wood-Vasey et al.
+2002ki , Ia? , 12:37:28.35 , +62:20:40.0 , 24.2 , GOODS Treasury Team, Hubble Higher-z Supernova Team
+2002kh , Ia? , 12:36:16.78 , +62:14:37.7 , 25.1 , GOODS Treasury Team, Hubble Higher-z Supernova Team
 2002kf , Ia , 06:37:15.31 , +49:51:10.2 , 15.9 , Brady
 2002ke , Ia? , 03:31:58.77 , -27:45:00.7 , 25.7 , GOODS Treasury Team, Hubble Higher-z Supernova Team
 2002kd , Ia? , 03:32:22.34 , -27:44:26.9 , 23.8 , GOODS Treasury Team, Hubble Higher-z Supernova Team
@@ -2277,7 +2624,9 @@
 2002jr , Ia , 02:04:41.03 , -05:09:40.7 , 22.7 , ESSENCE
 2002jq , Ia , 23:35:57.96 , -10:05:56.8 , 21.9 , ESSENCE
 2002jo , Ia , 14:38:16.42 , +40:27:14.0 , 16.4 , Dimai
+2002jn , Ia? , 20:11:59.91 , +05:31:16.0 , 18.0 , Boles
 2002jm , Ia , 10:19:25.20 , -05:39:14.5 , 17.5 , LOTOSS
+2002jk , Ia? , 10:44:14.39 , +15:58:09.9 , 17.9 , NEAT/Wood-Vasey et al.
 2002jh , Ia , 04:27:29.57 , +06:01:34.2 , 18.4 , NEAT/Wood-Vasey et al.
 2002jg , Ia , 22:19:28.80 , +29:23:04.5 , 17.0 , LOTOSS
 2002jf , Ia , 02:34:35.43 , +12:17:25.4 , 19.7 , NEAT/Wood-Vasey et al.
@@ -2306,6 +2655,11 @@
 2002hw , Ia , 00:06:49.06 , +08:37:48.5 , 16.8 , LOTOSS
 2002hv , Ia , 09:22:10.91 , +33:50:10.8 , 18.6 , LOTOSS
 2002hu , Ia , 02:18:20.06 , +37:27:58.8 , 17.0 , Boles
+2002ht , Ia? , 03:32:09.32 , -27:41:29.3 , 25.5 , Riess et al.
+2002hs , Ia? , 03:32:18.59 , -27:48:33.7 , 25.6 , Riess et al.
+2002hr , Ia? , 03:32:22.57 , -27:41:52.2 , 23.5 , Riess et al.
+2002hq , Ia? , 03:32:30.12 , -27:43:46.7 , 25.7 , Riess et al.
+2002hp , Ia? , 03:32:24.79 , -27:46:17.8 , 24.4 , Riess et al.
 2002hl , Ia , 11:24:40.12 , +38:46:03.0 , 16.3 , Boles
 2002he , Ia-p , 08:19:58.83 , +62:49:13.2 , 17.5 , LOTOSS
 2002hd , Ia , 08:54:03.39 , -07:11:21.5 , 18   , LOTOSS
@@ -2323,14 +2677,27 @@
 2002gm , Ia , 15:46:57.0: , +08:12:37:: , 22.3 , Supernova Cosmology Project
 2002gl , Ia , 15:43:24.4: , +07:53:58:: , 23.3 , Supernova Cosmology Project
 2002gk , Ia , 15:37:07.5: , +09:36:19:: , 21.3 , Supernova Cosmology Project
+2002gj , Ia? , 15:36:25.5: , +09:28:18:: , 22.9 , Supernova Cosmology Project
 2002gi , Ia , 13:57:12.3: , +04:33:17:: , 24.1 , Supernova Cosmology Project
+2002gh , Ia? , 03:05:29.46 , -05:21:57.0 , 19.3 , NEAT/Wood-Vasey et al.
 2002gg , Ia , 22:27:45.93 , +06:55:44.7 , 20.0 , NEAT/Wood-Vasey et al.
 2002gf , Ia , 20:55:17.88 , -00:04:21.4 , 19.4 , NEAT/Wood-Vasey et al.
 2002ge , Ia , 22:54:21.49 , -45:20:26.9 , 14.1 , Chassagne
 2002gc , Ia , 01:55:46.56 , +46:48:19.4 , 17.4 , Boles
 2002gb , Ia , 22:43:21.31 , -00:06:53.0 , 18.9 , NEAT/Wood-Vasey et al.
+2002ga , Ia? , 03:32:32.62 , -27:53:16.7 , 24.9 , GOODS, Hubble Higher-z Supernova Team
+2002fz , Ia? , 03:32:48.54 , -27:54:17.6 , 24.9 , GOODS, Hubble Higher-z Supernova Team
+2002fy , Ia? , 03:32:18.12 , -27:41:55.6 , 24.9 , GOODS, Hubble Higher-z Supernova Team
+2002fx , Ia? , 03:32:06.80 , -27:44:34.4 , 25.5 , GOODS, Hubble Higher-z Supernova Team
+2002fw , Ia? , 03:32:37.52 , -27:46:46.6 , 24.6 , GOODS, Hubble Higher-z Supernova Team
+2002fv , Ia? , 03:32:19.22 , -27:49:34.0 , 25.2 , GOODS, Hubble Higher-z Supernova Team
 2002ft , Ia , 23:15:45.82 , -16:55:35.2 , 18.9 , NEAT/Wood-Vasey et al.
 2002fs , Ia , 22:54:00.88 , +14:39:24.5 , 20.1 , NEAT/Wood-Vasey et al.
+2002fq , Ia? , 14:00:51.20 , +04:33:26.2 , 22.7 , Supernova Cosmology Project
+2002fp , Ia? , 14:02:18.40 , +04:47:05.9 , 24.0 , Supernova Cosmology Project
+2002fo , Ia? , 14:01:29.83 , +05:14:20.7 , 24.7 , Supernova Cosmology Project
+2002fn , Ia? , 14:00:07.95 , +04:54:45.4 , 24.1 , Supernova Cosmology Project
+2002fm , Ia? , 14:00:29.75 , +04:46:50.1 , 22.5 , Supernova Cosmology Project
 2002fl , Ia , 14:01:52.33 , +04:39:23.2 , 21.9 , Supernova Cosmology Project
 2002fk , Ia , 03:22:05.71 , -15:24:03.2 , 15.0 , Kushida; Beijing Observatory Supernova Survey
 2002fi , Ia , 02:33:54.40 , -21:02:29.4 , 18.5 , LOTOSS
@@ -2350,11 +2717,13 @@
 2002eq , Ia , 21:19:00.19 , -16:17:12.7 , 19.6 , NEAT/Wood-Vasey et al.
 2002ep , Ia , 21:57:21.66 , -07:51:24.8 , 18.7 , NEAT/Wood-Vasey et al.
 2002el , Ia , 20:56:30.09 , -18:33:34.3 , 17.6 , LOTOSS
+2002ek , Ia? , 20:32:08.50 , -15:17:57.9 , 19.2 , NEAT/Wood-Vasey et al.
 2002eh , Ia , 02:26:08.45 , +31:54:45.2 , 16.4 , LOTOSS, Boles
 2002ef , Ia , 23:51:29.54 , -13:22:46.4 , 16.5 , LOTOSS
 2002ec , Ia , 15:19:24.89 , +20:53:14.0 , 17.7 , LOTOSS
 2002eb , Ia , 22:19:05.24 , +24:35:39.8 , 18.5 , LOTOSS
 2002dx , Ia , 23:57:06.73 , +29:50:15.5 , 18.8 , LOTOSS
+2002dt , Ia? , 16:03:47.30 , -22:44:19.5 , 18.5 , LOTOSS
 2002dr , Ia , 22:51:01.00 , +31:22:23.0 , 17.0 , LOTOSS
 2002dp , Ia , 23:28:30.12 , +22:25:38.8 , 15.1 , Klotz
 2002do , Ia , 19:56:12.88 , +40:26:10.8 , 16.3 , LOTOSS
@@ -2368,11 +2737,16 @@
 2002dd , Ia , 12:36:55.35 , +62:12:46.1 , 24.0 , Tsvetanov et al.
 2002dc , Ia? , 12:36:49.87 , +62:13:13.1 , 22.7 , Magee et al.
 2002db , Ia , 14:34:51.63 , +48:39:52.9 , 17.6 , LOTOSS
+2002da , Ia? , 13:24:35.96 , +21:20:08.2 , 18.8 , NEAT/Wood-Vasey et al.
+2002cz , Ia? , 13:34:02.59 , -14:49:19.7 , 18.8 , NEAT/Wood-Vasey et al.
+2002cy , Ia? , 05:03:35.33 , +01:34:29.5 , 16.7 , Monard
 2002cx , Ia-p , 13:13:49.72 , +06:57:31.9 , 18.9 , NEAT/Wood-Vasey et al.
 2002cv , Ia , 10:18:03.68 , +21:50:06.0 , 19.0 , Larionov et al.
 2002cu , Ia , 18:10:50.40 , +31:06:32.3 , 17.6 , LOTOSS
+2002ct , Ia? , 12:47:22.53 , +28:00:13.9 , 20.1 , LOTOSS
 2002cs , Ia , 18:46:59.96 , +45:42:19.7 , 16.3 , LOTOSS; Armstrong
 2002cr , Ia , 14:06:37.59 , -05:26:21.9 , 16.5 , Kushida
+2002cq , Ia? , 12:38:40.43 , -02:58:13.4 , 19.2 , NEAT/Wood-Vasey et al.
 2002cn , Ia , 13:53:21.24 , -12:15:29.5 , 22.3 , Altavilla et al.
 2002ck , Ia , 15:47:00.75 , -00:59:25.5 , 16.8 , LOTOSS
 2002ci , Ia , 16:15:37.95 , +31:19:17.4 , 17.2 , LOTOSS
@@ -2382,21 +2756,59 @@
 2002bz , Ia , 14:24:40.52 , +26:37:34.7 , 16.9 , Puckett, Gauthier
 2002by , Ia-p , 17:50:18.58 , -59:33:51.6 , 14.5 , Chassagne
 2002bw , Ia , 17:16:35.60 , -10:20:31.8 , 17.4 , LOTOSS
+2002bu , Ia? , 12:17:37.18 , +45:38:47.4 , 15.5 , Puckett, Gauthier
 2002bt , Ia , 13:36:13.20 , -01:02:19.8 , 17.9 , LOTOSS
 2002bs , Ia , 13:18:30.30 , -14:36:31.8 , 15.5 , Beijing Observatory
 2002br , Ia , 10:34:08.92 , +19:42:20.5 , 17.1 , Armstrong
+2002bq , Ia? , 09:30:50.92 , -35:42:06.0 , 16.1 , Monard
+2002bp , Ia? , 11:19:18.20 , +20:48:23.1 , 18.6 , Puckett, Langoussis
 2002bo , Ia , 10:18:06.51 , +21:49:41.7 , 15.5 , Cacella; Hirose
 2002bn , Ia , 11:32:39.04 , +52:56:54.2 , 17.0 , Armstrong
 2002bk , Ia , 09:02:26.67 , -09:17:38.7 , 18.5 , Wood-Vasey, Aldering, Nugent, NEAT
 2002bi , Ia , 13:32:54.45 , +09:31:18.0 , 17.1 , LOTOSS
 2002bg , Ia , 14:59:39.23 , +13:12:44.5 , 16.9 , Puckett, Newton
 2002bf , Ia , 10:15:42.31 , +55:40:06.7 , 16.6 , LOTOSS
+2002be , Ia? , 10:49:54.81 , -05:46:12.5 , 24.1 , Deep Lens Survey Team
+2002bd , Ia? , 10:55:35.71 , -05:42:04.6 , 23.1 , Deep Lens Survey Team
+2002bc , Ia? , 05:16:16.63 , -48:53:23.0 , 23.8 , Deep Lens Survey Team
+2002bb , Ia? , 05:15:06.05 , -48:59:51.1 , 24.1 , Deep Lens Survey Team
+2002ba , Ia? , 05:14:37.33 , -49:07:44.4 , 23.6 , Deep Lens Survey Team
+2002az , Ia? , 10:54:17.44 , -04:54:16.0 , 22.9 , Deep Lens Survey Team
+2002ay , Ia? , 10:49:28.01 , -04:29:43.6 , 21.6 , Deep Lens Survey Team
+2002ax , Ia? , 10:48:24.43 , -04:11:27.7 , 21.2 , Deep Lens Survey Team
 2002aw , Ia , 16:37:29.06 , +40:52:50.3 , 16.6 , Puckett, Peoples
 2002av , Ia , 06:08:06.34 , -23:59:13.2 , 17.7 , LOTOSS
 2002au , Ia? , 09:34:37.60 , +05:50:15.7 , 17.7 , LOTOSS; Puckett, Langoussis
 2002ar , Ia , 11:37:43.92 , +22:00:34.4 , 16.5 , LOTOSS
 2002am , Ia , 14:02:03.14 , -10:35:23.9 , 19.1 , Deep Lens Survey
+2002al , Ia? , 10:50:21.71 , -04:15:05.9 , 23.6 , Deep Lens Survey
+2002ak , Ia? , 10:49:04.32 , -05:55:33.7 , 22.6 , Deep Lens Survey
+2002aj , Ia? , 10:48:56.56 , -05:32:14.1 , 23.1 , Deep Lens Survey
+2002ai , Ia? , 10:54:21.27 , +57:27:58.2 , 23.4 , High-Z Supernova Search Team
+2002ah , Ia? , 10:53:19.50 , +57:00:36.6 , 24.4 , High-Z Supernova Search Team
+2002ag , Ia? , 10:53:12.71 , +57:00:25.9 , 24.2 , High-Z Supernova Search Team
+2002af , Ia? , 10:52:29.89 , +57:39:44.0 , 24.1 , High-Z Supernova Search Team
+2002ae , Ia? , 10:50:51.02 , +57:09:04.6 , 23.6 , High-Z Supernova Search Team
+2002ad , Ia? , 10:50:12.19 , +57:31:11.6 , 23.2 , High-Z Supernova Search Team
+2002ac , Ia? , 07:49:39.61 , +10:19:08.2 , 23.8 , High-Z Supernova Search Team
 2002ab , Ia , 07:48:55.70 , +10:06:06.3 , 22.5 , High-Z Supernova Search Team
+2002aa , Ia? , 07:48:45.28 , +10:18:00.8 , 24.3 , High-Z Supernova Search Team
+2002Z , Ia? , 08:49:32.97 , +44:03:27.6 , 24.2 , High-Z Supernova Search Team
+2002Y , Ia? , 08:48:50.21 , +44:13:03.0 , 24.2 , High-Z Supernova Search Team
+2002X , Ia? , 08:48:30.54 , +44:15:35.3 , 23.7 , High-Z Supernova Search Team
+2002W , Ia? , 08:47:54.42 , +44:13:42.9 , 24.0 , High-Z Supernova Search Team
+2002V , Ia? , 04:39:53.55 , -01:13:33.5 , 23.7 , High-Z Supernova Search Team
+2002U , Ia? , 04:39:42.90 , -01:46:04.2 , 22.8 , High-Z Supernova Search Team
+2002T , Ia? , 04:38:53.87 , -01:34:26.6 , 23.8 , High-Z Supernova Search Team
+2002S , Ia? , 04:37:37.05 , -01:32:36.9 , 23.1 , High-Z Supernova Search Team
+2002R , Ia? , 02:29:27.19 , +00:51:38.9 , 24.1 , High-Z Supernova Search Team
+2002Q , Ia? , 02:29:22.19 , +00:20:25.8 , 24.2 , High-Z Supernova Search Team
+2002P , Ia? , 02:29:05.17 , +00:47:20.1 , 23.8 , High-Z Supernova Search Team
+2002O , Ia? , 02:28:22.17 , +00:49:46.5 , 23.7 , High-Z Supernova Search Team
+2002N , Ia? , 02:27:51.91 , +00:28:53.6 , 23.2 , High-Z Supernova Search Team
+2002M , Ia? , 02:27:13.14 , +00:44:41.2 , 23.4 , High-Z Supernova Search Team
+2002L , Ia? , 02:26:55.69 , +00:21:37.8 , 23.8 , High-Z Supernova Search Team
+2002K , Ia? , 02:26:50.48 , +00:43:30.1 , 24.0 , High-Z Supernova Search Team
 2002I , Ia , 13:22:26.84 , -02:25:04.1 , 17.3 , LOTOSS
 2002H , Ia , 13:38:27.58 , -10:43:12.9 , 16.7 , LOTOSS
 2002G , Ia , 13:07:55.26 , +34:05:06.5 , 17.7 , LOTOSS
@@ -2416,29 +2828,95 @@
 2001ki , Ia? , 10:48:58::: , -00:26.8::: , 19.3 , Madgwick et al.
 2001kh , Ia , 02:25:15.56 , -05:23:20.0 , 21.0 , Ellis et al.
 2001kg , Ia , 22:20:52.51 , +00:43:05.8 , 22.7 , Ellis et al.
+2001ke , Ia? , 11:34:29.64 , -76:01:41.5 , 23.0 , 
+2001kd , Ia? , 07:50:31.24 , +10:21:07.3 , 24.3 , High-Z Supernova Search
+2001kc , Ia? , 07:50:01.97 , +10:19:38.7 , 24.4 , High-Z Supernova Search
+2001kb , Ia? , 04:39:12.42 , -01:21:24.1 , 24.5 , High-Z Supernova Search
+2001ka , Ia? , 08:49:07.94 , +44:10:00.2 , 21.6 , High-Z Supernova Search
+2001jz , Ia? , 04:39:20.82 , -01:37:48.0 , 23.9 , High-Z Supernova Search
+2001jy , Ia? , 04:38:54.67 , -01:20:02.8 , 21.5 , High-Z Supernova Search
+2001jx , Ia? , 12:42:40.04 , -40:43:12.5 , 17.5 , Buta, Byrd, Freeman
+2001jw , Ia? , 08:49:58.86 , +44:03:10.2 , 24.0 , High-Z Supernova Search Team
+2001jv , Ia? , 08:49:09.99 , +44:26:49.6 , 21.5 , High-Z Supernova Search Team
+2001ju , Ia? , 08:48:45.73 , +44:19:52.4 , 23.7 , High-Z Supernova Search Team
+2001jt , Ia? , 08:48:00.47 , +44:19:22.2 , 21.8 , High-Z Supernova Search Team
+2001js , Ia? , 08:47:58.07 , +44:15:10.3 , 23.6 , High-Z Supernova Search Team
+2001jr , Ia? , 08:47:42.80 , +44:24:18.9 , 24.5 , High-Z Supernova Search Team
+2001jq , Ia? , 08:47:11.03 , +44:27:27.0 , 23.4 , High-Z Supernova Search Team
+2001jp , Ia? , 08:46:31.40 , +44:03:56.6 , 23.7 , High-Z Supernova Search Team
+2001jo , Ia? , 08:46:25.82 , +43:58:49.5 , 25.0 , High-Z Supernova Search Team
+2001jn , Ia? , 04:40:12.00 , -01:17:45.9 , 23.7 , High-Z Supernova Search Team
+2001jm , Ia? , 04:39:13.82 , -01:23:18.2 , 23.4 , High-Z Supernova Search Team
+2001jl , Ia? , 04:38:27.55 , -01:44:29.8 , 23.7 , High-Z Supernova Search Team
+2001jk , Ia? , 04:37:55.61 , -01:32:42.6 , 23.9 , High-Z Supernova Search Team
+2001jj , Ia? , 04:37:48.53 , -01:18:31.9 , 22.8 , High-Z Supernova Search Team
+2001ji , Ia? , 02:29:12.68 , +00:51:30.0 , 23.2 , High-Z Supernova Search Team
+2001jh , Ia? , 02:29:00.29 , +00:20:44.2 , 23.1 , High-Z Supernova Search Team
+2001jg , Ia? , 02:28:51.78 , +00:34:50.2 , 22.2 , High-Z Supernova Search Team
+2001jf , Ia? , 02:28:07.13 , +00:26:45.1 , 23.8 , High-Z Supernova Search Team
+2001je , Ia? , 02:27:56.12 , +00:25:02.4 , 22.9 , High-Z Supernova Search Team
+2001jd , Ia? , 02:27:26.33 , +00:50:51.5 , 23.0 , High-Z Supernova Search Team
+2001jc , Ia? , 02:26:48.47 , +00:26:11.2 , 23.2 , High-Z Supernova Search Team
+2001jb , Ia? , 02:26:33.31 , +00:25:35.0 , 23.1 , High-Z Supernova Search Team
+2001ja , Ia? , 10:52:26.71 , +57:19:54.7 , 23.2 , High-Z Supernova Search Team
+2001iz , Ia? , 10:53:37.59 , +57:15:10.7 , 23.0 , High-Z Supernova Search Team
+2001iy , Ia? , 10:52:24.28 , +57:16:36.1 , 23.0 , High-Z Supernova Search Team
+2001ix , Ia? , 10:52:18.92 , +57:07:29.6 , 23.6 , High-Z Supernova Search Team
+2001iw , Ia? , 07:50:39.32 , +10:20:19.1 , 22.1 , High-Z Supernova Search Team
+2001iv , Ia? , 07:50:13.53 , +10:17:10.4 , 22.3 , High-Z Supernova Search Team
+2001iu , Ia? , 07:48:13.97 , +10:15:04.5 , 24.7 , High-Z Supernova Search Team
 2001iq , Ia , 22:25:10.42 , +42:43:04.2 , 17.2 , Armstrong
 2001ip , Ia , 03:31:13.03 , -27:50:55.5 , 23.8 , Altavilla et al.
 2001io , Ia , 00:45:53.64 , -29:26:11.7 , 23   , Altavilla et al.
 2001in , Ia? , 01:01:51.11 , +00:41:21.7 , 22.7 , Sloan Digital Sky Survey
 2001il , Ia , 02:26:41.35 , -00:57:31.7 , 20.4 , Sloan Digital Sky Survey
+2001ik , Ia? , 01:33:41.01 , -00:26:42.4 , 21.9 , Sloan Digital Sky Survey
+2001ii , Ia? , 00:42:05.44 , +36:48:05.4 , 18.6 , LOTOSS
+2001ih , Ia? , 18:05:45.00 , +34:45:04.0 , 17.7 , Boles
 2001if , Ia , 02:28:54.93 , +38:05:52.7 , 17.2 , Boles
+2001ie , Ia? , 10:16:50.70 , +60:16:44.5 , 16.5 , Bincoletto
+2001id , Ia? , 23:13:10.88 , +10:46:25.2 , 18.8 , LOTOSS
 2001ic , Ia , 23:10:43.34 , +07:34:10.4 , 17.4 , LOTOSS
 2001ib , Ia , 22:15:38.72 , +37:17:56.0 , 15.3 , Armstrong; Arbour
+2001ia , Ia? , 08:49:52.54 , +44:11:37.8 , 24.0 , High-Z Supernova Search Team
+2001hz , Ia? , 08:49:50.35 , +44:22:21.8 , 23.6 , High-Z Supernova Search Team
+2001hy , Ia? , 08:49:45.85 , +44:15:31.8 , 23.7 , High-Z Supernova Search Team
+2001hx , Ia? , 08:49:24.61 , +44:02:22.4 , 23.6 , High-Z Supernova Search Team
+2001hw , Ia? , 08:48:15.08 , +44:03:38.5 , 23.7 , High-Z Supernova Search Team
+2001hv , Ia? , 08:47:40.10 , +44:23:59.7 , 24.0 , High-Z Supernova Search Team
+2001hu , Ia? , 07:50:35.90 , +09:58:14.2 , 24.4 , High-Z Supernova Search Team
+2001ht , Ia? , 04:39:57.62 , -01:37:41.7 , 24.4 , High-Z Supernova Search Team
+2001hs , Ia? , 04:39:22.39 , -01:32:51.4 , 24.2 , High-Z Supernova Search Team
+2001hr , Ia? , 04:38:20.55 , -01:33:57.4 , 23.9 , High-Z Supernova Search Team
+2001hq , Ia? , 04:37:36.24 , -01:24:42.9 , 24.6 , High-Z Supernova Search Team
+2001hp , Ia? , 02:29:17.18 , +00:25:48.0 , 23.3 , High-Z Supernova Search Team
+2001ho , Ia? , 02:29:10.66 , +00:21:36.9 , 22.9 , High-Z Supernova Search Team
+2001hn , Ia? , 02:29:00.26 , +00:43:20.6 , 23.3 , High-Z Supernova Search Team
+2001hm , Ia? , 02:28:32.02 , +00:30:03.1 , 24.4 , High-Z Supernova Search Team
+2001hl , Ia? , 02:28:26.89 , +00:36:19.4 , 24.4 , High-Z Supernova Search Team
+2001hk , Ia? , 02:27:50.29 , +00:36:59.8 , 23.5 , High-Z Supernova Search Team
+2001hj , Ia? , 02:27:30.80 , +00:24:17.0 , 24.7 , High-Z Supernova Search Team
+2001hi , Ia? , 02:26:50.04 , +00:33:03.4 , 24.3 , High-Z Supernova Search Team
 2001he , Ia? , 15:46:35.69 , +08:11:26.4 , 23.0 , Supernova Cosmology Project
 2001hd , Ia , 15:45:35.92 , +08:16:50.6 , 22.8 , Supernova Cosmology Project
 2001hc , Ia , 09:44:31.52 , +08:02:02.8 , 21.4 , Supernova Cosmology Project
 2001hb , Ia , 13:57:11.96 , +04:20:26.9 , 24.8 , Supernova Cosmology Project
 2001ha , Ia , 10:06:33.50 , +07:38:03.2 , 23.5 , Supernova Cosmology Project
+2001gz , Ia? , 13:56:04.09 , +05:10:55.1 , 24.1 , Supernova Cosmology Project
 2001gy , Ia , 13:57:04.54 , +04:30:59.8 , 23.4 , Supernova Cosmology Project
+2001gx , Ia? , 10:36:10.31 , +02:16:57.4 , 23.8 , Supernova Cosmology Project
 2001gw , Ia , 15:43:45.86 , +07:57:50.3 , 22.0 , Supernova Cosmology Project
 2001gv , Ia , 10:00:21.18 , +06:52:03.8 , 23.7 , Supernova Cosmology Project
 2001gu , Ia , 10:03:28.61 , +07:24:38.9 , 23.7 , Supernova Cosmology Project
 2001gt , Ia , 10:02:39.31 , +07:16:33.0 , 22.7 , Supernova Cosmology Project
+2001gs , Ia? , 10:00:52.68 , +06:07:09.3 , 23.9 , Supernova Cosmology Project
 2001gr , Ia , 10:04:23.27 , +07:40:48.3 , 23.3 , Supernova Cosmology Project
 2001gq , Ia , 14:01:51.38 , +04:53:12.4 , 23.9 , Supernova Cosmology Project
+2001gp , Ia? , 14:02:22.75 , +04:55:24.0 , 25.3 , Supernova Cosmology Project
 2001go , Ia , 14:02:00.95 , +05:00:59.2 , 23.7 , Supernova Cosmology Project
 2001gn , Ia , 14:01:59.90 , +05:04:59.6 , 25.0 , Supernova Cosmology Project
 2001gm , Ia , 14:01:51.18 , +05:05:38.5 , 23.4 , Supernova Cosmology Project
+2001gk , Ia? , 14:01:32.32 , +05:21:38.8 , 24.1 , Supernova Cosmology Project
 2001gi , Ia , 04:28:07.06 , -36:21:45.2 , 21.0 , Altavilla et al.
 2001gf , Ia , 22:04:21.27 , -18:21:56.8 , 20.7 , Altavilla et al.
 2001ge , Ia , 20:31:14.44 , -40:35:16.0 , 22.5 , Altavilla et al.
@@ -2446,12 +2924,25 @@
 2001gb , Ia , 09:59:00.96 , +17:49:12.4 , 16.8 , Lick & Tenagra Observatories Supernova Search
 2001ga , Ia , 02:27:51.76 , +00:37:20.9 , 19.5 , High-Z Supernova Search
 2001fu , Ia , 08:52:16.58 , -17:44:29.8 , 15.1 , Lick & Tenagra Observatories Supernova Search
+2001ft , Ia? , 04:39:32.22 , -01:22:47.8 , 25.1 , High-Z Supernova Search Team
+2001fs , Ia? , 04:39:30.68 , -01:28:21.9 , 24.4 , High-Z Supernova Search Team
+2001fr , Ia? , 04:38:50.06 , -01:22:33.3 , 23.4 , High-Z Supernova Search Team
+2001fq , Ia? , 04:38:04.49 , -01:23:48.9 , 24.3 , High-Z Supernova Search Team
+2001fp , Ia? , 04:38:04.11 , -01:42:32.1 , 24.0 , High-Z Supernova Search Team
+2001fo , Ia? , 04:37:41.45 , -01:29:33.1 , 24.0 , High-Z Supernova Search Team
+2001fn , Ia? , 02:29:00.47 , +00:42:21.8 , 22.3 , High-Z Supernova Search Team
+2001fm , Ia? , 02:28:24.23 , +00:43:54.0 , 23.9 , High-Z Supernova Search Team
+2001fl , Ia? , 02:28:15.18 , +00:21:18.6 , 20.2 , High-Z Supernova Search Team
+2001fk , Ia? , 02:28:04.67 , +00:46:18.0 , 23.2 , High-Z Supernova Search Team
+2001fj , Ia? , 02:27:03.88 , +00:23:52.6 , 23.2 , High-Z Supernova Search Team
+2001fi , Ia? , 02:26:38.84 , +00:26:15.3 , 22.7 , High-Z Supernova Search Team
 2001fh , Ia , 21:20:42.50 , +44:23:53.2 , 17.2 , Lick & Tenagra Observatories Supernova Search
 2001fg , Ia , 21:12:45.23 , -00:52:36.2 , 19.2 , Sloan Digital Sky Survey
 2001fe , Ia , 09:37:57.10 , +25:29:41.3 , 16.0 , Armstrong
 2001ex , Ia , 06:55:59.89 , +55:24:03.0 , 17.2 , Boles
 2001ew , Ia , 03:13:06.98 , +42:26:15.1 , 17   , Boles
 2001eu , Ia , 02:37:58.80 , -01:01:40.1 , 19.4 , Sloan Digital Sky Survey
+2001es , Ia? , 02:02:08.27 , +19:05:27.5 , 18.0 , Lick & Tenagra Observatories Supernova Search
 2001er , Ia , 09:53:20.66 , +42:50:44.8 , 17.2 , Puckett, George
 2001ep , Ia , 04:57:00.26 , -04:45:40.2 , 17.1 , Lick & Tenagra Observatories Supernova Search
 2001eo , Ia , 07:41:31.10 , +51:41:05.4 , 17.5 , Puckett, Marcus
@@ -2486,10 +2977,27 @@
 2001ck , Ia , 14:37:50.08 , +30:29:02.2 , 17.2 , Lick & Tenagra Observatories Supernova Search
 2001cj , Ia , 13:21:44.85 , +31:14:48.6 , 15.9 , Lick & Tenagra Observatories Supernova Search
 2001cg , Ia , 12:55:40.87 , +27:15:03.9 , 17.8 , Lick & Tenagra Observatories Supernova Search
+2001ce , Ia? , 16:39:28.49 , -01:27:17.9 , 17.9 , QUEST
+2001cd , Ia? , 15:46:38.83 , -00:23:09.2 , 19.9 , QUEST
+2001cc , Ia? , 15:44:13.61 , -01:53:15.5 , 20.0 , QUEST
+2001cb , Ia? , 15:38:44.08 , -00:22:56.6 , 20.5 , QUEST
+2001ca , Ia? , 15:35:41.15 , -00:16:21.6 , 19.4 , QUEST
+2001bz , Ia? , 15:30:13.76 , -00:09:26.0 , 20.7 , QUEST
+2001by , Ia? , 15:25:52.96 , -02:10:28.7 , 20.3 , QUEST
+2001bx , Ia? , 14:54:05.62 , -01:42:04.1 , 20.0 , QUEST
+2001bw , Ia? , 14:01:05.50 , -01:08:26.0 , 19.8 , QUEST
+2001bv , Ia? , 13:58:09.11 , -01:51:40.9 , 19.9 , QUEST
+2001bu , Ia? , 10:45:22.19 , -01:28:44.5 , 19.4 , QUEST
 2001bt , Ia , 19:13:46.75 , -59:17:22.8 , 15.0 , Chassagne
 2001bs , Ia , 15:43:39.38 , +67:45:31.3 , 18.3 , Lick & Tenagra Observatories Supernova Search
 2001br , Ia , 18:30:25.55 , +34:06:13.0 , 16.6 , Armstrong
 2001bp , Ia , 16:02:09.25 , +36:43:08.0 , 17.5 , Lick & Tenagra Observatories Supernova Search
+2001bo , Ia? , 15:25:40.80 , -01:18:00.5 , 20.8 , QUEST
+2001bn , Ia? , 14:30:39.53 , -02:06:00.6 ,      , QUEST
+2001bm , Ia? , 13:35:58.65 , -00:45:03.3 , 19.7 , QUEST
+2001bl , Ia? , 12:12:57.36 , -00:00:53.1 , 19.9 , QUEST
+2001bj , Ia? , 10:36:25.83 , -00:58:17.8 , 20.2 , QUEST
+2001bi , Ia? , 09:28:37.79 , -00:36:58.1 , 20.0 , QUEST
 2001bh , Ia? , 20:43:29.82 , +80:09:27.3 ,      , Beijing Observatory Supernova Survey
 2001bg , Ia , 08:35:18.86 , +28:28:05.8 , 14   , Boles
 2001bf , Ia , 18:01:33.99 , +26:15:02.3 , 16.5 , Armstrong
@@ -2497,11 +3005,23 @@
 2001ba , Ia , 11:38:01.76 , -32:19:51.0 , 15.9 , Chassagne
 2001az , Ia , 16:34:27.71 , +76:01:46.8 , 17.1 , Puckett, Peoples
 2001ay , Ia , 14:26:17.00 , +26:14:55.8 , 16.9 , Lick & Tenagra Observatories Supernova Search
+2001aw , Ia? , 15:55:32.11 , -00:10:54.6 , 19.5 , Schaefer, QUEST
+2001av , Ia? , 15:43:02.92 , -02:02:20.0 , 20.2 , Schaefer, QUEST
+2001au , Ia? , 15:16:49.17 , -00:07:46.6 , 18.6 , Schaefer, QUEST
+2001at , Ia? , 15:10:09.06 , -00:58:29.2 , 18.8 , Schaefer, QUEST
+2001as , Ia? , 15:09:45.32 , -00:55:38.0 , 19.1 , Schaefer, QUEST
+2001ar , Ia? , 14:40:53.46 , -00:39:24.6 , 18.7 , Schaefer, QUEST
+2001aq , Ia? , 14:01:33.76 , -00:59:48.7 , 19.9 , Schaefer, QUEST
+2001ap , Ia? , 12:18:23.32 , -01:54:48.5 , 18.9 , Schaefer, QUEST
+2001ao , Ia? , 10:13:45.70 , -01:24:51.8 , 19.9 , Schaefer, QUEST
+2001an , Ia? , 10:05:35.76 , -01:28:42.0 , 19.1 , Schaefer, QUEST
+2001am , Ia? , 09:11:47.43 , -01:18:58.2 , 19.1 , Schaefer, QUEST
 2001al , Ia , 15:44:51.74 , +36:07:29.0 , 21.1 , Wise Observatory Optical Transients Search
 2001ah , Ia-p , 11:10:29.82 , +55:09:39.0 , 18.3 , Puckett, Peoples
 2001V , Ia , 11:57:24.93 , +25:12:09.0 , 16   , Berlind
 2001U , Ia , 14:04:42.94 , -09:42:29.7 , 17.7 , Lick & Tenagra Observatories Supernova Search
 2001P , Ia , 11:53:21.56 , +20:44:53.3 , 17.5 , Lick & Tenagra Observatories Supernova Search
+2001O , Ia? , 10:33:36.36 , +00:12:01.2 , 18.7 , Boyle, Croom, Lewis, Pogson, Glazebrook
 2001N , Ia , 10:39:58.08 , +24:05:26.0 , 16.3 , Chornock
 2001L , Ia , 11:36:48.83 , -08:35:07.0 , 15.4 , Lick & Tenagra Observatories Supernova Search
 2001G , Ia , 09:09:33.18 , +50:16:51.3 , 16.1 , Armstrong
@@ -2515,18 +3035,30 @@
 2000fy , Ia? , 08:03:13::: , +47:36.8::: , 19.5 , Madgwick et al.
 2000fx , Ia? , 10:18:00::: , -00:02.0::: , 18.7 , Madgwick et al.
 2000fw , Ia? , 14:30:14::: , +00:30.6::: , 19.1 , Madgwick et al.
+2000fv , Ia? , 14:51:09.98 , -26:38:11.5 , 15.8 , Lick Observatory Supernova Search
+2000fu , Ia? , 14:51:12.67 , -20:26:08.3 , 16.5 , Lick Observatory Supernova Search
+2000ft , Ia? , 23:03:15.51 , +08:52:26.3 ,      , Colina et al.
 2000fs , Ia? , 03:08:26.24 , +04:06:39.9 , 18.7 , Martel
 2000fr , Ia , 14:01:57.75 , +04:43:42.4 , 24.5 , Supernova Cosmology Project
 2000fq , Ia? , 09:23:37.68 , +29:52:26.0 , 23.8 , Wittman et al.
 2000fo , Ia , 22:58:25.34 , +26:38:26.6 , 16.5 , Lick & Tenagra Observatories Supernova Search
+2000fl , Ia? , 23:46:19.57 , -06:31:03.9 , 19.8 , Nearby Galaxies Supernova Search
+2000fk , Ia? , 23:36:26.00 , -00:23:17.6 , 20.1 , Nearby Galaxies Supernova Search
+2000fj , Ia? , 22:08:52.31 , -04:41:39.5 , 19.0 , Nearby Galaxies Supernova Search
+2000fi , Ia? , 21:52:57.14 , -06:32:53.9 , 18.2 , Nearby Galaxies Supernova Search
+2000fh , Ia? , 04:40:28.66 , -05:10:07.7 , 20.1 , Nearby Galaxies Supernova Search
+2000fg , Ia? , 01:24:31.36 , -10:23:46.2 , 18.8 , Nearby Galaxies Supernova Search
+2000ff , Ia? , 00:45:24.72 , -03:16:47.2 , 19.5 , Nearby Galaxies Supernova Search
 2000fd , Ia , 00:29:12.09 , +33:06:29.5 , 17.7 , Puckett, Gauthier
 2000fc , Ia , 00:58:33.58 , -27:46:40.1 , 22.4 , Pontificia Universidad Catolica/Padova Supernova Search
+2000fb , Ia? , 05:57:41.95 , -51:57:48.0 , 15.8 , Chassagne
 2000fa , Ia , 07:15:29.88 , +23:25:42.4 , 17.5 , Lick & Tenagra Observatories Supernova Search
 2000ey , Ia , 23:19:25.20 , +05:54:21.1 , 16.2 , Lick & Tenagra Observatories Supernova Search
 2000eu , Ia , 09:00:13.00 , -05:35:04.2 , 18.7 , Nearby Galaxies Supernova Search
 2000et , Ia , 08:21:15.21 , +01:09:25.3 , 19.4 , Nearby Galaxies Supernova Search
 2000eq , Ia , 21:03:57.97 , -09:41:31.8 , 20.5 , Nearby Galaxies Supernova Search
 2000en , Ia , 00:43:08.37 , -00:23:17.6 , 20.2 , Nearby Galaxies Supernova Search
+2000ek , Ia? , 02:10:30.04 , -53:49:28.0 , 17.0 , Chassagne
 2000ej , Ia? , 21:20:15.66 , -04:52:40.5 , 18   , Lick & Tenagra Observatories Supernova Search
 2000eh , Ia , 04:15:02.44 , +04:23:18.1 , 22.4 , High-Z Supernova Search Team
 2000eg , Ia , 02:30:21.05 , +01:03:48.5 , 22.5 , High-Z Supernova Search Team
@@ -2548,6 +3080,7 @@
 2000dg , Ia , 00:06:13.81 , +08:53:17.5 , 17.8 , Lick Observatory Supernova Search
 2000df , Ia , 16:14:12.22 , +06:09:00.6 , 17.2 , Schwartz
 2000dd , Ia , 20:35:00.10 , -23:05:55.2 , 17.5 , Lick Observatory Supernova Search
+2000cy , Ia? , 15:32:14.75 , +18:40:22.9 , 19.5 , George, Puckett
 2000cx , Ia-p , 01:24:46.15 , +09:30:30.9 , 14.5 , Lick Observatory Supernova Search
 2000cw , Ia , 23:47:25.10 , +28:23:15.8 , 17.4 , Lick Observatory Supernova Search
 2000cv , Ia , 12:15:42.04 , +61:53:24.6 , 16.1 , Schwartz
@@ -2556,13 +3089,16 @@
 2000cn , Ia , 17:57:40.42 , +27:49:58.1 , 17.4 , Lick Observatory Supernova Search
 2000cm , Ia , 12:12:59.1: , +07:17:53:: , 16   , Mueller
 2000cj , Ia , 19:11:27.66 , -57:03:19.4 , 14.8 , Evans
+2000ci , Ia? , 17:44:13.21 , +67:35:46.3 , 18.1 , Puckett, Langoussis
 2000cf , Ia , 15:52:56.19 , +65:56:12.7 , 16.9 , Sehgal, Puckett
 2000ce , Ia , 08:05:09.45 , +66:47:15.2 , 15.0 , Puckett
+2000cc , Ia? , 17:23:14.34 , +23:40:18.7 , 18.5 , Lick Observatory Supernova Search
 2000ca , Ia , 13:35:22.98 , -34:09:37.0 , 16.0 , Antezana
 2000bz , Ia , 14:15:02.66 , -06:17:16.0 , 21.2 , EROS + European Supernova Cosmology Consortium
 2000by , Ia , 11:39:54.91 , -04:22:16.4 , 19.3 , EROS + European Supernova Cosmology Consortium
 2000bx , Ia , 13:48:55.53 , -06:18:35.9 , 19.2 , EROS + European Supernova Cosmology Consortium
 2000bt , Ia , 10:16:18.06 , -05:44:47.3 , 19.6 , EROS + European Supernova Cosmology Consortium
+2000bs , Ia? , 17:06:54.67 , +43:06:41.7 , 17.7 , Lick Observatory Supernova Search
 2000bq , Ia? , 11:01:03.24 , -05:50:36.2 , 20.4 , Strolger & Nearby Galaxies Supernova Search
 2000bo , Ia? , 09:49:34.92 , -03:20:38.3 , 18.3 , Strolger & Nearby Galaxies Supernova Search
 2000bn , Ia , 09:35:41.15 , +04:32:13.3 , 18.8 , Strolger & Nearby Galaxies Supernova Search
@@ -2570,6 +3106,7 @@
 2000bl , Ia? , 08:55:20.44 , -07:23:42.9 , 19.4 , Strolger & Nearby Galaxies Supernova Search
 2000bk , Ia? , 12:33:53.94 , -07:22:42.9 , 17   , Armstrong
 2000bj , Ia? , 10:51:27.24 , -05:08:29.6 , 24.3 , Kirkman, Dell'Antonio, Schommer, et al.
+2000bi , Ia? , 07:21:33.52 , +55:45:30.8 , 18.4 , Santangelo
 2000bh , Ia , 12:21:15.14 , -21:59:55.7 , 16.0 , Antezana
 2000bf , Ia? , 15:12:18.37 , -01:39:17.5 , 20.7 , Schaefer, QUEST
 2000be , Ia? , 15:12:03.38 , -00:00:04.1 , 20.1 , Schaefer, QUEST
@@ -2590,11 +3127,13 @@
 2000ao , Ia? , 13:57:49.80 , -00:01:04.8 , 20.4 , Schaefer, QUEST
 2000an , Ia? , 13:46:23.94 , -00:06:34.2 , 20.3 , Schaefer, QUEST
 2000am , Ia? , 13:32:00.98 , -02:11:38.1 , 20.1 , Schaefer, QUEST
+2000al , Ia? , 13:11:49.65 , -01:21:19.4 , 20.6 , Schaefer, QUEST
 2000ak , Ia? , 13:06:28.73 , -00:13:30.0 , 20.7 , Schaefer, QUEST
 2000aj , Ia? , 12:37:01.22 , -01:49:46.7 , 20.3 , Schaefer, QUEST
 2000ai , Ia? , 12:06:15.84 , -01:05:38.7 , 20.0 , Schaefer, QUEST
 2000ah , Ia? , 11:53:27.24 , -00:59:01.5 , 20.9 , Schaefer, QUEST
 2000ag , Ia? , 11:52:04.51 , -00:49:10.9 , 19.8 , Schaefer, QUEST
+2000af , Ia? , 11:48:55.71 , -00:58:36.2 , 19.8 , Schaefer, QUEST
 2000ae , Ia? , 11:45:11.40 , -01:38:11.2 , 19.5 , Schaefer, QUEST
 2000ad , Ia? , 09:14:00.30 , -02:16:33.7 , 19.9 , Schaefer, QUEST
 2000ac , Ia? , 08:58:22.78 , -01:40:04.9 , 20.6 , Schaefer, QUEST
@@ -2602,7 +3141,10 @@
 2000aa , Ia? , 08:12:51.83 , -00:54:08.6 , 20.0 , Schaefer, QUEST
 2000Z , Ia? , 07:50:01.11 , -00:34:58.1 , 20.3 , Schaefer, QUEST
 2000Y , Ia? , 07:48:13.00 , -01:28:37.7 , 18.8 , Schaefer, QUEST
+2000X , Ia? , 11:30:45.41 , -05:12:16.8 , 20.2 , Amadon, Blanc, EROS
+2000W , Ia? , 11:10:59.53 , -04:43:46.8 , 20.4 , Amadon, Blanc, EROS
 2000V , Ia , 12:03:28.64 , -05:47:15.7 , 20.6 , Amadon, Blanc, EROS
+2000U , Ia? , 12:45:27.90 , -12:10:34.3 , 20.2 , Amadon, Blanc, EROS
 2000T , Ia , 12:36:20.35 , -12:28:23.3 , 21.0 , Amadon, Blanc, EROS
 2000Q , Ia , 16:05:11.85 , +69:39:51.5 , 17.8 , Lick Observatory Supernova Search
 2000O , Ia , 12:11:15.58 , +17:53:32.2 , 17.1 , Puckett
@@ -2611,8 +3153,10 @@
 2000B , Ia , 07:05:40.73 , +50:35:10.5 , 16.5 , Antonini
 2000A , Ia , 23:27:58.90 , +08:47:02.1 , 16.5 , Lick Observatory Supernova Search
 1999gx , Ia , 00:34:15.47 , +00:04:26.2 , 23.3 , Balland, Mouchet
+1999gw , Ia? , 09:15:54.7: , +44:19:55:: , 17.8 , Cresci et al.
 1999gv , Ia? , 16:36:00.28 , +66:13:19.1 , 22.8 , Gal-Yam and Maoz
 1999gt , Ia? , 03:32:10.28 , -28:06:16.0 , 22.1 , Cappellaro, Turatto et al.
+1999gs , Ia? , 12:50:26.28 , +25:28:16.5 , 19.3 , Lick Observatory Supernova Search
 1999gr , Ia , 12:09:11.31 , +29:16:34.7 , 18.5 , Armstrong
 1999gp , Ia , 02:31:39.15 , +39:22:52.3 , 18.0 , Lick Observatory Supernova Search
 1999gm , Ia , 08:35:11.73 , -08:23:15.4 , 17.3 , Lick Observatory Supernova Search
@@ -2675,6 +3219,7 @@
 1999cu , Ia? , 13:13:15.42 , +46:20:00.8 ,      , Wise Observatory Optical Transients Search
 1999ct , Ia , 13:13:04.56 , +46:15:52.7 , 20.8 , Wise Observatory Optical Transients Search
 1999cs , Ia , 12:04:25.27 , -20:06:02.0 , 17.5 , Antezana
+1999cq , Ia? , 18:32:07.10 , +37:36:44.3 , 15.8 , Lick Observatory Supernova Search
 1999cp , Ia , 14:06:31.3: , -05:26:49:: , 18.2 , Lick Observatory Supernova Search
 1999cm , Ia , 15:11:19.18 , +61:07:11.4 , 17.1 , Puckett
 1999cl , Ia , 12:31:56.01 , +14:25:35.3 , 16.4 , Lick Observatory Supernova Search
@@ -2741,6 +3286,7 @@
 1999G , Ia , 11:15:39.13 , -05:29:24.8 , 21.4 , EROS
 1999F , Ia , 11:27:15.05 , -06:10:33.4 , 19.8 , EROS
 1999C , Ia , 10:08:51.21 , +71:10:42.9 , 19.6 , Wise Observatory Optical Transients Search
+1998ff , Ia? , 22:32:48.90 , -60:34:04.8 , 25.3 , Supernova at High Z Team
 1998fe , Ia? , 15:59:12.84 , +20:45:39.0 , 18.0 , Lick Observatory Supernova Search
 1998fd , Ia , 01:19:18.06 , +15:55:24.1 , 21.3 , Wise Observatory Optical Transients Search
 1998fc , Ia , 02:59:12.61 , +03:29:39.0 , 20.5 , Wise Observatory Optical Transients Search
@@ -2940,6 +3486,7 @@
 1997br , Ia? , 13:20:42.40 , -22:02:12.3 , 14.5 , BAO Supernova Survey
 1997bq , Ia , 10:17:05.33 , +73:23:02.1 , 16.1 , Laurie; Zissell
 1997bp , Ia , 12:46:53.75 , -11:38:33.2 , 13.8 , Evans
+1997bm , Ia? , 11:32:57.13 , +50:14:43.6 , 18   , Mueller
 1997bl , Ia , 12:40:21.0: , -11:44:39:: , 21.5 , EROS
 1997bj , Ia , 10:42:26.65 , +00:01:35.4 , 21.8 , High-Z Supernova Search Team
 1997bi , Ia? , 10:11:28.88 , -13:12:55.4 , 23.3 , High-Z Supernova Search Team
@@ -2992,6 +3539,8 @@
 1997F , Ia , 04:55:14.27 , -05:51:44.8 , 23.9 , Supernova Cosmology Project
 1997E , Ia , 06:47:38.10 , +74:29:51.0 , 15.7 , Kushida
 1997A , Ia , 04:31:33.39 , -61:07:10.4 , 18.5 , Maza et al.
+1996cq , Ia? , 10:57:02.2: , -03:37:34:: , 25.7 , Gal-Yam, Sharon, Maoz
+1996cp , Ia? , 10:57:03.5: , -03:37:41:: , 26.2 , Gal-Yam, Sharon, Maoz
 1996co , Ia? , 10:18:57.48 , +62:15:12.1 , 18   , Mueller
 1996cn , Ia , 13:48:27.22 , +02:27:46.6 , 22.6 , Supernova Cosmology Project
 1996cm , Ia , 15:30:11.25 , +05:55:27.0 , 22.7 , Supernova Cosmology Project
@@ -3060,8 +3609,19 @@
 1996E , Ia , 10:10:20.28 , -12:33:09.2 , 22.2 , High-Z Supernova Search Team
 1996C , Ia , 13:50:48.60 , +49:19:07.1 , 18   , Mueller
 1996B , Ia? , N/A , N/A , 17.5 , Gabrijelcic
+1995bf , Ia? , 16:04:20.4: , +43:04:44:: , 26.2 , Gal-Yam, Sharon, Maoz
 1995be , Ia? , 15:58:14.30 , +19:46:06.5 , 19   , McNaught
 1995bd , Ia , 04:45:21.24 , +11:04:02.5 , 18.8 , Pollas
+1995ba , Ia? , 08:19:06.46 , +07:43:21.2 , 22.6 , Supernova Cosmology Project
+1995az , Ia? , 04:40:33.59 , -05:30:03.6 , 24.0 , Supernova Cosmology Project
+1995ay , Ia? , 03:01:07.52 , +00:21:19.4 , 22.7 , Supernova Cosmology Project
+1995ax , Ia? , 02:26:25.80 , +00:48:44.2 , 22.6 , Supernova Cosmology Project
+1995aw , Ia? , 02:24:55.54 , +00:53:07.5 , 22.5 , Supernova Cosmology Project
+1995au , Ia? , 01:18:32.60 , +07:54:03.5 , 20.7 , Supernova Cosmology Project
+1995at , Ia? , 01:04:50.94 , +04:33:53.0 , 22.7 , Supernova Cosmology Project
+1995as , Ia? , 01:01:35.30 , +04:26:14.8 , 23.3 , Supernova Cosmology Project
+1995ar , Ia? , 01:01:20.41 , +04:18:33.8 , 23.1 , Supernova Cosmology Project
+1995aq , Ia? , 00:29:04.26 , +07:51:20.0 , 22.4 , Supernova Cosmology Project
 1995ap , Ia , 03:12:28.13 , +00:41:43.4 , 21.5 , High-Z Supernova Search Team
 1995ao , Ia , 02:57:30.70 , -01:41:19.8 , 21.5 , High-Z Supernova Search Team
 1995am , Ia , N/A , N/A , 15.0 , Lovas
@@ -3071,6 +3631,7 @@
 1995af , Ia? , 23:24:53.45 , +41:24:11.5 , 18.0 , Pollas
 1995ae , Ia , 23:16:55.65 , -02:04:36.4 , 18.5 , Pollas
 1995ac , Ia , 22:45:34.14 , -08:45:04.7 , 18.5 , Pollas
+1995Y , Ia? , 01:10:59.60 , +33:08:40.7 , 18   , Mueller
 1995U , Ia , 20:54:40.62 , -51:22:26.8 , 18   , McNaught
 1995T , Ia , 22:27:12.41 , -09:29:44.4 , 18.0 , Pollas
 1995S , Ia? , 12:27:53.30 , -30:05:55.4 , 17.5 , McNaught
@@ -3084,6 +3645,7 @@
 1995D , Ia , 09:40:54.75 , +05:08:26.2 , 14.0 , Kushida
 1995C , Ia , 12:04:02.52 , -31:36:02.3 , 17.5 , McNaught
 1995A , Ia , 06:50:04.63 , +26:22:51.0 , 18   , Pollas
+1994ao , Ia? , 16:04:23.3: , +43:03:56:: , 28.1 , Gal-Yam, Sharon, Maoz
 1994an , Ia , 22:44:18.87 , +00:06:48.7 , 22.3 , Supernova Cosmology Project
 1994am , Ia , 02:40:02.06 , -01:37:14.9 , 21.7 , Supernova Cosmology Project
 1994al , Ia , 03:06:22.45 , +17:18:33.7 , 22.6 , Supernova Cosmology Project
@@ -3103,6 +3665,7 @@
 1994K , Ia , 10:00:24.61 , +12:52:31.6 , 17.5 , Mueller
 1994J , Ia , 10:01:36.76 , +54:34:56.5 , 19   , Pollas
 1994H , Ia , 02:40:04.73 , -01:34:06.5 , 21.9 , Perlmutter, Pennypacker, et al.
+1994G , Ia? , 10:19:26.68 , +50:52:19.5 , 21.8 , Perlmutter, Pennypacker, et al.
 1994F , Ia , 11:49:59.54 , +10:42:58.0 , 22   , Perlmutter, Pennypacker, et al.
 1994E , Ia , 11:32:06.96 , +55:21:34.7 , 19   , Pollas
 1994D , Ia , 12:34:02.45 , +07:42:04.7 , 15.2 , Treffers, Filippenko, Van Dyk, Richmond
@@ -3147,8 +3710,10 @@
 1992bi , Ia , 16:10:12.80 , +39:47:12.6 , 22   , Pennypacker, Perlmutter, et al.
 1992bh , Ia , 04:59:27.55 , -58:49:44.2 , 17.3 , Antezana
 1992bg , Ia , 07:41:56.53 , -62:31:08.8 , 17.8 , Antezana
+1992bf , Ia? , N/A , N/A , 17   , Mueller
 1992bc , Ia , 03:05:17.28 , -39:33:39.7 , 15   , Antezana
 1992bb , Ia , 21:18:14.86 , -07:35:03.5 , 17.5 , McNaught
+1992ax , Ia? , 22:10:27.15 , +45:02:32.0 , 18.5 , Mueller
 1992av , Ia , 17:43:04.88 , +67:49:07.1 , 20   , Pollas
 1992au , Ia , 00:10:40.27 , -49:56:43.3 , 17   , Antezana
 1992at , Ia? , 21:27:09.20 , -36:59:58.4 , 18   , McNaught
@@ -3171,6 +3736,7 @@
 1992W , Ia? , N/A , N/A ,      , Mueller
 1992V , Ia , 12:34:45.94 , +14:33:34.9 , 18.0 , Pollas
 1992S , Ia? , 14:17:42.45 , +31:02:59.9 , 18.5 , Mueller
+1992R , Ia? , N/A , N/A , 18   , Mueller
 1992Q , Ia? , 12:11:01.62 , -01:52:50.7 , 18.5 , Mueller
 1992P , Ia , 12:42:48.95 , +10:21:37.5 , 16.2 , Antezana
 1992O , Ia , 19:23:42.29 , -62:49:30.1 , 17.8 , Antezana
@@ -3223,6 +3789,7 @@
 1991O , Ia , 14:24:40.0: , +65:45:36.7 , 18   , Mueller
 1991M , Ia , 15:58:34.83 , +17:27:28.7 , 15   , Pennypacker, Perlmutter, et al.
 1991I , Ia? , 05:26:25.62 , -52:13:33.0 , 18.5 , McNaught
+1991F , Ia? , N/A , N/A , 18   , Mueller
 1991B , Ia , N/A , N/A , 16   , Perlmutter, Pennypacker, et al.
 1990al , Ia? , 19:09:56.64 , +42:31:41.7 , 16.5 , Mueller
 1990ak , Ia? , 13:24:54.92 , -32:25:25.9 , 18   , McNaught
@@ -3269,6 +3836,7 @@
 1989J , Ia? , N/A , N/A , 18.5 , Pollas
 1989I , Ia? , N/A , N/A , 19   , Pollas
 1989H , Ia? , N/A , N/A , 20   , Pollas
+1989G , Ia? , N/A , N/A , 20   , Mueller, Brewer
 1989D , Ia , N/A , N/A , 16   , Wild
 1989B , Ia , N/A , N/A , 13   , Evans; Manzini
 1989A , Ia , N/A , N/A , 15.3 , Perlmutter, Pennypacker
@@ -3278,6 +3846,7 @@
 1988af , Ia? , 08:17:24.36 , +45:38:24.9 , 17.5 , Mueller
 1988ae , Ia? , 20:44:09.0: , +12:24:53:: , 16.5 , Mueller
 1988ad , Ia? , 01:25:23.78 , -01:22:50.7 , 19.5 , Pollas
+1988ac , Ia? , N/A , N/A , 16.5 , Richmond
 1988ab , Ia? , N/A , N/A , 15.6 , Richmond
 1988aa , Ia? , N/A , N/A , 19.6 , Comte
 1988Y , Ia , 02:44:54.91 , -08:24:28.5 , 16.0 , Wild
@@ -3287,6 +3856,7 @@
 1988U , Ia? , N/A , N/A , 22   , Noergaard-Nielsen, Joergensen, Hansen
 1988T , Ia? , N/A , N/A , 21   , Hansen
 1988R , Ia , N/A , N/A , 15.5 , Lovas
+1988O , Ia? , N/A , N/A , 15   , Mueller
 1988N , Ia? , 13:13:09.88 , +57:20:39.7 , 18   , Maury, Phinney, Reid
 1988K , Ia , N/A , N/A , 18   , Mueller, Maury
 1988J , Ia , N/A , N/A , 17   , Kimeridze
@@ -3315,13 +3885,18 @@
 1986G , Ia , 13:25:36.51 , -43:01:54.2 , 12.5 , Evans
 1986F , Ia? , 13:39:55.91 , -31:38:25.1 ,      , Evans
 1986D , Ia? , 09:55:50.64 , +69:40:45.8 ,      , Lebofsky, Rieke, Kailey
+1986B , Ia? , N/A , N/A , 17   , Leibundgut, Cameron
+1986A , Ia? , 10:46:36.60 , +13:45:01.1 , 14.0 , Evans; Cameron, Leibundgut; Lovas
+1985U , Ia? , 02:25:41.95 , +39:35:12.3 , 15.2 , Antipin
 1985T , Ia? , 19:03:28.54 , -65:36:12.4 , 18   , McNaught
 1985N , Ia? , N/A , N/A ,      , Gautschy, Singer
 1985M , Ia? , N/A , N/A ,      , Leibundgut, Albert
 1985K , Ia? , N/A , N/A , 17.7 , Arganbright
 1985J , Ia? , N/A , N/A ,      , Lovas
+1985I , Ia? , N/A , N/A , 17.8 , Leibungut, Albert
 1985H , Ia? , N/A , N/A ,      , Nemec
 1985D , Ia? , N/A , N/A , 18.2 , Spanhauer, Cameron
+1985A , Ia? , 09:13:42.40 , +76:28:23.9 , 14.5 , Wild
 1984V , Ia? , N/A , N/A , 15.0 , Gonzalez
 1984U , Ia? , N/A , N/A , 18.0 , Gonzalez
 1984T , Ia? , N/A , N/A , 18.0 , Gonzalez
@@ -3329,6 +3904,8 @@
 1984R , Ia? , 11:26:07.36 , +43:35:06.2 , 13   , Ikeya
 1984Q , Ia? , 11:32:20.39 , +53:54:25.4 , 16.8 , Wild
 1984P , Ia? , N/A , N/A , 18   , Pollas
+1984O , Ia? , N/A , N/A , 15.0 , Wischnjewsky
+1984N , Ia? , 22:02:44.74 , -20:47:52.8 , 14   , Evans
 1984M , Ia? , 01:28:21.52 , +02:31:00.7 , 14.0 , Lovas
 1984K , Ia? , N/A , N/A , 16.0 , Wischnjewsky
 1984H , Ia? , N/A , N/A , 18.5 , Wischnjewsky
@@ -3337,13 +3914,18 @@
 1984D , Ia? , N/A , N/A , 16.7 , Tsvetkov
 1984C , Ia? , N/A , N/A , 17.5 , Kowal
 1984B , Ia? , N/A , N/A , 16.7 , Metlova
+1984A , Ia? , 12:26:55.75 , +15:03:18.0 , 16.0 , Kimeridze, Rosino
 1983ab , Ia? , N/A , N/A , 17.1 , Antipin
 1983aa , Ia? , N/A , N/A , 19.6 , 
 1983Z , Ia? , N/A , N/A , 15.5 , Gonzalez
 1983Y , Ia? , N/A , N/A , 18   , Wischnjewsky
 1983X , Ia? , N/A , N/A , 18   , Gonzalez
 1983W , Ia? , N/A , N/A , 16.5 , Schildknecht
+1983U , Ia? , 10:23:29.41 , +19:51:55.7 , 12.0 , Pronik
+1983T , Ia? , N/A , N/A , 16   , Metlova
+1983R , Ia? , 01:50:13.11 , +27:11:55.1 , 14   , Wild, Metlova
 1983Q , Ia? , N/A , N/A , 18.0 , Gonzalez
+1983P , Ia? , N/A , N/A , 13   , Nunes, Pellegreni, et al.
 1983O , Ia? , 12:16:13.30 , +47:52:45.5 , 14.5 , Wild
 1983N , Ia , 13:36:51.24 , -29:54:02.7 , 12.5 , Evans
 1983M , Ia? , 22:56:48.05 , -36:45:41.6 , 16.0 , Wischnjewsky
@@ -3363,10 +3945,12 @@
 1982Z , Ia? , 07:35:38.07 , -47:16:47.5 , 19   , McNaught
 1982Y , Ia? , N/A , N/A , 17.0 , Lovas
 1982X , Ia? , N/A , N/A , 16.5 , Lovas
+1982W , Ia? , 14:07:09.05 , +55:01:07.8 , 15.0 , Lovas
 1982V , Ia? , 02:40:18.89 , +32:15:59.5 , 15.2 , Wild
 1982U , Ia? , N/A , N/A , 16   , Wischnjewsky
 1982T , Ia? , N/A , N/A , 17   , Gonzalez
 1982S , Ia? , N/A , N/A , 18.5 , Gonzalez
+1982R , Ia? , 03:02:39.51 , -22:51:01.4 , 14.4 , Muller, Pizarro
 1982Q , Ia? , N/A , N/A , 19.0 , Gonzalez
 1982P , Ia? , N/A , N/A , 18.0 , Wischnjewsky
 1982O , Ia? , N/A , N/A , 15.0 , Lovas
@@ -3386,6 +3970,7 @@
 1981J , Ia? , N/A , N/A , 15   , Sanduleak
 1981I , Ia? , N/A , N/A , 15   , Wischnjewsky
 1981H , Ia? , N/A , N/A , 18.5 , Gonzalez
+1981G , Ia? , N/A , N/A , 15   , Lovas
 1981F , Ia? , N/A , N/A , 15   , Wischnjewsky
 1981D , Ia? , N/A , N/A , 12.7 , Evans
 1981C , Ia? , N/A , N/A , 14.5 , Maza
@@ -3458,6 +4043,7 @@
 1975Q , Ia? , N/A , N/A , 15.5 , Kowal
 1975P , Ia? , N/A , N/A , 15.0 , Kowal
 1975O , Ia? , N/A , N/A , 15.2 , Kowal
+1975N , Ia? , N/A , N/A , 13.8 , Wild, Lipovetskij
 1975M , Ia? , N/A , N/A , 18.2 , Kowal
 1975L , Ia? , N/A , N/A , 18.0 , Kowal
 1975K , Ia? , N/A , N/A , 17.8 , Kowal
@@ -3473,8 +4059,10 @@
 1975A , Ia? , N/A , N/A , 14.6 , Dunlap
 1974L , Ia? , N/A , N/A ,      , Kowal
 1974K , Ia? , N/A , N/A , 17.5 , Kowal
+1974J , Ia? , N/A , N/A , 15.5 , Rosino
 1974I , Ia? , N/A , N/A , 18.0 , Ambartsumyan
 1974H , Ia? , N/A , N/A , 17.5 , Kowal
+1974G , Ia? , N/A , N/A , 13.0 , Burgat
 1974F , Ia? , N/A , N/A , 18.0 , Kowal
 1974E , Ia? , N/A , N/A , 14.0 , Lovas
 1974D , Ia? , N/A , N/A , 15.5 , Lovas
@@ -3488,6 +4076,7 @@
 1973Q , Ia? , N/A , N/A , 18.5 , Kowal
 1973P , Ia? , N/A , N/A , 18.0 , Kowal
 1973O , Ia? , N/A , N/A , 19.0 , Kormendy
+1973N , Ia? , N/A , N/A , 15.5 , Wild
 1973M , Ia? , N/A , N/A , 19.0 , Kowal
 1973L , Ia? , N/A , N/A , 18.5 , Kowal
 1973K , Ia? , N/A , N/A , 19.1 , Zwicky
@@ -3511,15 +4100,18 @@
 1972M , Ia? , N/A , N/A , 18.0 , Kowal
 1972L , Ia? , N/A , N/A , 15.0 , Huchra
 1972K , Ia? , N/A , N/A , 16.0 , Huchra
+1972J , Ia? , N/A , N/A , 14.3 , Pigatto
 1972I , Ia? , N/A , N/A , 17.5 , Kowal
 1972H , Ia? , N/A , N/A , 14.9 , Goranskij
 1972G , Ia? , N/A , N/A , 18.0 , Kowal
 1972F , Ia? , N/A , N/A , 16   , Lovas
+1972E , Ia? , N/A , N/A ,  8.5 , Kowal
 1972D , Ia? , N/A , N/A , 18.5 , Kowal
 1972C , Ia? , N/A , N/A , 16.0 , Kowal
 1972B , Ia? , N/A , N/A , 18.5 , Kowal
 1972A , Ia? , N/A , N/A , 17.0 , Kowal
 1971V , Ia? , N/A , N/A , 17.0 , Rosino
+1971U , Ia? , N/A , N/A , 15.5 , Ford, Rubin
 1971T , Ia? , N/A , N/A , 16.0 , Kowal
 1971S , Ia? , N/A , N/A , 15.5 , Pigatto
 1971R , Ia? , N/A , N/A , 13   , Fairall
@@ -3528,6 +4120,7 @@
 1971O , Ia? , N/A , N/A , 16.8 , Kormendy
 1971N , Ia? , N/A , N/A , 17.0 , Kirshner
 1971M , Ia? , N/A , N/A , 19.0 , Kirshner
+1971L , Ia? , N/A , N/A , 12.8 , Logan
 1971K , Ia? , N/A , N/A , 16.1 , Kulikovskij
 1971J , Ia? , N/A , N/A , 18   , Kowal
 1971I , Ia? , N/A , N/A , 11.5 , Jolly, Clark
@@ -3545,6 +4138,7 @@
 1970M , Ia? , N/A , N/A , 16.5 , Lovas
 1970L , Ia? , N/A , N/A , 13.0 , Wild
 1970K , Ia? , N/A , N/A , 18.5 , Kowal
+1970J , Ia? , N/A , N/A , 14.5 , Rosino
 1970I , Ia? , N/A , N/A , 18.0 , Kowal
 1970H , Ia? , N/A , N/A , 17   , Priser
 1970F , Ia? , N/A , N/A , 19.0 , Kowal
@@ -3582,6 +4176,7 @@
 1968P , Ia? , N/A , N/A , 16.8 , Zwicky
 1968O , Ia? , N/A , N/A , 15.8 , Kowal
 1968N , Ia? , N/A , N/A , 19.0 , Kowal
+1968M , Ia? , N/A , N/A , 15.4 , Kowal
 1968L , Ia? , 13:37:00.51 , -29:51:59.0 , 11.9 , Bennett
 1968K , Ia? , N/A , N/A , 17.5 , Kowal
 1968J , Ia? , N/A , N/A , 16.6 , Jankovich
@@ -3612,6 +4207,7 @@
 1966J , Ia , N/A , N/A , 13.0 , Wild
 1966I , Ia? , N/A , N/A , 16.0 , Kowal
 1966H , Ia? , N/A , N/A , 19.0 , Kowal
+1966G , Ia? , N/A , N/A , 15.5 , Reaves, Lovas
 1966F , Ia? , N/A , N/A , 17.5 , Rudnicki
 1966E , Ia? , N/A , N/A , 14.8 , Wild
 1966D , Ia? , N/A , N/A , 19.5 , Rudnicki
@@ -3712,6 +4308,7 @@
 1960Q , Ia? , 01:35:54.96 , -05:29:54.0 , 17.5 , Humason
 1960P , Ia? , 01:06:10.04 , +31:24:23.8 , 17.5 , Gomes
 1960O , Ia? , 23:36:25.55 , +27:56:20.8 , 18.5 , Humason
+1960N , Ia? , 08:26:07.97 , +21:27:32.3 , 16.6 , Gomes
 1960M , Ia? , 08:19:47.44 , +22:02:28.7 , 15.7 , Gomes
 1960L , Ia? , 22:00:41.62 , +17:43:20.1 , 16.0 , Humason
 1960K , Ia? , 22:39:44.72 , +34:22:41.6 , 19.0 , Humason
