@@ -19,6 +19,12 @@ Supernovae (SNe). The **primary** Supernovae **files** are:
                               \>> Table 6: 'Transient Objects Considered for
                                             Follow-up Observations by the
                                             ESSENCE Survey')
+ - '*All SNe HST CSS.txt*' (**HST Cluster Supernova Survey**,
+                            https://arxiv.org/pdf/0908.3928.pdf
+                              \>> Table 3: 'SNe hosted by spectroscopically
+                                            confirmed cluster members',
+                                  Table 4: 'SNe hosted by field galaxies and
+                                            galaxies with unknown redshift')
 
 
 The python scripts '_all_SNe_\*.py_' in this directory manipulate these primary
