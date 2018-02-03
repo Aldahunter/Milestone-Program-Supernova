@@ -1,15 +1,1 @@
 #SN_name , dataset
-SCP05D0 , ----
-SCP05D6 , ----
-SCP05P9 , ----
-SCP06A4 , ----
-SCP06C0 , ----
-SCP06C1 , ----
-SCP06F12 , ----
-SCP06G4 , ----
-SCP06H3 , ----
-SCP06H5 , ----
-SCP06K0 , ----
-SCP06N33 , ----
-SCP06R12 , ----
-SCP06Z5 , ----

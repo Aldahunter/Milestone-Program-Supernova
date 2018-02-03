@@ -42,7 +42,7 @@ with open("All SNe HST Riess.txt", 'r') as f:
 HSTRiess_data = []
 for line in data[1:]:
     HSTRiess_data.append(line[:-1].split(' ')[0].strip('HST'))
-dataset_dict['HST Riess'] = HSTRiess_data
+dataset_dict['HST Riess et al.'] = HSTRiess_data
 with open("All SNe SDSS-II.txt", 'r') as f:
     data = f.readlines()
 SDSSII_data = []
@@ -55,6 +55,12 @@ Ess_data = []
 for line in data[1:]:
     Ess_data.append(line[:-1].split(' ')[0])
 dataset_dict['Essence'] = Ess_data
+with open("All SNe HST CSS.txt", 'r') as f:
+    data = f.readlines()
+CSS_data = []
+for line in data[1:]:
+    CSS_data.append(line[:-1].split(' ')[0])
+dataset_dict['HST CSS'] = CSS_data
 
 # Tag SNe with Discoverer(s).
 SNe_discoverers = {}
