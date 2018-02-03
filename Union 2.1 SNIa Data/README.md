@@ -46,3 +46,20 @@ which these **python files** are **run** are:
                                             naming style.
                                             **['*All SNe Union2.1.txt*'
                                               \>> '*All SNe Union2 No Dataset.txt*']**
+
+
+There are some **exceptions** to the SNe names, the related exceptions are:
+ 1. SN name error: '2003XX' -> '2003lv' (https://ned.ipac.caltech.edu/forms/byname.html
+                                           \>> Set 'Object Name' to 'SN2003lv'
+                                               then click 'Submit Query'
+                                           \>> Go to section 'ESSENTIAL NOTE for
+                                               SN 2003lv'.)
+ 2. SN name to SDSS-II name '2005mm' -> '11206' (https://ned.ipac.caltech.edu/forms/byname.html
+                                                   \>> Set 'Object Name' to
+                                                       'SN2005mm' then click
+                                                       'Submit Query'
+                                                   \>> Go to section
+                                                       'CROSS-IDENTIFICATIONS
+                                                       for SN 2005mm'
+                                                   \>> Under column 'Object
+                                                       Names'.)

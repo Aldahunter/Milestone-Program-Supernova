@@ -179,7 +179,7 @@
 2005ml , 0.1130 , 19.11 , 0.03 , Sloan Digital Sky Survey II
 2005jb , 0.2565 , 21.53 , 0.06 , Sloan Digital Sky Survey II
 2005fc , 0.2956 , 21.60 , 0.06 , Sloan Digital Sky Survey II
-2005mm , 0.3804 , 22.18 , 0.08 , ----
+11206 , 0.3804 , 22.18 , 0.08 , SDSS II
 2005ln , 0.1457 , 20.30 , 0.03 , Sloan Digital Sky Survey II
 2005mo , 0.2735 , 21.22 , 0.06 , Sloan Digital Sky Survey II
 2005lo , 0.2975 , 21.74 , 0.06 , Sloan Digital Sky Survey II
@@ -558,7 +558,7 @@ p534 , 0.6130 , 23.33 , 0.07 , Essence
 2003be , 0.6400 , 24.27 , 0.21 , GOODS Treasury Team, Hubble Higher-z Supernova Team
 2003dy , 1.3400 , 25.73 , 0.13 , GOODS Treasury Team, Hubble Higher-z Supernova Team
 2003eq , 0.8400 , 24.34 , 0.08 , GOODS Treasury Team, Hubble Higher-z Supernova Team
-2003XX , 0.9350 , 24.48 , 0.10 , ----
+2003lv , 0.9350 , 24.48 , 0.10 , Riess
 2001cw , 0.9530 , 24.71 , 0.15 , Supernova Cosmology Project
 2001gn , 1.1240 , 25.37 , 0.11 , Supernova Cosmology Project
 2001go , 0.5520 , 23.08 , 0.09 , Supernova Cosmology Project
