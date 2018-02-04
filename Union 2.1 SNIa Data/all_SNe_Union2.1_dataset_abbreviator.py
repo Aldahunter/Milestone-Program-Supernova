@@ -11,7 +11,7 @@ with open("All SNe Union2.1.txt", 'r') as f:
     data = f.readlines()
 dataset_dict = {'Sloan Digital Sky Survey' : 'SDSS II', 'SDSS II' : 'SDSS II',
 
-                'Riess' : 'HST Riess et al.', 'Cluster' : 'HST CSS',
+                'Riess' : 'HST Riess', 'Cluster' : 'HST CSS',
 
                 'High-Z': 'High-Z SS', 'Schmidt' : 'High-Z SS',
 

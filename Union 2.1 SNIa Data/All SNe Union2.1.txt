@@ -529,26 +529,26 @@ p534 , 0.6130 , 23.33 , 0.07 , Essence
 1999fk , 1.0570 , 24.74 , 0.12 , High-Z SS
 1999fj , 0.8160 , 24.17 , 0.10 , High-Z SS
 1999ff , 0.4550 , 23.20 , 0.06 , High-Z SS
-04Eag , 1.0200 , 24.93 , 0.10 , HST Riess et al.
-04Gre , 1.1400 , 24.75 , 0.11 , HST Riess et al.
-04Man , 0.8540 , 24.55 , 0.08 , HST Riess et al.
-04Mcg , 1.3700 , 25.62 , 0.14 , HST Riess et al.
-04Omb , 0.9750 , 24.88 , 0.10 , HST Riess et al.
-04Pat , 0.9700 , 24.99 , 0.09 , HST Riess et al.
-04Rak , 0.7400 , 23.95 , 0.07 , HST Riess et al.
-04Sas , 1.3900 , 26.02 , 0.14 , HST Riess et al.
-04Yow , 0.4600 , 23.73 , 0.08 , HST Riess et al.
-05Fer , 1.0200 , 24.84 , 0.10 , HST Riess et al.
-05Gab , 1.1200 , 25.10 , 0.11 , HST Riess et al.
-05Lan , 1.2300 , 26.07 , 0.12 , HST Riess et al.
-05Red , 1.1900 , 25.65 , 0.14 , HST Riess et al.
-05Spo , 0.8390 , 24.15 , 0.10 , HST Riess et al.
-05Str , 1.0100 , 24.93 , 0.12 , HST Riess et al.
-05Zwi , 0.5210 , 23.08 , 0.07 , HST Riess et al.
+04Eag , 1.0200 , 24.93 , 0.10 , HST Riess
+04Gre , 1.1400 , 24.75 , 0.11 , HST Riess
+04Man , 0.8540 , 24.55 , 0.08 , HST Riess
+04Mcg , 1.3700 , 25.62 , 0.14 , HST Riess
+04Omb , 0.9750 , 24.88 , 0.10 , HST Riess
+04Pat , 0.9700 , 24.99 , 0.09 , HST Riess
+04Rak , 0.7400 , 23.95 , 0.07 , HST Riess
+04Sas , 1.3900 , 26.02 , 0.14 , HST Riess
+04Yow , 0.4600 , 23.73 , 0.08 , HST Riess
+05Fer , 1.0200 , 24.84 , 0.10 , HST Riess
+05Gab , 1.1200 , 25.10 , 0.11 , HST Riess
+05Lan , 1.2300 , 26.07 , 0.12 , HST Riess
+05Red , 1.1900 , 25.65 , 0.14 , HST Riess
+05Spo , 0.8390 , 24.15 , 0.10 , HST Riess
+05Str , 1.0100 , 24.93 , 0.12 , HST Riess
+05Zwi , 0.5210 , 23.08 , 0.07 , HST Riess
 2002dc , 0.4750 , 23.21 , 0.14 , CSP
 2002dd , 0.9500 , 24.61 , 0.09 , C/TSS
 2002fw , 1.3000 , 25.68 , 0.12 , C/TSS
-2002hp , 1.3050 , 25.53 , 0.15 , HST Riess et al.
+2002hp , 1.3050 , 25.53 , 0.15 , HST Riess
 2002kc , 0.2160 , 22.43 , 0.20 , C/TSS
 2002kd , 0.7350 , 24.08 , 0.09 , C/TSS
 2002ki , 1.1400 , 25.37 , 0.12 , C/TSS
@@ -558,7 +558,7 @@ p534 , 0.6130 , 23.33 , 0.07 , Essence
 2003be , 0.6400 , 24.27 , 0.21 , C/TSS
 2003dy , 1.3400 , 25.73 , 0.13 , C/TSS
 2003eq , 0.8400 , 24.34 , 0.08 , C/TSS
-2003lv , 0.9350 , 24.48 , 0.10 , HST Riess et al.
+2003lv , 0.9350 , 24.48 , 0.10 , HST Riess
 2001cw , 0.9530 , 24.71 , 0.15 , SCP
 2001gn , 1.1240 , 25.37 , 0.11 , SCP
 2001go , 0.5520 , 23.08 , 0.09 , SCP
