@@ -3,7 +3,9 @@ their: Name, Type, Right Ascension, Declination, Effective Magnitude and \
 Discoverer(s), into a new file called 'All SNe Ia.txt'. Data is from: \
 http://www.cbat.eps.harvard.edu/lists/Supernovae.html."""
 
-with open("All SNe 1953-2015.txt", 'r') as f:
+folder = '/media/alex/Shared/University/Physics/Year 3/Physics Problem Solving/Computing Project/Programming/Milestone-Program-Supernova/Union 2.1 SNIa Data/'
+
+with open(folder+"All SNe 1953-2015.txt", 'r') as f:
     data = f.readlines()[1:]
 
 SNe_Ia = []
@@ -21,7 +23,7 @@ for line in data:
                 SNtype = 'Ia?'
             SNe_Ia.append([name, SNtype, ra, decl, mag, discoverer])
 
-with open('All SNe Ia.txt', 'w') as f:
+with open(folder+'All SNe Ia.txt', 'w') as f:
     f.write('#SN_name , SN_type , R.A. , Decl. , Eff_Mag , Discoverer(s)\n')
     for name, SNtype, ra, decl, mag, discoverer in SNe_Ia:
         f.write('{0} , {1} , {2} , {3} , {4} , {5}\n'.format(name, SNtype, ra,

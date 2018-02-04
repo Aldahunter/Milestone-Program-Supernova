@@ -7,7 +7,8 @@ Photometric/Spectroscopic Properties of 50 SN Ia), \
 https://arxiv.org/pdf/astro-ph/9609062.pdf (Calan/Tololo SNe Survey- C/TSS, \
 Table 1: Colors and Magnitudes of the Calan/Tololo Supernovae Ia)"""
 
-with open("All SNe Union2.1.txt", 'r') as f:
+folder = '/media/alex/Shared/University/Physics/Year 3/Physics Problem Solving/Computing Project/Programming/Milestone-Program-Supernova/Union 2.1 SNIa Data/'
+with open(folder+"All SNe Union2.1.txt", 'r') as f:
     data = f.readlines()
 dataset_dict = {'Sloan Digital Sky Survey' : 'SDSS II', 'SDSS II' : 'SDSS II',
 
@@ -45,6 +46,6 @@ for n, line in enumerate(data[1:]):
             break
 
 
-with open("All SNe Union2.1.txt", 'w') as f:
+with open(folder+"All SNe Union2.1.txt", 'w') as f:
     for line in data:
         f.write(line)

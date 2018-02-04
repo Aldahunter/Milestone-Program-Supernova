@@ -24,46 +24,47 @@ the Calan/Tololo Supernovae Ia).
 """
 
 #Load Union2.1 dataset.
-with open("All SNe Union2.1.txt", 'r') as f:
+folder = '/media/alex/Shared/University/Physics/Year 3/Physics Problem Solving/Computing Project/Programming/Milestone-Program-Supernova/Union 2.1 SNIa Data/'
+with open(folder+"All SNe Union2.1.txt", 'r') as f:
     data = f.readlines()
 Preamble, Un_data = data[0], data[1:]
 
 
 # Load other Datasets SN names and put in list.
-with open("All SNe Ia.txt", 'r') as f:
+with open(folder+"All SNe Ia.txt", 'r') as f:
     all_data = f.readlines()[1:]
 free_dataset_dict, forced_dataset_dict = {}, {}
-with open("All SNe SNLS.txt", 'r') as f:
+with open(folder+"All SNe SNLS.txt", 'r') as f:
     data = f.readlines()
 SNLS_data = []
 for line in data[1:]:
     SNLS_data.append(line[:-1].split(' ')[0].split('-')[1])
 free_dataset_dict['SNLS'] = SNLS_data
-with open("All SNe HST Riess.txt", 'r') as f:
+with open(folder+"All SNe HST Riess.txt", 'r') as f:
     data = f.readlines()
 HSTRiess_data = []
 for line in data[1:]:
     HSTRiess_data.append(line[:-1].split(' ')[0].strip('HST'))
 free_dataset_dict['HST Riess et al.'] = HSTRiess_data
-with open("All SNe SDSS-II.txt", 'r') as f:
+with open(folder+"All SNe SDSS-II.txt", 'r') as f:
     data = f.readlines()
 SDSSII_data = []
 for line in data[1:]:
     SDSSII_data.append(line[:-1].split(' ')[1])
 free_dataset_dict['SDSS II'] = SDSSII_data
-with open("All SNe Essence.txt", 'r') as f:
+with open(folder+"All SNe Essence.txt", 'r') as f:
     data = f.readlines()
 Ess_data = []
 for line in data[1:]:
     Ess_data.append(line[:-1].split(' ')[0])
 free_dataset_dict['Essence'] = Ess_data
-with open("All SNe HST CSS.txt", 'r') as f:
+with open(folder+"All SNe HST CSS.txt", 'r') as f:
     data = f.readlines()
 CSS_data = []
 for line in data[1:]:
     CSS_data.append(line[:-1].split(' ')[0])
 free_dataset_dict['HST CSS'] = CSS_data
-with open("All SNe CalanTololo.txt", 'r') as f:
+with open(folder+"All SNe CalanTololo.txt", 'r') as f:
     data = f.readlines()
 CTSS_data = []
 for line in data[1:]:
@@ -97,7 +98,7 @@ for n, line in enumerate(Un_data):
     Un_data[n]=line
 
 #Save Data.
-with open('All SNe Union2.1.txt', 'w') as f:
+with open(folder+'All SNe Union2.1.txt', 'w') as f:
     f.write(Preamble)
     for line in Un_data:
         f.write(line)

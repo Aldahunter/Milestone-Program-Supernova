@@ -4,9 +4,10 @@ https://ned.ipac.caltech.edu/forms/byname.html (Nasa NED database) and \
 https://arxiv.org/pdf/1010.5786.pdf (HST CSS SN - Table 3)."""
 
 import re
-with open("All SNe Union2.1.txt", 'r') as f:
+folder = '/media/alex/Shared/University/Physics/Year 3/Physics Problem Solving/Computing Project/Programming/Milestone-Program-Supernova/Union 2.1 SNIa Data/'
+with open(folder+"All SNe Union2.1.txt", 'r') as f:
     Un_data = f.readlines()
-with open("All SNe HST CSS.txt", 'r') as f:
+with open(folder+"All SNe HST CSS.txt", 'r') as f:
     CSS_data = f.readlines()[1:]
 exptns_dict = {'2003XX' : '2003lv', #Exception 1 (See README.md); incorrect name.
                '2005mm' : '11206'}  #Exception 2 (See README.md); needs SDSS-II name to be tagged.
@@ -29,6 +30,6 @@ for n, Un_line in enumerate(Un_data[1:]):
     Un_data[n+1] = ' , '.join(Un_line)
 
 
-with open("All SNe Union2.1.txt", 'w') as f:
+with open(folder+"All SNe Union2.1.txt", 'w') as f:
     for Un_line in Un_data:
         f.write(Un_line)
