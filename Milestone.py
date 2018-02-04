@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as pyplot
 import matplotlib.cm as cm
 import scipy, tkinter
-from Milestone_imports import *
+from Milestone_imports_alldata import * #Use Milestone_imports for small sample data, use Milestone_imports_alldata for all Union2.1 data.
 
 ################################## Find L_peak #################################
 print('\n'+'-'*39+' Find Peak Luminosity '+'-'*39+'\n')
@@ -56,7 +56,9 @@ Om_cc_guesses = Om_cc_guesses[Om_cc_guesses[:,1].argsort()] #Sort Ω_cc guesses 
 
 
 ### Calculate minimised χ² and best value and uncertainty for Ω_cc ###
-Om_cc2mag = lambda Om_cc, z, Lp: flux2mag(Lp2flux(Lp, z, z2eta(z, Om_cc)))
+#Om_cc2mag = lambda Om_cc, z, Lp: flux2mag(Lp2flux(Lp, z, z2eta(z, Om_cc)))
+def Om_cc2mag(Om_cc, z, Lp):
+    return flux2mag(Lp2flux(Lp, z, z2eta(z, Om_cc)))
 Om_cc2mag_args = (hz_arr['z'], Lp)
 
 Om_cc_chisq_stats = calc_min_chisq(Om_cc2mag, Om_cc_guesses[0,0],  #Calculate minimised χ², and Bestfit, error and percentage error for L_peak.
@@ -95,7 +97,7 @@ kwargs = {'y_err':lz_arr['m_err'], 'x_label':r'Redshift, ($z$)',
           'plot_line':model, 'err_kwargs':{'zorder':10}, 'zorder':10}
 Graph2 = (211, lz_arr['z'], lz_arr['eff_m'], kwargs)
 
-show_graphs(Graph1, Graph2,  main_title = r'Low Redshift SNIa Data')
+#show_graphs(Graph1, Graph2,  main_title = r'Low Redshift SNIa Data')
 
 ### Plots for Om_cc ###  #####For just high redshifts change 'data' to 'hz_arr' for everything below here!!!!!!!!!!!!!!!!!!!!!!!!!!
 model_z = np.linspace(data['z'].min(), data['z'].max(), 50) #Range of redshift values for line of bestfit.
@@ -121,6 +123,13 @@ for iOm_cc, ichi in Om_cc_guesses:
 kwargs = {'y_err':data['m_err'], 'x_label':r'Redshift, ($z$)',
           'y_label':r'Effective Magnitude, ($m_{eff}$)', 'marker':'+',
           'plot_line':model, 'err_kwargs':{'zorder':10}, 'zorder':10}
-Graph2 = (211, data['z'], data['eff_m'], kwargs)
+Graph2 = ({'pos':211, 'sharex':1, 'sharey':1}, data['z'], data['eff_m'], kwargs)
 
-show_graphs(Graph1, Graph2,  main_title = r'High Redshift SNIa Data')
+#show_graphs(Graph1, Graph2,  main_title = r'High Redshift SNIa Data')
+
+import dill as pickle
+all_graphing_data = {'lz_arr' : lz_arr, 'hz_arr' : hz_arr, 'all_arr' : data,
+                     'model_z' : model_z, 'Om_cc2mag' : Om_cc2mag} #Om_cc2mag(Om_cc {float}, z {array/float}, Lp {float})
+
+pickle.dump(all_graphing_data, open("graphing_data.p", "wb" ))
+print('Graphing Data Saved')
