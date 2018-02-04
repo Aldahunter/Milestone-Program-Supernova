@@ -18,6 +18,8 @@ The '_\*.txt_', '_\*.tex_' and '_\*.pdf_' files in this directory all holder dat
  - '*All SNe HST CSS.txt*' (**HST Cluster Supernova Survey**, https://arxiv.org/pdf/0908.3928.pdf
                               \>> Table 3: '_SNe hosted by spectroscopically confirmed cluster members_',
                                   Table 4: '_SNe hosted by field galaxies and galaxies with unknown redshift_')
+ - '*All SNe CalanTololo.txt*' (**Calan/Tololo Supernova Survey**, https://arxiv.org/pdf/astro-ph/9609062.pdf
+                                                \>> Table 1: '_Colors and Magnitudes of the Calan/Tololo Supernovae Ia_')'
 
 
 The python scripts '_all_SNe_\*.py_' in this directory manipulate these primary files to produce the other secondary text files, '_All SNe \*.txt_'. The **order** in which these **python files** are **run** are:
@@ -41,11 +43,16 @@ The python scripts '_all_SNe_\*.py_' in this directory manipulate these primary 
                                               '*All SNe HST Riess.txt*',
                                               '*All SNe SDSS-II.txt*',
                                               '*All SNe Essence.txt*',
+                                              '*All SNe CalanTololo.txt*',
                                                 \>> '*All SNe Union2.1.txt*']**
 
- 5. *all_SNe_Union2.1_no_dataset_cutter.py* : Picks out SNe from Union2.1 with no Discoverer then orders them by naming style.
-                                              **['*All SNe Union2.1.txt*'
-                                                   \>> '*All SNe Union2 No Dataset.txt*']**
+ 5. *all_SNe_Union2.1_dataset_abbreviator.py* : Abbreviates the datasets of the Union2.1 data, to give a more uniform set of datasets.
+                                                **['*All SNe Union2.1.txt*',
+                                                  \>> '*All SNe Union2.1.txt*']**
+
+ 6. *all_SNe_Union2.1_dataset_lister.py* : (Optional) Lists all the different datasets and their frequency in a text file.
+                                           **['*All SNe Union2.1.txt*',
+                                                \>> '*All SNe Union2.1 Unique Datasets.txt*']**
 
 
 There are some **exceptions** to the SNe names, the related exceptions are:
