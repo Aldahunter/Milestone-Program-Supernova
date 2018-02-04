@@ -18,7 +18,9 @@ Discovery Data'),
 https://arxiv.org/pdf/0802.3220.pdf (SDSS II, Table 2: 'SDSS-II SN \
 Spectroscopic Follow-up Observations'),
 https://arxiv.org/pdf/1603.03823.pdf (ESSENCE, Table 6: Transient Objects \
-Considered for Follow-up Observations by the ESSENCE Survey).
+Considered for Follow-up Observations by the ESSENCE Survey),
+https://arxiv.org/pdf/astro-ph/9609062.pdf (Table 1: Colors and Magnitudes of \
+the Calan/Tololo Supernovae Ia).
 """
 
 #Load Union2.1 dataset.
@@ -30,37 +32,43 @@ Preamble, Un_data = data[0], data[1:]
 # Load other Datasets SN names and put in list.
 with open("All SNe Ia.txt", 'r') as f:
     all_data = f.readlines()[1:]
-dataset_dict = {}
+free_dataset_dict, forced_dataset_dict = {}, {}
 with open("All SNe SNLS.txt", 'r') as f:
     data = f.readlines()
 SNLS_data = []
 for line in data[1:]:
     SNLS_data.append(line[:-1].split(' ')[0].split('-')[1])
-dataset_dict['SNLS'] = SNLS_data
+free_dataset_dict['SNLS'] = SNLS_data
 with open("All SNe HST Riess.txt", 'r') as f:
     data = f.readlines()
 HSTRiess_data = []
 for line in data[1:]:
     HSTRiess_data.append(line[:-1].split(' ')[0].strip('HST'))
-dataset_dict['HST Riess et al.'] = HSTRiess_data
+free_dataset_dict['HST Riess et al.'] = HSTRiess_data
 with open("All SNe SDSS-II.txt", 'r') as f:
     data = f.readlines()
 SDSSII_data = []
 for line in data[1:]:
     SDSSII_data.append(line[:-1].split(' ')[1])
-dataset_dict['SDSS II'] = SDSSII_data
+free_dataset_dict['SDSS II'] = SDSSII_data
 with open("All SNe Essence.txt", 'r') as f:
     data = f.readlines()
 Ess_data = []
 for line in data[1:]:
     Ess_data.append(line[:-1].split(' ')[0])
-dataset_dict['Essence'] = Ess_data
+free_dataset_dict['Essence'] = Ess_data
 with open("All SNe HST CSS.txt", 'r') as f:
     data = f.readlines()
 CSS_data = []
 for line in data[1:]:
     CSS_data.append(line[:-1].split(' ')[0])
-dataset_dict['HST CSS'] = CSS_data
+free_dataset_dict['HST CSS'] = CSS_data
+with open("All SNe CalanTololo.txt", 'r') as f:
+    data = f.readlines()
+CTSS_data = []
+for line in data[1:]:
+    CTSS_data.append('19' + line[:-1].split(' ')[0])
+forced_dataset_dict['C/TSS'] = CTSS_data
 
 # Tag SNe with Discoverer(s).
 SNe_discoverers = {}
@@ -76,10 +84,15 @@ for n, line in enumerate(Un_data):
             try:
                 line[-1] = SNe_discoverers[line[0].upper()]
             except KeyError:
-                for dataset, dataset_SN_names in dataset_dict.items():
+                for dataset, dataset_SN_names in free_dataset_dict.items():
                     if line[0] in dataset_SN_names:
                         line[-1] = dataset
                         break
+    else:
+        for dataset, dataset_SN_names in forced_dataset_dict.items():
+            if line[0] in dataset_SN_names:
+                line[-1] = dataset
+                break
     line = ' , '.join(line) + '\n'
     Un_data[n]=line
 
