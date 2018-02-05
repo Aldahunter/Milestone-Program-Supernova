@@ -6,14 +6,15 @@ all_graphing_data = pickle.load(open("graphing_data.p", "rb"))  # Load in data f
 for varaible, var_data in all_graphing_data.items():  # Turn each part of dictionary into an actual varaible with same name as the key.
     exec(varaible + ' = var_data')
 
-# Lp, Lp_err = 3.25e39, 3.25e39*0.04
-# Om_cc, Om_cc_err = 0.71, 0.15
-x_lim = [0.0, 1.45]
-y_lim = [14.0, 27.0]
+#Lp, Lp_err = 3.25e39, 3.25e39*0.04
+Lp_err = 3.25e39*0.04
+Om_cc, Om_cc_err = 0.70, 0.02
+x_lim = [0.0, 1.425]
+y_lim = [14, 27.0]
 model_z = np.linspace(x_lim[0]+0.01, x_lim[1], 300)
 
 
-fig = plt.figure(figsize=(9,6))
+fig = plt.figure(figsize=(9,6.5))
 ax1 = fig.add_axes([0.06,0.59,0.9,0.36])  # Add axes on top half of the vertical.
 ax2 = fig.add_axes([0.06,0.23,0.9,0.36], sharex = ax1, sharey = ax1)
 ax3 = fig.add_axes([0.06,0.05,0.9,0.18], sharex = ax1)
@@ -49,7 +50,7 @@ ax2.set_ylabel(r'Effective Magnitude, $m_{eff}$', labelpad=+7)
 
 model_bf = Om_cc2mag(Om_cc, model_z, Lp)
 label = r'$\Omega_{{\Lambda}}$ = {:.2f} $\pm$ {:.2f}'.format(Om_cc, Om_cc_err)
-fig.text(0.774,0.305,label,fontsize=11)                                      #######################EDIT POSITION
+fig.text(0.8,0.395,label,fontsize=11)
 ax2.plot(model_z, model_bf, ls='-', c='black', zorder=3)
 model_lb = Om_cc2mag(Om_cc-Om_cc_err, model_z, Lp+Lp_err)
 model_lb_err = ((Om_cc2mag(Om_cc-Om_cc_err, model_z, Lp)-model_lb)**2 + (Om_cc2mag(Om_cc, model_z, Lp+Lp_err)-model_lb)**2)**0.5
@@ -96,9 +97,13 @@ ax3.fill_between(model_z, norm_residual_lb, norm_residual_ub, zorder=0,
 ax1.set_xlim(x_lim)
 ax1.set_ylim(y_lim)
 ax1.invert_yaxis()
-ax3.set_ylim([-13,13])
+ax3.set_ylim([-10,12])
+ax3.yaxis.set_ticks([-10, -5, 0.0, 5, 10])
 ax3.invert_yaxis()
 # plt.suptitle("\n".join(wrap(r'Main Title (with text wrapping)', 50)),
 #              fontsize=18, y=1.0001)
 
-plt.show()
+fig.patch.set_alpha(0.0)
+fig.savefig('poster_graph.png', format='png', bbox_inches='tight',
+            pad_inches=0, dpi = 750)
+#plt.show()

@@ -27,7 +27,7 @@ dtype = np.dtype([('name', np.str_, 16), ('z', np.float64, 1),
 data = np.loadtxt("Union 2.1 SNIa Data/All SNe Union2.1.txt", dtype=dtype,
                   delimiter=' , ')
 data = data[np.argsort(data['z'])]
-data['m_err'] = data['m_err']*1.5
+data['m_err'] = data['m_err']*2
 data_lz = data[np.where(data['z'] < 0.1)]
 data_hz = data[np.where(data['z'] >= 0.1)]
 print(data_hz)
