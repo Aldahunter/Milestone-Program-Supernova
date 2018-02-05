@@ -1,11 +1,11 @@
 #Dataset : Size
-C/TSS : 44
-CSP : 33
+C/TSS : 45
+CSP : 34
 CfA : 63
 Essence : 74
 HST CSS : 15
 HST Riess : 18
 High-Z SS : 36
-SCP : 63
+SCP : 71
 SDSS II : 135
 SNLS : 72
