@@ -129,7 +129,8 @@ Graph2 = ({'pos':211, 'sharex':1, 'sharey':1}, data['z'], data['eff_m'], kwargs)
 
 import dill as pickle
 all_graphing_data = {'lz_arr' : lz_arr, 'hz_arr' : hz_arr, 'all_arr' : data,
-                     'model_z' : model_z, 'Om_cc2mag' : Om_cc2mag} #Om_cc2mag(Om_cc {float}, z {array/float}, Lp {float})
+                     'Om_cc2mag' : Om_cc2mag, 'Lp' : Lp, 'Lp_err' : Lp_err,  #Om_cc2mag(Om_cc {float}, z {array/float}, Lp {float})
+                      'Om_cc' : Om_cc, 'Om_cc_err' : Om_cc_err} 
 
 pickle.dump(all_graphing_data, open("graphing_data.p", "wb" ))
 print('Graphing Data Saved')
