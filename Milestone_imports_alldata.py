@@ -30,7 +30,6 @@ data = data[np.argsort(data['z'])]
 data['m_err'] = data['m_err']*2
 data_lz = data[np.where(data['z'] < 0.1)]
 data_hz = data[np.where(data['z'] >= 0.1)]
-print(data_hz)
 
 ### Mathematical Functions ###
 def mag2flux(eff_m):

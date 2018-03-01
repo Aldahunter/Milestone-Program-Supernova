@@ -4,6 +4,7 @@ import matplotlib.pyplot as pyplot
 import matplotlib.cm as cm
 import scipy, tkinter
 from Milestone_imports_alldata import * #Use Milestone_imports for small sample data, use Milestone_imports_alldata for all Union2.1 data.
+save_data = False
 
 ################################## Find L_peak #################################
 print('\n'+'-'*39+' Find Peak Luminosity '+'-'*39+'\n')
@@ -125,12 +126,12 @@ kwargs = {'y_err':data['m_err'], 'x_label':r'Redshift, ($z$)',
           'plot_line':model, 'err_kwargs':{'zorder':10}, 'zorder':10}
 Graph2 = ({'pos':211, 'sharex':1, 'sharey':1}, data['z'], data['eff_m'], kwargs)
 
-#show_graphs(Graph1, Graph2,  main_title = r'High Redshift SNIa Data')
+#show_graphs(Graph1,; Graph2,  main_title = r'High Redshift SNIa Data')
+if save_data == True:
+    import dill as pickle
+    all_graphing_data = {'lz_arr' : lz_arr, 'hz_arr' : hz_arr, 'all_arr' : data,
+                         'Om_cc2mag' : Om_cc2mag, 'Lp' : Lp, 'Lp_err' : Lp_err,  #Om_cc2mag(Om_cc {float}, z {array/float}, Lp {float})
+                          'Om_cc' : Om_cc, 'Om_cc_err' : Om_cc_err}
 
-import dill as pickle
-all_graphing_data = {'lz_arr' : lz_arr, 'hz_arr' : hz_arr, 'all_arr' : data,
-                     'Om_cc2mag' : Om_cc2mag, 'Lp' : Lp, 'Lp_err' : Lp_err,  #Om_cc2mag(Om_cc {float}, z {array/float}, Lp {float})
-                      'Om_cc' : Om_cc, 'Om_cc_err' : Om_cc_err} 
-
-pickle.dump(all_graphing_data, open("graphing_data.p", "wb" ))
-print('Graphing Data Saved')
+    pickle.dump(all_graphing_data, open("graphing_data.p", "wb" ))
+    print('Graphing Data Saved')

@@ -33,9 +33,7 @@ colours = iter(cm.rainbow(np.linspace(0, 1, len(Om_cc_values))))
 for n, iOm_cc in enumerate(Om_cc_values):
     ieff_m = Om_cc2mag(iOm_cc, model_z, Lp)
     label = r'$\Omega_{{\Lambda}}$ = {:.2f}'.format(iOm_cc)
-    if iOm_cc == Om_cc: line_style = '-'
-    else: line_style = '--'
-    ax1.plot(model_z, ieff_m, c=next(colours), label = label, zorder=1, ls=line_style)
+    ax1.plot(model_z, ieff_m, c=next(colours), label = label, zorder=1)
 ax1.errorbar(all_arr['z'], all_arr['eff_m'], yerr=all_arr['m_err'], ls='',
              marker='+', capsize=1.5, c='black', zorder=0)
 ax1.legend(loc='upper right', bbox_to_anchor=(0.999, 0.999), frameon=False)
@@ -108,4 +106,4 @@ ax3.invert_yaxis()
 fig.patch.set_alpha(0.0)
 fig.savefig('poster_graph.png', format='png', bbox_inches='tight',
             pad_inches=0, dpi = 750)
-plt.show()
+#plt.show()
