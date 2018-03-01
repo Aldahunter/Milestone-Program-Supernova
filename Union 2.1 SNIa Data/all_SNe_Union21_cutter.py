@@ -21,7 +21,7 @@ with open(folder+"SCPUnion2.1_AllSNe_table.tex", 'r') as f:
 
 all_Union_uncut = []
 for line in data:
-    line = line[:-3].split(' & ')
+    line = line[:-4].split(' & ')
     if line[-1] == '\\nodata':
         name, rdshft = line[:2]
         eff_mag, err_mag = line[2][:-1].split('(')
