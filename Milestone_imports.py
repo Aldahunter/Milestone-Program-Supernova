@@ -21,11 +21,14 @@ chiSq = '\u03c7\u00b2' #Chi squared - 'χ²'
 pm = '\u00b1'
 
 ### Load Data ###
+original_sample = "SuperNova Data.txt"
+adams_data = '/media/alex/Shared/University/Physics/Year 3/Physics Problem Solving/Computing Project/Programming/Milestone-Program-Supernova/Union 2.1 SNIa Data/adams_SN_data.txt'
 dtype = np.dtype([('name', np.str_, 16), ('z', np.float64, 1),
                   ('eff_m', np.float64, 1), ('m_err', np.float64, 1)])
-data = np.loadtxt("SuperNova Data.txt", dtype=dtype)
-data_hz, data_lz = data[:42], data[42:] #Split Data into low and high redshift.
-
+data = np.loadtxt(original_sample, dtype=dtype)
+data = data[np.argsort(data['z'])]
+data_lz = data[np.where(data['z'] < 0.1)]
+data_hz = data
 
 ### Mathematical Functions ###
 def mag2flux(eff_m):

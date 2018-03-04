@@ -4,7 +4,7 @@ import matplotlib.pyplot as pyplot
 import matplotlib.cm as cm
 import scipy, tkinter
 from Milestone_imports_alldata import * #Use Milestone_imports for small sample data, use Milestone_imports_alldata for all Union2.1 data.
-save_data = False
+save_data = True
 
 ################################## Find L_peak #################################
 print('\n'+'-'*39+' Find Peak Luminosity '+'-'*39+'\n')
@@ -14,7 +14,7 @@ lz_arr = strarray_add_column(data_lz,  mag2flux(data_lz['eff_m']), 'flux',
 
 lz_arr = strarray_add_column(lz_arr,  flux2Lp(lz_arr['flux'], lz_arr['z'],
                                                   0.0, low_z = True),
-                               'Lp', np.float64, print_array = True) #Calculate and append L_peak (erg·s⁻¹·Å⁻¹) to main array.
+                               'Lp', np.float64)#, print_array = True) #Calculate and append L_peak (erg·s⁻¹·Å⁻¹) to main array.
 
 ### Find best guess for Peak Luminosity ###
 Lp_range = np.linspace(lz_arr['Lp'].min(), lz_arr['Lp'].max(), 10) #Create a range of L_peak (erg·s⁻¹·Å⁻¹) values between bounds.
@@ -42,7 +42,7 @@ print(string % adopted_units) #Format and print string.
 ####################### Find Omega_CosmologicalConstant ########################
 print('\n'+'-'*42+' Find Omega_cc '+'-'*42+'\n')
 hz_arr = data_hz[:]
-show_strarray(hz_arr) #Print array to be seen.
+#show_strarray(hz_arr) #Print array to be seen.
 
 ### Find best guess for Ω_cc ###
 Om_cc_Range = np.linspace(-0.5, 1.5, 21) #Test range of Ω_cc guesses to minimize χ².
@@ -57,7 +57,6 @@ Om_cc_guesses = Om_cc_guesses[Om_cc_guesses[:,1].argsort()] #Sort Ω_cc guesses 
 
 
 ### Calculate minimised χ² and best value and uncertainty for Ω_cc ###
-#Om_cc2mag = lambda Om_cc, z, Lp: flux2mag(Lp2flux(Lp, z, z2eta(z, Om_cc)))
 def Om_cc2mag(Om_cc, z, Lp):
     return flux2mag(Lp2flux(Lp, z, z2eta(z, Om_cc)))
 Om_cc2mag_args = (hz_arr['z'], Lp)

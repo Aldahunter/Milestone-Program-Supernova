@@ -36,6 +36,16 @@ dataset_dict = {'Sloan Digital Sky Survey' : 'SDSS II', 'SDSS II' : 'SDSS II',
                 'Gonzalez' : 'C/TSS', 'Chassagne' : 'C/TSS', 'Yuan' : 'C/TSS',
                 'Chornock' : 'C/TSS', 'Fujita' : 'C/TSS', 'Tsvetanov' : 'C/TSS',
                 'Wild' : 'C/TSS'}
+visible_outliers = ['2006cm', '2005a', '2006br', 'm043', 'g055']
+invisible_outliers = ['2002hw', '1999gd', '2005mc', '2004gs', '2006gj',
+                      '2006os', '2006cc', '2006eq', 'm027', '2002kc', '1997o',
+                      'k485', '1994H', '1995at', '1999fm', '03D4ag', '2007s',
+                      '2007ca', '2007au', '2006bw', '2006cp', '2006qo',
+                      '2001ie', 'g050', '2005ix', '2005hy', 'k411', '2000dk',
+                      '2006ej', '1995ak', '2006en', '2003iv',
+                      '2005if', '1997y']
+
+
 
 for n, line in enumerate(data[1:]):
     line = line.strip('\n').split(' , ')
@@ -45,7 +55,18 @@ for n, line in enumerate(data[1:]):
             data[n+1] = ' , '.join(line) + '\n'
             break
 
+### Deal with Outliers ###
+new_data = [data[0]]
+outliers = visible_outliers + invisible_outliers
+for n, line in enumerate(data[1:]):
+    line = line.strip('\n').split(' , ')
+    if line [0] not in outliers:
+        new_data.append(' , '.join(line) + '\n')
+    elif line[0] in visible_outliers:
+        line[-1] = 'Outlier'
+        new_data.append(' , '.join(line) + '\n')
+
 
 with open(folder+"All SNe Union2.1.txt", 'w') as f:
-    for line in data:
+    for line in new_data:
         f.write(line)

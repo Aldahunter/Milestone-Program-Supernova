@@ -6,9 +6,12 @@ all_graphing_data = pickle.load(open("graphing_data.p", "rb"))  # Load in data f
 for varaible, var_data in all_graphing_data.items():  # Turn each part of dictionary into an actual varaible with same name as the key.
     exec(varaible + ' = var_data')
 
+print('L_peak:', Lp, ' ± ', Lp_err)
+print('Ω_Λ:', Om_cc, ' ± ', Om_cc_err)
+
 #Lp, Lp_err = 3.25e39, 3.25e39*0.04
-Lp_err = 3.25e39*0.04
-Om_cc, Om_cc_err = 0.70, 0.02
+#Lp_err = 3.25e39*0.04
+#Om_cc, Om_cc_err = 0.70, 0.02
 x_lim = [0.0, 1.425]
 y_lim = [14, 27.0]
 model_z = np.linspace(x_lim[0]+0.01, x_lim[1], 300)
@@ -63,7 +66,9 @@ ax2.plot(model_z, model_ub, ls='--', c='grey', zorder=2)
 ax2.fill_between(model_z, model_lb, model_ub, zorder=0,
                  color=(0.82,0.82,0.82,1))
 
-datasets = sorted(set(all_arr['dataset']), key=len)
+no_outliers = set(all_arr['dataset'])
+no_outliers.remove('Outlier')
+datasets = sorted(no_outliers, key=len)
 colours = iter(cm.rainbow(np.linspace(0, 1, len(datasets))))
 dataset_markers = iter(['o', '^', '1', 'p', 's', '*', '+', 'x', 'd', r'$\ast $'])
 for dataset in datasets:
@@ -75,6 +80,15 @@ for dataset in datasets:
     dataset_residual = dataset_arr['eff_m']-Om_cc2mag(Om_cc,dataset_arr['z'],Lp)
     ax3.scatter(dataset_arr['z'], dataset_residual/dataset_arr['m_err'],
                 marker=marker, c=color, zorder=1)
+
+dataset_arr = all_arr[np.where(all_arr['dataset'] == 'Outlier')]
+ax2.errorbar(dataset_arr['z'], dataset_arr['eff_m'],
+             yerr=dataset_arr['m_err'], ls='', c='black', marker='s',
+             zorder=1, capsize=1.5, label='Outlier')
+dataset_residual = dataset_arr['eff_m']-Om_cc2mag(Om_cc,dataset_arr['z'],Lp)
+ax3.scatter(dataset_arr['z'], dataset_residual/dataset_arr['m_err'],
+            c='black', marker='s', zorder=1)
+
 ax2.legend(loc='upper right', bbox_to_anchor=(0.999, 0.999), frameon=False,
            ncol=2)
 
@@ -105,7 +119,7 @@ ax3.invert_yaxis()
 # plt.suptitle("\n".join(wrap(r'Main Title (with text wrapping)', 50)),
 #              fontsize=18, y=1.0001)
 
-fig.patch.set_alpha(0.0)
-fig.savefig('poster_graph.png', format='png', bbox_inches='tight',
-            pad_inches=0, dpi = 750)
+# fig.patch.set_alpha(0.0)
+# fig.savefig('poster_graph.png', format='png', bbox_inches='tight',
+#             pad_inches=0, dpi = 750)
 plt.show()
