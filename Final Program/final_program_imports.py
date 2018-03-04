@@ -6,7 +6,7 @@ from copy import deepcopy
 ### Define Constants ###
 K = 0 # Curvature of Universe can be: 1(closed), 0(flat), -1(open).
 m_0 = -20.45 # Gives flux in units: erg·cm⁻²·s⁻¹·Å⁻¹.
-H_0 = 75 / 3.086e19 # Current Hubble Flow in units: s⁻¹ (or recent data from 74.8 ± 3.1 km s−1 Mpc−1, Riess et al. 2011: https://arxiv.org/pdf/1103.2976.pdf)
+H_0 = 74.8 / 3.086e19 # Current Hubble Flow in units: s⁻¹ (or recent data from 74.8 ± 3.1 km s−1 Mpc−1, Riess et al. 2011: https://arxiv.org/pdf/1103.2976.pdf)
 R_0 = 4.4e26 # Current raidus of observable universe in units: m.
 c = 2.99792458e8 # Speed of light in units: m*s⁻¹
 
@@ -17,7 +17,7 @@ dtype = np.dtype([('name', np.str_, 16), ('z', np.float64, 1),
                   ('mag', np.float64, 1), ('m_err', np.float64, 1),
                   ('dataset', np.str_, 16)])
 all_data = np.loadtxt(folder+"Union 2.1 SNIa Data/All SNe Union2.1.txt",
-                      dtype=dtype, delimiter=' , ')#[:50]
+                      dtype=dtype, delimiter=' , ')
 all_data = all_data[np.argsort(all_data['z'])]
 
 
@@ -73,6 +73,26 @@ def omega2mag(omega, z, Lp, w = -1, R = R_0, om_M0 = 'flat'):
     mags = Lp2mag(Lp, z, z2eta(z, omega, w, R , om_M0), low_z = False)
     return mags
 
+def decelerate_param(omega, z, w = -1, om_M0 = 'flat'):
+    """Returns the deceleration parameter (q, dimensionless) for a given \
+    Ω_D.E. (omega, dimensionless), redshift (z, dimensionless) and D.E. \
+    parameter (w = -1, dimesionless). Note: In a flat universe if q < 0, then \
+    it is accelerating"""
+    DE_parm = omega*(1 + z)**(3+3*w)
+    if om_M0 == 'flat': om_M0 = 1.0 - omega
+    M_param = om_M0*(1 + z)**3
+    return ((3.0/2.0) * (DE_parm*(1 + w) + M_param)/(DE_parm + M_param)) - 1.0
+
+def universe_age(omega, w = -1.0, R = R_0, om_M0 = 'flat'):
+    """Returns the age of the universe (years) for a given Ω_D.E. \
+    (omega, dimensionless) and D.E. parameter (w = -1, dimesionless)."""
+    int_fn = lambda z, omega, w, R, om_M0: (z2H(z,omega,w,R,om_M0) * (1+z))**-1
+    int_fn_params = (omega, w, R, om_M0) # Parameters for function to integrate.
+    with warnings.catch_warnings(): # Catch 'IntegrationWarning'.
+        warnings.simplefilter('ignore')
+        age = integrate.quad(int_fn, 0.0, np.inf, args=int_fn_params)[0]
+    return age * 3.168895541e-8 #Convert from seconds to years.
+
 
 
 ### Stats Functions ###
@@ -91,8 +111,8 @@ def minimise_chi_1D(model_fn, dyn_param, model_params, obs_data, err_data):
     """Returns the reduced minimised chi squared, and its respective dyn_param \
     and error in this parameter."""
     args = (model_fn, model_params, obs_data, err_data)
-    with warnings.catch_warnings(): #Catch 'IntegrationWarning' warnings.
-        warnings.simplefilter('ignore') #Surpress warnings from printing.
+    with warnings.catch_warnings(): # Catch 'IntegrationWarning' warnings.
+        warnings.simplefilter('ignore') # Surpress warnings from printing.
         bestfit_param = optimize.minimize(minimise_fn, dyn_param, args,
                                           method='Nelder-Mead').x[0]
         chisq_min = minimise_fn(bestfit_param, *args)
@@ -105,11 +125,11 @@ def minimise_chi_1D(model_fn, dyn_param, model_params, obs_data, err_data):
 
 def minimise_chi_2D(model_fn, dyn_params, model_params, obs_data, err_data,
                     err_sensitivity = 0.015):
-    """Returns the reduced minimised chi squared, and the two respective dyn_params \
-    and error in this parameter."""
+    """Returns the reduced minimised chi squared, and the two respective \
+    dyn_params and error in this parameter."""
     args = (model_fn, model_params, obs_data, err_data)
-    with warnings.catch_warnings(): #Catch 'IntegrationWarning' warnings.
-        warnings.simplefilter('ignore') #Surpress warnings from printing.
+    with warnings.catch_warnings(): # Catch 'IntegrationWarning' warnings.
+        warnings.simplefilter('ignore') # Surpress warnings from printing.
         bestfit_params = optimize.minimize(minimise_fn, dyn_params, args,
                                           method='Nelder-Mead').x
         chisq_min = minimise_fn(bestfit_params, *args)
@@ -153,3 +173,22 @@ def minimise_chi_2D(model_fn, dyn_params, model_params, obs_data, err_data,
         err_param1 = np.abs(param1_bound[1] - bestfit_params[1])
 
     return chisq_min/float(obs_data.size), bestfit_params, np.array([err_param0, err_param1])
+
+
+
+### Plotting Functions ###
+def map2D(fn_2D, X, Y, fn_args=(), fn_kwargs={}, perc_step = 0.25):
+    "Returns the z values for the function ('fn_2D') over the x and y \
+    values ('X' & 'Y') in the form: z = Z[x,y]."
+    Z = np.zeros((X.size, Y.size))
+    perc, counter, counter_step = 0.0, 0.0, Z.size*perc_step/100.0
+    for ix, x in enumerate(X):
+        for iy, y in enumerate(Y):
+            z = fn_2D(x, y, *fn_args, **fn_kwargs)
+            Z[ix, iy] = z
+            counter += 1.0
+            if counter == counter_step:
+                counter = 0.0
+                perc += perc_step
+                print("Calculting: {: 6.2f}".format(perc))
+    return Z

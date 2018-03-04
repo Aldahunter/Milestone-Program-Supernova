@@ -1,5 +1,5 @@
 """Supernova Cosmology Program for Physics Problem Solving."""
-folder="/media/alex/Shared/University/Physics/Year 3/Physics Problem Solving/Computing Project/Programming/Milestone-Program-Supernova/Final Program/"
+folder_final="/media/alex/Shared/University/Physics/Year 3/Physics Problem Solving/Computing Project/Programming/Milestone-Program-Supernova/Final Program/"
 import numpy as np, matplotlib.pyplot as pyplot, matplotlib.cm as cm
 import scipy, tkinter
 from final_program_imports import *
@@ -77,6 +77,6 @@ if save.upper() == 'Y':
     print("Saved Data: ")
     for key in calculated_data:
         print('  · ' + key + ' - ' + str(calculated_data[key]))
-    pickle.dump(calculated_data, open(folder+"final_data.p", "wb" ))
+    pickle.dump(calculated_data, open(folder_final+"final_data.p", "wb" ))
     print('{:-^100}'.format(' Data Saved ')+'\n')
 print('\n'+'{:#^100}'.format(' Program Complete '))

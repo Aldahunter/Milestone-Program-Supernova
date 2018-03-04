@@ -1,4 +1,4 @@
-folder="/media/alex/Shared/University/Physics/Year 3/Physics Problem Solving/Computing Project/Programming/Milestone-Program-Supernova/Final Program/"
+folder_final="/media/alex/Shared/University/Physics/Year 3/Physics Problem Solving/Computing Project/Programming/Milestone-Program-Supernova/Final Program/"
 import dill as pickle, numpy as np, matplotlib.pyplot as plt, matplotlib.cm as cm
 from textwrap import wrap
 from scipy.stats import norm
@@ -7,7 +7,7 @@ print('{:#^100}'.format(' Imports Loaded ')+'\n')
 
 # Import Calculated Data #
 print('{:#^100}'.format(' Import Calculated Data ')+'\n')
-calculated_data = pickle.load(open(folder+"final_data.p", "rb"))
+calculated_data = pickle.load(open(folder_final+"final_data.p", "rb"))
 for variable, var_data in calculated_data.items():
     exec(variable + ' = var_data')
 print('Imported Variables are:\n  · ', end='')
@@ -35,7 +35,7 @@ markers = ['o', '^', '1', 'p', 's', '*', '+', 'x', 'd', r'$\ast $']
 
 
 
-### Calculation ###
+### Calculations ###
 print('{:-^100}'.format(' Perform Required calculations ')+'\n')
 
 ## Top Plot ##
@@ -228,8 +228,8 @@ save = 'y'
 while save.upper() not in ['Y', 'N']:
     save = input('Would you like to save this graph? (y/n): ')
 if save.upper() == 'Y':
-    fig.savefig(folder+'mag_vs_redshift.png', format='png', bbox_inches='tight',
-                pad_inches=0, dpi = dpi)
+    fig.savefig(folder_final+'mag_vs_redshift.png', format='png',
+                bbox_inches='tight', pad_inches=0, dpi = dpi)
     print('{:-^100}'.format(' Graph Saved ')+'\n')
 # plt.show()
 print('{:#^100}'.format(' Program Complete '))
