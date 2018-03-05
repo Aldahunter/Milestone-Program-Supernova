@@ -51,9 +51,10 @@ for n_Ω in Ω_DEs:
 # Bestfit Ω and ω to SNe #
 w_omega2mag = lambda w_omega, z, Lp: omega2mag(w_omega[1], z, Lp, w_omega[0])
 w_omega2mag_params = (data['z'], Lp)
-chi_ωΩ, ωΩ, ωΩ_err = minimise_chi_2D(w_omega2mag, (-1.0, 0.70),
+chi_ωΩ, ωΩ = minimise_chi_2D(w_omega2mag, (-1.0, 0.70),
                                      w_omega2mag_params, data['mag'],
-                                     data['m_err'])
+                                     data['m_err'], err_stats = False)
+ωΩ_err = (abs(ωΩ[0] - -2.11668), abs(ωΩ[1] - 0.419249)) # Read off contour plot.
 string = 'For Ω of {:.2g} ± {:.0g} ({:.2g}%) : ω = {:.3g} ± {:.0g} ({:.2g}%) | \
 Reduced χ² = {:.2f}\n'
 print(string.format(ωΩ[1], ωΩ_err[1], (ωΩ_err[1]/ωΩ[1])*100, ωΩ[0], ωΩ_err[0],

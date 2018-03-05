@@ -16,12 +16,12 @@ print(' ; '.join(sorted([i for i in calculated_data]))+'\n')
 
 
 ### Figure & Axis Attributes ###
-load_ωΩ_χmap = 'n'
+load_ωΩ_χmap = 'y'
 load_q_map = 'y'
 load_age_map = 'y'
 figsize = (7,14) #Inches
-x_lim = (0.0, 1.0, 1000) # Omega_DE.
-y_lim = (-2.15, -0.92, 1000) # w_DE.
+x_lim = (0.0, 1.0, 500) # Omega_DE.
+y_lim = (-2.15, -0.92, 500) # w_DE.
 dpi = 100
 age_units = "Gyr"
 chi_contours = [0, 2.3, 4.61] # Added onto minimum χ².

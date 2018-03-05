@@ -124,7 +124,7 @@ def minimise_chi_1D(model_fn, dyn_param, model_params, obs_data, err_data):
     return chisq_min/float(obs_data.size), bestfit_param, err_param
 
 def minimise_chi_2D(model_fn, dyn_params, model_params, obs_data, err_data,
-                    err_sensitivity = 0.015):
+                    err_sensitivity = 0.015, err_stats = True):
     """Returns the reduced minimised chi squared, and the two respective \
     dyn_params and error in this parameter."""
     args = (model_fn, model_params, obs_data, err_data)
@@ -133,46 +133,50 @@ def minimise_chi_2D(model_fn, dyn_params, model_params, obs_data, err_data,
         bestfit_params = optimize.minimize(minimise_fn, dyn_params, args,
                                           method='Nelder-Mead').x
         chisq_min = minimise_fn(bestfit_params, *args)
+        chi_red = chisq_min/float(obs_data.size)
 
         # Find error in parameters #
-        # Parameter 0
-        fn_0a = lambda p1, p2 : np.abs(minimise_fn([p1, p2], *args) - (chisq_min + 1.0))
-        fn_0b = lambda p2, p1 : minimise_fn([p1, p2], *args)
-        param0_bound = deepcopy(bestfit_params)
-        param0_bound[0] = optimize.minimize(fn_0a, param0_bound[0],
-                                         args=(param0_bound[1]),
-                                         method='Nelder-Mead').x[0]
-        param0_frdif = 1.0 # Setup the fractional differences.
-        while param0_frdif > err_sensitivity:
-            old_param0 = param0_bound[0]
-            param0_bound[1] = optimize.minimize(fn_0b, param0_bound[1],
-                                                args=(param0_bound[0]),
-                                                method='Nelder-Mead').x[0]
+        if err_stats == True:
+            # Parameter 0
+            fn_0a = lambda p1, p2 : np.abs(minimise_fn([p1, p2], *args) - (chisq_min + 1.0))
+            fn_0b = lambda p2, p1 : minimise_fn([p1, p2], *args)
+            param0_bound = deepcopy(bestfit_params)
             param0_bound[0] = optimize.minimize(fn_0a, param0_bound[0],
-                                                args=(param0_bound[1]),
-                                                method='Nelder-Mead').x[0]
-            param0_frdif = np.abs((old_param0-param0_bound[0])/param0_bound[0])
-        err_param0 = np.abs(param0_bound[0] - bestfit_params[0])
-        # Parameter 1
-        fn_1a = lambda p2, p1 : np.abs(minimise_fn([p1, p2], *args) - (chisq_min + 1.0))
-        fn_1b = lambda p1, p2 : minimise_fn([p1, p2], *args)
-        param1_bound = deepcopy(bestfit_params)
-        param1_bound[1] = optimize.minimize(fn_1a, param1_bound[1],
-                                         args=(param1_bound[0]),
-                                         method='Nelder-Mead').x[0]
-        param1_frdif = 1.0 # Setup the fractional differences.
-        while param1_frdif > err_sensitivity:
-            old_param1 = param1_bound[1]
-            param1_bound[0] = optimize.minimize(fn_1b, param1_bound[0],
-                                                args=(param1_bound[1]),
-                                                method='Nelder-Mead').x[0]
+                                             args=(param0_bound[1]),
+                                             method='Nelder-Mead').x[0]
+            param0_frdif = 1.0 # Setup the fractional differences.
+            while param0_frdif > err_sensitivity:
+                old_param0 = param0_bound[0]
+                param0_bound[1] = optimize.minimize(fn_0b, param0_bound[1],
+                                                    args=(param0_bound[0]),
+                                                    method='Nelder-Mead').x[0]
+                param0_bound[0] = optimize.minimize(fn_0a, param0_bound[0],
+                                                    args=(param0_bound[1]),
+                                                    method='Nelder-Mead').x[0]
+                param0_frdif = np.abs((old_param0-param0_bound[0])/param0_bound[0])
+            err_param0 = np.abs(param0_bound[0] - bestfit_params[0])
+            # Parameter 1
+            fn_1a = lambda p2, p1 : np.abs(minimise_fn([p1, p2], *args) - (chisq_min + 1.0))
+            fn_1b = lambda p1, p2 : minimise_fn([p1, p2], *args)
+            param1_bound = deepcopy(bestfit_params)
             param1_bound[1] = optimize.minimize(fn_1a, param1_bound[1],
-                                                args=(param1_bound[0]),
-                                                method='Nelder-Mead').x[0]
-            param1_frdif = np.abs((old_param1-param1_bound[1])/param1_bound[1])
-        err_param1 = np.abs(param1_bound[1] - bestfit_params[1])
-
-    return chisq_min/float(obs_data.size), bestfit_params, np.array([err_param0, err_param1])
+                                             args=(param1_bound[0]),
+                                             method='Nelder-Mead').x[0]
+            param1_frdif = 1.0 # Setup the fractional differences.
+            while param1_frdif > err_sensitivity:
+                old_param1 = param1_bound[1]
+                param1_bound[0] = optimize.minimize(fn_1b, param1_bound[0],
+                                                    args=(param1_bound[1]),
+                                                    method='Nelder-Mead').x[0]
+                param1_bound[1] = optimize.minimize(fn_1a, param1_bound[1],
+                                                    args=(param1_bound[0]),
+                                                    method='Nelder-Mead').x[0]
+                param1_frdif = np.abs((old_param1-param1_bound[1])/param1_bound[1])
+            err_param1 = np.abs(param1_bound[1] - bestfit_params[1])
+    if err_stats == True:
+        return chi_red, bestfit_params, np.array([err_param0, err_param1])
+    else:
+        return chi_red, bestfit_params
 
 
 
