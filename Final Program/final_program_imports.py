@@ -74,7 +74,7 @@ def omega2mag(omega, z, Lp, w = -1, R = R_0, om_M0 = 'flat'):
     return mags
 
 def decelerate_param(omega, z, w = -1, om_M0 = 'flat'):
-    """Returns the deceleration parameter (q, dimensionless) for a given \
+    """Return the deceleration parameter (q, dimensionless) for a given \
     Ω_D.E. (omega, dimensionless), redshift (z, dimensionless) and D.E. \
     parameter (w = -1, dimesionless). Note: In a flat universe if q < 0, then \
     it is accelerating"""
@@ -181,18 +181,26 @@ def minimise_chi_2D(model_fn, dyn_params, model_params, obs_data, err_data,
 
 
 ### Plotting Functions ###
-def map2D(fn_2D, X, Y, fn_args=(), fn_kwargs={}, perc_step = 0.25):
+def map2D(fn_2D, X, Y, fn_args=(), fn_kwargs={}, perc_step = 0.25, thread=None):
     "Returns the z values for the function ('fn_2D') over the x and y \
     values ('X' & 'Y') in the form: z = Z[x,y]."
-    Z = np.zeros((X.size, Y.size))
-    perc, counter, counter_step = 0.0, 0.0, Z.size*perc_step/100.0
-    for ix, x in enumerate(X):
+
+    if thread != None: # 0 <= n_thread < threads
+        n_thread, threads = thread[0], thread[1]
+    else: n_thread, threads = 0, 1
+
+    Z = np.zeros((X[n_thread::threads].size, Y.size))
+    counter = 0
+    perc = 0
+    ticker = 0
+    for ix, x in enumerate(X[n_thread::threads]):
         for iy, y in enumerate(Y):
             z = fn_2D(x, y, *fn_args, **fn_kwargs)
             Z[ix, iy] = z
+
             counter += 1.0
-            if counter == counter_step:
-                counter = 0.0
-                perc += perc_step
-                print("Calculting: {: 6.2f}".format(perc))
+            perc = (counter / Z.size) * 100
+            if perc > ticker * perc_step:
+                ticker += 1
+                print("Calculted: {: 6.2f}".format(perc))
     return Z
