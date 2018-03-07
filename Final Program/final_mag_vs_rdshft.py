@@ -41,17 +41,23 @@ print('{:-^100}'.format(' Perform Required calculations ')+'\n')
 ## Top Plot ##
 num_models = 6
 model_z = np.linspace(x_lim[0]+0.001, x_lim[1]-0.001, 400)
-label_ΩΛ = r'$\Omega_{D.E.}$: %.2f  ;  $\omega_{D.E.}$: %.2f' % (ΩΛ,-1.00)
+label_ΩΛ = (r'$\Omega_{D.E.}$: %.2f  ;  $\omega_{D.E.}$: %.2f'
+            % (ΩΛ,-1.00))
 model_ΩΛ = omega2mag(ΩΛ, model_z, Lp, w = -1, R = R_0, om_M0 = 'flat')
-label_Ω_DE0 = r'$\Omega_{D.E.}$: %.2f  ;  $\omega_{D.E.}$: %.2f' % (Ω_DE0['Ω_DE'],Ω_DE0['ω_DE'])
+label_Ω_DE0 = (r'$\Omega_{D.E.}$: %.2f  ;  $\omega_{D.E.}$: %.2f'
+               % (Ω_DE0['Ω_DE'],Ω_DE0['ω_DE']))
 model_Ω_DE0 = omega2mag(Ω_DE0['Ω_DE'], model_z, Lp, w = Ω_DE0['ω_DE'])
-label_Ω_DE1 = r'$\Omega_{D.E.}$: %.2f  ;  $\omega_{D.E.}$: %.2f' % (Ω_DE1['Ω_DE'],Ω_DE1['ω_DE'])
+label_Ω_DE1 = (r'$\Omega_{D.E.}$: %.2f  ;  $\omega_{D.E.}$: %.2f'
+               % (Ω_DE1['Ω_DE'],Ω_DE1['ω_DE']))
 model_Ω_DE1 = omega2mag(Ω_DE1['Ω_DE'], model_z, Lp, w = Ω_DE1['ω_DE'])
-label_ωΩ = r'$\Omega_{D.E.}$: %.2f  ;  $\omega_{D.E.}$: %.2f' % (ωΩ[1],ωΩ[0])
+label_ωΩ = (r'$\Omega_{D.E.}$: %.2f  ;  $\omega_{D.E.}$: %.2f'
+            % (ωΩ[1],ωΩ[0]))
 model_ωΩ = omega2mag(ωΩ[1], model_z, Lp, w = ωΩ[0])
-label_allΛ = r'$\Omega_{D.E.}$: %.2f  ;  $\omega_{D.E.}$: %.2f' % (1.00,-1.00)
+label_allΛ = (r'$\Omega_{D.E.}$: %.2f  ;  $\omega_{D.E.}$: %.2f'
+             % (1.00,-1.00))
 model_allΛ = omega2mag(1.00, model_z, Lp, w = -1.00)
-label_noΛ = r'$\Omega_{D.E.}$: %.2f  ;  $\omega_{D.E.}$: %.2f' % (0.00,-1.00)
+label_noΛ = (r'$\Omega_{D.E.}$: %.2f  ;  $\omega_{D.E.}$: %.2f'
+             % (0.00,-1.00))
 model_noΛ = omega2mag(0.00, model_z, Lp, w = -1.00)
 
 
@@ -124,13 +130,20 @@ ax1.set_ylabel(y_label, labelpad=+6, fontsize=13)
 colours = iter(cm.prism(np.linspace(0, 1, num_models)))
 ax1.errorbar(all_data['z'], all_data['mag'], yerr=all_data['m_err'],
              ls='', marker='+', capsize=1.25, c='black', zorder=0)
-ax1.plot(model_z, model_noΛ, c=next(colours), label = label_noΛ, zorder=1, ls=ls[':'])
-ax1.plot(model_z, model_ωΩ, c=next(colours), label = label_ωΩ, zorder=1, ls=ls['-'])
-ax1.plot(model_z, model_ΩΛ, c=next(colours), label = label_ΩΛ, zorder=1, ls=ls['-..'])
-ax1.plot(model_z, model_Ω_DE0, c=next(colours), label = label_Ω_DE0, zorder=1, ls=ls['-.'])
-ax1.plot(model_z, model_Ω_DE1, c=next(colours), label = label_Ω_DE1, zorder=1, ls=ls['--'])
-ax1.plot(model_z, model_allΛ, c=next(colours), label = label_allΛ, zorder=1, ls=ls[':'])
-ax1.legend(loc='upper right', bbox_to_anchor=(0.999, 0.999),
+ax1.plot(model_z, model_noΛ, c=next(colours),
+         label = label_noΛ, zorder=1, ls=ls[':'])
+ax1.plot(model_z, model_ωΩ, c=next(colours),
+         label = label_ωΩ, zorder=1, ls=ls['-'])
+ax1.plot(model_z, model_ΩΛ, c=next(colours),
+         label = label_ΩΛ, zorder=1, ls=ls['-..'])
+ax1.plot(model_z, model_Ω_DE0, c=next(colours),
+         label = label_Ω_DE0, zorder=1, ls=ls['-.'])
+ax1.plot(model_z, model_Ω_DE1, c=next(colours),
+         label = label_Ω_DE1, zorder=1, ls=ls['--'])
+ax1.plot(model_z, model_allΛ, c=next(colours),
+         label = label_allΛ, zorder=1, ls=ls[':'])
+ax1.legend(loc='upper right',
+           bbox_to_anchor=(0.999, 0.999),
            frameon=False, fontsize=12)
 
 

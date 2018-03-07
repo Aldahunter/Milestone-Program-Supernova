@@ -3,13 +3,6 @@ from textwrap import wrap
 from scipy import optimize, integrate
 from copy import deepcopy
 
-### Define Constants ###
-K = 0 # Curvature of Universe can be: 1(closed), 0(flat), -1(open).
-m_0 = -20.45 # Gives flux in units: erg·cm⁻²·s⁻¹·Å⁻¹.
-H_0 = 74.8 / 3.086e19 # Current Hubble Flow in units: s⁻¹ (or recent data from 74.8 ± 3.1 km s−1 Mpc−1, Riess et al. 2011: https://arxiv.org/pdf/1103.2976.pdf)
-R_0 = 4.4e26 # Current raidus of observable universe in units: m.
-c = 2.99792458e8 # Speed of light in units: m*s⁻¹
-
 ### Load Data ###
 folder = "/media/alex/Shared/University/Physics/Year 3/Physics Problem Solving\
 /Computing Project/Programming/Milestone-Program-Supernova/"
@@ -21,7 +14,29 @@ all_data = np.loadtxt(folder+"Union 2.1 SNIa Data/All SNe Union2.1.txt",
 all_data = all_data[np.argsort(all_data['z'])]
 
 
-### Physics Functions ###
+
+#  .o88b.  .d88b.  d8b   db .d8888. d888888b  .d8b.  d8b   db d888888b
+# d8P  Y8 .8P  Y8. 888o  88 88'  YP `~~88~~' d8' `8b 888o  88 `~~88~~'
+# 8P      88    88 88V8o 88 `8bo.      88    88ooo88 88V8o 88    88
+# 8b      88    88 88 V8o88   `Y8b.    88    88~~~88 88 V8o88    88
+# Y8b  d8 `8b  d8' 88  V888 db   8D    88    88   88 88  V888    88
+#  `Y88P'  `Y88P'  VP   V8P `8888Y'    YP    YP   YP VP   V8P    YP
+
+K = 0 # Curvature of Universe can be: 1(closed), 0(flat), -1(open).
+m_0 = -20.45 # Gives flux in units: erg·cm⁻²·s⁻¹·Å⁻¹.
+H_0 = 74.8 / 3.086e19 # Current Hubble Flow in units: s⁻¹ (or recent data from 74.8 ± 3.1 km s−1 Mpc−1, Riess et al. 2011: https://arxiv.org/pdf/1103.2976.pdf)
+R_0 = 4.4e26 # Current raidus of observable universe in units: m.
+c = 2.99792458e8 # Speed of light in units: m*s⁻¹
+
+
+
+# d8888b. db   db db    db .d8888.      d88888b d8b   db .d8888.
+# 88  `8D 88   88 `8b  d8' 88'  YP      88'     888o  88 88'  YP
+# 88oodD' 88ooo88  `8bd8'  `8bo.        88ooo   88V8o 88 `8bo.
+# 88~~~   88~~~88    88      `Y8b.      88~~~   88 V8o88   `Y8b.
+# 88      88   88    88    db   8D      88      88  V888 db   8D
+# 88      YP   YP    YP    `8888Y'      YP      VP   V8P `8888Y
+
 def S_eta(eta, low_z = False, z = 0.0):
     """Return the comoving coordinate (η, dimensionless), depending on the \
     curvature of space."""
@@ -93,9 +108,24 @@ def universe_age(omega, w = -1.0, R = R_0, om_M0 = 'flat'):
         age = integrate.quad(int_fn, 0.0, np.inf, args=int_fn_params)[0]
     return age * 3.168895541e-8 #Convert from seconds to years.
 
+def time_btwn_z(z0, z1, omega, w, R = R_0, om_M0 = 'flat'):
+    """Returns the time (years) between two redshift (z0 & z1) for a given \
+    Ω_D.E. (omega, dimensionless) and D.E. parameter (w = -1, dimesionless)."""
+    int_fn = lambda z, omega, w, R, om_M0: (z2H(z,omega,w,R,om_M0) * (1+z))**-1
+    int_fn_params = (omega, w, R, om_M0) # Parameters for function to integrate.
+    with warnings.catch_warnings(): # Catch 'IntegrationWarning'.
+        warnings.simplefilter('ignore')
+        age = integrate.quad(int_fn, z0, z1, args=int_fn_params)[0]
+    return age * 3.168895541e-8 #Convert from seconds to years.
 
 
-### Stats Functions ###
+# .d8888. d888888b  .d8b.  d888888b .d8888.      d88888b d8b   db .d8888.
+# 88'  YP `~~88~~' d8' `8b `~~88~~' 88'  YP      88'     888o  88 88'  YP
+# `8bo.      88    88ooo88    88    `8bo.        88ooo   88V8o 88 `8bo.
+#   `Y8b.    88    88~~~88    88      `Y8b.      88~~~   88 V8o88   `Y8b.
+# db   8D    88    88   88    88    db   8D      88      88  V888 db   8D
+# `8888Y'    YP    YP   YP    YP    `8888Y'      YP      VP   V8P `8888Y'
+
 def calc_chi(exp_data, obs_data, err_data):
     """Calculate the χ² (dimensionless) between the observed (collected) data \
     and the expected (model) data."""
@@ -180,7 +210,13 @@ def minimise_chi_2D(model_fn, dyn_params, model_params, obs_data, err_data,
 
 
 
-### Plotting Functions ###
+# d8888b. db       .d88b.  d888888b      d88888b d8b   db .d8888.
+# 88  `8D 88      .8P  Y8. `~~88~~'      88'     888o  88 88'  YP
+# 88oodD' 88      88    88    88         88ooo   88V8o 88 `8bo.
+# 88~~~   88      88    88    88         88~~~   88 V8o88   `Y8b.
+# 88      88booo. `8b  d8'    88         88      88  V888 db   8D
+# 88      Y88888P  `Y88P'     YP         YP      VP   V8P `8888Y'
+
 def map2D(fn_2D, X, Y, fn_args=(), fn_kwargs={}, perc_step = 0.25, thread=None):
     "Returns the z values for the function ('fn_2D') over the x and y \
     values ('X' & 'Y') in the form: z = Z[x,y]."

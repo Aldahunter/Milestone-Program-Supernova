@@ -124,14 +124,28 @@ fig.patch.set_alpha(alpha)
 
 # Add Time Scale.
 axω_time = ax.twiny()
-axω_time.set_xlabel(r'Time, Gyr ($\omega = -2.08$)')
+axω_time.set_xlabel(r'Time, Gyr ($\omega_{D.E.} = -2.08$)')
 axω_time.tick_params('x', colors='black')
 axω_time.tick_params(axis='x', direction='in', # length=float, width=float,
                      # color=color, pad=float, labelsize=(float or str),
                      # labelcolor=color, colors=color, zorder=float,
                      top = True, bottom = False, labeltop = True,
                      labelbottom = False)
-xticks = axω_time.get_xticklabels()
+xticks = axω_time.get_xticks()
+# xticks = axω_time.get_xticklabels()
+print([i for i in xticks])
+t_0 = time_btwn_z(0.0, np.inf, 0.71, -1.0, R = R_0, om_M0 = 'flat')
+t_2 = time_btwn_z(2.0, np.inf, 0.71, -1.0, R = R_0, om_M0 = 'flat')
+t_5 = time_btwn_z(5.0, np.inf, 0.71, -1.0, R = R_0, om_M0 = 'flat')
+t_02 = time_btwn_z(0.0, 2.0, 0.71, -1.0, R = R_0, om_M0 = 'flat')
+t_05 = time_btwn_z(0.0, 5.0, 0.71, -1.0, R = R_0, om_M0 = 'flat')
+err_02 = 100*((t_0 - t_2) - t_02)/(t_0 - t_2)
+err_05 = 100*((t_0 - t_5) - t_05)/(t_0 - t_5)
+print("%e" % err_02)
+print("%e" % err_05)
+# print("{:e}".format(time_btwn_z(0.0, 5.0, 0.71, -1.0, R = R_0, om_M0 = 'flat')))
+
+quit()
 
 
 
