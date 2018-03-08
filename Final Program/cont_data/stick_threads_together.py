@@ -23,8 +23,3 @@ for f in file_names:
 
     print(all_arr.shape)
     np.savetxt(f+"(all_threads).txt", all_arr)
-
-# cor_arr = np.loadtxt("w_omega_contour_data(0,1).txt")
-#
-# if np.array_equal(all_arr, cor_arr): print(True)
-# else: print(False)
