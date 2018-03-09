@@ -42,24 +42,28 @@ load_Λage = 'y'
 load_Ωage = 'y'
 
 figsize = (14, 5) #Inches
-dpi = 100
-x_label = r'Redshift, $z$'
-y_label = r'Deceleration Parameter, $q$'
+dpi = 300
+x_label = r"Dark Energy Critical Density Parameter, $\Omega_{D.E.}^{(0)}$"
+y_label = r"Matter Energy Density Parameter, $\Omega_{M}^{(0)}$"
+cb_label =  r"Deceleration Parameter, $q$"
+fntsz = 13
 cmap = cm.autumn
 
-mapp_definition = 100 # Number of point calulated between x and y limits.
-chi_contours2D = [0, 2.3, 6.18]
-cb_range = (-0.6, -0.2)
+mapp_definition = 125 # Number of point calulated between x and y limits.
+chi_contours2D = [0, 1.0, 4.00, 9.0]
+cb_range = (-1.1, -0.1)
 age_contours = np.arange(10.0, 15.5, 0.5)
+cntr_ls = ['-', ':', '--']
+cntr_cmap = cm.gray
 
-ωx_lim = (0.35, 0.50)
-ωy_lim = (0.50, 0.60)
+ωx_lim = (0.36, 0.48) # (0.35, 0.50)
+ωy_lim = (0.52, 0.59) # (0.50, 0.60)
 
-Λx_lim = (0.50, 0.75)
-Λy_lim = (0.25, 0.50)
+Λx_lim = (0.62, 0.72) # (0.50, 0.75)
+Λy_lim = (0.27, 0.36) # (0.25, 0.50)
 
-Ωx_lim = (0.50, 0.75)
-Ωy_lim = (0.25, 0.50)
+Ωx_lim = (0.63, 0.73) # (0.50, 0.75)
+Ωy_lim = (0.27, 0.36) # (0.25, 0.50)
 
 
 alpha = 0.0
@@ -102,7 +106,7 @@ def argfind_nearest(array, value):
           argfind_nearest(ω_ΩMs, 1.0-ωΩ[1]))
 
 if load_ω.upper() == 'Y':
-    ω_χs = np.loadtxt(folder_final+"omega_omega_w_contour_data.txt")
+    ω_χs = np.loadtxt(folder_final+"omega_omega_w_contour_data(all_threads).txt")
     print('{:~^100}'.format(' ω χ² Map Loaded ')+'\n')
 elif load_ω.upper()== 'N':
     ω_χs = map2D(ΩΩ2chi, ω_ΩDs, ω_ΩMs, fn_args=(ωΩ[0], data['z'], Lp,
@@ -117,7 +121,7 @@ elif load_ω.upper()== 'N':
           argfind_nearest(Λ_ΩMs, 1.0-ΩΛ))
 
 if load_Λ.upper() == 'Y':
-    Λ_χs = np.loadtxt(folder_final+"omega_omega_L_contour_data.txt")
+    Λ_χs = np.loadtxt(folder_final+"omega_omega_L_contour_data(all_threads).txt")
     print('{:~^100}'.format(' Λ χ² Map Loaded ')+'\n')
 if load_Λ.upper() == 'N':
     Λ_χs = map2D(ΩΩ2chi, Λ_ΩDs, Λ_ΩMs, fn_args=(-1.0, data['z'], Lp,
@@ -132,7 +136,7 @@ if load_Λ.upper() == 'N':
           argfind_nearest(Ω_ΩMs, 1.0-Ω_DE1['Ω_DE']))
 
 if load_Ω.upper() == 'Y':
-    Ω_χs = np.loadtxt(folder_final+"omega_omega_O_contour_data.txt")
+    Ω_χs = np.loadtxt(folder_final+"omega_omega_O_contour_data(all_threads).txt")
     print('{:~^100}'.format(' Ω χ² Map Loaded ')+'\n')
 if load_Ω.upper() == 'N':
     Ω_χs = map2D(ΩΩ2chi, Ω_ΩDs, Ω_ΩMs, fn_args=(Ω_DE1['ω_DE'], data['z'], Lp,
@@ -147,7 +151,7 @@ if load_Ω.upper() == 'N':
 decel_fn = lambda ΩD, ΩM, ω, z : decelerate_param(ΩD, z, w=ω, om_M0=ΩM)
 
 if load_ωq.upper() == 'Y':
-    ω_qs = np.loadtxt(folder_final+"omega_omega_w_qcontour.txt")
+    ω_qs = np.loadtxt(folder_final+"omega_omega_w_qcontour(all_threads).txt")
     print('{:~^100}'.format(' ω Deceleration Map Loaded ')+'\n')
 elif load_ωq.upper()== 'N':
     ω_qs = map2D(decel_fn, ω_ΩDs, ω_ΩMs, fn_args=(ωΩ[0], 0.0))
@@ -155,7 +159,7 @@ elif load_ωq.upper()== 'N':
     print('{:~^100}'.format(' ω Deceleration Map Calculated and Saved ')+'\n')
 
 if load_Λq.upper() == 'Y':
-    Λ_qs = np.loadtxt(folder_final+"omega_omega_L_qcontour.txt")
+    Λ_qs = np.loadtxt(folder_final+"omega_omega_L_qcontour(all_threads).txt")
     print('{:~^100}'.format(' Λ Deceleration Map Loaded ')+'\n')
 elif load_Λq.upper()== 'N':
     Λ_qs = map2D(decel_fn, Λ_ΩDs, Λ_ΩMs, fn_args=(-1.0, 0.0))
@@ -163,7 +167,7 @@ elif load_Λq.upper()== 'N':
     print('{:~^100}'.format(' Λ Deceleration Map Calculated and Saved ')+'\n')
 
 if load_Ωq.upper() == 'Y':
-    Ω_qs = np.loadtxt(folder_final+"omega_omega_O_qcontour.txt")
+    Ω_qs = np.loadtxt(folder_final+"omega_omega_O_qcontour(all_threads).txt")
     print('{:~^100}'.format(' Ω Deceleration Map Loaded ')+'\n')
 elif load_Ωq.upper()== 'N':
     Ω_qs = map2D(decel_fn, Ω_ΩDs, Ω_ΩMs, fn_args=(Ω_DE1['ω_DE'], 0.0))
@@ -178,7 +182,7 @@ elif load_Ωq.upper()== 'N':
 age_fn = lambda ΩD, ΩM, ω: universe_age(ΩD, w = ω, om_M0 = ΩM)
 
 if load_ωage.upper() == 'Y':
-    ω_ages = np.loadtxt(folder_final+"omega_omega_w_agecontour.txt")
+    ω_ages = np.loadtxt(folder_final+"omega_omega_w_agecontour(all_threads).txt")
     print('{:~^100}'.format(' ω Age Map Loaded ')+'\n')
 elif load_ωage.upper()== 'N':
     ω_ages = map2D(age_fn, ω_ΩDs, ω_ΩMs, fn_args=(ωΩ[0],))
@@ -186,7 +190,7 @@ elif load_ωage.upper()== 'N':
     print('{:~^100}'.format(' ω Age Map Calculated and Saved ')+'\n')
 
 if load_Λage.upper() == 'Y':
-    Λ_ages = np.loadtxt(folder_final+"omega_omega_L_agecontour.txt")
+    Λ_ages = np.loadtxt(folder_final+"omega_omega_L_agecontour(all_threads).txt")
     print('{:~^100}'.format(' Λ Age Map Loaded ')+'\n')
 elif load_Λage.upper()== 'N':
     Λ_ages = map2D(age_fn, Λ_ΩDs, Λ_ΩMs, fn_args=(-1.0,))
@@ -194,7 +198,7 @@ elif load_Λage.upper()== 'N':
     print('{:~^100}'.format(' Λ Age Map Calculated and Saved ')+'\n')
 
 if load_Ωage.upper() == 'Y':
-    Ω_ages = np.loadtxt(folder_final+"omega_omega_O_agecontour.txt")
+    Ω_ages = np.loadtxt(folder_final+"omega_omega_O_agecontour(all_threads).txt")
     print('{:~^100}'.format(' Ω Age Map Loaded ')+'\n')
 elif load_Ωage.upper()== 'N':
     Ω_ages = map2D(age_fn, Ω_ΩDs, Ω_ΩMs, fn_args=(Ω_DE1['ω_DE'],))
@@ -277,74 +281,74 @@ fig = plt.figure(figsize=figsize)
 # Add Colour Bar.
 divider = make_axes_locatable(Ωax)
 cax = divider.append_axes("right", size="5%", pad=0.05)
-fig.colorbar(Ωim, cax=cax, format="% 4.1f")
+q_cb = fig.colorbar(Ωim, cax=cax, format="% 4.1f")
 
 
 #    ,.   ,---. .-,--.
 #   / |   |  -'  `\__
 #  /~~|-. |  ,-'  /
 # '   `-' `---|  '`--'
-find = lambda l, el_l: sum([[i for i, x in enumerate(l) if x == e]
-                            for e in el_l], [])
+def plot_age_contours(axes, ages, Ωxs, Ωys, cntr_lvls, ineqs, cntrlocs,
+                      ls,  cmap, fntsz, clr_rng = (0.2, 0.9), zord = 1,
+                      fmt = " %.1f Gyr ", label_spc = 15.0):
+    flatten = lambda l: [item for sublist in l for item in sublist]
+    find = lambda l, el_l: sum([[i for i, x in enumerate(l) if x == e]
+                                for e in el_l], [])
+    cntrs = []
+    clrs = cmap(np.linspace(*clr_rng, len(flatten(cntrlocs))))
+    clrs = iter(clrs)
+    for n, ineq in enumerate(ineqs):
+        lvls = [i for i in filter(ineq, sorted(cntr_lvls))]
+        c = [next(clrs) for i in cntrlocs[n]][::-1]
+        if len(c) == 0: c = [(0,0,0,0),]
+        locns = cntrlocs[n]
+        cntrs.append(axes.contour(Ωxs, Ωys, ages, levels=lvls, linestyles=ls[n],
+                                  zorder=zord, alpha=1.0, colors=c))
+        axes.clabel(cntrs[n], inline = True, inlinespacing = label_spc,
+                    fmt = fmt, fontsize=fntsz, manual=locns)
 
-ω_agecntr = ωax.contour(ω_ΩDs, ω_ΩMs, ω_ages.T, zorder=1, alpha=1.0)
-ωax.clabel(ω_agecntr, inline = True, inline_spacing = 10.0, fmt = "%.1f Gyr",
-           fontsize = 10)
-Λ_agecntr = Λax.contour(Λ_ΩDs, Λ_ΩMs, Λ_ages.T, zorder=1, alpha=1.0)
-Λax.clabel(Λ_agecntr, inline = True, inline_spacing = 10.0, fmt = "%.1f Gyr",
-           fontsize = 10)
-Ω_agecntr = Ωax.contour(Ω_ΩDs, Ω_ΩMs, Ω_ages.T, zorder=1, alpha=1.0)
-Ωax.clabel(Ω_agecntr, inline = True, inline_spacing = 10.0, fmt = "%.1f Gyr",
-           fontsize = 10)
+ineqs = (lambda x: x>12, lambda x: 11<=x<=12, lambda x: x<11)
 
-# upage_contours = [i for i in filter(lambda x: x>12, sorted(age_contours))]
-# upage_pos = find(age_contours, upage_contours)
-# upage_c = cm.gray(np.linspace(*age_crange, len(age_contours)))[upage_pos]
-# upage_contrloc = age_cntrloc[2:4]
-# upagecont = ax.contour(omegas[::], ws[::], ages, levels=upage_contours,
-#                      linestyles='-', zorder=1, alpha=1.0, colors=upage_c)
-# ax.clabel(upagecont, inline = True, inline_spacing = 11.0, fmt = "%.1f Gyr",
-#           fontsize = 10, manual = upage_contrloc)
-#
-# mdage_contours = [i for i in filter(lambda x: 11<=x<=12, sorted(age_contours))]
-# mdage_pos = find(age_contours, mdage_contours)
-# mdage_c = cm.gray(np.linspace(*age_crange, len(age_contours)))[mdage_pos]
-# mdage_contrloc = [age_cntrloc[1]]
-# mdagecont = ax.contour(omegas[::], ws[::], ages, levels=mdage_contours,
-#                      linestyles=':', zorder=1, alpha=1.0, colors=mdage_c)
-# ax.clabel(mdagecont, inline = True, inline_spacing = 11.0, fmt = "%.1f Gyr",
-#           fontsize = 10, manual = mdage_contrloc)
-#
-# loage_contours = [i for i in filter(lambda x: x<11, sorted(age_contours))]
-# loage_pos = find(age_contours, loage_contours)
-# loage_c = cm.gray(np.linspace(*age_crange, len(age_contours)))[loage_pos]
-# loage_contrloc = [age_cntrloc[0]]
-# loagecont = ax.contour(omegas[::], ws[::], ages, levels=loage_contours,
-#                      linestyles='--', zorder=1, alpha=1.0, colors=loage_c)
-# ax.clabel(loagecont, inline = True, inline_spacing = 11.0, fmt = "%.1f Gyr",
-#           fontsize = 10, manual = loage_contrloc)
+cntr_lvls = np.arange(10, 11.4, 0.25)
+ω_cntrlocs = [[], # Old Contour labael positons (contr > 12 Gyr).
+              [(0.39,0.5375), (0.4165,0.5625)], # Mid Cntr (11 >= cntr >= 12 Gyr).
+              [(0.46,0.585),]] # Low Contour label positions (contr < 11 Gyr).
 
-# def colorbar(mappable):
-#     from mpl_toolkits.axes_grid1 import make_axes_locatable
-#     ax = mappable.axes
-#     fig = ax.figure
-#     divider = make_axes_locatable(ax)
-#     cax = divider.append_axes("right", size="5%", pad=0.05)
-#     return fig.colorbar(mappable, cax=cax, format="% 4.1f")
-# colorbar(Ωim)
+plot_age_contours(ωax, ω_ages.T, ω_ΩDs, ω_ΩMs, cntr_lvls, ineqs, ω_cntrlocs,
+                  cntr_ls,  cntr_cmap, fntsz, fmt = " %.2f Gyr ")
+
+cntr_lvls = np.arange(11, 13.1, 0.5)
+Λ_cntrlocs = [[(0.65, 0.285), (0.65, 0.32)], # Old Contr (contr > 12 Gyr).
+              [(0.70, 0.3475),], # Mid Cntr (11 >= cntr >= 12 Gyr).
+              []] # Low Contour label positions (contr < 11 Gyr).
+plot_age_contours(Λax, Λ_ages.T, Λ_ΩDs, Λ_ΩMs, cntr_lvls, ineqs, Λ_cntrlocs,
+                  cntr_ls, cntr_cmap, fntsz)
+
+Ω_cntrlocs = [[(0.655, 0.2825), (0.655, 0.3175)], # Old Contr (contr > 12 Gyr).
+              [(0.71, 0.3475),], # Mid Cntr (11 >= cntr >= 12 Gyr).
+              []] # Low Contour label positions (contr < 11 Gyr).
+plot_age_contours(Ωax, Ω_ages.T, Ω_ΩDs, Ω_ΩMs, cntr_lvls, ineqs, Ω_cntrlocs,
+                  cntr_ls, cntr_cmap, fntsz)
 
 
-
-
+# Set Avis Limits.
 ωax.set_xlim(*ωx_lim)
 ωax.set_ylim(*ωy_lim)
+ωax.set_xticklabels(['0.36', '0.38', '0.40', '0.42', '0.44', '0.46', ''])
 
 Λax.set_xlim(*Λx_lim)
 Λax.set_ylim(*Λy_lim)
+Λax.set_xticklabels(['0.62', '0.64', '0.66', '0.68', '0.70', ''])
 
 Ωax.set_xlim(*Ωx_lim)
 Ωax.set_ylim(*Ωy_lim)
+Ωax.set_xticks([0.63, 0.65, 0.67, 0.69, 0.71, 0.73])
+Ωax.set_xticklabels(['0.63', '0.65', '0.67', '0.69', '0.71', ''])
 
+q_cb.set_label(cb_label, rotation=270, fontsize=fntsz+5, labelpad=+18)
+fig.text(0.5, -0.06, x_label, ha='center', fontsize=fntsz+5)
+fig.text(-0.01, 0.5, y_label, va='center', rotation='vertical',
+         fontsize=fntsz+5)
 
 
 # ax.tick_params(axis = 'both',  # Set tick marks inside and outside of x-axis.

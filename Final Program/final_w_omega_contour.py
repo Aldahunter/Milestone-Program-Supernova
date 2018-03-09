@@ -40,10 +40,10 @@ age_units = "Gyr"
 x_label = r"Dark Energy Critical Density Parameter, $\Omega_{D.E.}$"
 y_label = r"Dark Energy Equation of State Parameter, $\omega_{D.E.}$"
 cb_label = r"Deceleration Parameter, $q$"
-chi_contours2D = [0, 2.3, 6.18] # Added onto minimum χ².
+chi_contours2D = [0, 2.3, 6.18] # Added onto minimum χ², 11.8 for 3rd contr.
 q_contours = [-0.7, -0.8, -0.9, -1.0, -1.1, -1.2]
 age_contours = np.arange(10.0, 15.5, 0.5)
-chi_contours1D = [0, 1.0, 4.00] # Added onto minimum χ².
+chi_contours1D = [0, 1.0, 4.00] # Added onto minimum χ², 9.0 for 3rd contr.
 age_crange = (0.2,0.9)
 age_cntrloc = [(0.373782,-2.1),(0.5561,-2.1),(0.640604,-2.1),(0.705052,-2.1)]
 
