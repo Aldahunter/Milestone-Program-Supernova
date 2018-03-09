@@ -42,16 +42,16 @@ load_Λage = 'y'
 load_Ωage = 'y'
 
 figsize = (14, 5) #Inches
-dpi = 300
+dpi = 1000
 x_label = r"Dark Energy Critical Density Parameter, $\Omega_{D.E.}^{(0)}$"
 y_label = r"Matter Energy Density Parameter, $\Omega_{M}^{(0)}$"
 cb_label =  r"Deceleration Parameter, $q$"
 fntsz = 13
 cmap = cm.autumn
 
-mapp_definition = 125 # Number of point calulated between x and y limits.
+mapp_definition = 500 # Number of point calulated between x and y limits.
 chi_contours2D = [0, 1.0, 4.00, 9.0]
-cb_range = (-1.1, -0.1)
+cb_range = (-1.0, -0.4)
 age_contours = np.arange(10.0, 15.5, 0.5)
 cntr_ls = ['-', ':', '--']
 cntr_cmap = cm.gray
@@ -106,7 +106,7 @@ def argfind_nearest(array, value):
           argfind_nearest(ω_ΩMs, 1.0-ωΩ[1]))
 
 if load_ω.upper() == 'Y':
-    ω_χs = np.loadtxt(folder_final+"omega_omega_w_contour_data(all_threads).txt")
+    ω_χs = np.loadtxt(folder_final+"omega_omega_w_contour_data(HDall_threads).txt")
     print('{:~^100}'.format(' ω χ² Map Loaded ')+'\n')
 elif load_ω.upper()== 'N':
     ω_χs = map2D(ΩΩ2chi, ω_ΩDs, ω_ΩMs, fn_args=(ωΩ[0], data['z'], Lp,
@@ -121,7 +121,7 @@ elif load_ω.upper()== 'N':
           argfind_nearest(Λ_ΩMs, 1.0-ΩΛ))
 
 if load_Λ.upper() == 'Y':
-    Λ_χs = np.loadtxt(folder_final+"omega_omega_L_contour_data(all_threads).txt")
+    Λ_χs = np.loadtxt(folder_final+"omega_omega_L_contour_data(HDall_threads).txt")
     print('{:~^100}'.format(' Λ χ² Map Loaded ')+'\n')
 if load_Λ.upper() == 'N':
     Λ_χs = map2D(ΩΩ2chi, Λ_ΩDs, Λ_ΩMs, fn_args=(-1.0, data['z'], Lp,
@@ -136,13 +136,14 @@ if load_Λ.upper() == 'N':
           argfind_nearest(Ω_ΩMs, 1.0-Ω_DE1['Ω_DE']))
 
 if load_Ω.upper() == 'Y':
-    Ω_χs = np.loadtxt(folder_final+"omega_omega_O_contour_data(all_threads).txt")
+    Ω_χs = np.loadtxt(folder_final+"omega_omega_O_contour_data(HDall_threads).txt")
     print('{:~^100}'.format(' Ω χ² Map Loaded ')+'\n')
 if load_Ω.upper() == 'N':
     Ω_χs = map2D(ΩΩ2chi, Ω_ΩDs, Ω_ΩMs, fn_args=(Ω_DE1['ω_DE'], data['z'], Lp,
                                                 data['mag'], data['m_err']))
     np.savetxt(folder_final+"omega_omega_O_contour_data.txt", Ω_χs)
     print('{:~^100}'.format(' Ω χ² Map Calculated and Saved ')+'\n')
+
 
 # ,--.              .
 # |   \ ,-. ,-. ,-. |
@@ -151,7 +152,7 @@ if load_Ω.upper() == 'N':
 decel_fn = lambda ΩD, ΩM, ω, z : decelerate_param(ΩD, z, w=ω, om_M0=ΩM)
 
 if load_ωq.upper() == 'Y':
-    ω_qs = np.loadtxt(folder_final+"omega_omega_w_qcontour(all_threads).txt")
+    ω_qs = np.loadtxt(folder_final+"omega_omega_w_qcontour(HDall_threads).txt")
     print('{:~^100}'.format(' ω Deceleration Map Loaded ')+'\n')
 elif load_ωq.upper()== 'N':
     ω_qs = map2D(decel_fn, ω_ΩDs, ω_ΩMs, fn_args=(ωΩ[0], 0.0))
@@ -159,7 +160,7 @@ elif load_ωq.upper()== 'N':
     print('{:~^100}'.format(' ω Deceleration Map Calculated and Saved ')+'\n')
 
 if load_Λq.upper() == 'Y':
-    Λ_qs = np.loadtxt(folder_final+"omega_omega_L_qcontour(all_threads).txt")
+    Λ_qs = np.loadtxt(folder_final+"omega_omega_L_qcontour(HDall_threads).txt")
     print('{:~^100}'.format(' Λ Deceleration Map Loaded ')+'\n')
 elif load_Λq.upper()== 'N':
     Λ_qs = map2D(decel_fn, Λ_ΩDs, Λ_ΩMs, fn_args=(-1.0, 0.0))
@@ -167,7 +168,7 @@ elif load_Λq.upper()== 'N':
     print('{:~^100}'.format(' Λ Deceleration Map Calculated and Saved ')+'\n')
 
 if load_Ωq.upper() == 'Y':
-    Ω_qs = np.loadtxt(folder_final+"omega_omega_O_qcontour(all_threads).txt")
+    Ω_qs = np.loadtxt(folder_final+"omega_omega_O_qcontour(HDall_threads).txt")
     print('{:~^100}'.format(' Ω Deceleration Map Loaded ')+'\n')
 elif load_Ωq.upper()== 'N':
     Ω_qs = map2D(decel_fn, Ω_ΩDs, Ω_ΩMs, fn_args=(Ω_DE1['ω_DE'], 0.0))
@@ -182,7 +183,7 @@ elif load_Ωq.upper()== 'N':
 age_fn = lambda ΩD, ΩM, ω: universe_age(ΩD, w = ω, om_M0 = ΩM)
 
 if load_ωage.upper() == 'Y':
-    ω_ages = np.loadtxt(folder_final+"omega_omega_w_agecontour(all_threads).txt")
+    ω_ages = np.loadtxt(folder_final+"omega_omega_w_agecontour(HDall_threads).txt")
     print('{:~^100}'.format(' ω Age Map Loaded ')+'\n')
 elif load_ωage.upper()== 'N':
     ω_ages = map2D(age_fn, ω_ΩDs, ω_ΩMs, fn_args=(ωΩ[0],))
@@ -190,7 +191,7 @@ elif load_ωage.upper()== 'N':
     print('{:~^100}'.format(' ω Age Map Calculated and Saved ')+'\n')
 
 if load_Λage.upper() == 'Y':
-    Λ_ages = np.loadtxt(folder_final+"omega_omega_L_agecontour(all_threads).txt")
+    Λ_ages = np.loadtxt(folder_final+"omega_omega_L_agecontour(HDall_threads).txt")
     print('{:~^100}'.format(' Λ Age Map Loaded ')+'\n')
 elif load_Λage.upper()== 'N':
     Λ_ages = map2D(age_fn, Λ_ΩDs, Λ_ΩMs, fn_args=(-1.0,))
@@ -198,7 +199,7 @@ elif load_Λage.upper()== 'N':
     print('{:~^100}'.format(' Λ Age Map Calculated and Saved ')+'\n')
 
 if load_Ωage.upper() == 'Y':
-    Ω_ages = np.loadtxt(folder_final+"omega_omega_O_agecontour(all_threads).txt")
+    Ω_ages = np.loadtxt(folder_final+"omega_omega_O_agecontour(HDall_threads).txt")
     print('{:~^100}'.format(' Ω Age Map Loaded ')+'\n')
 elif load_Ωage.upper()== 'N':
     Ω_ages = map2D(age_fn, Ω_ΩDs, Ω_ΩMs, fn_args=(Ω_DE1['ω_DE'],))
@@ -263,6 +264,43 @@ fig = plt.figure(figsize=figsize)
 Ωax.plot(np.array(Ωx_lim), 1.0-np.array(Ωx_lim), c='black', ls='--', zorder=1)
 
 
+# ,--.                   |   @
+# \__  ,-. ,-. ,-. ,-.   |   . ,-. ,-.
+# /    |   |   | | |     |   | | | |-'
+# `--' '   '   `-' '     `-- ' ' ' `-'
+# ωx_lerr = [(0.459946, 0.459946), (ωy_lim[0], 0.540054)] # lower error
+# ωx_uerr = [(0.466044, 0.466044), (ωy_lim[0], 0.533956)] # upper error
+# ωy_uerr = [(ωx_lim[0], 0.459946), (0.540054, 0.540054)] # upper error
+# ωy_lerr = [(ωx_lim[0], 0.466044), (0.533956, 0.533956)] # lower error
+#
+# ωax.plot(ωx_uerr[0], ωx_uerr[1], c='purple', ls=':', zorder=1)
+# ωax.plot(ωx_lerr[0], ωx_lerr[1], c='purple', ls=':', zorder=1)
+# ωax.plot(ωy_uerr[0], ωy_uerr[1], c='purple', ls=':', zorder=1)
+# ωax.plot(ωy_lerr[0], ωy_lerr[1], c='purple', ls=':', zorder=1)
+#
+#
+# Λx_lerr = [(0.686226, 0.686226), (Λy_lim[0], 0.313774)] # lower error
+# Λx_uerr = [(0.699389, 0.699389), (Λy_lim[0], 0.300611)] # upper error
+# Λy_uerr = [(Λx_lim[0], 0.686226), (0.313774, 0.313774)] # upper error
+# Λy_lerr = [(Λx_lim[0], 0.699389), (0.300611, 0.300611)] # lower error
+#
+# Λax.plot(Λx_lerr[0], Λx_lerr[1], c='blue', ls=':', zorder=1)
+# Λax.plot(Λx_uerr[0], Λx_uerr[1], c='blue', ls=':', zorder=1)
+# Λax.plot(Λy_uerr[0], Λy_uerr[1], c='blue', ls=':', zorder=1)
+# Λax.plot(Λy_lerr[0], Λy_lerr[1], c='blue', ls=':', zorder=1)
+#
+#
+# Ωx_lerr = [(0.687555, 0.687555), (Ωy_lim[0], 0.312445)] # lower error
+# Ωx_uerr = [(0.710902, 0.710902), (Ωy_lim[0], 0.289098)] # upper error
+# Ωy_uerr = [(Ωx_lim[0], 0.687555), (0.312445, 0.312445)] # upper error
+# Ωy_lerr = [(Ωx_lim[0], 0.710902), (0.289098, 0.289098)] # lower error
+#
+# Ωax.plot(Ωx_lerr[0], Ωx_lerr[1], c='green', ls=':', zorder=1)
+# Ωax.plot(Ωx_uerr[0], Ωx_uerr[1], c='green', ls=':', zorder=1)
+# Ωax.plot(Ωy_uerr[0], Ωy_uerr[1], c='green', ls=':', zorder=1)
+# Ωax.plot(Ωy_lerr[0], Ωy_lerr[1], c='green', ls=':', zorder=1)
+
+
 # ,--.              .
 # |   \ ,-. ,-. ,-. |
 # |   / |-' |   |-' |
@@ -289,7 +327,7 @@ q_cb = fig.colorbar(Ωim, cax=cax, format="% 4.1f")
 #  /~~|-. |  ,-'  /
 # '   `-' `---|  '`--'
 def plot_age_contours(axes, ages, Ωxs, Ωys, cntr_lvls, ineqs, cntrlocs,
-                      ls,  cmap, fntsz, clr_rng = (0.2, 0.9), zord = 1,
+                      ls,  cmap, fntsz, clr_rng = (0.1, 0.5), zord = 1,
                       fmt = " %.1f Gyr ", label_spc = 15.0):
     flatten = lambda l: [item for sublist in l for item in sublist]
     find = lambda l, el_l: sum([[i for i, x in enumerate(l) if x == e]
@@ -311,20 +349,20 @@ ineqs = (lambda x: x>12, lambda x: 11<=x<=12, lambda x: x<11)
 
 cntr_lvls = np.arange(10, 11.4, 0.25)
 ω_cntrlocs = [[], # Old Contour labael positons (contr > 12 Gyr).
-              [(0.39,0.5375), (0.4165,0.5625)], # Mid Cntr (11 >= cntr >= 12 Gyr).
+              [(0.385,0.5375), (0.4165,0.5625)], # Mid Cntr (11 >= cntr >= 12 Gyr).
               [(0.46,0.585),]] # Low Contour label positions (contr < 11 Gyr).
 
 plot_age_contours(ωax, ω_ages.T, ω_ΩDs, ω_ΩMs, cntr_lvls, ineqs, ω_cntrlocs,
                   cntr_ls,  cntr_cmap, fntsz, fmt = " %.2f Gyr ")
 
 cntr_lvls = np.arange(11, 13.1, 0.5)
-Λ_cntrlocs = [[(0.65, 0.285), (0.65, 0.32)], # Old Contr (contr > 12 Gyr).
+Λ_cntrlocs = [[(0.645, 0.2875), (0.645, 0.32)], # Old Contr (contr > 12 Gyr).
               [(0.70, 0.3475),], # Mid Cntr (11 >= cntr >= 12 Gyr).
               []] # Low Contour label positions (contr < 11 Gyr).
 plot_age_contours(Λax, Λ_ages.T, Λ_ΩDs, Λ_ΩMs, cntr_lvls, ineqs, Λ_cntrlocs,
                   cntr_ls, cntr_cmap, fntsz)
 
-Ω_cntrlocs = [[(0.655, 0.2825), (0.655, 0.3175)], # Old Contr (contr > 12 Gyr).
+Ω_cntrlocs = [[(0.6475, 0.285), (0.6475, 0.3175)], # Old Contr (contr > 12 Gyr).
               [(0.71, 0.3475),], # Mid Cntr (11 >= cntr >= 12 Gyr).
               []] # Low Contour label positions (contr < 11 Gyr).
 plot_age_contours(Ωax, Ω_ages.T, Ω_ΩDs, Ω_ΩMs, cntr_lvls, ineqs, Ω_cntrlocs,
