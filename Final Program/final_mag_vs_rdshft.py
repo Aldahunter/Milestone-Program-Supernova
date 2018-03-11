@@ -32,6 +32,8 @@ alpha = 0.0
 ls = {'-':(0, ()), '..':(0, (1, 5)), ':':(0, (1, 1)), '--':(0, (5, 5)),
       '-.':(0, (3, 5, 1, 5)), '-..':(0, (3, 4, 1, 4, 1, 4))}
 markers = ['o', '^', '1', 'p', 's', '*', '+', 'x', 'd', r'$\ast $']
+datasets = ['CfA', 'CSP', 'SCP', 'SNLS', 'C/TSS', 'SDSS II', 'Essence',
+            'HST CSS', 'High-Z SS', 'HST Riess']
 
 
 
@@ -44,9 +46,9 @@ model_z = np.linspace(x_lim[0]+0.001, x_lim[1]-0.001, 400)
 label_ΩΛ = (r'$\Omega_{D.E.}$: %.2f  ;  $\omega_{D.E.}$: %.2f'
             % (ΩΛ,-1.00))
 model_ΩΛ = omega2mag(ΩΛ, model_z, Lp, w = -1, R = R_0, om_M0 = 'flat')
-label_Ω_DE0 = (r'$\Omega_{D.E.}$: %.2f  ;  $\omega_{D.E.}$: %.2f'
-               % (Ω_DE0['Ω_DE'],Ω_DE0['ω_DE']))
-model_Ω_DE0 = omega2mag(Ω_DE0['Ω_DE'], model_z, Lp, w = Ω_DE0['ω_DE'])
+# label_Ω_DE0 = (r'$\Omega_{D.E.}$: %.2f  ;  $\omega_{D.E.}$: %.2f'
+#                % (Ω_DE0['Ω_DE'],Ω_DE0['ω_DE']))
+# model_Ω_DE0 = omega2mag(Ω_DE0['Ω_DE'], model_z, Lp, w = Ω_DE0['ω_DE'])
 label_Ω_DE1 = (r'$\Omega_{D.E.}$: %.2f  ;  $\omega_{D.E.}$: %.2f'
                % (Ω_DE1['Ω_DE'],Ω_DE1['ω_DE']))
 model_Ω_DE1 = omega2mag(Ω_DE1['Ω_DE'], model_z, Lp, w = Ω_DE1['ω_DE'])
@@ -72,9 +74,7 @@ model_noω = omega2mag(0.00, model_z, Lp, w = ωΩ[0])
 model_ωΩ_err = model_err(model_ωΩ, ωΩ[1], ωΩ_err[1], Lp, Lp_err, ωΩ[0], ωΩ_err[0])
 model_ub = model_ωΩ + model_ωΩ_err
 model_lb = model_ωΩ - model_ωΩ_err
-no_outliers = set(all_data['dataset'])
-no_outliers.remove('Outlier')
-datasets = sorted(no_outliers, key=len)
+
 outliers_arr = all_data[np.where(all_data['dataset'] == 'Outlier')]
 
 
@@ -107,14 +107,16 @@ norm_scale = all_norm_res.size*bin_width
 
 ### Plot Graph ###
 fig = plt.figure(figsize=figsize)
-ax1 = fig.add_axes([0.05,0.59,0.69,0.36])  # Add axes on top half of the vertical.
-ax2 = fig.add_axes([0.05,0.23,0.69,0.36], sharex = ax1, sharey = ax1)
-ax3 = fig.add_axes([0.05,0.05,0.69,0.18], sharex = ax1)
-ax4 = fig.add_axes([0.75,0.05,0.21,0.18], sharey = ax3)
-fig.text(0.075,0.9275,'(a)',fontsize=15)
-fig.text(0.075,0.57,'(b)',fontsize=15)
-fig.text(0.057,0.21,'(c)',fontsize=15)
-fig.text(0.760,0.21,'(d)',fontsize=15)
+ax1 = fig.add_axes([0.05,0.50,0.9,0.45])  # Add axes on top half of the vertical.
+ax2 = fig.add_axes([0.05,0.05,0.9,0.45], sharex = ax1, sharey = ax1)
+# ax1 = fig.add_axes([0.05,0.59,0.69,0.36])  # Add axes on top half of the vertical.
+# ax2 = fig.add_axes([0.05,0.23,0.69,0.36], sharex = ax1, sharey = ax1)
+# ax3 = fig.add_axes([0.05,0.05,0.69,0.18], sharex = ax1)
+# ax4 = fig.add_axes([0.75,0.05,0.21,0.18], sharey = ax3)
+# fig.text(0.075,0.9275,'(a)',fontsize=15)
+# fig.text(0.075,0.57,'(b)',fontsize=15)
+# fig.text(0.057,0.21,'(c)',fontsize=15)
+# fig.text(0.760,0.21,'(d)',fontsize=15)
 
 
 ## Top Plot ##
@@ -123,9 +125,10 @@ ax1.xaxis.tick_top()
 ax1.tick_params(axis = 'both',  # Set tick marks inside and outside of x-axis.
                 top = True, bottom = True, left = True, right = True,
                 direction = 'in', length = 3)
-ax1.set_xlabel(x_label, labelpad=+4, fontsize=13)
-ax1.xaxis.set_label_position('top')
+# ax1.set_xlabel(x_label, labelpad=+4, fontsize=13)
+# ax1.xaxis.set_label_position('top')
 ax1.set_ylabel(y_label, labelpad=+6, fontsize=13)
+plt.setp(ax1.get_xticklabels(), visible=False)
 
 colours = iter(cm.prism(np.linspace(0, 1, num_models)))
 ax1.errorbar(all_data['z'], all_data['mag'], yerr=all_data['m_err'],
@@ -136,15 +139,15 @@ ax1.plot(model_z, model_ωΩ, c=next(colours),
          label = label_ωΩ, zorder=1, ls=ls['-'])
 ax1.plot(model_z, model_ΩΛ, c=next(colours),
          label = label_ΩΛ, zorder=1, ls=ls['-..'])
-ax1.plot(model_z, model_Ω_DE0, c=next(colours),
-         label = label_Ω_DE0, zorder=1, ls=ls['-.'])
+# ax1.plot(model_z, model_Ω_DE0, c=next(colours),
+#          label = label_Ω_DE0, zorder=1, ls=ls['-.'])
 ax1.plot(model_z, model_Ω_DE1, c=next(colours),
          label = label_Ω_DE1, zorder=1, ls=ls['--'])
 ax1.plot(model_z, model_allΛ, c=next(colours),
          label = label_allΛ, zorder=1, ls=ls[':'])
 ax1.legend(loc='upper right',
            bbox_to_anchor=(0.999, 0.999),
-           frameon=False, fontsize=12)
+           frameon=False, fontsize=14)
 
 
 ## Middle Plot ##
@@ -152,8 +155,10 @@ print('{:-^100}'.format(' Setup Middle Plot ')+'\n')
 ax2.tick_params(axis = 'both',  # Set tick marks inside and outside of
                 top = True,  bottom = True, left = True, right = True,
                 direction = 'in', length = 3)
-plt.setp(ax2.get_xticklabels(), visible=False)
+# plt.setp(ax2.get_xticklabels(), visible=False)
 ax2.set_ylabel(y_label, labelpad=+6, fontsize=13)
+ax2.set_xlabel(x_label, labelpad=+4, fontsize=13)
+ax2.xaxis.set_label_position('bottom')
 
 
 ax2.plot(model_z, model_ωΩ, ls=ls['-'], c='black', zorder=3)
@@ -164,7 +169,8 @@ ax2.plot(model_z, model_noω, ls=ls[':'], c='grey', zorder=2)
 ax2.fill_between(model_z, model_lb, model_ub, zorder=0,
                  color=(0.82,0.82,0.82,1))
 
-colours = iter(cm.rainbow(np.linspace(0, 1, len(datasets))))
+ds_colours = cm.rainbow(np.linspace(0, 1, len(datasets)))
+colours = iter(ds_colours)
 dataset_markers = iter(markers)
 for dataset in datasets:
     dataset_arr = all_data[np.where(all_data['dataset'] == dataset)]
@@ -178,61 +184,61 @@ ax2.errorbar(outliers_arr['z'], outliers_arr['mag'], yerr=outliers_arr['m_err'],
              markerfacecolor='None')
 
 ax2.legend(loc='upper right', bbox_to_anchor=(0.999, 0.999), frameon=False,
-           ncol=2, fontsize=12)
+           ncol=2, fontsize=14)
 
 
-## Residual Plot ##
-print('{:-^100}'.format(' Setup Residual Plot ')+'\n')
-ax3.tick_params(axis = 'both',  # Set tick marks inside and outside of
-                top = True,  bottom = True, left = True, right = True,
-                direction = 'in', length = 3)
-ax3.set_xlabel(x_label, labelpad=+2, fontsize=13)
-ax3.set_ylabel(y_label_res, labelpad=-2, fontsize=13)
-
-ax3.axhline(y=0, c='black', ls=ls['-'], zorder=3)
-ax3.plot(model_z, np.ones(model_z.shape), ls=ls['--'], c='grey', zorder=2)
-ax3.plot(model_z, -np.ones(model_z.shape), ls=ls['--'], c='grey', zorder=2)
-ax3.fill_between(model_z, np.ones(model_z.shape), -np.ones(model_z.shape),
-                 zorder=1, color=(0.82,0.82,0.82,1), alpha=0.4)
-
-colours = iter(cm.rainbow(np.linspace(0, 1, len(datasets))))
-dataset_markers = iter(markers)
-for dataset in datasets:
-    dataset_arr = all_data[np.where(all_data['dataset'] == dataset)]
-    colour, marker = next(colours), next(dataset_markers)
-    ax3.scatter(dataset_arr['z'], datasets_norm_res[dataset],
-                c=colour, marker=marker, zorder=0)
-
-# Occurence Plot #
-ax4.yaxis.tick_right()
-ax4.tick_params(axis = 'both',  # Set tick marks inside and outside of x-axis.
-                top = True, bottom = True, left = True, right = True,
-                direction = 'in', length = 3)
-ax4.xaxis.set_label_position('bottom')
-ax4.set_xlabel(x_label_occ, labelpad=+2, fontsize=13)
-plt.setp(ax4.get_yticklabels(), visible=False)
-
-ax4.axhline(y=0, c='black', ls=ls['-'], zorder=3)
-ax4.plot(x_lim_occ, np.ones(len(x_lim_occ)), ls=ls['--'], c='grey', zorder=2)
-ax4.plot(x_lim_occ, -np.ones(len(x_lim_occ)), ls=ls['--'], c='grey', zorder=2)
-ax4.fill_between(x_lim_occ, np.ones(len(x_lim_occ)), -np.ones(len(x_lim_occ)),
-                 zorder=1, color=(0.82,0.82,0.82,1), alpha=0.4)
-color = cm.rainbow(np.linspace(0, 1, len(datasets)))[7]
-ax4.barh(occ_bins[:-1], bin_values, widths, align='edge', facecolor=color,
-         edgecolor='black', zorder=0)
-ax4.plot(norm_scale*norm_x, norm_y, ls=ls['--'], c='red', zorder=3)
+# ## Residual Plot ##
+# print('{:-^100}'.format(' Setup Residual Plot ')+'\n')
+# ax3.tick_params(axis = 'both',  # Set tick marks inside and outside of
+#                 top = True,  bottom = True, left = True, right = True,
+#                 direction = 'in', length = 3)
+# ax3.set_xlabel(x_label, labelpad=+2, fontsize=13)
+# ax3.set_ylabel(y_label_res, labelpad=-2, fontsize=13)
+#
+# ax3.axhline(y=0, c='black', ls=ls['-'], zorder=3)
+# ax3.plot(model_z, np.ones(model_z.shape), ls=ls['--'], c='grey', zorder=2)
+# ax3.plot(model_z, -np.ones(model_z.shape), ls=ls['--'], c='grey', zorder=2)
+# ax3.fill_between(model_z, np.ones(model_z.shape), -np.ones(model_z.shape),
+#                  zorder=1, color=(0.82,0.82,0.82,1), alpha=0.4)
+#
+# colours = iter(ds_colours)
+# dataset_markers = iter(markers)
+# for dataset in datasets:
+#     dataset_arr = all_data[np.where(all_data['dataset'] == dataset)]
+#     colour, marker = next(colours), next(dataset_markers)
+#     ax3.scatter(dataset_arr['z'], datasets_norm_res[dataset],
+#                 c=colour, marker=marker, zorder=0)
+#
+# # Occurence Plot #
+# ax4.yaxis.tick_right()
+# ax4.tick_params(axis = 'both',  # Set tick marks inside and outside of x-axis.
+#                 top = True, bottom = True, left = True, right = True,
+#                 direction = 'in', length = 3)
+# ax4.xaxis.set_label_position('bottom')
+# ax4.set_xlabel(x_label_occ, labelpad=+2, fontsize=13)
+# plt.setp(ax4.get_yticklabels(), visible=False)
+#
+# ax4.axhline(y=0, c='black', ls=ls['-'], zorder=3)
+# ax4.plot(x_lim_occ, np.ones(len(x_lim_occ)), ls=ls['--'], c='grey', zorder=2)
+# ax4.plot(x_lim_occ, -np.ones(len(x_lim_occ)), ls=ls['--'], c='grey', zorder=2)
+# ax4.fill_between(x_lim_occ, np.ones(len(x_lim_occ)), -np.ones(len(x_lim_occ)),
+#                  zorder=1, color=(0.82,0.82,0.82,1), alpha=0.4)
+# color = cm.rainbow(np.linspace(0, 1, len(datasets)))[7]
+# ax4.barh(occ_bins[:-1], bin_values, widths, align='edge', facecolor=color,
+#          edgecolor='black', zorder=0)
+# ax4.plot(norm_scale*norm_x, norm_y, ls=ls['--'], c='red', zorder=3)
 
 
 ## Set Axes Limits and Title ##
 ax1.set_xlim(x_lim)
 ax1.set_ylim(y_lim)
 ax1.invert_yaxis()
-ax3.set_ylim(y_lim_res)
-ax3.yaxis.set_ticks([-20, -10, 0.0, 10, 20])
-ax3.invert_yaxis()
-ax4.set_xlim(x_lim_occ)
-labels = [' 0', '20', '40', '60']
-ax4.set_xticklabels(labels)
+# ax3.set_ylim(y_lim_res)
+# ax3.yaxis.set_ticks([-20, -10, 0.0, 10, 20])
+# ax3.invert_yaxis()
+# ax4.set_xlim(x_lim_occ)
+# labels = [' 0', '20', '40', '60']
+# ax4.set_xticklabels(labels)
 fig.patch.set_alpha(alpha)
 
 
